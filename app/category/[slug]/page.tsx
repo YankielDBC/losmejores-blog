@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { Star, ArrowRight, Search, Filter } from 'lucide-react'
-import productsData from '../data/products.json'
+import productsData from '../../data/products.json'
 import Link from 'next/link'
 
 // Get unique categories with count

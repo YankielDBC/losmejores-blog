@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { Star, Check, X, ArrowRight, Shield, Truck, Award } from 'lucide-react'
-import productsData from '../data/products.json'
+import productsData from '../../data/products.json'
 
 // Get product by slug
 function getProduct(slug: string) {
