@@ -2,92 +2,178 @@
 
 import { motion } from 'framer-motion'
 import { Star, ArrowRight, ArrowLeft, Search, Grid3X3 } from 'lucide-react'
-import productsData from '../data/products.json'
+import productsData from '../data/realProducts.json'
 import Link from 'next/link'
 
-// Category images and colors mapping - Updated for all categories
+// Category images and colors mapping - All real categories
 const categoryConfig: Record<string, { image: string; gradient: string; icon: string }> = {
-  // Main categories
-  electronics: { 
-    image: 'https://images.unsplash.com/photo-1498049794561-7780e7231661?w=400&h=300&fit=crop',
-    gradient: 'from-blue-500 to-cyan-400',
-    icon: '💻'
-  },
-  gaming: { 
-    image: 'https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=400&h=300&fit=crop',
-    gradient: 'from-purple-500 to-pink-400',
-    icon: '🎮'
-  },
-  home: { 
-    image: 'https://images.unsplash.com/photo-1484154218962-a197022b5858?w=400&h=300&fit=crop',
-    gradient: 'from-amber-500 to-orange-400',
-    icon: '🏠'
-  },
-  fitness: { 
-    image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400&h=300&fit=crop',
-    gradient: 'from-green-500 to-emerald-400',
-    icon: '💪'
-  },
-  audio: { 
-    image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop',
-    gradient: 'from-red-500 to-rose-400',
-    icon: '🎧'
-  },
-  cameras: { 
-    image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400&h=300&fit=crop',
-    gradient: 'from-gray-600 to-slate-400',
-    icon: '📷'
-  },
-  // Amazon best seller categories
-  'best-gaming-monitors': { 
-    image: 'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=400&h=300&fit=crop',
-    gradient: 'from-indigo-500 to-purple-400',
-    icon: '🖥️'
-  },
-  'best-robot-vacuums': { 
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop',
-    gradient: 'from-teal-500 to-cyan-400',
-    icon: '🤖'
-  },
+  // Tech & Electronics
   'best-wireless-earbuds': { 
     image: 'https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=400&h=300&fit=crop',
     gradient: 'from-violet-500 to-purple-400',
-    icon: '🎵'
+    icon: '🎧'
   },
-  'best-air-purifiers': { 
-    image: 'https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=400&h=300&fit=crop',
-    gradient: 'from-sky-500 to-blue-400',
-    icon: '💨'
-  },
-  'best-digital-cameras': { 
-    image: 'https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=400&h=300&fit=crop',
-    gradient: 'from-rose-500 to-pink-400',
-    icon: '📸'
+  'best-headphones': { 
+    image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop',
+    gradient: 'from-zinc-500 to-neutral-400',
+    icon: '🎧'
   },
   'best-gaming-consoles': { 
     image: 'https://images.unsplash.com/photo-1486401899868-0e435ed85128?w=400&h=300&fit=crop',
     gradient: 'from-emerald-500 to-green-400',
-    icon: '🎯'
-  },
-  'best-mechanical-keyboards': { 
-    image: 'https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=400&h=300&fit=crop',
-    gradient: 'from-orange-500 to-amber-400',
-    icon: '⌨️'
+    icon: '🎮'
   },
   'best-smartwatches': { 
     image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop',
     gradient: 'from-blue-600 to-indigo-400',
     icon: '⌚'
   },
+  'best-e-readers': { 
+    image: 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400&h=300&fit=crop',
+    gradient: 'from-amber-500 to-orange-400',
+    icon: '📚'
+  },
+  'best-streaming-devices': { 
+    image: 'https://images.unsplash.com/photo-1593784991095-a205069470b6?w=400&h=300&fit=crop',
+    gradient: 'from-red-500 to-rose-400',
+    icon: '📺'
+  },
+  'best-smart-home': { 
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop',
+    gradient: 'from-teal-500 to-cyan-400',
+    icon: '🏠'
+  },
+  'best-smart-speakers': { 
+    image: 'https://images.unsplash.com/photo-1589003077984-894e133dabab?w=400&h=300&fit=crop',
+    gradient: 'from-sky-500 to-blue-400',
+    icon: '🔊'
+  },
+  'best-tvs': { 
+    image: 'https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=400&h=300&fit=crop',
+    gradient: 'from-indigo-500 to-purple-400',
+    icon: '📺'
+  },
+  'best-robot-vacuums': { 
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop',
+    gradient: 'from-gray-500 to-slate-400',
+    icon: '🤖'
+  },
   'best-laptops': { 
     image: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=300&fit=crop',
     gradient: 'from-slate-600 to-gray-400',
-    icon: '💼'
+    icon: '💻'
   },
-  'best-headphones': { 
-    image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop',
-    gradient: 'from-zinc-500 to-neutral-400',
+  'best-cell-phones': { 
+    image: 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=300&fit=crop',
+    gradient: 'from-blue-500 to-cyan-400',
+    icon: '📱'
+  },
+  'best-tablets': { 
+    image: 'https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400&h=300&fit=crop',
+    gradient: 'from-purple-500 to-pink-400',
+    icon: '📱'
+  },
+  'best-computer-accessories': { 
+    image: 'https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400&h=300&fit=crop',
+    gradient: 'from-orange-500 to-amber-400',
+    icon: '🖱️'
+  },
+  'best-mechanical-keyboards': { 
+    image: 'https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=400&h=300&fit=crop',
+    gradient: 'from-rose-500 to-pink-400',
+    icon: '⌨️'
+  },
+  'best-action-cameras': { 
+    image: 'https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=400&h=300&fit=crop',
+    gradient: 'from-gray-600 to-slate-400',
+    icon: '📷'
+  },
+  'best-portable-chargers': { 
+    image: 'https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=400&h=300&fit=crop',
+    gradient: 'from-green-500 to-emerald-400',
+    icon: '🔋'
+  },
+  'best-bluetooth-speakers': { 
+    image: 'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=300&fit=crop',
+    gradient: 'from-cyan-500 to-blue-400',
+    icon: '🔊'
+  },
+  'best-fitness-trackers': { 
+    image: 'https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=400&h=300&fit=crop',
+    gradient: 'from-green-500 to-teal-400',
+    icon: '⌚'
+  },
+  'best-drones': { 
+    image: 'https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=400&h=300&fit=crop',
+    gradient: 'from-slate-500 to-gray-400',
+    icon: '🚁'
+  },
+  'best-vr-headsets': { 
+    image: 'https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?w=400&h=300&fit=crop',
+    gradient: 'from-indigo-600 to-purple-400',
+    icon: '🥽'
+  },
+  'best-gaming-headsets': { 
+    image: 'https://images.unsplash.com/photo-1599669454699-248893623440?w=400&h=300&fit=crop',
+    gradient: 'from-violet-500 to-fuchsia-400',
     icon: '🎧'
+  },
+  'best-gaming-laptops': { 
+    image: 'https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=400&h=300&fit=crop',
+    gradient: 'from-red-500 to-orange-400',
+    icon: '💻'
+  },
+  // Home & Kitchen
+  'best-kitchen-appliances': { 
+    image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop',
+    gradient: 'from-amber-500 to-yellow-400',
+    icon: '🍳'
+  },
+  'best-hair-care': { 
+    image: 'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?w=400&h=300&fit=crop',
+    gradient: 'from-pink-500 to-rose-400',
+    icon: '💇'
+  },
+  'best-oral-care': { 
+    image: 'https://images.unsplash.com/photo-1559650656-5e7e3f496f97?w=400&h=300&fit=crop',
+    gradient: 'from-blue-400 to-cyan-400',
+    icon: '🦷'
+  },
+  'best-outdoor-gear': { 
+    image: 'https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=400&h=300&fit=crop',
+    gradient: 'from-green-600 to-emerald-400',
+    icon: '⛺'
+  },
+  'best-fitness-equipment': { 
+    image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400&h=300&fit=crop',
+    gradient: 'from-orange-500 to-red-400',
+    icon: '🏋️'
+  },
+  'best-office-furniture': { 
+    image: 'https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=400&h=300&fit=crop',
+    gradient: 'from-brown-500 to-amber-400',
+    icon: '🪑'
+  },
+  'best-gaming-chairs': { 
+    image: 'https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=400&h=300&fit=crop',
+    gradient: 'from-red-600 to-orange-400',
+    icon: '🪑'
+  },
+  // Games & Toys
+  'best-nintendo-switch-games': { 
+    image: 'https://images.unsplash.com/photo-1578303512597-81e6cc155b3e?w=400&h=300&fit=crop',
+    gradient: 'from-red-500 to-pink-400',
+    icon: '🎮'
+  },
+  'best-playstation-games': { 
+    image: 'https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=400&h=300&fit=crop',
+    gradient: 'from-blue-600 to-indigo-400',
+    icon: '🎮'
+  },
+  'best-lego-sets': { 
+    image: 'https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=400&h=300&fit=crop',
+    gradient: 'from-yellow-500 to-orange-400',
+    icon: '🧱'
   },
   // Fallback
   default: { 
