@@ -1,15 +1,10 @@
 'use client'
 
-import { useState, useEffect } from 'react'
-import { motion } from 'framer-motion'
-import { Search, Star, TrendingUp, Shield, ArrowRight, CheckCircle, Menu, X, Mail, Cpu, Gamepad2, Home, Dumbbell, Headphones, Camera, Watch, Coffee, Tv, Laptop } from 'lucide-react'
+import { useState, useEffect, useRef } from 'react'
+import { motion, AnimatePresence } from 'framer-motion'
+import { Search, Star, TrendingUp, Shield, ArrowRight, CheckCircle, Menu, X, Mail, Cpu, Gamepad2, Home, Dumbbell, Headphones, Camera, Watch, Coffee, Tv, Laptop, ChevronDown, Flame, Zap } from 'lucide-react'
 import productsData from './data/products.json'
 import Link from 'next/link'
-
-// Icon mapping
-const iconMap: Record<string, any> = {
-  Cpu, Gamepad2, Home, Dumbbell, Headphones, Camera, Watch, Coffee, Tv, Laptop
-}
 
 // Get unique categories with count
 function getCategories() {
@@ -26,13 +21,21 @@ function getCategories() {
     }
   })
   
-  return Array.from(categoryMap.values()).slice(0, 12)
+  return Array.from(categoryMap.values())
+}
+
+// Get top rated products
+function getTopProducts() {
+  const products = productsData.products || []
+  return [...products].sort((a: any, b: any) => (b.rating || 0) - (a.rating || 0)).slice(0, 4)
 }
 
 // Components
 function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const [isCategoriesOpen, setIsCategoriesOpen] = useState(false)
+  const categories = getCategories()
 
   useEffect(() => {
     const handleScroll = () => {
@@ -41,13 +44,6 @@ function Navbar() {
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
-
-  const navLinks = [
-    { name: 'Inicio', href: '#home' },
-    { name: 'Categorías', href: '#categories' },
-    { name: 'Reseñas', href: '#reviews' },
-    { name: 'Metodología', href: '#methodology' },
-  ]
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'glass py-3' : 'py-5'}`}>
@@ -58,16 +54,66 @@ function Navbar() {
           </Link>
           
           {/* Desktop Menu */}
-          <div className="hidden md:flex items-center gap-8">
-            {navLinks.map((link) => (
-              <a
-                key={link.name}
-                href={link.href}
-                className="text-text-dark hover:text-accent transition-colors font-medium"
+          <div className="hidden md:flex items-center gap-6">
+            <Link href="/" className="text-text-dark hover:text-accent transition-colors font-medium">
+              Inicio
+            </Link>
+            
+            {/* Categories Dropdown */}
+            <div className="relative">
+              <button 
+                className="flex items-center gap-1 text-text-dark hover:text-accent transition-colors font-medium"
+                onClick={() => setIsCategoriesOpen(!isCategoriesOpen)}
               >
-                {link.name}
-              </a>
-            ))}
+                Categorías
+                <ChevronDown className={`w-4 h-4 transition-transform ${isCategoriesOpen ? 'rotate-180' : ''}`} />
+              </button>
+              
+              <AnimatePresence>
+                {isCategoriesOpen && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: 10 }}
+                    className="absolute top-full left-0 mt-2 w-64 bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden z-50"
+                  >
+                    <div className="p-2">
+                      <div className="px-3 py-2 text-xs font-semibold text-gray-400 uppercase">
+                        Todas las Categorías
+                      </div>
+                      {categories.map((cat: any) => (
+                        <Link
+                          key={cat.slug}
+                          href={`/category/${cat.slug}`}
+                          className="flex items-center justify-between px-3 py-2 rounded-lg hover:bg-gray-50 text-gray-700"
+                          onClick={() => setIsCategoriesOpen(false)}
+                        >
+                          <span>{cat.name}</span>
+                          <span className="text-xs text-gray-400">{cat.count}</span>
+                        </Link>
+                      ))}
+                    </div>
+                    <Link 
+                      href="#categories"
+                      className="block px-3 py-2 bg-accent/10 text-accent text-sm font-medium text-center hover:bg-accent/20"
+                      onClick={() => setIsCategoriesOpen(false)}
+                    >
+                      Ver todas las categorías →
+                    </Link>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+
+            {/* Popular Link */}
+            <Link href="#featured" className="text-text-dark hover:text-accent transition-colors font-medium flex items-center gap-1">
+              <Flame className="w-4 h-4 text-orange-500" />
+              Destacados
+            </Link>
+            
+            <Link href="#methodology" className="text-text-dark hover:text-accent transition-colors font-medium">
+              Metodología
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -80,24 +126,83 @@ function Navbar() {
         </div>
 
         {/* Mobile Menu */}
-        {isMobileMenuOpen && (
-          <motion.div
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="md:hidden mt-4 glass rounded-xl p-4"
-          >
-            {navLinks.map((link) => (
-              <a
-                key={link.name}
-                href={link.href}
-                className="block py-2 text-text-dark hover:text-accent transition-colors"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                {link.name}
-              </a>
-            ))}
-          </motion.div>
-        )}
+        <AnimatePresence>
+          {isMobileMenuOpen && (
+            <motion.div
+              initial={{ opacity: 0, height: 0 }}
+              animate={{ opacity: 1, height: 'auto' }}
+              exit={{ opacity: 0, height: 0 }}
+              className="md:hidden mt-4 glass rounded-xl overflow-hidden"
+            >
+              <div className="p-4 space-y-4">
+                <Link 
+                  href="/" 
+                  className="block py-2 text-text-dark hover:text-accent font-medium"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  Inicio
+                </Link>
+                
+                {/* Mobile Categories Accordion */}
+                <div>
+                  <button 
+                    className="flex items-center justify-between w-full py-2 text-text-dark font-medium"
+                    onClick={() => setIsCategoriesOpen(!isCategoriesOpen)}
+                  >
+                    <span>Categorías</span>
+                    <ChevronDown className={`w-4 h-4 transition-transform ${isCategoriesOpen ? 'rotate-180' : ''}`} />
+                  </button>
+                  
+                  <AnimatePresence>
+                    {isCategoriesOpen && (
+                      <motion.div
+                        initial={{ opacity: 0, height: 0 }}
+                        animate={{ opacity: 1, height: 'auto' }}
+                        exit={{ opacity: 0, height: 0 }}
+                        className="mt-2 ml-4 space-y-1 border-l-2 border-gray-200 pl-4"
+                      >
+                        {categories.map((cat: any) => (
+                          <Link
+                            key={cat.slug}
+                            href={`/category/${cat.slug}`}
+                            className="block py-2 text-sm text-gray-600 hover:text-accent"
+                            onClick={() => setIsMobileMenuOpen(false)}
+                          >
+                            {cat.name} ({cat.count})
+                          </Link>
+                        ))}
+                        <Link
+                          href="#categories"
+                          className="block py-2 text-sm text-accent font-medium"
+                          onClick={() => setIsMobileMenuOpen(false)}
+                        >
+                          Ver todas →
+                        </Link>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
+
+                <Link 
+                  href="#featured" 
+                  className="block py-2 text-text-dark hover:text-accent font-medium flex items-center gap-2"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  <Flame className="w-4 h-4 text-orange-500" />
+                  Destacados
+                </Link>
+                
+                <Link 
+                  href="#methodology" 
+                  className="block py-2 text-text-dark hover:text-accent font-medium"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  Metodología
+                </Link>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </div>
     </nav>
   )
@@ -106,13 +211,14 @@ function Navbar() {
 function Hero() {
   const [searchQuery, setSearchQuery] = useState('')
   const products = productsData.products || []
+  const topProducts = getTopProducts()
   
   const filteredProducts = searchQuery.length > 2 
     ? products.filter((p: any) => p.title.toLowerCase().includes(searchQuery.toLowerCase()))
     : []
 
   return (
-    <section id="home" className="min-h-[100dvh] flex items-center pt-20 relative overflow-hidden">
+    <section id="home" className="min-h-[100dvh] flex items-center pt-24 pb-12 relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 bg-gradient-to-br from-background via-white to-accent/5" />
       <div className="absolute top-20 right-0 w-96 h-96 bg-accent/10 rounded-full blur-3xl" />
@@ -183,40 +289,48 @@ function Hero() {
                 <ArrowRight className="w-5 h-5" />
               </a>
               <a
-                href="#reviews"
+                href="#featured"
                 className="inline-flex items-center justify-center gap-2 border-2 border-primary text-primary px-8 py-4 rounded-full font-semibold hover:bg-primary hover:text-white transition-all"
               >
-                Ver Reseñas
+                <Flame className="w-5 h-5 text-orange-500" />
+                Ver Destacados
               </a>
             </div>
           </motion.div>
 
-          {/* Right Visual - Featured Products */}
+          {/* Right Visual - Top Products */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             className="relative"
           >
+            <div className="flex items-center gap-2 mb-4">
+              <Zap className="w-5 h-5 text-accent" />
+              <span className="font-semibold text-primary">Productos Mejor Valorados</span>
+            </div>
             <div className="grid grid-cols-2 gap-4">
-              {products.slice(0, 4).map((product: any, index: number) => (
+              {topProducts.map((product: any, index: number) => (
                 <motion.div
                   key={product.asin}
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.3 + index * 0.1 }}
-                  className="glass p-4 rounded-2xl hover:shadow-lg transition-shadow cursor-pointer"
+                  className="glass p-4 rounded-2xl hover:shadow-lg transition-shadow"
                 >
                   <Link href={`/reviews/${product.slug}`}>
-                    <div className="h-24 bg-gradient-to-br from-primary/10 to-accent/10 rounded-xl flex items-center justify-center mb-3">
+                    <div className="h-20 bg-gradient-to-br from-primary/10 to-accent/10 rounded-xl flex items-center justify-center mb-3">
                       <span className="text-3xl">⭐</span>
                     </div>
                     <div className="font-bold text-sm text-primary line-clamp-2 mb-1">
                       {product.title}
                     </div>
-                    <div className="flex items-center gap-1">
-                      <Star className="w-3 h-3 text-yellow-500 fill-yellow-500" />
-                      <span className="text-xs text-gray-600">{product.rating}</span>
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center gap-1">
+                        <Star className="w-3 h-3 text-yellow-500 fill-yellow-500" />
+                        <span className="text-xs font-medium">{product.rating}</span>
+                      </div>
+                      <ArrowRight className="w-3 h-3 text-accent" />
                     </div>
                   </Link>
                 </motion.div>
@@ -250,7 +364,7 @@ function Categories() {
         </motion.div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-          {categories.map((category: any, index: number) => (
+          {categories.slice(0, 12).map((category: any, index: number) => (
             <motion.div
               key={category.slug}
               initial={{ opacity: 0, y: 20 }}
@@ -278,6 +392,86 @@ function Categories() {
 }
 
 function FeaturedProducts() {
+  const products = getTopProducts()
+  
+  return (
+    <section id="featured" className="py-24 bg-gradient-to-br from-orange-50 to-amber-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="flex items-center gap-3 mb-16"
+        >
+          <Flame className="w-8 h-8 text-orange-500" />
+          <div>
+            <h2 className="font-display text-4xl md:text-5xl font-bold text-primary">
+              Productos Destacados
+            </h2>
+            <p className="text-xl text-text-muted">
+              Los mejor valorados por nuestro equipo
+            </p>
+          </div>
+        </motion.div>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {products.map((product: any, index: number) => (
+            <motion.div
+              key={product.asin}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: index * 0.1 }}
+              className="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
+            >
+              <Link href={`/reviews/${product.slug}`}>
+                <div className="h-40 bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center relative">
+                  <span className="text-5xl">⭐</span>
+                  <div className="absolute top-3 right-3 bg-orange-500 text-white text-xs font-bold px-2 py-1 rounded-full">
+                    #{index + 1}
+                  </div>
+                </div>
+                <div className="p-5">
+                  <div className="flex items-center gap-2 mb-2">
+                    <span className="px-2 py-1 bg-accent/20 text-primary text-xs font-medium rounded-full">
+                      {product.category}
+                    </span>
+                  </div>
+                  <h3 className="font-bold text-primary mb-2 line-clamp-2 text-sm">
+                    {product.title}
+                  </h3>
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-1">
+                      {[...Array(5)].map((_, i) => (
+                        <Star 
+                          key={i} 
+                          className={`w-4 h-4 ${i < Math.floor(product.rating) ? 'text-yellow-500 fill-yellow-500' : 'text-gray-300'}`} 
+                        />
+                      ))}
+                      <span className="text-sm font-medium ml-1">{product.rating}</span>
+                    </div>
+                    <ArrowRight className="w-4 h-4 text-accent" />
+                  </div>
+                </div>
+              </Link>
+            </motion.div>
+          ))}
+        </div>
+
+        <div className="text-center mt-12">
+          <Link
+            href="#categories"
+            className="inline-flex items-center gap-2 bg-primary text-white px-8 py-4 rounded-full font-semibold hover:bg-primary/90 transition-all"
+          >
+            Ver Todas las Categorías <ArrowRight className="w-5 h-5" />
+          </Link>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+function FeaturedProductsList() {
   const products = productsData.products || []
   const featured = products.slice(0, 6)
   
@@ -291,7 +485,7 @@ function FeaturedProducts() {
           className="text-center mb-16"
         >
           <h2 className="font-display text-4xl md:text-5xl font-bold text-primary mb-4">
-            Reseñas Destacadas
+            Reseñas Recientes
           </h2>
           <p className="text-xl text-text-muted max-w-2xl mx-auto">
             Los productos más valorados por nuestro equipo
@@ -530,6 +724,7 @@ export default function HomePage() {
       <Hero />
       <Categories />
       <FeaturedProducts />
+      <FeaturedProductsList />
       <Methodology />
       <Newsletter />
       <Footer />
