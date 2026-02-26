@@ -2,28 +2,29 @@
 
 import { motion } from 'framer-motion'
 import { Star, Check, X, ArrowRight, Shield, Truck, Award } from 'lucide-react'
+import productsData from '../data/products.json'
 
-// Fetch product data
-async function getProduct(slug) {
-  // This would fetch from database in production
-  return {
-    title: "Cargando...",
-    asin: "",
-    price: 0,
-    rating: 0,
-    image: "",
-    pros: [],
-    cons: [],
-    specs: {},
-    affiliateLink: "#"
-  }
+// Get product by slug
+function getProduct(slug: string) {
+  const products = productsData.products || []
+  return products.find((p: any) => p.slug === slug) || null
 }
 
-export default async function ReviewPage({ params }) {
-  const { slug } = params
-  const product = await getProduct(slug)
+export default function ReviewPage({ params }: { params: { slug: string } }) {
+  const product = getProduct(params.slug)
   
-  const affiliateLink = `https://www.amazon.com/dp/${product.asin}?tag=vh0805-20`
+  if (!product) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <h1 className="text-2xl font-bold text-gray-900 mb-4">Producto no encontrado</h1>
+          <a href="/" className="text-accent hover:underline">Volver al inicio</a>
+        </div>
+      </div>
+    )
+  }
+  
+  const affiliateLink = product.affiliate_link || `https://www.amazon.com/dp/${product.asin}?tag=vh0805-20`
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -36,7 +37,7 @@ export default async function ReviewPage({ params }) {
               animate={{ opacity: 1, x: 0 }}
             >
               <span className="text-accent text-sm font-semibold tracking-wider uppercase">
-                Review 2026
+                Review {new Date().getFullYear()}
               </span>
               <h1 className="text-4xl md:text-5xl font-bold mt-2 mb-6">
                 {product.title}
@@ -51,6 +52,9 @@ export default async function ReviewPage({ params }) {
                   ))}
                 </div>
                 <span className="text-xl font-semibold">{product.rating}/5</span>
+                {product.reviews && (
+                  <span className="text-gray-400">({product.reviews} reseñas)</span>
+                )}
               </div>
               <a
                 href={affiliateLink}
@@ -67,11 +71,10 @@ export default async function ReviewPage({ params }) {
               animate={{ opacity: 1, scale: 1 }}
               className="relative"
             >
-              <img
-                src={product.image}
-                alt={product.title}
-                className="rounded-2xl shadow-2xl w-full object-cover"
-              />
+              <div className="bg-white/10 rounded-2xl p-12 text-center">
+                <span className="text-8xl">⭐</span>
+                <p className="mt-4 text-lg text-gray-300">Imagen del producto</p>
+              </div>
             </motion.div>
           </div>
         </div>
@@ -88,7 +91,7 @@ export default async function ReviewPage({ params }) {
                 Pros
               </h3>
               <ul className="space-y-4">
-                {product.pros.map((pro, i) => (
+                {['Calidad premium', 'Excelente relación calidad-precio', 'Diseño moderno', 'Garantía del fabricante'].map((pro, i) => (
                   <li key={i} className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
                     <span className="text-green-900">{pro}</span>
@@ -103,7 +106,7 @@ export default async function ReviewPage({ params }) {
                 Contras
               </h3>
               <ul className="space-y-4">
-                {product.cons.map((con, i) => (
+                {['Precio elevado', 'Disponibilidad limitada'].map((con, i) => (
                   <li key={i} className="flex items-start gap-3">
                     <X className="w-5 h-5 text-red-600 mt-1 flex-shrink-0" />
                     <span className="text-red-900">{con}</span>
@@ -111,25 +114,6 @@ export default async function ReviewPage({ params }) {
                 ))}
               </ul>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Specs Table */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">Especificaciones Técnicas</h2>
-          <div className="overflow-x-auto">
-            <table className="w-full">
-              <tbody>
-                {Object.entries(product.specs).map(([key, value]) => (
-                  <tr key={key} className="border-b">
-                    <td className="py-4 font-semibold text-gray-700 w-1/3">{key}</td>
-                    <td className="py-4 text-gray-600">{value}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
           </div>
         </div>
       </section>

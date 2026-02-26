@@ -2,24 +2,32 @@
 
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { Search, Star, TrendingUp, Shield, ArrowRight, CheckCircle, Menu, X, Mail, Cpu, Gamepad2, Home, Dumbbell, Headphones, Camera } from 'lucide-react'
+import { Search, Star, TrendingUp, Shield, ArrowRight, CheckCircle, Menu, X, Mail, Cpu, Gamepad2, Home, Dumbbell, Headphones, Camera, Watch, Coffee, Tv, Laptop } from 'lucide-react'
 import productsData from './data/products.json'
+import Link from 'next/link'
 
 // Icon mapping
 const iconMap: Record<string, any> = {
-  Cpu, Gamepad2, Home, Dumbbell, Headphones, Camera
+  Cpu, Gamepad2, Home, Dumbbell, Headphones, Camera, Watch, Coffee, Tv, Laptop
 }
 
-// Get products from data
-const products = productsData.products || []
-const categories = [
-  { title: 'Electrónica', description: 'Los mejores dispositivos tecnológicos', icon: 'Cpu' },
-  { title: 'Gaming', description: 'Consolas, accesorios y más', icon: 'Gamepad2' },
-  { title: 'Hogar', description: 'Electrodomésticos y tecnología del hogar', icon: 'Home' },
-  { title: 'Fitness', description: 'Equipamiento deportivo inteligente', icon: 'Dumbbell' },
-  { title: 'Audio', description: 'Auriculares, altavoces y sonido premium', icon: 'Headphones' },
-  { title: 'Cámaras', description: 'Fotografía y video profesional', icon: 'Camera' },
-]
+// Get unique categories with count
+function getCategories() {
+  const products = productsData.products || []
+  const categoryMap = new Map()
+  
+  products.forEach((product: any) => {
+    const cat = product.category || 'other'
+    const slug = cat.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '')
+    if (categoryMap.has(slug)) {
+      categoryMap.get(slug).count++
+    } else {
+      categoryMap.set(slug, { name: cat, slug, count: 1 })
+    }
+  })
+  
+  return Array.from(categoryMap.values()).slice(0, 12)
+}
 
 // Components
 function Navbar() {
@@ -36,19 +44,18 @@ function Navbar() {
 
   const navLinks = [
     { name: 'Inicio', href: '#home' },
+    { name: 'Categorías', href: '#categories' },
     { name: 'Reseñas', href: '#reviews' },
-    { name: 'Nosotros', href: '#about' },
     { name: 'Metodología', href: '#methodology' },
-    { name: 'Contacto', href: '#contact' },
   ]
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'glass py-3' : 'py-5'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
-          <a href="#home" className="font-display text-2xl font-bold text-primary">
+          <Link href="/" className="font-display text-2xl font-bold text-primary">
             Los<span className="text-accent">Mejores</span>.blog
-          </a>
+          </Link>
           
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center gap-8">
@@ -97,6 +104,13 @@ function Navbar() {
 }
 
 function Hero() {
+  const [searchQuery, setSearchQuery] = useState('')
+  const products = productsData.products || []
+  
+  const filteredProducts = searchQuery.length > 2 
+    ? products.filter((p: any) => p.title.toLowerCase().includes(searchQuery.toLowerCase()))
+    : []
+
   return (
     <section id="home" className="min-h-[100dvh] flex items-center pt-20 relative overflow-hidden">
       {/* Background Elements */}
@@ -111,7 +125,6 @@ function Hero() {
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
-            className="stagger-children"
           >
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -120,74 +133,94 @@ function Hero() {
               className="inline-flex items-center gap-2 bg-accent/10 px-4 py-2 rounded-full mb-6"
             >
               <Star className="w-4 h-4 text-accent" />
-              <span className="text-sm font-medium text-primary">Reseñas Verificadas</span>
+              <span className="text-sm font-medium text-primary">Reseñas Verificadas 2026</span>
             </motion.div>
             
             <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-bold text-primary leading-tight mb-6">
-              Reseñas Honestas,{' '}
-              <span className="gradient-text">Productos Reales</span>
+              Encuentra los{' '}
+              <span className="gradient-text">Mejores Productos</span>
             </h1>
             
             <p className="text-xl text-text-muted mb-8 max-w-xl">
-              Te ayudamos a encontrar lo mejor de lo mejor. Análisis profundos, 
-              comparaciones justas y recomendaciones que puedes confiar.
+              Reseñas honestas, detalladas y actualizadas. Te ayudamos a tomar la mejor decisión de compra.
             </p>
             
+            {/* Search Box */}
+            <div className="relative mb-8 max-w-xl">
+              <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
+              <input
+                type="text"
+                placeholder="Buscar producto... (ej: mejores auriculares)"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="w-full pl-12 pr-4 py-4 rounded-full border border-gray-200 focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/20 text-lg"
+              />
+              {filteredProducts.length > 0 && (
+                <div className="absolute top-full mt-2 w-full bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden z-50">
+                  {filteredProducts.slice(0, 5).map((product: any) => (
+                    <Link
+                      key={product.asin}
+                      href={`/reviews/${product.slug}`}
+                      className="block px-4 py-3 hover:bg-gray-50 border-b border-gray-100 last:border-0"
+                    >
+                      <div className="font-medium text-gray-900 line-clamp-1">{product.title}</div>
+                      <div className="text-sm text-gray-500 flex items-center gap-2">
+                        <Star className="w-3 h-3 text-yellow-500 fill-yellow-500" />
+                        {product.rating} • {product.category}
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="#what-you-find"
+                href="#categories"
                 className="inline-flex items-center justify-center gap-2 bg-primary text-white px-8 py-4 rounded-full font-semibold hover:bg-primary/90 transition-all hover:scale-105"
               >
-                Explorar Reseñas
+                Explorar Categorías
                 <ArrowRight className="w-5 h-5" />
               </a>
               <a
-                href="#methodology"
+                href="#reviews"
                 className="inline-flex items-center justify-center gap-2 border-2 border-primary text-primary px-8 py-4 rounded-full font-semibold hover:bg-primary hover:text-white transition-all"
               >
-                Nuestra Metodología
+                Ver Reseñas
               </a>
             </div>
           </motion.div>
 
-          {/* Right Visual */}
+          {/* Right Visual - Featured Products */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             className="relative"
           >
-            <div className="relative w-full aspect-square max-w-lg mx-auto">
-              {/* Floating Cards */}
-              <motion.div
-                animate={{ y: [0, -20, 0] }}
-                transition={{ duration: 6, repeat: Infinity }}
-                className="absolute top-10 right-0 glass p-6 rounded-2xl shadow-xl"
-              >
-                <TrendingUp className="w-8 h-8 text-accent mb-2" />
-                <div className="font-bold text-primary">Análisis Real</div>
-                <div className="text-sm text-text-muted">100% Objetivo</div>
-              </motion.div>
-              
-              <motion.div
-                animate={{ y: [0, 15, 0] }}
-                transition={{ duration: 5, repeat: Infinity, delay: 1 }}
-                className="absolute bottom-20 left-0 glass p-6 rounded-2xl shadow-xl"
-              >
-                <Shield className="w-8 h-8 text-accent mb-2" />
-                <div className="font-bold text-primary">Sin Compromisos</div>
-                <div className="text-sm text-text-muted">Solo lo mejor</div>
-              </motion.div>
-              
-              <motion.div
-                animate={{ y: [0, -10, 0] }}
-                transition={{ duration: 4, repeat: Infinity, delay: 2 }}
-                className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 glass p-8 rounded-3xl shadow-2xl"
-              >
-                <Search className="w-12 h-12 text-accent mb-3" />
-                <div className="font-bold text-primary text-center">Research</div>
-                <div className="text-sm text-text-muted text-center">Profundo</div>
-              </motion.div>
+            <div className="grid grid-cols-2 gap-4">
+              {products.slice(0, 4).map((product: any, index: number) => (
+                <motion.div
+                  key={product.asin}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.3 + index * 0.1 }}
+                  className="glass p-4 rounded-2xl hover:shadow-lg transition-shadow cursor-pointer"
+                >
+                  <Link href={`/reviews/${product.slug}`}>
+                    <div className="h-24 bg-gradient-to-br from-primary/10 to-accent/10 rounded-xl flex items-center justify-center mb-3">
+                      <span className="text-3xl">⭐</span>
+                    </div>
+                    <div className="font-bold text-sm text-primary line-clamp-2 mb-1">
+                      {product.title}
+                    </div>
+                    <div className="flex items-center gap-1">
+                      <Star className="w-3 h-3 text-yellow-500 fill-yellow-500" />
+                      <span className="text-xs text-gray-600">{product.rating}</span>
+                    </div>
+                  </Link>
+                </motion.div>
+              ))}
             </div>
           </motion.div>
         </div>
@@ -196,16 +229,11 @@ function Hero() {
   )
 }
 
-function About() {
-  const stats = [
-    { number: '500+', label: 'Productos Analizados' },
-    { number: '50+', label: 'Categorías' },
-    { number: '100%', label: 'Independientes' },
-    { number: '24/7', label: 'Actualizando' },
-  ]
-
+function Categories() {
+  const categories = getCategories()
+  
   return (
-    <section id="about" className="py-24 bg-white">
+    <section id="categories" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -214,78 +242,112 @@ function About() {
           className="text-center mb-16"
         >
           <h2 className="font-display text-4xl md:text-5xl font-bold text-primary mb-4">
-            ¿Quiénes Somos?
+            Explora por Categoría
           </h2>
           <p className="text-xl text-text-muted max-w-2xl mx-auto">
-            Un equipo apasionado por encontrar los mejores productos para ti
+            Encuentra las mejores reseñas organizadas por tipo de producto
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-          {stats.map((stat, index) => (
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          {categories.map((category: any, index: number) => (
             <motion.div
-              key={stat.label}
+              key={category.slug}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: index * 0.1 }}
-              className="text-center p-6 bg-background rounded-2xl"
+              transition={{ delay: index * 0.05 }}
             >
-              <div className="font-display text-4xl md:text-5xl font-bold text-accent mb-2">
-                {stat.number}
-              </div>
-              <div className="text-text-muted">{stat.label}</div>
+              <Link
+                href={`/category/${category.slug}`}
+                className="block bg-background rounded-2xl p-6 hover:bg-primary hover:text-white transition-all group"
+              >
+                <h3 className="font-bold text-lg mb-1 group-hover:text-white">
+                  {category.name}
+                </h3>
+                <p className="text-sm text-text-muted group-hover:text-gray-300">
+                  {category.count} productos
+                </p>
+              </Link>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}
+
+function FeaturedProducts() {
+  const products = productsData.products || []
+  const featured = products.slice(0, 6)
+  
+  return (
+    <section id="reviews" className="py-24 bg-gray-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-center mb-16"
+        >
+          <h2 className="font-display text-4xl md:text-5xl font-bold text-primary mb-4">
+            Reseñas Destacadas
+          </h2>
+          <p className="text-xl text-text-muted max-w-2xl mx-auto">
+            Los productos más valorados por nuestro equipo
+          </p>
+        </motion.div>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {featured.map((product: any, index: number) => (
+            <motion.div
+              key={product.asin}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: index * 0.1 }}
+              className="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
+            >
+              <Link href={`/reviews/${product.slug}`}>
+                <div className="h-48 bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center">
+                  <span className="text-6xl">⭐</span>
+                </div>
+                <div className="p-6">
+                  <div className="flex items-center gap-2 mb-2">
+                    <span className="px-3 py-1 bg-accent/20 text-primary text-sm font-medium rounded-full">
+                      {product.category}
+                    </span>
+                    {product.rating && (
+                      <div className="flex items-center gap-1">
+                        <Star className="w-4 h-4 text-yellow-500 fill-yellow-500" />
+                        <span className="text-sm font-medium">{product.rating}</span>
+                      </div>
+                    )}
+                  </div>
+                  <h3 className="font-bold text-primary mb-2 line-clamp-2">
+                    {product.title}
+                  </h3>
+                  {product.price > 0 && (
+                    <p className="text-2xl font-bold text-accent mb-4">
+                      ${product.price.toFixed(2)}
+                    </p>
+                  )}
+                  <div className="inline-flex items-center gap-2 text-primary font-semibold hover:text-accent transition-colors">
+                    Ver Review <ArrowRight className="w-4 h-4" />
+                  </div>
+                </div>
+              </Link>
             </motion.div>
           ))}
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
+        <div className="text-center mt-12">
+          <Link
+            href="#categories"
+            className="inline-flex items-center gap-2 bg-primary text-white px-8 py-4 rounded-full font-semibold hover:bg-primary/90 transition-all"
           >
-            <h3 className="font-display text-2xl font-bold text-primary mb-4">
-              Nuestro Propósito
-            </h3>
-            <p className="text-text-muted mb-6">
-              En un mundo lleno de opciones y marketing agresivo, creemos que mereces 
-              saber la verdad antes de comprar. Por eso analizamos productos en profundidad, 
-              los probamos y te damos nuestra opinión honesta.
-            </p>
-            <p className="text-text-muted">
-              No nos importa qué marca sea la más popular o cuál nos pague más. 
-              Solo nos importa una cosa: que tú encuentres exactamente lo que buscas.
-            </p>
-          </motion.div>
-          
-          <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            className="grid grid-cols-2 gap-4"
-          >
-            <div className="bg-primary text-white p-6 rounded-2xl">
-              <CheckCircle className="w-8 h-8 text-accent mb-3" />
-              <div className="font-semibold">Independientes</div>
-              <div className="text-sm text-gray-300">Sin presiones de marcas</div>
-            </div>
-            <div className="bg-accent/10 p-6 rounded-2xl">
-              <CheckCircle className="w-8 h-8 text-accent mb-3" />
-              <div className="font-semibold text-primary">Transparentes</div>
-              <div className="text-sm text-text-muted">Todo publicado</div>
-            </div>
-            <div className="bg-accent/10 p-6 rounded-2xl">
-              <CheckCircle className="w-8 h-8 text-accent mb-3" />
-              <div className="font-semibold text-primary">Actualizados</div>
-              <div className="text-sm text-text-muted">Revisamos siempre</div>
-            </div>
-            <div className="bg-primary text-white p-6 rounded-2xl">
-              <CheckCircle className="w-8 h-8 text-accent mb-3" />
-              <div className="font-semibold">Prácticos</div>
-              <div className="text-sm text-gray-300">Sin tecnicismos</div>
-            </div>
-          </motion.div>
+            Ver Todas las Categorías <ArrowRight className="w-5 h-5" />
+          </Link>
         </div>
       </div>
     </section>
@@ -365,161 +427,9 @@ function Methodology() {
   )
 }
 
-function WhatYouFind() {
-  const categories = [
-    {
-      title: 'Reseñas Detalladas',
-      description: 'Análisis profundos de cada producto con pros y contras reales.',
-      icon: Search,
-    },
-    {
-      title: 'Comparativas',
-      description: 'Cara a cara entre los mejores de cada categoría.',
-      icon: TrendingUp,
-    },
-    {
-      title: 'Guías de Compra',
-      description: 'Qué buscar, qué evitar y cómo elegir el mejor para ti.',
-      icon: Star,
-    },
-    {
-      title: 'Actualizaciones',
-      description: 'Revisamos nuestros reviews cuando salen nuevos modelos.',
-      icon: Shield,
-    },
-  ]
-
-  return (
-    <section id="what-you-find" className="py-24 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="text-center mb-16"
-        >
-          <h2 className="font-display text-4xl md:text-5xl font-bold text-primary mb-4">
-            Qué Encontrarán Aquí
-          </h2>
-          <p className="text-xl text-text-muted max-w-2xl mx-auto">
-            Todo lo que necesitas para tomar la mejor decisión de compra
-          </p>
-        </motion.div>
-
-        <div className="grid md:grid-cols-2 gap-8">
-          {categories.map((category, index) => (
-            <motion.div
-              key={category.title}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: index * 0.1 }}
-              className="group bg-background p-8 rounded-3xl hover:bg-primary transition-all duration-300 cursor-pointer"
-            >
-              <div className="flex items-start gap-4">
-                <div className="p-3 bg-accent/20 rounded-xl group-hover:bg-accent/30 transition-colors">
-                  <category.icon className="w-8 h-8 text-primary group-hover:text-accent transition-colors" />
-                </div>
-                <div>
-                  <h3 className="font-display text-xl font-bold text-primary group-hover:text-white mb-2">
-                    {category.title}
-                  </h3>
-                  <p className="text-text-muted group-hover:text-gray-300">
-                    {category.description}
-                  </p>
-                </div>
-              </div>
-            </motion.div>
-          ))}
-        </div>
-      </div>
-    </section>
-  )
-}
-
-// Featured Products Section
-function FeaturedProducts() {
-  if (!products || products.length === 0) return null
-  
-  return (
-    <section id="reviews" className="py-24 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="text-center mb-16"
-        >
-          <h2 className="font-display text-4xl md:text-5xl font-bold text-primary mb-4">
-            Reseñas Recientes
-          </h2>
-          <p className="text-xl text-text-muted max-w-2xl mx-auto">
-            Los mejores productos analizados por nuestro equipo
-          </p>
-        </motion.div>
-
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {products.slice(0, 6).map((product: any, index: number) => (
-            <motion.div
-              key={product.asin}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: index * 0.1 }}
-              className="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
-            >
-              <div className="h-48 bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center">
-                <span className="text-6xl">⭐</span>
-              </div>
-              <div className="p-6">
-                <div className="flex items-center gap-2 mb-2">
-                  <span className="px-3 py-1 bg-accent/20 text-primary text-sm font-medium rounded-full">
-                    {product.category}
-                  </span>
-                  {product.rating && (
-                    <div className="flex items-center gap-1">
-                      <Star className="w-4 h-4 text-yellow-500 fill-yellow-500" />
-                      <span className="text-sm font-medium">{product.rating}</span>
-                    </div>
-                  )}
-                </div>
-                <h3 className="font-bold text-primary mb-2 line-clamp-2">
-                  {product.title}
-                </h3>
-                {product.price > 0 && (
-                  <p className="text-2xl font-bold text-accent mb-4">
-                    ${product.price.toFixed(2)}
-                  </p>
-                )}
-                <a
-                  href={`/reviews/${product.slug}`}
-                  className="inline-flex items-center gap-2 text-primary font-semibold hover:text-accent transition-colors"
-                >
-                  Ver Review <ArrowRight className="w-4 h-4" />
-                </a>
-              </div>
-            </motion.div>
-          ))}
-        </div>
-
-        {products.length > 6 && (
-          <div className="text-center mt-12">
-            <a
-              href="#categories"
-              className="inline-flex items-center gap-2 bg-primary text-white px-8 py-4 rounded-full font-semibold hover:bg-primary/90 transition-all"
-            >
-              Ver Todas las Reseñas <ArrowRight className="w-5 h-5" />
-            </a>
-          </div>
-        )}
-      </div>
-    </section>
-  )
-}
-
 function Newsletter() {
   return (
-    <section id="contact" className="py-24 bg-primary relative overflow-hidden">
+    <section className="py-24 bg-primary relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary to-accent/20" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <motion.div
@@ -564,6 +474,8 @@ function Newsletter() {
 }
 
 function Footer() {
+  const categories = getCategories()
+  
   return (
     <footer className="bg-primary text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -573,16 +485,20 @@ function Footer() {
               Los<span className="text-accent">Mejores</span>.blog
             </div>
             <p className="text-gray-400">
-              Reseñas honestas de los mejores productos del mercado.
+              Reseñas honestas de los mejores productos del mercado. Actualizado para {new Date().getFullYear()}.
             </p>
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">Enlaces</h4>
+            <h4 className="font-semibold mb-4">Categorías Populares</h4>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#about" className="hover:text-accent transition-colors">Nosotros</a></li>
-              <li><a href="#methodology" className="hover:text-accent transition-colors">Metodología</a></li>
-              <li><a href="#what-you-find" className="hover:text-accent transition-colors">Qué Encontrarás</a></li>
+              {categories.slice(0, 5).map((cat: any) => (
+                <li key={cat.slug}>
+                  <Link href={`/category/${cat.slug}`} className="hover:text-accent transition-colors">
+                    {cat.name}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
           
@@ -597,7 +513,7 @@ function Footer() {
         </div>
         
         <div className="border-t border-white/10 pt-8 text-center text-gray-400">
-          <p>&copy; 2026 LosMejores.blog. Todos los derechos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} LosMejores.blog. Todos los derechos reservados.</p>
           <p className="text-sm mt-2">
             Como Asociado de Amazon, ganamos de compras calificadas.
           </p>
@@ -607,15 +523,14 @@ function Footer() {
   )
 }
 
-export default function Home() {
+export default function HomePage() {
   return (
     <main>
       <Navbar />
       <Hero />
-      <About />
-      <Methodology />
-      <WhatYouFind />
+      <Categories />
       <FeaturedProducts />
+      <Methodology />
       <Newsletter />
       <Footer />
     </main>
