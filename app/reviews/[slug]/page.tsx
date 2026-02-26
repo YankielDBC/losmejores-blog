@@ -1,10 +1,11 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Star, Check, X, Shield, Truck, Award, ChevronDown, Mail, ExternalLink, RefreshCw } from 'lucide-react'
+import { Star, Check, X, Shield, Truck, Award, ChevronDown, Mail, ExternalLink, RefreshCw, ThumbsUp, TrendingUp, Clock } from 'lucide-react'
 import { useParams } from 'next/navigation'
 import { useState, useEffect } from 'react'
 import realProductsData from '../../data/realProducts.json'
+import { getEnhancedProduct } from '../../lib/enhancedData'
 import Link from 'next/link'
 
 // Get product by slug
@@ -24,6 +25,117 @@ function getRelatedProducts(currentSlug: string, category: string, limit = 3) {
 // Generate affiliate link
 function getAffiliateLink(asin: string) {
   return `https://www.amazon.com/dp/${asin}?tag=vh0805-20`
+}
+
+// Category content generator
+const categoryContent: Record<string, { 
+  intro: string
+  whyImportant: string[]
+  buyingGuide: string
+  faq: { q: string; a: string }[]
+}> = {
+  'cameras': {
+    intro: 'Las cámaras fotográficas modernas ofrecen una calidad de imagen impresionante. Ya seas principiante o profesional, elegir la cámara correcta depende de tus necesidades específicas.',
+    whyImportant: [
+      'La resolución del sensor determina la calidad de tus fotos',
+      'La estabilización de imagen es crucial para fotos nítidas',
+      'La capacidad de video 4K se ha convertido en estándar',
+      'La compatibilidad con objetivos expande tus posibilidades',
+    ],
+    buyingGuide: 'Al comprar una cámara, considera tu nivel de experiencia, el tipo de fotografía que practicarás y tu presupuesto. Las mirrorless ofrecen la mejor relación peso-calidad.',
+    faq: [
+      { q: '¿Cuál es la mejor cámara para principiantes?', a: 'Las cámaras mirrorless de entrada ofrecen el mejor equilibrio entre calidad y facilidad de uso para principiantes.' },
+      { q: '¿Vale la pena una cámara full frame?', a: 'Sí, si necesitas la mejor calidad de imagen posible y trabajarás en condiciones de poca luz. Para principiantes, APS-C es suficiente.' },
+      { q: '¿Cuántos megapíxeles necesito?', a: 'Para uso web y redes sociales, 20MP es suficiente. Para impresión grande, considera 40MP+.' },
+    ],
+  },
+  'monitors': {
+    intro: 'Elegir el monitor correcto puede mejorar significativamente tu productividad y experiencia visual. Ya sea para trabajo, gaming o uso general, cada tipo tiene especificaciones específicas.',
+    whyImportant: [
+      'La resolución determina la nitidez del contenido',
+      'El tiempo de respuesta afecta el desenfoque en movimiento',
+      'La frecuencia de refresco da fluidez al movimiento',
+      'El tipo de panel afecta los ángulos de visión y colores',
+    ],
+    buyingGuide: 'Para trabajo de oficina, un monitor IPS de 27" con resolución 1440p es ideal. Para gaming, prioriza tiempo de respuesta y frecuencia de refresco.',
+    faq: [
+      { q: '¿Cuál es el mejor tamaño de monitor?', a: '27" es el tamaño más versátil para la mayoría de usuarios. Para trabajo profesional, 32" puede ser mejor.' },
+      { q: '¿Necesito 4K?', a: 'Si trabajas con contenido visual o quieres máxima nitidez, sí. Para gaming, 1440p ofrece mejor balance rendimiento-precio.' },
+    ],
+  },
+  'best gaming monitors': {
+    intro: 'Los monitores para gaming requieren especificaciones especiales para ofrecer la mejor experiencia de juego. La diferencia entre un monitor normal y uno para gaming es enorme.',
+    whyImportant: [
+      'Frecuencia de 144Hz+ ofrece ventaja competitiva',
+      'Tiempo de respuesta de 1ms minimiza el blur',
+      'G-Sync/FreeSync elimina el tearing',
+      'Modo de baja latencia mejora el input lag',
+    ],
+    buyingGuide: 'Para gaming competitivo, prioriza tiempo de respuesta y frecuencia. Para gaming casual, el tamaño y resolución son más importantes.',
+    faq: [
+      { q: '¿G-Sync o FreeSync?', a: 'Ambos hacen lo mismo. G-Sync es de NVIDIA (más caro), FreeSync es abierto y usually más económico.' },
+      { q: '¿Cuántos Hz necesito?', a: '144Hz es el punto óptimo. 240Hz ofrece mejora marginal a cambio de un precio mucho mayor.' },
+    ],
+  },
+  'best robot vacuums': {
+    intro: 'Los robots aspiradores han evolucionado enormemente. Los modelos actuales ofrecen navegación inteligente, mapeo del hogar y hasta función de fregado.',
+    whyImportant: [
+      'La navegación LiDAR crea mapas precisos de tu hogar',
+      'La potencia de succión determina qué recogen',
+      'La autonomía define el área que pueden limpiar',
+      'Las estaciones de vaciado automático reducen mantenimiento',
+    ],
+    buyingGuide: 'Para hogares grandes, busca autonomía de 2+ horas y mapeo multi-piso. Para mascotas, prioriza succión potente y filtro HEPA.',
+    faq: [
+      { q: '¿Los robots aspiradores funcionan con alfombras?', a: 'Sí, pero los de alta succión funcionan mejor. Algunos detectan alfombras y aumentan potencia automáticamente.' },
+      { q: '¿Necesito mapeo LiDAR?', a: 'Sí, drastically mejora la eficiencia y permite limpieza por habitaciones específicas.' },
+    ],
+  },
+  'best wireless earbuds': {
+    intro: 'Los earbuds inalámbricos se han convertido en el accessory tecnológico más popular. La comodidad de no tener cables combined con calidad de sonido cada vez mejor.',
+    whyImportant: [
+      'La cancelación de ruido mejora la inmersión',
+      'La batería determina cuánto puedes usarlos',
+      'El ajuste afecta comodidad y aislamiento de sonido',
+      'Los códecs de audio afectan la calidad del sonido',
+    ],
+    buyingGuide: 'Para viajes, prioriza cancelación de ruido activa. Para ejercicio, busca resistencia al agua y ajuste seguro.',
+    faq: [
+      { q: '¿Cuál es la diferencia entre ANC y ENC?', a: 'ANC cancela ruido ambiental (música), ENC cancela ruido en llamadas (micrófono).' },
+      { q: '¿Los earbuds dañan la audición?', a: 'Escuchar a volumen alto puede dañar la audición. Usa la regla 60/60: 60% volumen por 60 minutos.' },
+    ],
+  },
+  'smartwatches': {
+    intro: 'Los smartwatches van más allá de mostrar la hora. Son dispositivos de salud, productividad y conectividad que llevas en la muñeca.',
+    whyImportant: [
+      'Monitoreo de salud 24/7',
+      'Notificaciones sin mirar el teléfono',
+      'Seguimiento de actividad física',
+      'Emergencias y seguridad personal',
+    ],
+    buyingGuide: 'Para fitness básico, cualquier smartwatch sirve. Para entrenamiento serio, busca GPS dedicado y métricas avanzadas.',
+    faq: [
+      { q: '¿Cuánto dura la batería?', a: 'Depende del uso. Smartwatches tradicionales duran 5-7 días,Wear OS 1-2 días, Apple Watch 1-2 días.' },
+      { q: '¿Necesito teléfono compatible?', a: 'La mayoría requieren teléfono para configuración inicial y algunas funciones. Verifica compatibilidad.' },
+    ],
+  },
+}
+
+// Default content for categories not listed
+const defaultContent = {
+  intro: 'Este producto ha sido evaluado basándose en reseñas de miles de usuarios reales. Nuestra review te ayuda a tomar una decisión de compra informada.',
+  whyImportant: [
+    'Evaluación basada en miles de reseñas de usuarios reales',
+    'Comparación con productos similares en el mercado',
+    'Análisis de especificaciones técnicas versus uso real',
+    'Consideración de la relación calidad-precio',
+  ],
+  buyingGuide: 'Al comprar este tipo de producto, considera tus necesidades específicas, el uso que le darás y tu presupuesto disponible.',
+  faq: [
+    { q: '¿Es este producto recomendable?', a: 'Basándonos en las reseñas de usuarios y especificaciones, este producto ofrece una buena relación calidad-precio en su categoría.' },
+    { q: '¿Viene con garantía?', a: 'Amazon ofrece 30 días de devolución y el fabricante suele incluir garantía de 1 año.' },
+    { q: '¿El precio incluye envío?', a: 'Con Amazon Prime el envío es gratuito y exprés. Sin Prime, varía según tu ubicación.' },
+  ],
 }
 
 // FAQ Component
@@ -103,10 +215,16 @@ export default function ReviewPage() {
   const product = getProduct(slug)
   const relatedProducts = product ? getRelatedProducts(slug, product.category) : []
   
+  // Get enhanced content based on category
+  const categoryKey = product?.category || ''
+  const content = categoryContent[categoryKey] || defaultContent
+  
+  // Generate dynamic FAQs
   const faqs = product ? [
-    { q: '¿Vale la pena este producto?', a: 'Sí, es uno de los productos más vendidos en su categoría con excelentes reseñas de usuarios reales.' },
-    { q: '¿Viene con garantía?', a: 'Amazon ofrece 30 días de devolución y el fabricante tiene garantía estándar de 1 año.' },
-    { q: '¿El precio incluye envío?', a: 'Con Amazon Prime el envío es gratis y exprés. Sin Prime, varía según tu ubicación.' }
+    ...content.faq,
+    { q: `¿Vale la pena comprar el ${product.title}?`, a: `Sí, especialmente si buscas ${product.category?.replace(/-/g, ' ')} con buena relación calidad-precio. Con ${product.reviews?.toLocaleString()} reseñas y ${product.rating}/5 estrellas, es una opción confiable.` },
+    { q: '¿Este producto es مناسب para principiantes?', a: 'Absolutamente. Este tipo de producto es accesible para usuarios de todos los niveles, con una curva de aprendizaje mínima.' },
+    { q: '¿Cuánto dura la garantía?', a: 'Amazon ofrece 30 días de devolución. El fabricante típicamente incluye 1 año de garantía estándar.' },
   ] : []
 
   if (!product) {
@@ -123,6 +241,7 @@ export default function ReviewPage() {
   }
   
   const affiliateLink = getAffiliateLink(product.asin)
+  const enhanced = getEnhancedProduct(product)
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -185,7 +304,7 @@ export default function ReviewPage() {
             >
               <div className="bg-white/10 rounded-3xl p-4 backdrop-blur-sm border border-white/10">
                 <img 
-                  src={product.image}
+                  src={product.image || 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&h=600&fit=crop'}
                   alt={product.title}
                   className="w-full h-auto rounded-2xl"
                   onError={(e) => {
@@ -240,13 +359,34 @@ export default function ReviewPage() {
         </div>
       </section>
 
-      {/* Description */}
+      {/* Detailed Description - SEO Content */}
       <section className="py-12 bg-white">
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Acerca de este producto</h2>
-          <p className="text-gray-600 text-lg leading-relaxed">
-            {product.description}
+          <p className="text-gray-600 text-lg leading-relaxed mb-6">
+            {enhanced.description}
           </p>
+          <p className="text-gray-600 text-lg leading-relaxed">
+            {content.intro}
+          </p>
+        </div>
+      </section>
+
+      {/* Why This Matters */}
+      <section className="py-12 bg-accent/5">
+        <div className="max-w-3xl mx-auto px-4">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-2">
+            <TrendingUp className="w-7 h-7 text-accent" />
+            ¿Por qué este producto es importante?
+          </h2>
+          <div className="space-y-4">
+            {content.whyImportant.map((point, i) => (
+              <div key={i} className="flex items-start gap-3 bg-white p-4 rounded-xl">
+                <Check className="w-5 h-5 text-green-500 mt-1 flex-shrink-0" />
+                <span className="text-gray-700">{point}</span>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -255,13 +395,26 @@ export default function ReviewPage() {
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Características Principales</h2>
           <div className="grid md:grid-cols-2 gap-3">
-            {product.features?.map((feature: string, i: number) => (
+            {enhanced.features?.map((feature: string, i: number) => (
               <div key={i} className="flex items-center gap-3 bg-white p-4 rounded-xl shadow-sm">
                 <Check className="w-5 h-5 text-green-500 flex-shrink-0" />
                 <span className="text-gray-700">{feature}</span>
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Buying Guide */}
+      <section className="py-12 bg-white">
+        <div className="max-w-3xl mx-auto px-4">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+            <ThumbsUp className="w-7 h-7 text-accent" />
+            Guía de Compra
+          </h2>
+          <p className="text-gray-600 text-lg leading-relaxed">
+            {content.buyingGuide}
+          </p>
         </div>
       </section>
 
@@ -279,10 +432,10 @@ export default function ReviewPage() {
                 Lo Que Nos Gusta
               </h3>
               <ul className="space-y-4">
-                {product.features?.slice(0, 5).map((feature: string, i: number) => (
+                {enhanced.pros?.map((pro: string, i: number) => (
                   <li key={i} className="flex items-start gap-3">
                     <Check className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
-                    <span className="text-green-900">{feature}</span>
+                    <span className="text-green-900">{pro}</span>
                   </li>
                 ))}
               </ul>
@@ -298,14 +451,12 @@ export default function ReviewPage() {
                 A Considerar
               </h3>
               <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <X className="w-5 h-5 text-red-600 mt-1 flex-shrink-0" />
-                  <span className="text-red-900">Precio elevado respecto a alternativas básicas</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <X className="w-5 h-5 text-red-600 mt-1 flex-shrink-0" />
-                  <span className="text-red-900">Requiere dispositivos compatibles para todas las funciones</span>
-                </li>
+                {enhanced.cons?.map((con: string, i: number) => (
+                  <li key={i} className="flex items-start gap-3">
+                    <X className="w-5 h-5 text-red-600 mt-1 flex-shrink-0" />
+                    <span className="text-red-900">{con}</span>
+                  </li>
+                ))}
               </ul>
             </motion.div>
           </div>
@@ -347,7 +498,7 @@ export default function ReviewPage() {
                 >
                   <div className="h-48 bg-gray-100 overflow-hidden">
                     <img 
-                      src={p.image}
+                      src={p.image || 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop'}
                       alt={p.title}
                       className="w-full h-full object-cover"
                       onError={(e) => {
