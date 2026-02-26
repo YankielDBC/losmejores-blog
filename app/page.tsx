@@ -2,7 +2,24 @@
 
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { Search, Star, TrendingUp, Shield, ArrowRight, CheckCircle, Menu, X, Mail } from 'lucide-react'
+import { Search, Star, TrendingUp, Shield, ArrowRight, CheckCircle, Menu, X, Mail, Cpu, Gamepad2, Home, Dumbbell, Headphones, Camera } from 'lucide-react'
+import productsData from './data/products.json'
+
+// Icon mapping
+const iconMap: Record<string, any> = {
+  Cpu, Gamepad2, Home, Dumbbell, Headphones, Camera
+}
+
+// Get products from data
+const products = productsData.products || []
+const categories = [
+  { title: 'Electrónica', description: 'Los mejores dispositivos tecnológicos', icon: 'Cpu' },
+  { title: 'Gaming', description: 'Consolas, accesorios y más', icon: 'Gamepad2' },
+  { title: 'Hogar', description: 'Electrodomésticos y tecnología del hogar', icon: 'Home' },
+  { title: 'Fitness', description: 'Equipamiento deportivo inteligente', icon: 'Dumbbell' },
+  { title: 'Audio', description: 'Auriculares, altavoces y sonido premium', icon: 'Headphones' },
+  { title: 'Cámaras', description: 'Fotografía y video profesional', icon: 'Camera' },
+]
 
 // Components
 function Navbar() {
@@ -19,9 +36,9 @@ function Navbar() {
 
   const navLinks = [
     { name: 'Inicio', href: '#home' },
+    { name: 'Reseñas', href: '#reviews' },
     { name: 'Nosotros', href: '#about' },
     { name: 'Metodología', href: '#methodology' },
-    { name: 'Qué Encontrarás', href: '#what-you-find' },
     { name: 'Contacto', href: '#contact' },
   ]
 
@@ -420,6 +437,86 @@ function WhatYouFind() {
   )
 }
 
+// Featured Products Section
+function FeaturedProducts() {
+  if (!products || products.length === 0) return null
+  
+  return (
+    <section id="reviews" className="py-24 bg-gray-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-center mb-16"
+        >
+          <h2 className="font-display text-4xl md:text-5xl font-bold text-primary mb-4">
+            Reseñas Recientes
+          </h2>
+          <p className="text-xl text-text-muted max-w-2xl mx-auto">
+            Los mejores productos analizados por nuestro equipo
+          </p>
+        </motion.div>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {products.slice(0, 6).map((product: any, index: number) => (
+            <motion.div
+              key={product.asin}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: index * 0.1 }}
+              className="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
+            >
+              <div className="h-48 bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center">
+                <span className="text-6xl">⭐</span>
+              </div>
+              <div className="p-6">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="px-3 py-1 bg-accent/20 text-primary text-sm font-medium rounded-full">
+                    {product.category}
+                  </span>
+                  {product.rating && (
+                    <div className="flex items-center gap-1">
+                      <Star className="w-4 h-4 text-yellow-500 fill-yellow-500" />
+                      <span className="text-sm font-medium">{product.rating}</span>
+                    </div>
+                  )}
+                </div>
+                <h3 className="font-bold text-primary mb-2 line-clamp-2">
+                  {product.title}
+                </h3>
+                {product.price > 0 && (
+                  <p className="text-2xl font-bold text-accent mb-4">
+                    ${product.price.toFixed(2)}
+                  </p>
+                )}
+                <a
+                  href={`/reviews/${product.slug}`}
+                  className="inline-flex items-center gap-2 text-primary font-semibold hover:text-accent transition-colors"
+                >
+                  Ver Review <ArrowRight className="w-4 h-4" />
+                </a>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+
+        {products.length > 6 && (
+          <div className="text-center mt-12">
+            <a
+              href="#categories"
+              className="inline-flex items-center gap-2 bg-primary text-white px-8 py-4 rounded-full font-semibold hover:bg-primary/90 transition-all"
+            >
+              Ver Todas las Reseñas <ArrowRight className="w-5 h-5" />
+            </a>
+          </div>
+        )}
+      </div>
+    </section>
+  )
+}
+
 function Newsletter() {
   return (
     <section id="contact" className="py-24 bg-primary relative overflow-hidden">
@@ -518,6 +615,7 @@ export default function Home() {
       <About />
       <Methodology />
       <WhatYouFind />
+      <FeaturedProducts />
       <Newsletter />
       <Footer />
     </main>
