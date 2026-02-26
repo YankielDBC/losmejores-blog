@@ -4,8 +4,13 @@ import productsData from './data/realProducts.json'
 // Get all products
 const products = productsData.products || []
 
-// Get all categories
+// Get unique categories with slug formatting
 const categories = [...new Set(products.map((p: any) => p.category))]
+
+// Helper to format category URL
+function formatCategoryUrl(category: string): string {
+  return category.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '')
+}
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://losmejores.blog'
@@ -28,9 +33,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ]
   
-  // Category pages
+  // Category pages (URL encoded)
   const categoryPages: MetadataRoute.Sitemap = categories.map((category) => ({
-    url: `${baseUrl}/category/${category}`,
+    url: `${baseUrl}/category/${formatCategoryUrl(category)}`,
     lastModified: currentDate,
     changeFrequency: 'weekly' as const,
     priority: 0.7,
