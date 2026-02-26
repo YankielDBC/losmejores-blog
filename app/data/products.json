@@ -1,17 +1,18 @@
 {
   "products": [
-    {"asin": "B09V3KXJPB", "title": "Sony WH-1000XM5 Wireless Noise Canceling Headphones", "slug": "sony-wh-1000xm5-wireless-headphones", "category": "electronics", "rating": 4.7, "price": 348.00, "reviews": 45000, "affiliate_link": "https://www.amazon.com/dp/B09V3KXJPB?tag=vh0805-20", "date": "2026-02-26"},
-    {"asin": "B0BSHF7WHW", "title": "Apple AirPods Pro 2nd Gen", "slug": "apple-airpods-pro-2nd-gen", "category": "electronics", "rating": 4.8, "price": 249.00, "reviews": 125000, "affiliate_link": "https://www.amazon.com/dp/B0BSHF7WHW?tag=vh0805-20", "date": "2026-02-26"},
+    {"asin": "B09V3KXJPB", "title": "Sony WH-1000XM5 Wireless Noise Canceling Headphones", "slug": "sony-wh-1000xm5", "category": "electronics", "rating": 4.7, "price": 348.00, "reviews": 45000, "affiliate_link": "https://www.amazon.com/dp/B09V3KXJPB?tag=vh0805-20", "date": "2026-02-26"},
+    {"asin": "B0BSHF7WHW", "title": "Apple AirPods Pro 2nd Gen", "slug": "apple-airpods-pro-2", "category": "electronics", "rating": 4.8, "price": 249.00, "reviews": 125000, "affiliate_link": "https://www.amazon.com/dp/B0BSHF7WHW?tag=vh0805-20", "date": "2026-02-26"},
     {"asin": "B09JQMJHXY", "title": "Apple Watch Series 9", "slug": "apple-watch-series-9", "category": "smartwatches", "rating": 4.7, "price": 329.00, "reviews": 35000, "affiliate_link": "https://www.amazon.com/dp/B09JQMJHXY?tag=vh0805-20", "date": "2026-02-26"},
-    {"asin": "B0CHX2F5QT", "title": "Apple MacBook Air 15 M3", "slug": "apple-macbook-air-15-m3", "category": "laptops", "rating": 4.7, "price": 1299.00, "reviews": 8500, "affiliate_link": "https://www.amazon.com/dp/B0CHX2F5QT?tag=vh0805-20", "date": "2026-02-26"},
-    {"asin": "B0BC5KK6X3", "title": "Sony PlayStation 5 Slim", "slug": "sony-playstation-5-slim", "category": "gaming-consoles", "rating": 4.7, "price": 449.99, "reviews": 65000, "affiliate_link": "https://www.amazon.com/dp/B0BC5KK6X3?tag=vh0805-20", "date": "2026-02-26"},
-    {"asin": "B0C4JFTF8H", "title": "Sony A7 IV Full Frame Camera", "slug": "sony-a7-iv-full-frame-camera", "category": "digital-cameras", "rating": 4.8, "price": 2498.00, "reviews": 8500, "affiliate_link": "https://www.amazon.com/dp/B0C4JFTF8H?tag=vh0805-20", "date": "2026-02-26"},
-    {"asin": "B09LM5GCQK", "title": "GoPro Hero 12 Black", "slug": "gopro-hero-12-black", "category": "action-cameras", "rating": 4.7, "price": 399.00, "reviews": 18000, "affiliate_link": "https://www.amazon.com/dp/B09LM5GCQK?tag=vh0805-20", "date": "2026-02-26"},
-    {"asin": "B09JWHDR2H", "title": "DJI Mini 4 Pro Drone", "slug": "dji-mini-4-pro-drone", "category": "drones", "rating": 4.7, "price": 759.00, "reviews": 12000, "affiliate_link": "https://www.amazon.com/dp/B09JWHDR2H?tag=vh0805-20", "date": "2026-02-26"},
+    {"asin": "B0CHX2F5QT", "title": "Apple MacBook Air 15 M3", "slug": "macbook-air-15-m3", "category": "laptops", "rating": 4.7, "price": 1299.00, "reviews": 8500, "affiliate_link": "https://www.amazon.com/dp/B0CHX2F5QT?tag=vh0805-20", "date": "2026-02-26"},
+    {"asin": "B0BC5KK6X3", "title": "Sony PlayStation 5 Slim", "slug": "ps5-slim", "category": "gaming-consoles", "rating": 4.7, "price": 449.99, "reviews": 65000, "affiliate_link": "https://www.amazon.com/dp/B0BC5KK6X3?tag=vh0805-20", "date": "2026-02-26"},
+    {"asin": "B0C4JFTF8H", "title": "Sony A7 IV Full Frame Camera", "slug": "sony-a7-iv", "category": "digital-cameras", "rating": 4.8, "price": 2498.00, "reviews": 8500, "affiliate_link": "https://www.amazon.com/dp/B0C4JFTF8H?tag=vh0805-20", "date": "2026-02-26"},
+    {"asin": "B09LM5GCQK", "title": "GoPro Hero 12 Black", "slug": "gopro-hero-12", "category": "action-cameras", "rating": 4.7, "price": 399.00, "reviews": 18000, "affiliate_link": "https://www.amazon.com/dp/B09LM5GCQK?tag=vh0805-20", "date": "2026-02-26"},
+    {"asin": "B09JWHDR2H", "title": "DJI Mini 4 Pro Drone", "slug": "dji-mini-4-pro", "category": "drones", "rating": 4.7, "price": 759.00, "reviews": 12000, "affiliate_link": "https://www.amazon.com/dp/B09JWHDR2H?tag=vh0805-20", "date": "2026-02-26"},
     {"asin": "B08GBZQ3DC", "title": "Dyson Pure Cool TP07", "slug": "dyson-pure-cool-tp07", "category": "air-purifiers", "rating": 4.4, "price": 549.00, "reviews": 12000, "affiliate_link": "https://www.amazon.com/dp/B08GBZQ3DC?tag=vh0805-20", "date": "2026-02-26"},
-    {"asin": "B0BJP2W7Q3", "title": "Roborock S8 Pro Ultra", "slug": "roborock-s8-pro-ultra", "category": "robot-vacuums", "rating": 4.6, "price": 1599.00, "reviews": 8500, "affiliate_link": "https://www.amazon.com/dp/B0BJP2W7Q3?tag=vh0805-20", "date": "2026-02-26"},
-    {"asin": "B09JLKRWPD", "title": "Keychron Q1 Pro Wireless Mechanical Keyboard", "slug": "keychron-q1-pro-mechanical-keyboard", "category": "mechanical-keyboards", "rating": 4.6, "price": 199.00, "reviews": 15000, "affiliate_link": "https://www.amazon.com/dp/B09JLKRWPD?tag=vh0805-20", "date": "2026-02-26"},
-    {"asin": "B0C9JY3RTW", "title": "Fitbit Charge 6", "slug": "fitbit-charge-6", "category": "fitness-trackers", "rating": 4.4, "price": 159.00, "reviews": 28000, "affiliate_link": "https://www.amazon.com/dp/B0C9JY3RTW?tag=vh0805-20", "date": "2026-02-26"}
+    {"asin": "B0BJP2W7Q3", "title": "Roborock S8 Pro Ultra", "slug": "roborock-s8-pro", "category": "robot-vacuums", "rating": 4.6, "price": 1599.00, "reviews": 8500, "affiliate_link": "https://www.amazon.com/dp/B0BJP2W7Q3?tag=vh0805-20", "date": "2026-02-26"},
+    {"asin": "B09JLKRWPD", "title": "Keychron Q1 Pro Mechanical Keyboard", "slug": "keychron-q1-pro", "category": "mechanical-keyboards", "rating": 4.6, "price": 199.00, "reviews": 15000, "affiliate_link": "https://www.amazon.com/dp/B09JLKRWPD?tag=vh0805-20", "date": "2026-02-26"},
+    {"asin": "B0C9JY3RTW", "title": "Fitbit Charge 6", "slug": "fitbit-charge-6", "category": "fitness-trackers", "rating": 4.4, "price": 159.00, "reviews": 28000, "affiliate_link": "https://www.amazon.com/dp/B0C9JY3RTW?tag=vh0805-20", "date": "2026-02-26"},
+    {"asin": "B08LTHM8C3", "title": "SteelSeries Apex Pro TKL", "slug": "steelseries-apex-pro", "category": "mechanical-keyboards", "rating": 4.5, "price": 179.00, "reviews": 22000, "affiliate_link": "https://www.amazon.com/dp/B08LTHM8C3?tag=vh0805-20", "date": "2026-02-26"}
   ],
   "categories": [
     {"id": "electronics", "name": "Electrónica", "count": 2},
@@ -23,9 +24,9 @@
     {"id": "drones", "name": "Drones", "count": 1},
     {"id": "air-purifiers", "name": "Purificadores", "count": 1},
     {"id": "robot-vacuums", "name": "Robots", "count": 1},
-    {"id": "mechanical-keyboards", "name": "Teclados", "count": 1},
+    {"id": "mechanical-keyboards", "name": "Teclados", "count": 2},
     {"id": "fitness-trackers", "name": "Fitness", "count": 1}
   ],
-  "total": 12,
-  "lastUpdate": "2026-02-26T01:42:00Z"
+  "total": 13,
+  "lastUpdate": "2026-02-26T01:49:00Z"
 }
