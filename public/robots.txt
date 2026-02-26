@@ -15,15 +15,15 @@ Disallow: /_next/
 Disallow: /*.json$
 Disallow: /*.js$
 
-# Crawl-delay (gentle)
+# Crawl-delay
 Crawl-delay: 1
 
-# Googlebot specific
+# Googlebot
 User-agent: Googlebot
 Allow: /
 Crawl-delay: 1
 
-# Other bots
+# Bingbot
 User-agent: Bingbot
 Allow: /
 Crawl-delay: 1

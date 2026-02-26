@@ -1,7 +1,7 @@
 // Enhanced product data with SEO descriptions
 // This file generates rich content for each product
 
-import productsData from './realProducts.json'
+import productsData from '../data/realProducts.json'
 
 const products = productsData.products || []
 

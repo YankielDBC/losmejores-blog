@@ -38,7 +38,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
       title,
       description,
       type: 'article',
-      publishedTime: product.date || new Date().toISOString(),
+      publishedTime: (product as any).date || new Date().toISOString(),
       authors: ['LosMejores.blog'],
       section: categoryFormatted,
       tags: [product.category?.replace(/-/g, ' ') || 'producto'],
