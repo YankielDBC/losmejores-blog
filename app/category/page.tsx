@@ -1,8 +1,8 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Star, ArrowRight, Grid3X3, Search } from 'lucide-react'
-import productsData from '../data/products.json'
+import { Star, ArrowRight, ArrowLeft, Search, Grid3X3 } from 'lucide-react'
+import productsData from '../../data/products.json'
 import Link from 'next/link'
 
 // Get unique categories with count
@@ -31,8 +31,9 @@ export default function CategoriesPage() {
       {/* Header */}
       <header className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 py-6">
-          <Link href="/" className="text-primary hover:text-accent font-medium">
-            ← Volver al inicio
+          <Link href="/" className="text-primary hover:text-accent font-medium flex items-center gap-2">
+            <ArrowLeft className="w-4 h-4" />
+            Volver al inicio
           </Link>
         </div>
       </header>
@@ -72,12 +73,12 @@ export default function CategoriesPage() {
                   className="block bg-white rounded-2xl p-6 shadow-md hover:shadow-xl hover:transform hover:-translate-y-1 transition-all"
                 >
                   <div className="flex items-center justify-between mb-3">
-                    <span className="text-2xl">📦</span>
+                    <span className="text-2xl font-light">▣</span>
                     <span className="text-xs bg-accent/20 text-primary px-2 py-1 rounded-full font-medium">
                       {category.count}
                     </span>
                   </div>
-                  <h3 className="font-bold text-primary mb-1">
+                  <h3 className="font-bold text-primary mb-1 capitalize">
                     {category.name}
                   </h3>
                   <p className="text-sm text-text-muted">
