@@ -5,20 +5,41 @@ import { Star, ArrowRight, Search, Filter } from 'lucide-react'
 import productsData from '../../data/realProducts.json'
 import Link from 'next/link'
 
-// Category image mapping
+// Category image mapping - Complete for all categories
 const categoryImages: Record<string, string> = {
-  'cameras': 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&h=400&fit=crop',
-  'monitors': 'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&h=400&fit=crop',
-  'best gaming monitors': 'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&h=400&fit=crop',
-  'best robot vacuums': 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop',
   'best wireless earbuds': 'https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&h=400&fit=crop',
-  'best air purifiers': 'https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600&h=400&fit=crop',
-  'best digital cameras': 'https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=600&h=400&fit=crop',
-  'best gaming consoles': 'https://images.unsplash.com/photo-1486401899868-0e435ed85128?w=600&h=400&fit=crop',
-  'best mechanical keyboards': 'https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=600&h=400&fit=crop',
-  'best smartwatches': 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&h=400&fit=crop',
-  'best laptops': 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600&h=400&fit=crop',
   'best headphones': 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=400&fit=crop',
+  'best gaming consoles': 'https://images.unsplash.com/photo-1486401899868-0e435ed85128?w=600&h=400&fit=crop',
+  'best smartwatches': 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&h=400&fit=crop',
+  'best e-readers': 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&h=400&fit=crop',
+  'best streaming devices': 'https://images.unsplash.com/photo-1593784991095-a205069470b6?w=600&h=400&fit=crop',
+  'best smart home': 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop',
+  'best smart speakers': 'https://images.unsplash.com/photo-1589003077984-894e133dabab?w=600&h=400&fit=crop',
+  'best tvs': 'https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=600&h=400&fit=crop',
+  'best robot vacuums': 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop',
+  'best laptops': 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600&h=400&fit=crop',
+  'best cell phones': 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&h=400&fit=crop',
+  'best tablets': 'https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=600&h=400&fit=crop',
+  'best computer accessories': 'https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&h=400&fit=crop',
+  'best mechanical keyboards': 'https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=600&h=400&fit=crop',
+  'best action cameras': 'https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&h=400&fit=crop',
+  'best portable chargers': 'https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=600&h=400&fit=crop',
+  'best bluetooth speakers': 'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=600&h=400&fit=crop',
+  'best fitness trackers': 'https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=600&h=400&fit=crop',
+  'best drones': 'https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=600&h=400&fit=crop',
+  'best vr headsets': 'https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?w=600&h=400&fit=crop',
+  'best gaming headsets': 'https://images.unsplash.com/photo-1599669454699-248893623440?w=600&h=400&fit=crop',
+  'best gaming laptops': 'https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=600&h=400&fit=crop',
+  'best kitchen appliances': 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=400&fit=crop',
+  'best hair care': 'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?w=600&h=400&fit=crop',
+  'best oral care': 'https://images.unsplash.com/photo-1559650656-5e7e3f496f97?w=600&h=400&fit=crop',
+  'best outdoor gear': 'https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=600&h=400&fit=crop',
+  'best fitness equipment': 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&h=400&fit=crop',
+  'best office furniture': 'https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=600&h=400&fit=crop',
+  'best gaming chairs': 'https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=600&h=400&fit=crop',
+  'best nintendo switch games': 'https://images.unsplash.com/photo-1578303512597-81e6cc155b3e?w=600&h=400&fit=crop',
+  'best playstation games': 'https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=600&h=400&fit=crop',
+  'best lego sets': 'https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=600&h=400&fit=crop',
 }
 
 // Get unique categories with count
@@ -57,7 +78,10 @@ export default async function CategoryPage(props: { params: Promise<{ slug: stri
   const category = categories.find((c: any) => c.slug === slug) || { name: slug.replace(/-/g, ' '), slug, count: 0 }
   const products = getProductsByCategory(slug)
   
-  const categoryImage = categoryImages[category.name.toLowerCase()] || 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&h=400&fit=crop'
+  // Use first product image as category image, or fallback
+  const categoryImage = products.length > 0 
+    ? (products[0].image || categoryImages[category.name.toLowerCase()])
+    : (categoryImages[category.name.toLowerCase()] || 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&h=400&fit=crop')
   
   if (!category) {
     return (
@@ -78,15 +102,15 @@ export default async function CategoryPage(props: { params: Promise<{ slug: stri
           <nav className="text-sm text-gray-400 mb-4">
             <Link href="/" className="hover:text-accent">Inicio</Link> / <span className="text-white">{category.name}</span>
           </nav>
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Mejores {category.name}
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 capitalize">
+            Mejores {category.name.replace('best ', '')}
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl">
-            Descubre nuestra selección de los mejores {category.name} del mercado. 
+            Descubre nuestra selección de los mejores {category.name.toLowerCase().replace('best ', '')} del mercado. 
             Reseñas detalladas y comparativas actualizadas para {new Date().getFullYear()}.
           </p>
           <p className="mt-4 text-accent font-semibold">
-            {products.length} productos analizados
+            {products.length} {products.length === 1 ? 'producto' : 'productos'} analizados
           </p>
         </div>
       </section>
@@ -94,63 +118,66 @@ export default async function CategoryPage(props: { params: Promise<{ slug: stri
       {/* Products Grid */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {products.map((product: any, index: number) => (
-              <motion.div
-                key={product.asin}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.1 }}
-                className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all hover:-translate-y-1"
-              >
-                {/* Product Image */}
-                <div className="h-48 bg-gradient-to-br from-gray-100 to-gray-200 relative overflow-hidden group">
-                  <img 
-                    src={product.image || `https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop`}
-                    alt={product.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                    onError={(e) => {
-                      (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop'
-                    }}
-                  />
-                  <div className="absolute top-3 right-3 bg-white/90 backdrop-blur-sm px-2 py-1 rounded-full text-xs font-bold text-primary shadow">
-                    #{index + 1}
+          {products.length > 0 ? (
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {products.map((product: any, index: number) => (
+                <motion.div
+                  key={product.asin}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: index * 0.1 }}
+                  className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all hover:-translate-y-1"
+                >
+                  {/* Product Image */}
+                  <div className="h-48 bg-gradient-to-br from-gray-100 to-gray-200 relative overflow-hidden group">
+                    <img 
+                      src={product.image || `https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop`}
+                      alt={product.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      onError={(e) => {
+                        (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop'
+                      }}
+                    />
+                    <div className="absolute top-3 right-3 bg-white/90 backdrop-blur-sm px-2 py-1 rounded-full text-xs font-bold text-primary shadow">
+                      #{index + 1}
+                    </div>
                   </div>
-                </div>
-                <div className="p-6">
-                  <div className="flex items-center gap-2 mb-2">
-                    {product.rating && (
-                      <div className="flex items-center gap-1">
-                        <Star className="w-4 h-4 text-yellow-500 fill-yellow-500" />
-                        <span className="text-sm font-medium">{product.rating}</span>
-                      </div>
+                  <div className="p-6">
+                    <div className="flex items-center gap-2 mb-2">
+                      {product.rating && (
+                        <div className="flex items-center gap-1">
+                          <Star className="w-4 h-4 text-yellow-500 fill-yellow-500" />
+                          <span className="text-sm font-medium">{product.rating}</span>
+                        </div>
+                      )}
+                      {product.reviews && (
+                        <span className="text-sm text-gray-500">({product.reviews.toLocaleString()})</span>
+                      )}
+                    </div>
+                    <h3 className="font-bold text-gray-900 mb-2 line-clamp-2 text-sm md:text-base">
+                      {product.title}
+                    </h3>
+                    {product.price > 0 && (
+                      <p className="text-2xl font-bold text-accent mb-4">
+                        ${product.price.toFixed(2)}
+                      </p>
                     )}
-                    {product.reviews && (
-                      <span className="text-sm text-gray-500">({product.reviews.toLocaleString()})</span>
-                    )}
+                    <Link
+                      href={`/reviews/${product.slug}`}
+                      className="inline-flex items-center gap-2 text-primary font-semibold hover:text-accent transition-colors"
+                    >
+                      Ver Review <ArrowRight className="w-4 h-4" />
+                    </Link>
                   </div>
-                  <h3 className="font-bold text-gray-900 mb-2 line-clamp-2 text-sm md:text-base">
-                    {product.title}
-                  </h3>
-                  {product.price > 0 && (
-                    <p className="text-2xl font-bold text-accent mb-4">
-                      ${product.price.toFixed(2)}
-                    </p>
-                  )}
-                  <Link
-                    href={`/reviews/${product.slug}`}
-                    className="inline-flex items-center gap-2 text-primary font-semibold hover:text-accent transition-colors"
-                  >
-                    Ver Review <ArrowRight className="w-4 h-4" />
-                  </Link>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-
-          {products.length === 0 && (
+                </motion.div>
+              ))}
+            </div>
+          ) : (
             <div className="text-center py-12">
-              <p className="text-gray-500">No hay productos en esta categoría todavía.</p>
+              <p className="text-gray-500 text-lg">No hay productos en esta categoría todavía.</p>
+              <Link href="/category" className="mt-4 inline-block text-accent hover:underline">
+                Ver todas las categorías
+              </Link>
             </div>
           )}
         </div>
@@ -159,12 +186,12 @@ export default async function CategoryPage(props: { params: Promise<{ slug: stri
       {/* SEO Content */}
       <section className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">
-            Guía de Compra: {category.name}
+          <h2 className="text-2xl font-bold text-gray-900 mb-4 capitalize">
+            Guía de Compra: Los mejores {category.name.replace('best ', '')}
           </h2>
           <div className="prose max-w-none text-gray-600">
             <p>
-              En LosMejores.blog analizamos los mejores {category.name} del mercado para ayudarte 
+              En LosMejores.blog analizamos los mejores {category.name.toLowerCase().replace('best ', '')} del mercado para ayudarte 
               a tomar la mejor decisión de compra. Nuestra metodología incluye investigación 
               exhaustiva, comparación de características y análisis de opiniones de usuarios reales.
             </p>
@@ -182,7 +209,7 @@ export default async function CategoryPage(props: { params: Promise<{ slug: stri
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Otras Categorías</h2>
           <div className="flex flex-wrap gap-3">
-            {categories.filter((c: any) => c.slug !== params.slug).map((cat: any) => (
+            {categories.filter((c: any) => c.slug !== params.slug).slice(0, 12).map((cat: any) => (
               <Link
                 key={cat.slug}
                 href={`/category/${cat.slug}`}
