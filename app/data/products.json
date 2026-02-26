@@ -1,22 +1,21 @@
 {
   "products": [
-    {"asin": "B09923906", "title": "Producto best mirrorless cameras - Review 2026", "slug": "producto-best-mirrorless-cameras---review-2026", "category": "cameras", "rating": 4.5, "price": 0, "image": "/images/cameras.jpg", "date": "2026-02-26"},
-    {"asin": "B09718795", "title": "Producto best gaming monitors - Review 2026", "slug": "producto-best-gaming-monitors---review-2026", "category": "gaming", "rating": 4.3, "price": 0, "image": "/images/monitors.jpg", "date": "2026-02-26"},
-    {"asin": "B09781507", "title": "Premium Best Gaming Monitors - Best Seller 2026", "slug": "premium-best-gaming-monitors---best-seller-2026", "category": "gaming", "rating": 4.0, "price": 413.43, "image": "/images/gaming-monitors.jpg", "date": "2026-02-26"},
-    {"asin": "B09497174", "title": "Premium Best Robot Vacuums - Best Seller 2026", "slug": "premium-best-robot-vacuums---best-seller-2026", "category": "home", "rating": 4.4, "price": 318.39, "image": "/images/robot-vacuums.jpg", "date": "2026-02-26"},
-    {"asin": "B09141758", "title": "Premium Best Wireless Earbuds - Best Seller 2026", "slug": "premium-best-wireless-earbuds---best-seller-2026", "category": "audio", "rating": 4.7, "price": 320.80, "image": "/images/wireless-earbuds.jpg", "date": "2026-02-26"},
-    {"asin": "B09139712", "title": "Premium Best Air Purifiers - Best Seller 2026", "slug": "premium-best-air-purifiers---best-seller-2026", "category": "home", "rating": 4.5, "price": 317.42, "image": "/images/air-purifiers.jpg", "date": "2026-02-26"},
-    {"asin": "B09882165", "title": "Premium Best Digital Cameras - Best Seller 2026", "slug": "premium-best-digital-cameras---best-seller-2026", "category": "cameras", "rating": 4.6, "price": 260.13, "image": "/images/digital-cameras.jpg", "date": "2026-02-26"},
-    {"asin": "B09165554", "title": "Premium Best Gaming Consoles - Best Seller 2026", "slug": "premium-best-gaming-consoles---best-seller-2026", "category": "gaming", "rating": 4.3, "price": 481.57, "image": "/images/gaming-consoles.jpg", "date": "2026-02-26"}
+    {"asin": "B09923906", "title": "Producto best mirrorless cameras - Review 2026", "slug": "producto-best-mirrorless-cameras---review-2026", "category": "cameras", "rating": 4.5, "price": 0, "date": "2026-02-26"},
+    {"asin": "B09718795", "title": "Producto best gaming monitors - Review 2026", "slug": "producto-best-gaming-monitors---review-2026", "category": "gaming", "rating": 4.3, "price": 0, "date": "2026-02-26"},
+    {"asin": "B09781507", "title": "Premium Best Gaming Monitors - Best Seller 2026", "slug": "premium-best-gaming-monitors---best-seller-2026", "category": "gaming", "rating": 4.0, "price": 413.43, "date": "2026-02-26"},
+    {"asin": "B09497174", "title": "Premium Best Robot Vacuums - Best Seller 2026", "slug": "premium-best-robot-vacuums---best-seller-2026", "category": "home", "rating": 4.4, "price": 318.39, "date": "2026-02-26"},
+    {"asin": "B09141758", "title": "Premium Best Wireless Earbuds - Best Seller 2026", "slug": "premium-best-wireless-earbuds---best-seller-2026", "category": "audio", "rating": 4.7, "price": 320.80, "date": "2026-02-26"},
+    {"asin": "B09139712", "title": "Premium Best Air Purifiers - Best Seller 2026", "slug": "premium-best-air-purifiers---best-seller-2026", "category": "home", "rating": 4.5, "price": 317.42, "date": "2026-02-26"},
+    {"asin": "B09882165", "title": "Premium Best Digital Cameras - Best Seller 2026", "slug": "premium-best-digital-cameras---best-seller-2026", "category": "cameras", "rating": 4.6, "price": 260.13, "date": "2026-02-26"},
+    {"asin": "B09165554", "title": "Premium Best Gaming Consoles - Best Seller 2026", "slug": "premium-best-gaming-consoles---best-seller-2026", "category": "gaming", "rating": 4.3, "price": 481.57, "date": "2026-02-26"},
+    {"asin": "B09261425", "title": "Premium Best Mechanical Keyboards - Best Seller 2026", "slug": "premium-best-mechanical-keyboards---best-seller-2026", "category": "gaming", "rating": 4.1, "price": 301.89, "date": "2026-02-26"}
   ],
   "categories": [
-    {"id": "electronics", "name": "Electrónica", "slug": "electronics", "count": 0},
-    {"id": "gaming", "name": "Gaming", "slug": "gaming", "count": 3},
-    {"id": "home", "name": "Hogar", "slug": "home", "count": 2},
-    {"id": "fitness", "name": "Fitness", "slug": "fitness", "count": 0},
-    {"id": "audio", "name": "Audio", "slug": "audio", "count": 1},
-    {"id": "cameras", "name": "Cámaras", "slug": "cameras", "count": 2}
+    {"id": "gaming", "name": "Gaming", "count": 4},
+    {"id": "home", "name": "Hogar", "count": 2},
+    {"id": "audio", "name": "Audio", "count": 1},
+    {"id": "cameras", "name": "Cámaras", "count": 2}
   ],
-  "lastUpdate": "2026-02-26T01:28:00Z",
-  "total": 8
+  "total": 9,
+  "lastUpdate": "2026-02-26T01:33:00Z"
 }
