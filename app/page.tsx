@@ -461,7 +461,8 @@ function Featured() {
   }
   
   const getProductImage = (product: any) => {
-    return featuredImages[product.category?.toLowerCase()] || featuredImages['default'] || 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop'
+    // Use real Amazon image if available, otherwise fallback to category image
+    return product.image || featuredImages[product.category?.toLowerCase()] || featuredImages['default'] || 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop'
   }
   
   return (
