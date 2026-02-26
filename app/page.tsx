@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Search, Star, TrendingUp, Shield, ArrowRight, CheckCircle, Menu, X, Mail, Cpu, Gamepad2, Home, Dumbbell, Headphones, Camera, ChevronDown, Sparkles } from 'lucide-react'
-import productsData from './data/products.json'
+import productsData from './data/realProducts.json'
 import Link from 'next/link'
 
 // Icon mapping
@@ -444,6 +444,26 @@ function About() {
 function Featured() {
   const featured = getFeaturedProducts()
   
+  // Featured product images
+  const featuredImages: Record<string, string> = {
+    'cameras': 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400&h=300&fit=crop',
+    'monitors': 'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=400&h=300&fit=crop',
+    'best gaming monitors': 'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=400&h=300&fit=crop',
+    'best robot vacuums': 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop',
+    'best wireless earbuds': 'https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=400&h=300&fit=crop',
+    'best air purifiers': 'https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=400&h=300&fit=crop',
+    'best digital cameras': 'https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=400&h=300&fit=crop',
+    'best gaming consoles': 'https://images.unsplash.com/photo-1486401899868-0e435ed85128?w=400&h=300&fit=crop',
+    'best mechanical keyboards': 'https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=400&h=300&fit=crop',
+    'best smartwatches': 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop',
+    'best laptops': 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=300&fit=crop',
+    'best headphones': 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop',
+  }
+  
+  const getProductImage = (product: any) => {
+    return featuredImages[product.category?.toLowerCase()] || featuredImages['default'] || 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop'
+  }
+  
   return (
     <section id="featured" className="py-24 bg-gradient-to-br from-accent/5 via-white to-accent/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -470,11 +490,15 @@ function Featured() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              className="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
+              className="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-all hover:-translate-y-2"
             >
               <Link href={`/reviews/${product.slug}`}>
-                <div className="h-40 bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center relative">
-                  <span className="text-5xl">★</span>
+                <div className="h-48 bg-gray-100 relative overflow-hidden group">
+                  <img 
+                    src={getProductImage(product)}
+                    alt={product.title}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
                   <div className="absolute top-3 right-3 bg-accent text-white text-xs font-bold px-2 py-1 rounded-full">
                     #{index + 1}
                   </div>

@@ -2,8 +2,24 @@
 
 import { motion } from 'framer-motion'
 import { Star, ArrowRight, Search, Filter } from 'lucide-react'
-import productsData from '../../data/products.json'
+import productsData from '../../data/realProducts.json'
 import Link from 'next/link'
+
+// Category image mapping
+const categoryImages: Record<string, string> = {
+  'cameras': 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&h=400&fit=crop',
+  'monitors': 'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&h=400&fit=crop',
+  'best gaming monitors': 'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600&h=400&fit=crop',
+  'best robot vacuums': 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop',
+  'best wireless earbuds': 'https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&h=400&fit=crop',
+  'best air purifiers': 'https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600&h=400&fit=crop',
+  'best digital cameras': 'https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=600&h=400&fit=crop',
+  'best gaming consoles': 'https://images.unsplash.com/photo-1486401899868-0e435ed85128?w=600&h=400&fit=crop',
+  'best mechanical keyboards': 'https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=600&h=400&fit=crop',
+  'best smartwatches': 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&h=400&fit=crop',
+  'best laptops': 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600&h=400&fit=crop',
+  'best headphones': 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=400&fit=crop',
+}
 
 // Get unique categories with count
 function getCategories() {
@@ -23,20 +39,25 @@ function getCategories() {
   return Array.from(categoryMap.values())
 }
 
-// Get products by category
+// Get products by category - improved matching
 function getProductsByCategory(categorySlug: string) {
   const products = productsData.products || []
-  const cat = categorySlug.replace(/-/g, ' ')
-  return products.filter((p: any) => 
-    p.category.toLowerCase().includes(cat) || 
-    cat.includes(p.category.toLowerCase())
-  )
+  const searchTerm = categorySlug.replace(/-/g, ' ').toLowerCase()
+  
+  return products.filter((p: any) => {
+    const productCat = (p.category || '').toLowerCase()
+    return productCat.includes(searchTerm) || searchTerm.includes(productCat)
+  })
 }
 
-export default function CategoryPage({ params }: { params: { slug: string } }) {
+export default async function CategoryPage(props: { params: Promise<{ slug: string }> }) {
+  const params = await props.params
+  const slug = params.slug
   const categories = getCategories()
-  const category = categories.find((c: any) => c.slug === params.slug)
-  const products = getProductsByCategory(params.slug)
+  const category = categories.find((c: any) => c.slug === slug) || { name: slug.replace(/-/g, ' '), slug, count: 0 }
+  const products = getProductsByCategory(slug)
+  
+  const categoryImage = categoryImages[category.name.toLowerCase()] || 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&h=400&fit=crop'
   
   if (!category) {
     return (
@@ -80,10 +101,21 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
-                className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
+                className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all hover:-translate-y-1"
               >
-                <div className="h-48 bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center">
-                  <span className="text-6xl">⭐</span>
+                {/* Product Image */}
+                <div className="h-48 bg-gradient-to-br from-gray-100 to-gray-200 relative overflow-hidden group">
+                  <img 
+                    src={product.image || `https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop`}
+                    alt={product.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    onError={(e) => {
+                      (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop'
+                    }}
+                  />
+                  <div className="absolute top-3 right-3 bg-white/90 backdrop-blur-sm px-2 py-1 rounded-full text-xs font-bold text-primary shadow">
+                    #{index + 1}
+                  </div>
                 </div>
                 <div className="p-6">
                   <div className="flex items-center gap-2 mb-2">
@@ -94,10 +126,10 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
                       </div>
                     )}
                     {product.reviews && (
-                      <span className="text-sm text-gray-500">({product.reviews})</span>
+                      <span className="text-sm text-gray-500">({product.reviews.toLocaleString()})</span>
                     )}
                   </div>
-                  <h3 className="font-bold text-gray-900 mb-2 line-clamp-2">
+                  <h3 className="font-bold text-gray-900 mb-2 line-clamp-2 text-sm md:text-base">
                     {product.title}
                   </h3>
                   {product.price > 0 && (
