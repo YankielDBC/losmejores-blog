@@ -1,9 +1,17 @@
 'use client'
 
+import React from 'react'
 import { motion } from 'framer-motion'
-import { Star, ArrowRight, ArrowLeft, Search, Grid3X3 } from 'lucide-react'
+import { Star, ArrowRight, ArrowLeft, Search, Grid3X3, Headphones, Gamepad2, Watch, BookOpen, Tv, Home, Speaker, Laptop, Smartphone, Mouse, Keyboard, Camera, Battery, Drone, VR, ChefHat, Broom, Basket, Sofa, Armchair, Lightbulb, Tent, Dumbbell, Blocks } from 'lucide-react'
 import productsData from '../data/realProducts.json'
 import Link from 'next/link'
+
+// Icon mapping
+const iconMap: Record<string, any> = {
+  Headphones, Gamepad2, Watch, BookOpen, Tv, Home, Speaker, 
+  Laptop, Smartphone, Mouse, Keyboard, Camera, Battery, Drone, VR,
+  ChefHat, Broom, Basket, Sofa, Armchair, Lightbulb, Tent, Dumbbell, Blocks, Star
+}
 
 // Category images and colors mapping - All real categories
 const categoryConfig: Record<string, { image: string; gradient: string; icon: string }> = {
@@ -11,123 +19,123 @@ const categoryConfig: Record<string, { image: string; gradient: string; icon: st
   'best-wireless-earbuds': { 
     image: 'https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=400&h=300&fit=crop',
     gradient: 'from-violet-500 to-purple-400',
-    icon: '🎧'
+    icon: 'Headphones'
   },
   'best-headphones': { 
     image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop',
     gradient: 'from-zinc-500 to-neutral-400',
-    icon: '🎧'
+    icon: 'Headphones'
   },
   'best-gaming-consoles': { 
     image: 'https://images.unsplash.com/photo-1486401899868-0e435ed85128?w=400&h=300&fit=crop',
     gradient: 'from-emerald-500 to-green-400',
-    icon: '🎮'
+    icon: 'Gamepad2'
   },
   'best-smartwatches': { 
     image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop',
     gradient: 'from-blue-600 to-indigo-400',
-    icon: '⌚'
+    icon: 'Watch'
   },
   'best-e-readers': { 
     image: 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400&h=300&fit=crop',
     gradient: 'from-amber-500 to-orange-400',
-    icon: '📚'
+    icon: 'BookOpen'
   },
   'best-streaming-devices': { 
     image: 'https://images.unsplash.com/photo-1593784991095-a205069470b6?w=400&h=300&fit=crop',
     gradient: 'from-red-500 to-rose-400',
-    icon: '📺'
+    icon: 'Tv'
   },
   'best-smart-home': { 
     image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop',
     gradient: 'from-teal-500 to-cyan-400',
-    icon: '🏠'
+    icon: 'Home'
   },
   'best-smart-speakers': { 
     image: 'https://images.unsplash.com/photo-1589003077984-894e133dabab?w=400&h=300&fit=crop',
     gradient: 'from-sky-500 to-blue-400',
-    icon: '🔊'
+    icon: 'Speaker'
   },
   'best-tvs': { 
     image: 'https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=400&h=300&fit=crop',
     gradient: 'from-indigo-500 to-purple-400',
-    icon: '📺'
+    icon: 'Tv'
   },
   'best-robot-vacuums': { 
     image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop',
     gradient: 'from-gray-500 to-slate-400',
-    icon: '🤖'
+    icon: 'Home'
   },
   'best-laptops': { 
     image: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=300&fit=crop',
     gradient: 'from-slate-600 to-gray-400',
-    icon: '💻'
+    icon: 'Laptop'
   },
   'best-cell-phones': { 
     image: 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=300&fit=crop',
     gradient: 'from-blue-500 to-cyan-400',
-    icon: '📱'
+    icon: 'Smartphone'
   },
   'best-tablets': { 
     image: 'https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400&h=300&fit=crop',
     gradient: 'from-purple-500 to-pink-400',
-    icon: '📱'
+    icon: 'Smartphone'
   },
   'best-computer-accessories': { 
     image: 'https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400&h=300&fit=crop',
     gradient: 'from-orange-500 to-amber-400',
-    icon: '🖱️'
+    icon: 'Mouse'
   },
   'best-mechanical-keyboards': { 
     image: 'https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=400&h=300&fit=crop',
     gradient: 'from-rose-500 to-pink-400',
-    icon: '⌨️'
+    icon: 'Keyboard'
   },
   'best-action-cameras': { 
     image: 'https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=400&h=300&fit=crop',
     gradient: 'from-gray-600 to-slate-400',
-    icon: '📷'
+    icon: 'Camera'
   },
   'best-portable-chargers': { 
     image: 'https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=400&h=300&fit=crop',
     gradient: 'from-green-500 to-emerald-400',
-    icon: '🔋'
+    icon: 'Battery'
   },
   'best-bluetooth-speakers': { 
     image: 'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=300&fit=crop',
     gradient: 'from-cyan-500 to-blue-400',
-    icon: '🔊'
+    icon: 'Speaker'
   },
   'best-fitness-trackers': { 
     image: 'https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=400&h=300&fit=crop',
     gradient: 'from-green-500 to-teal-400',
-    icon: '⌚'
+    icon: 'Watch'
   },
   'best-drones': { 
     image: 'https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=400&h=300&fit=crop',
     gradient: 'from-slate-500 to-gray-400',
-    icon: '🚁'
+    icon: 'Drone'
   },
   'best-vr-headsets': { 
     image: 'https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?w=400&h=300&fit=crop',
     gradient: 'from-indigo-600 to-purple-400',
-    icon: '🥽'
+    icon: 'VR'
   },
   'best-gaming-headsets': { 
     image: 'https://images.unsplash.com/photo-1599669454699-248893623440?w=400&h=300&fit=crop',
     gradient: 'from-violet-500 to-fuchsia-400',
-    icon: '🎧'
+    icon: 'Headphones'
   },
   'best-gaming-laptops': { 
     image: 'https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=400&h=300&fit=crop',
     gradient: 'from-red-500 to-orange-400',
-    icon: '💻'
+    icon: 'Laptop'
   },
   // Home & Kitchen
   'best-kitchen-appliances': { 
     image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop',
     gradient: 'from-amber-500 to-yellow-400',
-    icon: '🍳'
+    icon: 'ChefHat'
   },
   'best-hair-care': { 
     image: 'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?w=400&h=300&fit=crop',
@@ -142,44 +150,44 @@ const categoryConfig: Record<string, { image: string; gradient: string; icon: st
   'best-outdoor-gear': { 
     image: 'https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=400&h=300&fit=crop',
     gradient: 'from-green-600 to-emerald-400',
-    icon: '⛺'
+    icon: 'Tent'
   },
   'best-fitness-equipment': { 
     image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400&h=300&fit=crop',
     gradient: 'from-orange-500 to-red-400',
-    icon: '🏋️'
+    icon: 'Dumbbell'
   },
   'best-office-furniture': { 
     image: 'https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=400&h=300&fit=crop',
     gradient: 'from-brown-500 to-amber-400',
-    icon: '🪑'
+    icon: 'Armchair'
   },
   'best-gaming-chairs': { 
     image: 'https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=400&h=300&fit=crop',
     gradient: 'from-red-600 to-orange-400',
-    icon: '🪑'
+    icon: 'Armchair'
   },
   // Games & Toys
   'best-nintendo-switch-games': { 
     image: 'https://images.unsplash.com/photo-1578303512597-81e6cc155b3e?w=400&h=300&fit=crop',
     gradient: 'from-red-500 to-pink-400',
-    icon: '🎮'
+    icon: 'Gamepad2'
   },
   'best-playstation-games': { 
     image: 'https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=400&h=300&fit=crop',
     gradient: 'from-blue-600 to-indigo-400',
-    icon: '🎮'
+    icon: 'Gamepad2'
   },
   'best-lego-sets': { 
     image: 'https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=400&h=300&fit=crop',
     gradient: 'from-yellow-500 to-orange-400',
-    icon: '🧱'
+    icon: 'Blocks'
   },
   // Fallback
   default: { 
     image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop',
     gradient: 'from-indigo-500 to-violet-400',
-    icon: '⭐'
+    icon: 'Star'
   }
 }
 
@@ -268,8 +276,12 @@ export default function CategoriesPage() {
                       />
                     )}
                     <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors" />
-                    <span className="absolute bottom-2 right-2 text-3xl drop-shadow-lg">
-                      {category.icon || '⭐'}
+                    <span className="absolute bottom-2 right-2">
+                      {category.icon && iconMap[category.icon] ? (
+                        React.createElement(iconMap[category.icon], { className: "w-8 h-8 text-white drop-shadow-lg" })
+                      ) : (
+                        React.createElement(Star, { className: "w-8 h-8 text-white drop-shadow-lg" })
+                      )}
                     </span>
                   </div>
                   <div className="p-5">
