@@ -57,7 +57,7 @@ function getCategories() {
     }
   })
   
-  return Array.from(categoryMap.values())
+  return Array.from(categoryMap.values()).sort((a: any, b: any) => b.count - a.count)
 }
 
 // Get products by category - improved matching
@@ -73,10 +73,10 @@ function getProductsByCategory(categorySlug: string) {
 
 export default async function CategoryPage(props: { params: Promise<{ slug: string }> }) {
   const params = await props.params
-  const slug = params.slug
+  const currentSlug = params.slug
   const categories = getCategories()
-  const category = categories.find((c: any) => c.slug === slug) || { name: slug.replace(/-/g, ' '), slug, count: 0 }
-  const products = getProductsByCategory(slug)
+  const category = categories.find((c: any) => c.slug === currentSlug) || { name: currentSlug.replace(/-/g, ' '), slug: currentSlug, count: 0 }
+  const products = getProductsByCategory(currentSlug)
   
   // Use first product image as category image, or fallback
   const categoryImage = products.length > 0 
@@ -220,7 +220,7 @@ export default async function CategoryPage(props: { params: Promise<{ slug: stri
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Otras Categorías</h2>
           <div className="flex flex-wrap gap-3">
-            {categories.filter((c: any) => c.slug !== params.slug).slice(0, 12).map((cat: any) => (
+            {categories.filter((c: any) => c.slug !== currentSlug).slice(0, 12).map((cat: any) => (
               <Link
                 key={cat.slug}
                 href={`/category/${cat.slug}`}

@@ -250,7 +250,7 @@ export default function ReviewPage() {
         <div className="max-w-7xl mx-auto px-4">
           <nav className="text-sm text-gray-400 mb-6">
             <Link href="/" className="hover:text-accent">Inicio</Link> / 
-            <Link href={`/category/${product.category}`} className="hover:text-accent ml-1 capitalize">{product.category.replace(/-/g, ' ')}</Link> / 
+            <Link href={`/category/${product.category.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '')}`} className="hover:text-accent ml-1 capitalize">{product.category.replace(/-/g, ' ')}</Link> / 
             <span className="text-white ml-1">Review</span>
           </nav>
           
@@ -290,7 +290,7 @@ export default function ReviewPage() {
                   <ExternalLink className="w-5 h-5" />
                 </a>
                 <Link
-                  href={`/category/${product.category}`}
+                  href={`/category/${product.category.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '')}`}
                   className="inline-flex items-center justify-center gap-2 border-2 border-white/30 text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/10 transition-all"
                 >
                   Ver más en {product.category.replace(/-/g, ' ')}
