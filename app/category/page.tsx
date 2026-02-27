@@ -2,15 +2,15 @@
 
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Star, ArrowRight, ArrowLeft, Search, Grid3X3, Headphones, Gamepad2, Watch, BookOpen, Tv, Home, Speaker, Laptop, Smartphone, Mouse, Keyboard, Camera, Battery, Drone, VR, ChefHat, Broom, Basket, Sofa, Armchair, Lightbulb, Tent, Dumbbell, Blocks } from 'lucide-react'
+import { Star, ArrowRight, ArrowLeft, Search, Grid3X3, Headphones, Gamepad2, Watch, BookOpen, Tv, Home, Speaker, Laptop, Smartphone, Mouse, Keyboard, Camera, Battery, Drone, Glasses, ChefHat, ShoppingBag, Sofa, Armchair, Lightbulb, Tent, Dumbbell, Blocks } from 'lucide-react'
 import productsData from '../data/realProducts.json'
 import Link from 'next/link'
 
 // Icon mapping
 const iconMap: Record<string, any> = {
   Headphones, Gamepad2, Watch, BookOpen, Tv, Home, Speaker, 
-  Laptop, Smartphone, Mouse, Keyboard, Camera, Battery, Drone, VR,
-  ChefHat, Broom, Basket, Sofa, Armchair, Lightbulb, Tent, Dumbbell, Blocks, Star
+  Laptop, Smartphone, Mouse, Keyboard, Camera, Battery, Drone, Glasses,
+  ChefHat, ShoppingBag, Sofa, Armchair, Lightbulb, Tent, Dumbbell, Blocks, Star
 }
 
 // Category images and colors mapping - All real categories
@@ -119,7 +119,7 @@ const categoryConfig: Record<string, { image: string; gradient: string; icon: st
   'best-vr-headsets': { 
     image: 'https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?w=400&h=300&fit=crop',
     gradient: 'from-indigo-600 to-purple-400',
-    icon: 'VR'
+    icon: 'Glasses'
   },
   'best-gaming-headsets': { 
     image: 'https://images.unsplash.com/photo-1599669454699-248893623440?w=400&h=300&fit=crop',
