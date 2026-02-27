@@ -58,6 +58,16 @@ const realProducts = [
   {asin: 'B0BQRH7QZS', title: 'Garmin Forerunner 265 - Running', price: 499.99, rating: 4.7, reviews: 3456, category: 'smartwatches', image: 'https://m.media-amazon.com/images/I/71xyE4uD8eL._AC_SL1500_.jpg'},
   {asin: 'B07XJ8C8F5', title: 'Fitbit Sense 2 - Salud', price: 249.95, rating: 4.4, reviews: 9876, category: 'smartwatches', image: 'https://m.media-amazon.com/images/I/71r3dLkXxNL._AC_SL1500_.jpg'},
   
+  // === VIDEO GAMES (Best Sellers 27 Feb 2026) ===
+  {asin: 'B07RZ74VLR', title: 'Roblox Gift Card 1,000 Robux - Digital', price: 10.00, rating: 4.5, reviews: 80837, category: 'video-games', image: 'https://m.media-amazon.com/images/I/51Po2NiGuJL._AC_SL1500_.jpg'},
+  {asin: 'B0F1HX3WXX', title: 'Xbox Wireless Gaming Controller 2025', price: 43.49, rating: 4.6, reviews: 26417, category: 'video-games', image: 'https://m.media-amazon.com/images/I/61Y+Kgw0QcL._AC_SL1500_.jpg'},
+  {asin: 'B0FY6Y9WZT', title: 'PlayStation DualSense Controller - Midnight Black', price: 74.88, rating: 4.7, reviews: 1125, category: 'video-games', image: 'https://m.media-amazon.com/images/I/71V0yEaEPJL._AC_SL1500_.jpg'},
+  
+  // === BEAUTY (Best Sellers 27 Feb 2026) ===
+  {asin: 'B09V7Z4TJG', title: 'Medicube Zero Pore Pad 2.0 - Korean Skin Care', price: 18.90, rating: 4.6, reviews: 18280, category: 'beauty', image: 'https://m.media-amazon.com/images/I/71w+GCr5R9L._AC_SL1500_.jpg'},
+  {asin: 'B08KT2Z93D', title: 'eos Shea Better Body Lotion - Vanilla Cashmere', price: 9.97, rating: 4.7, reviews: 64413, category: 'beauty', image: 'https://m.media-amazon.com/images/I/71gR5x4KVML._AC_SL1500_.jpg'},
+  {asin: 'B074PVTPBW', title: 'Mighty Patch Original - Hydrocolloid Acne Patches', price: 15.99, rating: 4.6, reviews: 181800, category: 'beauty', image: 'https://m.media-amazon.com/images/I/81W9XZ9JwWL._AC_SL1500_.jpg'},
+  
   // === ROBOT VACUUMS ===
   {asin: 'B0BSHFDQ9P', title: 'iRobot Roomba j9+ - Premium', price: 799.99, rating: 4.6, reviews: 5678, category: 'robot-vacuums', image: 'https://m.media-amazon.com/images/I/71kQPKS1N2L._AC_SL1500_.jpg'},
   {asin: 'B0C2XJMT4R', title: 'Roborock Q8 Max - Medio', price: 549.99, rating: 4.5, reviews: 3456, category: 'robot-vacuums', image: 'https://m.media-amazon.com/images/I/81W9XZ9JwWL._AC_SL1500_.jpg'},
