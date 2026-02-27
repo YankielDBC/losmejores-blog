@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 const products = require('./app/data/products.json');
 
 const newProducts = [
@@ -31,5 +32,6 @@ const formatted = newProducts.map(p => ({
 }));
 
 products.products = [...products.products, ...formatted];
-fs.writeFileSync('./app/data/products.json', JSON.stringify(products, null, 2));
+const outputPath = path.join(__dirname, 'app/data/products.json');
+fs.writeFileSync(outputPath, JSON.stringify(products, null, 2));
 console.log('Added', formatted.length, 'products. Total:', products.products.length);
