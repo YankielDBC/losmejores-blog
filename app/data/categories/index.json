@@ -1,21 +1,69 @@
 {
   "total": 1065,
   "categories": {
-    "headphones": { "count": 10, "file": "categories/headphones.json" },
-    "grills": { "count": 91, "file": "categories/grills.json" },
-    "kitchen": { "count": 91, "file": "categories/kitchen.json" },
-    "homeimprovement": { "count": 6, "file": "categories/homeimprovement.json" },
-    "cellphones": { "count": 10, "file": "categories/cellphones.json" },
-    "electronics": { "count": 108, "file": "categories/electronics.json" },
-    "computers": { "count": 15, "file": "categories/computers.json" },
-    "audio": { "count": 91, "file": "categories/audio.json" },
-    "gaming": { "count": 91, "file": "categories/gaming.json" },
-    "kindle": { "count": 91, "file": "categories/kindle.json" },
-    "fitness": { "count": 91, "file": "categories/fitness.json" },
-    "smartwatches": { "count": 91, "file": "categories/smartwatches.json" },
-    "home": { "count": 91, "file": "categories/home.json" },
-    "videogames": { "count": 6, "file": "categories/videogames.json" },
-    "smart-home": { "count": 91, "file": "categories/smart-home.json" },
-    "streaming": { "count": 91, "file": "categories/streaming.json" }
+    "headphones": {
+      "count": 10,
+      "file": "categories/headphones.json"
+    },
+    "grills": {
+      "count": 91,
+      "file": "categories/grills.json"
+    },
+    "kitchen": {
+      "count": 91,
+      "file": "categories/kitchen.json"
+    },
+    "homeimprovement": {
+      "count": 6,
+      "file": "categories/homeimprovement.json"
+    },
+    "cellphones": {
+      "count": 10,
+      "file": "categories/cellphones.json"
+    },
+    "electronics": {
+      "count": 108,
+      "file": "categories/electronics.json"
+    },
+    "computers": {
+      "count": 15,
+      "file": "categories/computers.json"
+    },
+    "audio": {
+      "count": 91,
+      "file": "categories/audio.json"
+    },
+    "gaming": {
+      "count": 91,
+      "file": "categories/gaming.json"
+    },
+    "kindle": {
+      "count": 91,
+      "file": "categories/kindle.json"
+    },
+    "fitness": {
+      "count": 91,
+      "file": "categories/fitness.json"
+    },
+    "smartwatches": {
+      "count": 91,
+      "file": "categories/smartwatches.json"
+    },
+    "home": {
+      "count": 91,
+      "file": "categories/home.json"
+    },
+    "videogames": {
+      "count": 6,
+      "file": "categories/videogames.json"
+    },
+    "smart-home": {
+      "count": 91,
+      "file": "categories/smart-home.json"
+    },
+    "streaming": {
+      "count": 91,
+      "file": "categories/streaming.json"
+    }
   }
 }

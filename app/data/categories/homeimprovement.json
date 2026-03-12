@@ -1,74 +1,74 @@
-﻿[
-    {
-        "id":  1060,
-        "asin":  "B0BDF8CVBN",
-        "title":  "MCGOR 10inch Under Cabinet Lighting 2 Pack",
-        "price":  15.96,
-        "rating":  4.5,
-        "reviews":  50841,
-        "category":  "homeimprovement",
-        "slug":  "mcgor-10inch-under-cabinet-lighting-2-pack-1060",
-        "image":  "https://m.media-amazon.com/images/I/B0BDF8CVBN.jpg",
-        "affiliateLink":  "https://www.amazon.com/dp/B0BDF8CVBN?tag=vh0805-20"
-    },
-    {
-        "id":  1061,
-        "asin":  "B00CJZ8LAK",
-        "title":  "FilterBuy 20x20x1 Air Filter MERV 8 4-Pack",
-        "price":  29.96,
-        "rating":  4.7,
-        "reviews":  155491,
-        "category":  "homeimprovement",
-        "slug":  "filterbuy-20x20x1-air-filter-merv-8-4-pack-1061",
-        "image":  "https://m.media-amazon.com/images/I/B00CJZ8LAK.jpg",
-        "affiliateLink":  "https://www.amazon.com/dp/B00CJZ8LAK?tag=vh0805-20"
-    },
-    {
-        "id":  1062,
-        "asin":  "B0882ZJ48W",
-        "title":  "GE XWFE Refrigerator Water Filter",
-        "price":  49.98,
-        "rating":  4.5,
-        "reviews":  39341,
-        "category":  "homeimprovement",
-        "slug":  "ge-xwfe-refrigerator-water-filter-1062",
-        "image":  "https://m.media-amazon.com/images/I/B0882ZJ48W.jpg",
-        "affiliateLink":  "https://www.amazon.com/dp/B0882ZJ48W?tag=vh0805-20"
-    },
-    {
-        "id":  1063,
-        "asin":  "B0D18VS397",
-        "title":  "Inspire Black Nitrile Disposable Gloves 4.5mil",
-        "price":  8.99,
-        "rating":  4.6,
-        "reviews":  4399,
-        "category":  "homeimprovement",
-        "slug":  "inspire-black-nitrile-disposable-gloves-4-5mi-1063",
-        "image":  "https://m.media-amazon.com/images/I/B0D18VS397.jpg",
-        "affiliateLink":  "https://www.amazon.com/dp/B0D18VS397?tag=vh0805-20"
-    },
-    {
-        "id":  1064,
-        "asin":  "B00UXG4WR8",
-        "title":  "everydrop Refrigerator Water Filter 1",
-        "price":  57,
-        "rating":  4.7,
-        "reviews":  106979,
-        "category":  "homeimprovement",
-        "slug":  "everydrop-refrigerator-water-filter-1-1064",
-        "image":  "https://m.media-amazon.com/images/I/B00UXG4WR8.jpg",
-        "affiliateLink":  "https://www.amazon.com/dp/B00UXG4WR8?tag=vh0805-20"
-    },
-    {
-        "id":  1065,
-        "asin":  "B0BZWRSRWV",
-        "title":  "Ring Battery Doorbell Newest Model",
-        "price":  99.99,
-        "rating":  4.6,
-        "reviews":  43523,
-        "category":  "homeimprovement",
-        "slug":  "ring-battery-doorbell-newest-model-1065",
-        "image":  "https://m.media-amazon.com/images/I/B0BZWRSRWV.jpg",
-        "affiliateLink":  "https://www.amazon.com/dp/B0BZWRSRWV?tag=vh0805-20"
-    }
+[
+  {
+    "id": 1060,
+    "asin": "B0BDF8CVBN",
+    "title": "MCGOR 10inch Under Cabinet Lighting 2 Pack",
+    "price": 15.96,
+    "rating": 4.5,
+    "reviews": 50841,
+    "category": "homeimprovement",
+    "slug": "mcgor-10inch-under-cabinet-lighting-2-pack-1060",
+    "image": "https://m.media-amazon.com/images/I/B0BDF8CVBN.jpg",
+    "affiliateLink": "https://www.amazon.com/dp/B0BDF8CVBN?tag=vh0805-20"
+  },
+  {
+    "id": 1061,
+    "asin": "B00CJZ8LAK",
+    "title": "FilterBuy 20x20x1 Air Filter MERV 8 4-Pack",
+    "price": 29.96,
+    "rating": 4.7,
+    "reviews": 155491,
+    "category": "homeimprovement",
+    "slug": "filterbuy-20x20x1-air-filter-merv-8-4-pack-1061",
+    "image": "https://m.media-amazon.com/images/I/B00CJZ8LAK.jpg",
+    "affiliateLink": "https://www.amazon.com/dp/B00CJZ8LAK?tag=vh0805-20"
+  },
+  {
+    "id": 1062,
+    "asin": "B0882ZJ48W",
+    "title": "GE XWFE Refrigerator Water Filter",
+    "price": 49.98,
+    "rating": 4.5,
+    "reviews": 39341,
+    "category": "homeimprovement",
+    "slug": "ge-xwfe-refrigerator-water-filter-1062",
+    "image": "https://m.media-amazon.com/images/I/B0882ZJ48W.jpg",
+    "affiliateLink": "https://www.amazon.com/dp/B0882ZJ48W?tag=vh0805-20"
+  },
+  {
+    "id": 1063,
+    "asin": "B0D18VS397",
+    "title": "Inspire Black Nitrile Disposable Gloves 4.5mil",
+    "price": 8.99,
+    "rating": 4.6,
+    "reviews": 4399,
+    "category": "homeimprovement",
+    "slug": "inspire-black-nitrile-disposable-gloves-4-5mi-1063",
+    "image": "https://m.media-amazon.com/images/I/B0D18VS397.jpg",
+    "affiliateLink": "https://www.amazon.com/dp/B0D18VS397?tag=vh0805-20"
+  },
+  {
+    "id": 1064,
+    "asin": "B00UXG4WR8",
+    "title": "everydrop Refrigerator Water Filter 1",
+    "price": 57,
+    "rating": 4.7,
+    "reviews": 106979,
+    "category": "homeimprovement",
+    "slug": "everydrop-refrigerator-water-filter-1-1064",
+    "image": "https://m.media-amazon.com/images/I/B00UXG4WR8.jpg",
+    "affiliateLink": "https://www.amazon.com/dp/B00UXG4WR8?tag=vh0805-20"
+  },
+  {
+    "id": 1065,
+    "asin": "B0BZWRSRWV",
+    "title": "Ring Battery Doorbell Newest Model",
+    "price": 99.99,
+    "rating": 4.6,
+    "reviews": 43523,
+    "category": "homeimprovement",
+    "slug": "ring-battery-doorbell-newest-model-1065",
+    "image": "https://m.media-amazon.com/images/I/B0BZWRSRWV.jpg",
+    "affiliateLink": "https://www.amazon.com/dp/B0BZWRSRWV?tag=vh0805-20"
+  }
 ]
