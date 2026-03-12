@@ -1,0 +1,548 @@
+﻿[
+    {
+        "s":  "coffee-machine-espresso-9",
+        "t":  "Coffee Machine Espresso 1",
+        "a":  "B0357297257",
+        "r":  4.9
+    },
+    {
+        "s":  "air-fryer-xl-58qt-20",
+        "t":  "Air Fryer XL 5.8Qt 1",
+        "a":  "B0018705264",
+        "r":  3.9
+    },
+    {
+        "s":  "food-processor-12-cup-31",
+        "t":  "Food Processor 12-Cup 1",
+        "a":  "B0025453137",
+        "r":  4
+    },
+    {
+        "s":  "rice-cooker-multi-cook-42",
+        "t":  "Rice Cooker Multi-Cook 1",
+        "a":  "B0474441578",
+        "r":  4.1
+    },
+    {
+        "s":  "toaster-oven-digital-53",
+        "t":  "Toaster Oven Digital 1",
+        "a":  "B0194221898",
+        "r":  4.2
+    },
+    {
+        "s":  "hand-mixer-stand-mix-64",
+        "t":  "Hand Mixer Stand Mix 1",
+        "a":  "B0546036566",
+        "r":  4.3
+    },
+    {
+        "s":  "immersion-blender-800w-75",
+        "t":  "Immersion Blender 800W 1",
+        "a":  "B0065185524",
+        "r":  4.4
+    },
+    {
+        "s":  "electric-kettle-17l-86",
+        "t":  "Electric Kettle 1.7L 1",
+        "a":  "B0144393656",
+        "r":  4.5
+    },
+    {
+        "s":  "sous-vide-precision-97",
+        "t":  "Sous Vide Precision 1",
+        "a":  "B0406740824",
+        "r":  4.6
+    },
+    {
+        "s":  "ice-cream-maker-108",
+        "t":  "Ice Cream Maker 2",
+        "a":  "B0307058880",
+        "r":  3.7
+    },
+    {
+        "s":  "bread-maker-automatic-119",
+        "t":  "Bread Maker Automatic 2",
+        "a":  "B0535471911",
+        "r":  3.8
+    },
+    {
+        "s":  "pizza-oven-countertop-130",
+        "t":  "Pizza Oven Countertop 2",
+        "a":  "B0466342795",
+        "r":  4.9
+    },
+    {
+        "s":  "waffle-maker-belgian-141",
+        "t":  "Waffle Maker Belgian 2",
+        "a":  "B0167897332",
+        "r":  3.5
+    },
+    {
+        "s":  "slow-cooker-6qt-152",
+        "t":  "Slow Cooker 6Qt 2",
+        "a":  "B0872036331",
+        "r":  3.6
+    },
+    {
+        "s":  "pressure-cooker-6qt-163",
+        "t":  "Pressure Cooker 6Qt 2",
+        "a":  "B0243681787",
+        "r":  3.7
+    },
+    {
+        "s":  "coffee-machine-espresso-174",
+        "t":  "Coffee Machine Espresso 2",
+        "a":  "B0998890356",
+        "r":  3.8
+    },
+    {
+        "s":  "air-fryer-xl-58qt-185",
+        "t":  "Air Fryer XL 5.8Qt 2",
+        "a":  "B0804361683",
+        "r":  3.9
+    },
+    {
+        "s":  "food-processor-12-cup-196",
+        "t":  "Food Processor 12-Cup 2",
+        "a":  "B0606500466",
+        "r":  4
+    },
+    {
+        "s":  "rice-cooker-multi-cook-207",
+        "t":  "Rice Cooker Multi-Cook 3",
+        "a":  "B0382327686",
+        "r":  3.7
+    },
+    {
+        "s":  "toaster-oven-digital-218",
+        "t":  "Toaster Oven Digital 3",
+        "a":  "B0608269440",
+        "r":  3.8
+    },
+    {
+        "s":  "hand-mixer-stand-mix-229",
+        "t":  "Hand Mixer Stand Mix 3",
+        "a":  "B0230252292",
+        "r":  3.9
+    },
+    {
+        "s":  "immersion-blender-800w-240",
+        "t":  "Immersion Blender 800W 3",
+        "a":  "B0283949619",
+        "r":  3.5
+    },
+    {
+        "s":  "electric-kettle-17l-251",
+        "t":  "Electric Kettle 1.7L 3",
+        "a":  "B0431537450",
+        "r":  3.6
+    },
+    {
+        "s":  "sous-vide-precision-262",
+        "t":  "Sous Vide Precision 3",
+        "a":  "B0131334713",
+        "r":  3.7
+    },
+    {
+        "s":  "ice-cream-maker-273",
+        "t":  "Ice Cream Maker 3",
+        "a":  "B0372739129",
+        "r":  3.8
+    },
+    {
+        "s":  "bread-maker-automatic-284",
+        "t":  "Bread Maker Automatic 3",
+        "a":  "B0064380017",
+        "r":  3.9
+    },
+    {
+        "s":  "pizza-oven-countertop-295",
+        "t":  "Pizza Oven Countertop 3",
+        "a":  "B0516649085",
+        "r":  4
+    },
+    {
+        "s":  "waffle-maker-belgian-306",
+        "t":  "Waffle Maker Belgian 4",
+        "a":  "B0116977959",
+        "r":  3.7
+    },
+    {
+        "s":  "slow-cooker-6qt-317",
+        "t":  "Slow Cooker 6Qt 4",
+        "a":  "B0263347355",
+        "r":  3.8
+    },
+    {
+        "s":  "pressure-cooker-6qt-328",
+        "t":  "Pressure Cooker 6Qt 4",
+        "a":  "B0260177592",
+        "r":  3.9
+    },
+    {
+        "s":  "coffee-machine-espresso-339",
+        "t":  "Coffee Machine Espresso 4",
+        "a":  "B0223929937",
+        "r":  4
+    },
+    {
+        "s":  "air-fryer-xl-58qt-350",
+        "t":  "Air Fryer XL 5.8Qt 4",
+        "a":  "B0217852447",
+        "r":  3.6
+    },
+    {
+        "s":  "food-processor-12-cup-361",
+        "t":  "Food Processor 12-Cup 4",
+        "a":  "B0446760023",
+        "r":  3.7
+    },
+    {
+        "s":  "rice-cooker-multi-cook-372",
+        "t":  "Rice Cooker Multi-Cook 4",
+        "a":  "B0999439109",
+        "r":  3.8
+    },
+    {
+        "s":  "toaster-oven-digital-383",
+        "t":  "Toaster Oven Digital 4",
+        "a":  "B0749114233",
+        "r":  3.9
+    },
+    {
+        "s":  "hand-mixer-stand-mix-394",
+        "t":  "Hand Mixer Stand Mix 4",
+        "a":  "B0276206714",
+        "r":  4
+    },
+    {
+        "s":  "immersion-blender-800w-405",
+        "t":  "Immersion Blender 800W 5",
+        "a":  "B0467566958",
+        "r":  3.7
+    },
+    {
+        "s":  "electric-kettle-17l-416",
+        "t":  "Electric Kettle 1.7L 5",
+        "a":  "B0651885254",
+        "r":  3.8
+    },
+    {
+        "s":  "sous-vide-precision-427",
+        "t":  "Sous Vide Precision 5",
+        "a":  "B0216338565",
+        "r":  3.9
+    },
+    {
+        "s":  "ice-cream-maker-438",
+        "t":  "Ice Cream Maker 5",
+        "a":  "B0352941220",
+        "r":  4
+    },
+    {
+        "s":  "bread-maker-automatic-449",
+        "t":  "Bread Maker Automatic 5",
+        "a":  "B0524478785",
+        "r":  4.1
+    },
+    {
+        "s":  "pizza-oven-countertop-460",
+        "t":  "Pizza Oven Countertop 5",
+        "a":  "B0402005177",
+        "r":  3.7
+    },
+    {
+        "s":  "waffle-maker-belgian-471",
+        "t":  "Waffle Maker Belgian 5",
+        "a":  "B0039488683",
+        "r":  3.8
+    },
+    {
+        "s":  "slow-cooker-6qt-482",
+        "t":  "Slow Cooker 6Qt 5",
+        "a":  "B0036334329",
+        "r":  3.9
+    },
+    {
+        "s":  "pressure-cooker-6qt-493",
+        "t":  "Pressure Cooker 6Qt 5",
+        "a":  "B0138423940",
+        "r":  4
+    },
+    {
+        "s":  "coffee-machine-espresso-504",
+        "t":  "Coffee Machine Espresso 6",
+        "a":  "B0632641708",
+        "r":  3.7
+    },
+    {
+        "s":  "air-fryer-xl-58qt-515",
+        "t":  "Air Fryer XL 5.8Qt 6",
+        "a":  "B0857286791",
+        "r":  3.8
+    },
+    {
+        "s":  "food-processor-12-cup-526",
+        "t":  "Food Processor 12-Cup 6",
+        "a":  "B0077682911",
+        "r":  3.9
+    },
+    {
+        "s":  "rice-cooker-multi-cook-537",
+        "t":  "Rice Cooker Multi-Cook 6",
+        "a":  "B0918877224",
+        "r":  4
+    },
+    {
+        "s":  "toaster-oven-digital-548",
+        "t":  "Toaster Oven Digital 6",
+        "a":  "B0622786846",
+        "r":  4.1
+    },
+    {
+        "s":  "hand-mixer-stand-mix-559",
+        "t":  "Hand Mixer Stand Mix 6",
+        "a":  "B0430225704",
+        "r":  4.2
+    },
+    {
+        "s":  "immersion-blender-800w-570",
+        "t":  "Immersion Blender 800W 6",
+        "a":  "B0973734900",
+        "r":  3.8
+    },
+    {
+        "s":  "electric-kettle-17l-581",
+        "t":  "Electric Kettle 1.7L 6",
+        "a":  "B0404466234",
+        "r":  3.9
+    },
+    {
+        "s":  "sous-vide-precision-592",
+        "t":  "Sous Vide Precision 6",
+        "a":  "B0501209437",
+        "r":  4
+    },
+    {
+        "s":  "ice-cream-maker-603",
+        "t":  "Ice Cream Maker 7",
+        "a":  "B0239894388",
+        "r":  3.7
+    },
+    {
+        "s":  "bread-maker-automatic-614",
+        "t":  "Bread Maker Automatic 7",
+        "a":  "B0071724720",
+        "r":  3.8
+    },
+    {
+        "s":  "pizza-oven-countertop-625",
+        "t":  "Pizza Oven Countertop 7",
+        "a":  "B0722424583",
+        "r":  3.9
+    },
+    {
+        "s":  "waffle-maker-belgian-636",
+        "t":  "Waffle Maker Belgian 7",
+        "a":  "B0746074128",
+        "r":  4
+    },
+    {
+        "s":  "slow-cooker-6qt-647",
+        "t":  "Slow Cooker 6Qt 7",
+        "a":  "B0241169534",
+        "r":  4.1
+    },
+    {
+        "s":  "pressure-cooker-6qt-658",
+        "t":  "Pressure Cooker 6Qt 7",
+        "a":  "B0714254001",
+        "r":  4.2
+    },
+    {
+        "s":  "coffee-machine-espresso-669",
+        "t":  "Coffee Machine Espresso 7",
+        "a":  "B0700364892",
+        "r":  4.3
+    },
+    {
+        "s":  "air-fryer-xl-58qt-680",
+        "t":  "Air Fryer XL 5.8Qt 7",
+        "a":  "B0102247984",
+        "r":  3.9
+    },
+    {
+        "s":  "food-processor-12-cup-691",
+        "t":  "Food Processor 12-Cup 7",
+        "a":  "B0375576156",
+        "r":  4
+    },
+    {
+        "s":  "rice-cooker-multi-cook-702",
+        "t":  "Rice Cooker Multi-Cook 8",
+        "a":  "B0154672030",
+        "r":  3.7
+    },
+    {
+        "s":  "toaster-oven-digital-713",
+        "t":  "Toaster Oven Digital 8",
+        "a":  "B0393971650",
+        "r":  3.8
+    },
+    {
+        "s":  "hand-mixer-stand-mix-724",
+        "t":  "Hand Mixer Stand Mix 8",
+        "a":  "B0327586195",
+        "r":  3.9
+    },
+    {
+        "s":  "immersion-blender-800w-735",
+        "t":  "Immersion Blender 800W 8",
+        "a":  "B0275809978",
+        "r":  4
+    },
+    {
+        "s":  "electric-kettle-17l-746",
+        "t":  "Electric Kettle 1.7L 8",
+        "a":  "B0231512731",
+        "r":  4.1
+    },
+    {
+        "s":  "sous-vide-precision-757",
+        "t":  "Sous Vide Precision 8",
+        "a":  "B0679467593",
+        "r":  4.2
+    },
+    {
+        "s":  "ice-cream-maker-768",
+        "t":  "Ice Cream Maker 8",
+        "a":  "B0364102961",
+        "r":  4.3
+    },
+    {
+        "s":  "bread-maker-automatic-779",
+        "t":  "Bread Maker Automatic 8",
+        "a":  "B0513951417",
+        "r":  4.4
+    },
+    {
+        "s":  "pizza-oven-countertop-790",
+        "t":  "Pizza Oven Countertop 8",
+        "a":  "B0840031351",
+        "r":  4
+    },
+    {
+        "s":  "waffle-maker-belgian-801",
+        "t":  "Waffle Maker Belgian 9",
+        "a":  "B0428271167",
+        "r":  3.7
+    },
+    {
+        "s":  "slow-cooker-6qt-812",
+        "t":  "Slow Cooker 6Qt 9",
+        "a":  "B0189321057",
+        "r":  3.8
+    },
+    {
+        "s":  "pressure-cooker-6qt-823",
+        "t":  "Pressure Cooker 6Qt 9",
+        "a":  "B0527169506",
+        "r":  3.9
+    },
+    {
+        "s":  "coffee-machine-espresso-834",
+        "t":  "Coffee Machine Espresso 9",
+        "a":  "B0609027118",
+        "r":  4
+    },
+    {
+        "s":  "air-fryer-xl-58qt-845",
+        "t":  "Air Fryer XL 5.8Qt 9",
+        "a":  "B0224453222",
+        "r":  4.1
+    },
+    {
+        "s":  "food-processor-12-cup-856",
+        "t":  "Food Processor 12-Cup 9",
+        "a":  "B0437621300",
+        "r":  4.2
+    },
+    {
+        "s":  "rice-cooker-multi-cook-867",
+        "t":  "Rice Cooker Multi-Cook 9",
+        "a":  "B0667092807",
+        "r":  4.3
+    },
+    {
+        "s":  "toaster-oven-digital-878",
+        "t":  "Toaster Oven Digital 9",
+        "a":  "B0160097346",
+        "r":  4.4
+    },
+    {
+        "s":  "hand-mixer-stand-mix-889",
+        "t":  "Hand Mixer Stand Mix 9",
+        "a":  "B0092116616",
+        "r":  4.5
+    },
+    {
+        "s":  "immersion-blender-800w-900",
+        "t":  "Immersion Blender 800W 10",
+        "a":  "B0379146245",
+        "r":  3.7
+    },
+    {
+        "s":  "electric-kettle-17l-911",
+        "t":  "Electric Kettle 1.7L 10",
+        "a":  "B0847862913",
+        "r":  3.8
+    },
+    {
+        "s":  "sous-vide-precision-922",
+        "t":  "Sous Vide Precision 10",
+        "a":  "B0874585032",
+        "r":  3.9
+    },
+    {
+        "s":  "ice-cream-maker-933",
+        "t":  "Ice Cream Maker 10",
+        "a":  "B0034694106",
+        "r":  4
+    },
+    {
+        "s":  "bread-maker-automatic-944",
+        "t":  "Bread Maker Automatic 10",
+        "a":  "B0803876116",
+        "r":  4.1
+    },
+    {
+        "s":  "pizza-oven-countertop-955",
+        "t":  "Pizza Oven Countertop 10",
+        "a":  "B0529993178",
+        "r":  4.2
+    },
+    {
+        "s":  "waffle-maker-belgian-966",
+        "t":  "Waffle Maker Belgian 10",
+        "a":  "B0822510669",
+        "r":  4.3
+    },
+    {
+        "s":  "slow-cooker-6qt-977",
+        "t":  "Slow Cooker 6Qt 10",
+        "a":  "B0704519755",
+        "r":  4.4
+    },
+    {
+        "s":  "pressure-cooker-6qt-988",
+        "t":  "Pressure Cooker 6Qt 10",
+        "a":  "B0989204673",
+        "r":  4.5
+    },
+    {
+        "s":  "coffee-machine-espresso-999",
+        "t":  "Coffee Machine Espresso 10",
+        "a":  "B0177724810",
+        "r":  4.6
+    }
+]

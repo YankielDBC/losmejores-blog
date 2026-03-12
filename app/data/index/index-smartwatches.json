@@ -1,0 +1,548 @@
+﻿[
+    {
+        "s":  "smartwatch-fitness-tracker-1",
+        "t":  "Smartwatch Fitness Tracker 1",
+        "a":  "B0290434708",
+        "r":  4.5
+    },
+    {
+        "s":  "smart-watch-gps-5atm-12",
+        "t":  "Smart Watch GPS 5ATM 1",
+        "a":  "B0890011647",
+        "r":  4
+    },
+    {
+        "s":  "blood-oxygen-monitor-watch-23",
+        "t":  "Blood Oxygen Monitor Watch 1",
+        "a":  "B0540852740",
+        "r":  4.1
+    },
+    {
+        "s":  "kids-smart-watch-gps-34",
+        "t":  "Kids Smart Watch GPS 1",
+        "a":  "B0072692207",
+        "r":  4.2
+    },
+    {
+        "s":  "hybrid-smart-watch-classic-45",
+        "t":  "Hybrid Smart Watch Classic 1",
+        "a":  "B0270534244",
+        "r":  4.3
+    },
+    {
+        "s":  "sports-watch-pro-amoled-56",
+        "t":  "Sports Watch Pro AMOLED 1",
+        "a":  "B0277957906",
+        "r":  4.4
+    },
+    {
+        "s":  "fashion-smart-watch-67",
+        "t":  "Fashion Smart Watch 1",
+        "a":  "B0909159151",
+        "r":  4.5
+    },
+    {
+        "s":  "diver-watch-smart-78",
+        "t":  "Diver Watch Smart 1",
+        "a":  "B0461099100",
+        "r":  4.6
+    },
+    {
+        "s":  "classic-analog-smart-hybrid-89",
+        "t":  "Classic Analog Smart Hybrid 1",
+        "a":  "B0529408101",
+        "r":  4.7
+    },
+    {
+        "s":  "gps-running-watch-100",
+        "t":  "GPS Running Watch 2",
+        "a":  "B0915078916",
+        "r":  4.8
+    },
+    {
+        "s":  "triathlon-smart-watch-111",
+        "t":  "Triathlon Smart Watch 2",
+        "a":  "B0563785065",
+        "r":  4.9
+    },
+    {
+        "s":  "business-smart-watch-122",
+        "t":  "Business Smart Watch 2",
+        "a":  "B0020968472",
+        "r":  5
+    },
+    {
+        "s":  "kids-gps-watch-phone-133",
+        "t":  "Kids GPS Watch Phone 2",
+        "a":  "B0424153447",
+        "r":  3.6
+    },
+    {
+        "s":  "senior-watch-with-sos-144",
+        "t":  "Senior Watch with SOS 2",
+        "a":  "B0787108825",
+        "r":  3.7
+    },
+    {
+        "s":  "fashion-ladies-smartwatch-155",
+        "t":  "Fashion Ladies Smartwatch 2",
+        "a":  "B0090351304",
+        "r":  3.8
+    },
+    {
+        "s":  "smartwatch-fitness-tracker-166",
+        "t":  "Smartwatch Fitness Tracker 2",
+        "a":  "B0319086079",
+        "r":  3.9
+    },
+    {
+        "s":  "smart-watch-gps-5atm-177",
+        "t":  "Smart Watch GPS 5ATM 2",
+        "a":  "B0175133032",
+        "r":  4
+    },
+    {
+        "s":  "blood-oxygen-monitor-watch-188",
+        "t":  "Blood Oxygen Monitor Watch 2",
+        "a":  "B0630512052",
+        "r":  4.1
+    },
+    {
+        "s":  "kids-smart-watch-gps-199",
+        "t":  "Kids Smart Watch GPS 2",
+        "a":  "B0152238566",
+        "r":  4.2
+    },
+    {
+        "s":  "hybrid-smart-watch-classic-210",
+        "t":  "Hybrid Smart Watch Classic 3",
+        "a":  "B0166699768",
+        "r":  4.9
+    },
+    {
+        "s":  "sports-watch-pro-amoled-221",
+        "t":  "Sports Watch Pro AMOLED 3",
+        "a":  "B0082773616",
+        "r":  5
+    },
+    {
+        "s":  "fashion-smart-watch-232",
+        "t":  "Fashion Smart Watch 3",
+        "a":  "B0380910571",
+        "r":  3.6
+    },
+    {
+        "s":  "diver-watch-smart-243",
+        "t":  "Diver Watch Smart 3",
+        "a":  "B0366344143",
+        "r":  3.7
+    },
+    {
+        "s":  "classic-analog-smart-hybrid-254",
+        "t":  "Classic Analog Smart Hybrid 3",
+        "a":  "B0291596989",
+        "r":  3.8
+    },
+    {
+        "s":  "gps-running-watch-265",
+        "t":  "GPS Running Watch 3",
+        "a":  "B0213614273",
+        "r":  3.9
+    },
+    {
+        "s":  "triathlon-smart-watch-276",
+        "t":  "Triathlon Smart Watch 3",
+        "a":  "B0432355125",
+        "r":  4
+    },
+    {
+        "s":  "business-smart-watch-287",
+        "t":  "Business Smart Watch 3",
+        "a":  "B0731816131",
+        "r":  4.1
+    },
+    {
+        "s":  "kids-gps-watch-phone-298",
+        "t":  "Kids GPS Watch Phone 3",
+        "a":  "B0260220190",
+        "r":  4.2
+    },
+    {
+        "s":  "senior-watch-with-sos-309",
+        "t":  "Senior Watch with SOS 4",
+        "a":  "B0289458923",
+        "r":  3.8
+    },
+    {
+        "s":  "fashion-ladies-smartwatch-320",
+        "t":  "Fashion Ladies Smartwatch 4",
+        "a":  "B0577299129",
+        "r":  5
+    },
+    {
+        "s":  "smartwatch-fitness-tracker-331",
+        "t":  "Smartwatch Fitness Tracker 4",
+        "a":  "B0370818633",
+        "r":  3.6
+    },
+    {
+        "s":  "smart-watch-gps-5atm-342",
+        "t":  "Smart Watch GPS 5ATM 4",
+        "a":  "B0834055353",
+        "r":  3.7
+    },
+    {
+        "s":  "blood-oxygen-monitor-watch-353",
+        "t":  "Blood Oxygen Monitor Watch 4",
+        "a":  "B0831104894",
+        "r":  3.8
+    },
+    {
+        "s":  "kids-smart-watch-gps-364",
+        "t":  "Kids Smart Watch GPS 4",
+        "a":  "B0057978875",
+        "r":  3.9
+    },
+    {
+        "s":  "hybrid-smart-watch-classic-375",
+        "t":  "Hybrid Smart Watch Classic 4",
+        "a":  "B0615416505",
+        "r":  4
+    },
+    {
+        "s":  "sports-watch-pro-amoled-386",
+        "t":  "Sports Watch Pro AMOLED 4",
+        "a":  "B0790628322",
+        "r":  4.1
+    },
+    {
+        "s":  "fashion-smart-watch-397",
+        "t":  "Fashion Smart Watch 4",
+        "a":  "B0471601815",
+        "r":  4.2
+    },
+    {
+        "s":  "diver-watch-smart-408",
+        "t":  "Diver Watch Smart 5",
+        "a":  "B0681404031",
+        "r":  3.8
+    },
+    {
+        "s":  "classic-analog-smart-hybrid-419",
+        "t":  "Classic Analog Smart Hybrid 5",
+        "a":  "B0447817439",
+        "r":  3.9
+    },
+    {
+        "s":  "gps-running-watch-430",
+        "t":  "GPS Running Watch 5",
+        "a":  "B0287892043",
+        "r":  3.6
+    },
+    {
+        "s":  "triathlon-smart-watch-441",
+        "t":  "Triathlon Smart Watch 5",
+        "a":  "B0387594329",
+        "r":  3.7
+    },
+    {
+        "s":  "business-smart-watch-452",
+        "t":  "Business Smart Watch 5",
+        "a":  "B0051112980",
+        "r":  3.8
+    },
+    {
+        "s":  "kids-gps-watch-phone-463",
+        "t":  "Kids GPS Watch Phone 5",
+        "a":  "B0081639394",
+        "r":  3.9
+    },
+    {
+        "s":  "senior-watch-with-sos-474",
+        "t":  "Senior Watch with SOS 5",
+        "a":  "B0846363410",
+        "r":  4
+    },
+    {
+        "s":  "fashion-ladies-smartwatch-485",
+        "t":  "Fashion Ladies Smartwatch 5",
+        "a":  "B0504938256",
+        "r":  4.1
+    },
+    {
+        "s":  "smartwatch-fitness-tracker-496",
+        "t":  "Smartwatch Fitness Tracker 5",
+        "a":  "B0471586011",
+        "r":  4.2
+    },
+    {
+        "s":  "smart-watch-gps-5atm-507",
+        "t":  "Smart Watch GPS 5ATM 6",
+        "a":  "B0978017359",
+        "r":  3.8
+    },
+    {
+        "s":  "blood-oxygen-monitor-watch-518",
+        "t":  "Blood Oxygen Monitor Watch 6",
+        "a":  "B0478486837",
+        "r":  3.9
+    },
+    {
+        "s":  "kids-smart-watch-gps-529",
+        "t":  "Kids Smart Watch GPS 6",
+        "a":  "B0523754115",
+        "r":  4
+    },
+    {
+        "s":  "hybrid-smart-watch-classic-540",
+        "t":  "Hybrid Smart Watch Classic 6",
+        "a":  "B0296903666",
+        "r":  3.7
+    },
+    {
+        "s":  "sports-watch-pro-amoled-551",
+        "t":  "Sports Watch Pro AMOLED 6",
+        "a":  "B0706260834",
+        "r":  3.8
+    },
+    {
+        "s":  "fashion-smart-watch-562",
+        "t":  "Fashion Smart Watch 6",
+        "a":  "B0528458378",
+        "r":  3.9
+    },
+    {
+        "s":  "diver-watch-smart-573",
+        "t":  "Diver Watch Smart 6",
+        "a":  "B0828161445",
+        "r":  4
+    },
+    {
+        "s":  "classic-analog-smart-hybrid-584",
+        "t":  "Classic Analog Smart Hybrid 6",
+        "a":  "B0913174215",
+        "r":  4.1
+    },
+    {
+        "s":  "gps-running-watch-595",
+        "t":  "GPS Running Watch 6",
+        "a":  "B0215703616",
+        "r":  4.2
+    },
+    {
+        "s":  "triathlon-smart-watch-606",
+        "t":  "Triathlon Smart Watch 7",
+        "a":  "B0701140943",
+        "r":  3.8
+    },
+    {
+        "s":  "business-smart-watch-617",
+        "t":  "Business Smart Watch 7",
+        "a":  "B0392639471",
+        "r":  3.9
+    },
+    {
+        "s":  "kids-gps-watch-phone-628",
+        "t":  "Kids GPS Watch Phone 7",
+        "a":  "B0316763177",
+        "r":  4
+    },
+    {
+        "s":  "senior-watch-with-sos-639",
+        "t":  "Senior Watch with SOS 7",
+        "a":  "B0785886431",
+        "r":  4.1
+    },
+    {
+        "s":  "fashion-ladies-smartwatch-650",
+        "t":  "Fashion Ladies Smartwatch 7",
+        "a":  "B0680757096",
+        "r":  3.8
+    },
+    {
+        "s":  "smartwatch-fitness-tracker-661",
+        "t":  "Smartwatch Fitness Tracker 7",
+        "a":  "B0036817417",
+        "r":  3.9
+    },
+    {
+        "s":  "smart-watch-gps-5atm-672",
+        "t":  "Smart Watch GPS 5ATM 7",
+        "a":  "B0154809579",
+        "r":  4
+    },
+    {
+        "s":  "blood-oxygen-monitor-watch-683",
+        "t":  "Blood Oxygen Monitor Watch 7",
+        "a":  "B0302225065",
+        "r":  4.1
+    },
+    {
+        "s":  "kids-smart-watch-gps-694",
+        "t":  "Kids Smart Watch GPS 7",
+        "a":  "B0202253968",
+        "r":  4.2
+    },
+    {
+        "s":  "hybrid-smart-watch-classic-705",
+        "t":  "Hybrid Smart Watch Classic 8",
+        "a":  "B0276546457",
+        "r":  3.8
+    },
+    {
+        "s":  "sports-watch-pro-amoled-716",
+        "t":  "Sports Watch Pro AMOLED 8",
+        "a":  "B0116702897",
+        "r":  3.9
+    },
+    {
+        "s":  "fashion-smart-watch-727",
+        "t":  "Fashion Smart Watch 8",
+        "a":  "B0280630542",
+        "r":  4
+    },
+    {
+        "s":  "diver-watch-smart-738",
+        "t":  "Diver Watch Smart 8",
+        "a":  "B0758952183",
+        "r":  4.1
+    },
+    {
+        "s":  "classic-analog-smart-hybrid-749",
+        "t":  "Classic Analog Smart Hybrid 8",
+        "a":  "B0027353946",
+        "r":  4.2
+    },
+    {
+        "s":  "gps-running-watch-760",
+        "t":  "GPS Running Watch 8",
+        "a":  "B0458042040",
+        "r":  3.9
+    },
+    {
+        "s":  "triathlon-smart-watch-771",
+        "t":  "Triathlon Smart Watch 8",
+        "a":  "B0858713277",
+        "r":  4
+    },
+    {
+        "s":  "business-smart-watch-782",
+        "t":  "Business Smart Watch 8",
+        "a":  "B0551947152",
+        "r":  4.1
+    },
+    {
+        "s":  "kids-gps-watch-phone-793",
+        "t":  "Kids GPS Watch Phone 8",
+        "a":  "B0543685202",
+        "r":  4.2
+    },
+    {
+        "s":  "senior-watch-with-sos-804",
+        "t":  "Senior Watch with SOS 9",
+        "a":  "B0385085559",
+        "r":  3.8
+    },
+    {
+        "s":  "fashion-ladies-smartwatch-815",
+        "t":  "Fashion Ladies Smartwatch 9",
+        "a":  "B0274370441",
+        "r":  3.9
+    },
+    {
+        "s":  "smartwatch-fitness-tracker-826",
+        "t":  "Smartwatch Fitness Tracker 9",
+        "a":  "B0956905715",
+        "r":  4
+    },
+    {
+        "s":  "smart-watch-gps-5atm-837",
+        "t":  "Smart Watch GPS 5ATM 9",
+        "a":  "B0559214748",
+        "r":  4.1
+    },
+    {
+        "s":  "blood-oxygen-monitor-watch-848",
+        "t":  "Blood Oxygen Monitor Watch 9",
+        "a":  "B0036455770",
+        "r":  4.2
+    },
+    {
+        "s":  "kids-smart-watch-gps-859",
+        "t":  "Kids Smart Watch GPS 9",
+        "a":  "B0744383225",
+        "r":  4.3
+    },
+    {
+        "s":  "hybrid-smart-watch-classic-870",
+        "t":  "Hybrid Smart Watch Classic 9",
+        "a":  "B0518312487",
+        "r":  4
+    },
+    {
+        "s":  "sports-watch-pro-amoled-881",
+        "t":  "Sports Watch Pro AMOLED 9",
+        "a":  "B0673063432",
+        "r":  4.1
+    },
+    {
+        "s":  "fashion-smart-watch-892",
+        "t":  "Fashion Smart Watch 9",
+        "a":  "B0634520364",
+        "r":  4.2
+    },
+    {
+        "s":  "diver-watch-smart-903",
+        "t":  "Diver Watch Smart 10",
+        "a":  "B0939020690",
+        "r":  3.8
+    },
+    {
+        "s":  "classic-analog-smart-hybrid-914",
+        "t":  "Classic Analog Smart Hybrid 10",
+        "a":  "B0433346491",
+        "r":  3.9
+    },
+    {
+        "s":  "gps-running-watch-925",
+        "t":  "GPS Running Watch 10",
+        "a":  "B0968986833",
+        "r":  4
+    },
+    {
+        "s":  "triathlon-smart-watch-936",
+        "t":  "Triathlon Smart Watch 10",
+        "a":  "B0033652321",
+        "r":  4.1
+    },
+    {
+        "s":  "business-smart-watch-947",
+        "t":  "Business Smart Watch 10",
+        "a":  "B0543096929",
+        "r":  4.2
+    },
+    {
+        "s":  "kids-gps-watch-phone-958",
+        "t":  "Kids GPS Watch Phone 10",
+        "a":  "B0542794425",
+        "r":  4.3
+    },
+    {
+        "s":  "senior-watch-with-sos-969",
+        "t":  "Senior Watch with SOS 10",
+        "a":  "B0524590004",
+        "r":  4.4
+    },
+    {
+        "s":  "fashion-ladies-smartwatch-980",
+        "t":  "Fashion Ladies Smartwatch 10",
+        "a":  "B0003189014",
+        "r":  4.1
+    },
+    {
+        "s":  "smartwatch-fitness-tracker-991",
+        "t":  "Smartwatch Fitness Tracker 10",
+        "a":  "B0854014355",
+        "r":  4.2
+    }
+]

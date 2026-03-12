@@ -1,0 +1,548 @@
+﻿[
+    {
+        "s":  "fire-tv-stick-4k-max-5",
+        "t":  "Fire TV Stick 4K Max 1",
+        "a":  "B0649411265",
+        "r":  4.7
+    },
+    {
+        "s":  "streaming-device-pro-16",
+        "t":  "Streaming Device Pro 1",
+        "a":  "B0106126029",
+        "r":  4.2
+    },
+    {
+        "s":  "smart-tv-box-4k-android-27",
+        "t":  "Smart TV Box 4K Android 1",
+        "a":  "B0191467277",
+        "r":  4.3
+    },
+    {
+        "s":  "roku-streaming-stick-4k-38",
+        "t":  "Roku Streaming Stick 4K 1",
+        "a":  "B0538729697",
+        "r":  4.4
+    },
+    {
+        "s":  "chromecast-with-google-tv-49",
+        "t":  "Chromecast with Google TV 1",
+        "a":  "B0599729142",
+        "r":  4.5
+    },
+    {
+        "s":  "android-tv-box-8k-60",
+        "t":  "Android TV Box 8K 1",
+        "a":  "B0754779761",
+        "r":  4.1
+    },
+    {
+        "s":  "apple-tv-4k-71",
+        "t":  "Apple TV 4K 1",
+        "a":  "B0994703986",
+        "r":  4.2
+    },
+    {
+        "s":  "nvidia-shield-pro-82",
+        "t":  "Nvidia Shield Pro 1",
+        "a":  "B0716135068",
+        "r":  4.3
+    },
+    {
+        "s":  "amazon-fire-tv-cube-93",
+        "t":  "Amazon Fire TV Cube 1",
+        "a":  "B0072896123",
+        "r":  4.4
+    },
+    {
+        "s":  "tivo-stream-4k-104",
+        "t":  "TiVo Stream 4K 2",
+        "a":  "B0044211478",
+        "r":  5
+    },
+    {
+        "s":  "att-tv-stream-115",
+        "t":  "AT\u0026T TV Stream 2",
+        "a":  "B0271407599",
+        "r":  3.6
+    },
+    {
+        "s":  "youtube-tv-box-126",
+        "t":  "YouTube TV Box 2",
+        "a":  "B0524362864",
+        "r":  3.7
+    },
+    {
+        "s":  "iptv-box-premium-137",
+        "t":  "IPTV Box Premium 2",
+        "a":  "B0157323735",
+        "r":  3.8
+    },
+    {
+        "s":  "media-player-nas-148",
+        "t":  "Media Player NAS 2",
+        "a":  "B0390813876",
+        "r":  3.9
+    },
+    {
+        "s":  "portable-monitor-156-159",
+        "t":  "Portable Monitor 15.6\" 2",
+        "a":  "B0076757473",
+        "r":  4
+    },
+    {
+        "s":  "fire-tv-stick-4k-max-170",
+        "t":  "Fire TV Stick 4K Max 2",
+        "a":  "B0826773312",
+        "r":  3.6
+    },
+    {
+        "s":  "streaming-device-pro-181",
+        "t":  "Streaming Device Pro 2",
+        "a":  "B0694405870",
+        "r":  3.7
+    },
+    {
+        "s":  "smart-tv-box-4k-android-192",
+        "t":  "Smart TV Box 4K Android 2",
+        "a":  "B0070084638",
+        "r":  3.8
+    },
+    {
+        "s":  "roku-streaming-stick-4k-203",
+        "t":  "Roku Streaming Stick 4K 3",
+        "a":  "B0069817994",
+        "r":  5
+    },
+    {
+        "s":  "chromecast-with-google-tv-214",
+        "t":  "Chromecast with Google TV 3",
+        "a":  "B0527258128",
+        "r":  3.6
+    },
+    {
+        "s":  "android-tv-box-8k-225",
+        "t":  "Android TV Box 8K 3",
+        "a":  "B0054595715",
+        "r":  3.7
+    },
+    {
+        "s":  "apple-tv-4k-236",
+        "t":  "Apple TV 4K 3",
+        "a":  "B0854509849",
+        "r":  3.8
+    },
+    {
+        "s":  "nvidia-shield-pro-247",
+        "t":  "Nvidia Shield Pro 3",
+        "a":  "B0474034628",
+        "r":  3.9
+    },
+    {
+        "s":  "amazon-fire-tv-cube-258",
+        "t":  "Amazon Fire TV Cube 3",
+        "a":  "B0139340162",
+        "r":  4
+    },
+    {
+        "s":  "tivo-stream-4k-269",
+        "t":  "TiVo Stream 4K 3",
+        "a":  "B0853531886",
+        "r":  4.1
+    },
+    {
+        "s":  "att-tv-stream-280",
+        "t":  "AT\u0026T TV Stream 3",
+        "a":  "B0789920439",
+        "r":  3.7
+    },
+    {
+        "s":  "youtube-tv-box-291",
+        "t":  "YouTube TV Box 3",
+        "a":  "B0928254480",
+        "r":  3.8
+    },
+    {
+        "s":  "iptv-box-premium-302",
+        "t":  "IPTV Box Premium 4",
+        "a":  "B0100777952",
+        "r":  5
+    },
+    {
+        "s":  "media-player-nas-313",
+        "t":  "Media Player NAS 4",
+        "a":  "B0660667751",
+        "r":  3.6
+    },
+    {
+        "s":  "portable-monitor-156-324",
+        "t":  "Portable Monitor 15.6\" 4",
+        "a":  "B0137717976",
+        "r":  3.7
+    },
+    {
+        "s":  "fire-tv-stick-4k-max-335",
+        "t":  "Fire TV Stick 4K Max 4",
+        "a":  "B0892596050",
+        "r":  3.8
+    },
+    {
+        "s":  "streaming-device-pro-346",
+        "t":  "Streaming Device Pro 4",
+        "a":  "B0535137357",
+        "r":  3.9
+    },
+    {
+        "s":  "smart-tv-box-4k-android-357",
+        "t":  "Smart TV Box 4K Android 4",
+        "a":  "B0360995291",
+        "r":  4
+    },
+    {
+        "s":  "roku-streaming-stick-4k-368",
+        "t":  "Roku Streaming Stick 4K 4",
+        "a":  "B0039016509",
+        "r":  4.1
+    },
+    {
+        "s":  "chromecast-with-google-tv-379",
+        "t":  "Chromecast with Google TV 4",
+        "a":  "B0070634957",
+        "r":  4.2
+    },
+    {
+        "s":  "android-tv-box-8k-390",
+        "t":  "Android TV Box 8K 4",
+        "a":  "B0833358594",
+        "r":  3.8
+    },
+    {
+        "s":  "apple-tv-4k-401",
+        "t":  "Apple TV 4K 5",
+        "a":  "B0404008639",
+        "r":  5
+    },
+    {
+        "s":  "nvidia-shield-pro-412",
+        "t":  "Nvidia Shield Pro 5",
+        "a":  "B0702862253",
+        "r":  3.6
+    },
+    {
+        "s":  "amazon-fire-tv-cube-423",
+        "t":  "Amazon Fire TV Cube 5",
+        "a":  "B0169923509",
+        "r":  3.7
+    },
+    {
+        "s":  "tivo-stream-4k-434",
+        "t":  "TiVo Stream 4K 5",
+        "a":  "B0305110956",
+        "r":  3.8
+    },
+    {
+        "s":  "att-tv-stream-445",
+        "t":  "AT\u0026T TV Stream 5",
+        "a":  "B0003804999",
+        "r":  3.9
+    },
+    {
+        "s":  "youtube-tv-box-456",
+        "t":  "YouTube TV Box 5",
+        "a":  "B0465504476",
+        "r":  4
+    },
+    {
+        "s":  "iptv-box-premium-467",
+        "t":  "IPTV Box Premium 5",
+        "a":  "B0066536373",
+        "r":  4.1
+    },
+    {
+        "s":  "media-player-nas-478",
+        "t":  "Media Player NAS 5",
+        "a":  "B0674410402",
+        "r":  4.2
+    },
+    {
+        "s":  "portable-monitor-156-489",
+        "t":  "Portable Monitor 15.6\" 5",
+        "a":  "B0132947643",
+        "r":  4.3
+    },
+    {
+        "s":  "fire-tv-stick-4k-max-500",
+        "t":  "Fire TV Stick 4K Max 6",
+        "a":  "B0905322139",
+        "r":  5
+    },
+    {
+        "s":  "streaming-device-pro-511",
+        "t":  "Streaming Device Pro 6",
+        "a":  "B0924481605",
+        "r":  3.6
+    },
+    {
+        "s":  "smart-tv-box-4k-android-522",
+        "t":  "Smart TV Box 4K Android 6",
+        "a":  "B0380293428",
+        "r":  3.7
+    },
+    {
+        "s":  "roku-streaming-stick-4k-533",
+        "t":  "Roku Streaming Stick 4K 6",
+        "a":  "B0582818694",
+        "r":  3.8
+    },
+    {
+        "s":  "chromecast-with-google-tv-544",
+        "t":  "Chromecast with Google TV 6",
+        "a":  "B0329427952",
+        "r":  3.9
+    },
+    {
+        "s":  "android-tv-box-8k-555",
+        "t":  "Android TV Box 8K 6",
+        "a":  "B0170788017",
+        "r":  4
+    },
+    {
+        "s":  "apple-tv-4k-566",
+        "t":  "Apple TV 4K 6",
+        "a":  "B0566042218",
+        "r":  4.1
+    },
+    {
+        "s":  "nvidia-shield-pro-577",
+        "t":  "Nvidia Shield Pro 6",
+        "a":  "B0446739526",
+        "r":  4.2
+    },
+    {
+        "s":  "amazon-fire-tv-cube-588",
+        "t":  "Amazon Fire TV Cube 6",
+        "a":  "B0845066680",
+        "r":  4.3
+    },
+    {
+        "s":  "tivo-stream-4k-599",
+        "t":  "TiVo Stream 4K 6",
+        "a":  "B0579249953",
+        "r":  4.4
+    },
+    {
+        "s":  "att-tv-stream-610",
+        "t":  "AT\u0026T TV Stream 7",
+        "a":  "B0182549819",
+        "r":  3.6
+    },
+    {
+        "s":  "youtube-tv-box-621",
+        "t":  "YouTube TV Box 7",
+        "a":  "B0931016019",
+        "r":  3.7
+    },
+    {
+        "s":  "iptv-box-premium-632",
+        "t":  "IPTV Box Premium 7",
+        "a":  "B0582021911",
+        "r":  3.8
+    },
+    {
+        "s":  "media-player-nas-643",
+        "t":  "Media Player NAS 7",
+        "a":  "B0187564194",
+        "r":  3.9
+    },
+    {
+        "s":  "portable-monitor-156-654",
+        "t":  "Portable Monitor 15.6\" 7",
+        "a":  "B0309015925",
+        "r":  4
+    },
+    {
+        "s":  "fire-tv-stick-4k-max-665",
+        "t":  "Fire TV Stick 4K Max 7",
+        "a":  "B0094279182",
+        "r":  4.1
+    },
+    {
+        "s":  "streaming-device-pro-676",
+        "t":  "Streaming Device Pro 7",
+        "a":  "B0126526838",
+        "r":  4.2
+    },
+    {
+        "s":  "smart-tv-box-4k-android-687",
+        "t":  "Smart TV Box 4K Android 7",
+        "a":  "B0067600069",
+        "r":  4.3
+    },
+    {
+        "s":  "roku-streaming-stick-4k-698",
+        "t":  "Roku Streaming Stick 4K 7",
+        "a":  "B0641029121",
+        "r":  4.4
+    },
+    {
+        "s":  "chromecast-with-google-tv-709",
+        "t":  "Chromecast with Google TV 8",
+        "a":  "B0497411585",
+        "r":  4
+    },
+    {
+        "s":  "android-tv-box-8k-720",
+        "t":  "Android TV Box 8K 8",
+        "a":  "B0178632412",
+        "r":  3.7
+    },
+    {
+        "s":  "apple-tv-4k-731",
+        "t":  "Apple TV 4K 8",
+        "a":  "B0883092915",
+        "r":  3.8
+    },
+    {
+        "s":  "nvidia-shield-pro-742",
+        "t":  "Nvidia Shield Pro 8",
+        "a":  "B0261536415",
+        "r":  3.9
+    },
+    {
+        "s":  "amazon-fire-tv-cube-753",
+        "t":  "Amazon Fire TV Cube 8",
+        "a":  "B0998311784",
+        "r":  4
+    },
+    {
+        "s":  "tivo-stream-4k-764",
+        "t":  "TiVo Stream 4K 8",
+        "a":  "B0851502277",
+        "r":  4.1
+    },
+    {
+        "s":  "att-tv-stream-775",
+        "t":  "AT\u0026T TV Stream 8",
+        "a":  "B0570645376",
+        "r":  4.2
+    },
+    {
+        "s":  "youtube-tv-box-786",
+        "t":  "YouTube TV Box 8",
+        "a":  "B0560950066",
+        "r":  4.3
+    },
+    {
+        "s":  "iptv-box-premium-797",
+        "t":  "IPTV Box Premium 8",
+        "a":  "B0624789493",
+        "r":  4.4
+    },
+    {
+        "s":  "media-player-nas-808",
+        "t":  "Media Player NAS 9",
+        "a":  "B0584621330",
+        "r":  4
+    },
+    {
+        "s":  "portable-monitor-156-819",
+        "t":  "Portable Monitor 15.6\" 9",
+        "a":  "B0921987060",
+        "r":  4.1
+    },
+    {
+        "s":  "fire-tv-stick-4k-max-830",
+        "t":  "Fire TV Stick 4K Max 9",
+        "a":  "B0570860406",
+        "r":  3.8
+    },
+    {
+        "s":  "streaming-device-pro-841",
+        "t":  "Streaming Device Pro 9",
+        "a":  "B0336157010",
+        "r":  3.9
+    },
+    {
+        "s":  "smart-tv-box-4k-android-852",
+        "t":  "Smart TV Box 4K Android 9",
+        "a":  "B0828193745",
+        "r":  4
+    },
+    {
+        "s":  "roku-streaming-stick-4k-863",
+        "t":  "Roku Streaming Stick 4K 9",
+        "a":  "B0749066137",
+        "r":  4.1
+    },
+    {
+        "s":  "chromecast-with-google-tv-874",
+        "t":  "Chromecast with Google TV 9",
+        "a":  "B0932572089",
+        "r":  4.2
+    },
+    {
+        "s":  "android-tv-box-8k-885",
+        "t":  "Android TV Box 8K 9",
+        "a":  "B0825931264",
+        "r":  4.3
+    },
+    {
+        "s":  "apple-tv-4k-896",
+        "t":  "Apple TV 4K 9",
+        "a":  "B0705207980",
+        "r":  4.4
+    },
+    {
+        "s":  "nvidia-shield-pro-907",
+        "t":  "Nvidia Shield Pro 10",
+        "a":  "B0870020877",
+        "r":  4
+    },
+    {
+        "s":  "amazon-fire-tv-cube-918",
+        "t":  "Amazon Fire TV Cube 10",
+        "a":  "B0699638876",
+        "r":  4.1
+    },
+    {
+        "s":  "tivo-stream-4k-929",
+        "t":  "TiVo Stream 4K 10",
+        "a":  "B0135080724",
+        "r":  4.2
+    },
+    {
+        "s":  "att-tv-stream-940",
+        "t":  "AT\u0026T TV Stream 10",
+        "a":  "B0259827541",
+        "r":  3.9
+    },
+    {
+        "s":  "youtube-tv-box-951",
+        "t":  "YouTube TV Box 10",
+        "a":  "B0501472542",
+        "r":  4
+    },
+    {
+        "s":  "iptv-box-premium-962",
+        "t":  "IPTV Box Premium 10",
+        "a":  "B0025344998",
+        "r":  4.1
+    },
+    {
+        "s":  "media-player-nas-973",
+        "t":  "Media Player NAS 10",
+        "a":  "B0791988914",
+        "r":  4.2
+    },
+    {
+        "s":  "portable-monitor-156-984",
+        "t":  "Portable Monitor 15.6\" 10",
+        "a":  "B0751661693",
+        "r":  4.3
+    },
+    {
+        "s":  "fire-tv-stick-4k-max-995",
+        "t":  "Fire TV Stick 4K Max 10",
+        "a":  "B0264396211",
+        "r":  4.4
+    }
+]

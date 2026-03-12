@@ -1,0 +1,74 @@
+﻿[
+    {
+        "id":  1029,
+        "asin":  "B07RZ74VLR",
+        "title":  "Roblox Digital Gift Card 1000 Robux",
+        "price":  10,
+        "rating":  4.5,
+        "reviews":  80838,
+        "category":  "videogames",
+        "slug":  "roblox-digital-gift-card-1000-robux-1029",
+        "image":  "https://m.media-amazon.com/images/I/B07RZ74VLR.jpg",
+        "affiliateLink":  "https://www.amazon.com/dp/B07RZ74VLR?tag=vh0805-20"
+    },
+    {
+        "id":  1030,
+        "asin":  "B085TRCCT6",
+        "title":  "Luna Premium Subscription",
+        "price":  9.99,
+        "rating":  4.5,
+        "reviews":  43,
+        "category":  "videogames",
+        "slug":  "luna-premium-subscription-1030",
+        "image":  "https://m.media-amazon.com/images/I/B085TRCCT6.jpg",
+        "affiliateLink":  "https://www.amazon.com/dp/B085TRCCT6?tag=vh0805-20"
+    },
+    {
+        "id":  1031,
+        "asin":  "B00GAC1D2G",
+        "title":  "PlayStation Store Gift Card 10",
+        "price":  10,
+        "rating":  4.6,
+        "reviews":  275787,
+        "category":  "videogames",
+        "slug":  "playstation-store-gift-card-10-1031",
+        "image":  "https://m.media-amazon.com/images/I/B00GAC1D2G.jpg",
+        "affiliateLink":  "https://www.amazon.com/dp/B00GAC1D2G?tag=vh0805-20"
+    },
+    {
+        "id":  1032,
+        "asin":  "B00F4CEHNK",
+        "title":  "Xbox Gift Card 10",
+        "price":  10,
+        "rating":  4.6,
+        "reviews":  190902,
+        "category":  "videogames",
+        "slug":  "xbox-gift-card-10-1032",
+        "image":  "https://m.media-amazon.com/images/I/B00F4CEHNK.jpg",
+        "affiliateLink":  "https://www.amazon.com/dp/B00F4CEHNK?tag=vh0805-20"
+    },
+    {
+        "id":  1033,
+        "asin":  "B0F1HX3WXX",
+        "title":  "Xbox Wireless Gaming Controller 2025",
+        "price":  43.49,
+        "rating":  4.6,
+        "reviews":  26431,
+        "category":  "videogames",
+        "slug":  "xbox-wireless-gaming-controller-2025-1033",
+        "image":  "https://m.media-amazon.com/images/I/B0F1HX3WXX.jpg",
+        "affiliateLink":  "https://www.amazon.com/dp/B0F1HX3WXX?tag=vh0805-20"
+    },
+    {
+        "id":  1034,
+        "asin":  "B0FY6Y9WZT",
+        "title":  "PlayStation DualSense Wireless Controller",
+        "price":  74.99,
+        "rating":  4.7,
+        "reviews":  1200,
+        "category":  "videogames",
+        "slug":  "playstation-dualsense-wireless-controller-1034",
+        "image":  "https://m.media-amazon.com/images/I/B0FY6Y9WZT.jpg",
+        "affiliateLink":  "https://www.amazon.com/dp/B0FY6Y9WZT?tag=vh0805-20"
+    }
+]

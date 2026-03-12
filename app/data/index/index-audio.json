@@ -1,0 +1,548 @@
+﻿[
+    {
+        "s":  "wireless-noise-cancelling-headphone-0",
+        "t":  "Wireless Noise Cancelling Headphones 1",
+        "a":  "B0476881275",
+        "r":  4.4
+    },
+    {
+        "s":  "true-wireless-earbuds-pro-11",
+        "t":  "True Wireless Earbuds Pro 1",
+        "a":  "B0659072190",
+        "r":  3.9
+    },
+    {
+        "s":  "portable-bluetooth-speaker-20w-22",
+        "t":  "Portable Bluetooth Speaker 20W 1",
+        "a":  "B0374128248",
+        "r":  4
+    },
+    {
+        "s":  "soundbar-21-channel-33",
+        "t":  "Soundbar 2.1 Channel 1",
+        "a":  "B0151770454",
+        "r":  4.1
+    },
+    {
+        "s":  "gaming-headset-71-surround-44",
+        "t":  "Gaming Headset 7.1 Surround 1",
+        "a":  "B0913139361",
+        "r":  4.2
+    },
+    {
+        "s":  "studio-monitor-speakers-55",
+        "t":  "Studio Monitor Speakers 1",
+        "a":  "B0215867393",
+        "r":  4.3
+    },
+    {
+        "s":  "neckband-wireless-earbuds-66",
+        "t":  "Neckband Wireless Earbuds 1",
+        "a":  "B0951871015",
+        "r":  4.4
+    },
+    {
+        "s":  "waterproof-speaker-ipx7-77",
+        "t":  "Waterproof Speaker IPX7 1",
+        "a":  "B0493117732",
+        "r":  4.5
+    },
+    {
+        "s":  "over-ear-headphones-premium-88",
+        "t":  "Over-Ear Headphones Premium 1",
+        "a":  "B0218026582",
+        "r":  4.6
+    },
+    {
+        "s":  "in-ear-monitors-hifi-99",
+        "t":  "In-Ear Monitors HIFI 1",
+        "a":  "B0911601068",
+        "r":  4.7
+    },
+    {
+        "s":  "party-speaker-led-lights-110",
+        "t":  "Party Speaker LED Lights 2",
+        "a":  "B0863519327",
+        "r":  4.8
+    },
+    {
+        "s":  "car-audio-system-121",
+        "t":  "Car Audio System 2",
+        "a":  "B0310230052",
+        "r":  4.9
+    },
+    {
+        "s":  "home-theater-system-132",
+        "t":  "Home Theater System 2",
+        "a":  "B0115480986",
+        "r":  3.5
+    },
+    {
+        "s":  "dab-radio-digital-143",
+        "t":  "DAB Radio Digital 2",
+        "a":  "B0685711272",
+        "r":  3.6
+    },
+    {
+        "s":  "record-player-vinyl-154",
+        "t":  "Record Player Vinyl 2",
+        "a":  "B0534326865",
+        "r":  3.7
+    },
+    {
+        "s":  "wireless-noise-cancelling-headphone-165",
+        "t":  "Wireless Noise Cancelling Headphones 2",
+        "a":  "B0137216287",
+        "r":  3.8
+    },
+    {
+        "s":  "true-wireless-earbuds-pro-176",
+        "t":  "True Wireless Earbuds Pro 2",
+        "a":  "B0132073017",
+        "r":  3.9
+    },
+    {
+        "s":  "portable-bluetooth-speaker-20w-187",
+        "t":  "Portable Bluetooth Speaker 20W 2",
+        "a":  "B0825345819",
+        "r":  4
+    },
+    {
+        "s":  "soundbar-21-channel-198",
+        "t":  "Soundbar 2.1 Channel 2",
+        "a":  "B0498743808",
+        "r":  4.1
+    },
+    {
+        "s":  "gaming-headset-71-surround-209",
+        "t":  "Gaming Headset 7.1 Surround 3",
+        "a":  "B0573194796",
+        "r":  3.8
+    },
+    {
+        "s":  "studio-monitor-speakers-220",
+        "t":  "Studio Monitor Speakers 3",
+        "a":  "B0654804238",
+        "r":  4.9
+    },
+    {
+        "s":  "neckband-wireless-earbuds-231",
+        "t":  "Neckband Wireless Earbuds 3",
+        "a":  "B0460534358",
+        "r":  3.5
+    },
+    {
+        "s":  "waterproof-speaker-ipx7-242",
+        "t":  "Waterproof Speaker IPX7 3",
+        "a":  "B0010902930",
+        "r":  3.6
+    },
+    {
+        "s":  "over-ear-headphones-premium-253",
+        "t":  "Over-Ear Headphones Premium 3",
+        "a":  "B0739806819",
+        "r":  3.7
+    },
+    {
+        "s":  "in-ear-monitors-hifi-264",
+        "t":  "In-Ear Monitors HIFI 3",
+        "a":  "B0779653989",
+        "r":  3.8
+    },
+    {
+        "s":  "party-speaker-led-lights-275",
+        "t":  "Party Speaker LED Lights 3",
+        "a":  "B0361080169",
+        "r":  3.9
+    },
+    {
+        "s":  "car-audio-system-286",
+        "t":  "Car Audio System 3",
+        "a":  "B0526335717",
+        "r":  4
+    },
+    {
+        "s":  "home-theater-system-297",
+        "t":  "Home Theater System 3",
+        "a":  "B0549140801",
+        "r":  4.1
+    },
+    {
+        "s":  "dab-radio-digital-308",
+        "t":  "DAB Radio Digital 4",
+        "a":  "B0891511793",
+        "r":  3.8
+    },
+    {
+        "s":  "record-player-vinyl-319",
+        "t":  "Record Player Vinyl 4",
+        "a":  "B0248420345",
+        "r":  3.9
+    },
+    {
+        "s":  "wireless-noise-cancelling-headphone-330",
+        "t":  "Wireless Noise Cancelling Headphones 4",
+        "a":  "B0971444648",
+        "r":  3.5
+    },
+    {
+        "s":  "true-wireless-earbuds-pro-341",
+        "t":  "True Wireless Earbuds Pro 4",
+        "a":  "B0435281096",
+        "r":  3.6
+    },
+    {
+        "s":  "portable-bluetooth-speaker-20w-352",
+        "t":  "Portable Bluetooth Speaker 20W 4",
+        "a":  "B0676382299",
+        "r":  3.7
+    },
+    {
+        "s":  "soundbar-21-channel-363",
+        "t":  "Soundbar 2.1 Channel 4",
+        "a":  "B0961054889",
+        "r":  3.8
+    },
+    {
+        "s":  "gaming-headset-71-surround-374",
+        "t":  "Gaming Headset 7.1 Surround 4",
+        "a":  "B0754755646",
+        "r":  3.9
+    },
+    {
+        "s":  "studio-monitor-speakers-385",
+        "t":  "Studio Monitor Speakers 4",
+        "a":  "B0632692761",
+        "r":  4
+    },
+    {
+        "s":  "neckband-wireless-earbuds-396",
+        "t":  "Neckband Wireless Earbuds 4",
+        "a":  "B0640146885",
+        "r":  4.1
+    },
+    {
+        "s":  "waterproof-speaker-ipx7-407",
+        "t":  "Waterproof Speaker IPX7 5",
+        "a":  "B0671624221",
+        "r":  3.8
+    },
+    {
+        "s":  "over-ear-headphones-premium-418",
+        "t":  "Over-Ear Headphones Premium 5",
+        "a":  "B0937413239",
+        "r":  3.9
+    },
+    {
+        "s":  "in-ear-monitors-hifi-429",
+        "t":  "In-Ear Monitors HIFI 5",
+        "a":  "B0088322745",
+        "r":  4
+    },
+    {
+        "s":  "party-speaker-led-lights-440",
+        "t":  "Party Speaker LED Lights 5",
+        "a":  "B0575026512",
+        "r":  3.6
+    },
+    {
+        "s":  "car-audio-system-451",
+        "t":  "Car Audio System 5",
+        "a":  "B0857102753",
+        "r":  3.7
+    },
+    {
+        "s":  "home-theater-system-462",
+        "t":  "Home Theater System 5",
+        "a":  "B0807789975",
+        "r":  3.8
+    },
+    {
+        "s":  "dab-radio-digital-473",
+        "t":  "DAB Radio Digital 5",
+        "a":  "B0602204093",
+        "r":  3.9
+    },
+    {
+        "s":  "record-player-vinyl-484",
+        "t":  "Record Player Vinyl 5",
+        "a":  "B0279037885",
+        "r":  4
+    },
+    {
+        "s":  "wireless-noise-cancelling-headphone-495",
+        "t":  "Wireless Noise Cancelling Headphones 5",
+        "a":  "B0000555956",
+        "r":  4.1
+    },
+    {
+        "s":  "true-wireless-earbuds-pro-506",
+        "t":  "True Wireless Earbuds Pro 6",
+        "a":  "B0531091199",
+        "r":  3.8
+    },
+    {
+        "s":  "portable-bluetooth-speaker-20w-517",
+        "t":  "Portable Bluetooth Speaker 20W 6",
+        "a":  "B0642045088",
+        "r":  3.9
+    },
+    {
+        "s":  "soundbar-21-channel-528",
+        "t":  "Soundbar 2.1 Channel 6",
+        "a":  "B0748579858",
+        "r":  4
+    },
+    {
+        "s":  "gaming-headset-71-surround-539",
+        "t":  "Gaming Headset 7.1 Surround 6",
+        "a":  "B0779710561",
+        "r":  4.1
+    },
+    {
+        "s":  "studio-monitor-speakers-550",
+        "t":  "Studio Monitor Speakers 6",
+        "a":  "B0354160252",
+        "r":  3.7
+    },
+    {
+        "s":  "neckband-wireless-earbuds-561",
+        "t":  "Neckband Wireless Earbuds 6",
+        "a":  "B0900336384",
+        "r":  3.8
+    },
+    {
+        "s":  "waterproof-speaker-ipx7-572",
+        "t":  "Waterproof Speaker IPX7 6",
+        "a":  "B0789123047",
+        "r":  3.9
+    },
+    {
+        "s":  "over-ear-headphones-premium-583",
+        "t":  "Over-Ear Headphones Premium 6",
+        "a":  "B0654994478",
+        "r":  4
+    },
+    {
+        "s":  "in-ear-monitors-hifi-594",
+        "t":  "In-Ear Monitors HIFI 6",
+        "a":  "B0154340405",
+        "r":  4.1
+    },
+    {
+        "s":  "party-speaker-led-lights-605",
+        "t":  "Party Speaker LED Lights 7",
+        "a":  "B0583198145",
+        "r":  3.8
+    },
+    {
+        "s":  "car-audio-system-616",
+        "t":  "Car Audio System 7",
+        "a":  "B0417893330",
+        "r":  3.9
+    },
+    {
+        "s":  "home-theater-system-627",
+        "t":  "Home Theater System 7",
+        "a":  "B0272587343",
+        "r":  4
+    },
+    {
+        "s":  "dab-radio-digital-638",
+        "t":  "DAB Radio Digital 7",
+        "a":  "B0600736435",
+        "r":  4.1
+    },
+    {
+        "s":  "record-player-vinyl-649",
+        "t":  "Record Player Vinyl 7",
+        "a":  "B0493399996",
+        "r":  4.2
+    },
+    {
+        "s":  "wireless-noise-cancelling-headphone-660",
+        "t":  "Wireless Noise Cancelling Headphones 7",
+        "a":  "B0720831566",
+        "r":  3.8
+    },
+    {
+        "s":  "true-wireless-earbuds-pro-671",
+        "t":  "True Wireless Earbuds Pro 7",
+        "a":  "B0853519941",
+        "r":  3.9
+    },
+    {
+        "s":  "portable-bluetooth-speaker-20w-682",
+        "t":  "Portable Bluetooth Speaker 20W 7",
+        "a":  "B0253307734",
+        "r":  4
+    },
+    {
+        "s":  "soundbar-21-channel-693",
+        "t":  "Soundbar 2.1 Channel 7",
+        "a":  "B0871595440",
+        "r":  4.1
+    },
+    {
+        "s":  "gaming-headset-71-surround-704",
+        "t":  "Gaming Headset 7.1 Surround 8",
+        "a":  "B0344027797",
+        "r":  3.8
+    },
+    {
+        "s":  "studio-monitor-speakers-715",
+        "t":  "Studio Monitor Speakers 8",
+        "a":  "B0514617946",
+        "r":  3.9
+    },
+    {
+        "s":  "neckband-wireless-earbuds-726",
+        "t":  "Neckband Wireless Earbuds 8",
+        "a":  "B0274552228",
+        "r":  4
+    },
+    {
+        "s":  "waterproof-speaker-ipx7-737",
+        "t":  "Waterproof Speaker IPX7 8",
+        "a":  "B0038003848",
+        "r":  4.1
+    },
+    {
+        "s":  "over-ear-headphones-premium-748",
+        "t":  "Over-Ear Headphones Premium 8",
+        "a":  "B0211954175",
+        "r":  4.2
+    },
+    {
+        "s":  "in-ear-monitors-hifi-759",
+        "t":  "In-Ear Monitors HIFI 8",
+        "a":  "B0557608192",
+        "r":  4.3
+    },
+    {
+        "s":  "party-speaker-led-lights-770",
+        "t":  "Party Speaker LED Lights 8",
+        "a":  "B0692302813",
+        "r":  3.9
+    },
+    {
+        "s":  "car-audio-system-781",
+        "t":  "Car Audio System 8",
+        "a":  "B0991863463",
+        "r":  4
+    },
+    {
+        "s":  "home-theater-system-792",
+        "t":  "Home Theater System 8",
+        "a":  "B0420541994",
+        "r":  4.1
+    },
+    {
+        "s":  "dab-radio-digital-803",
+        "t":  "DAB Radio Digital 9",
+        "a":  "B0989913710",
+        "r":  3.8
+    },
+    {
+        "s":  "record-player-vinyl-814",
+        "t":  "Record Player Vinyl 9",
+        "a":  "B0587377248",
+        "r":  3.9
+    },
+    {
+        "s":  "wireless-noise-cancelling-headphone-825",
+        "t":  "Wireless Noise Cancelling Headphones 9",
+        "a":  "B0553402208",
+        "r":  4
+    },
+    {
+        "s":  "true-wireless-earbuds-pro-836",
+        "t":  "True Wireless Earbuds Pro 9",
+        "a":  "B0063654638",
+        "r":  4.1
+    },
+    {
+        "s":  "portable-bluetooth-speaker-20w-847",
+        "t":  "Portable Bluetooth Speaker 20W 9",
+        "a":  "B0220850085",
+        "r":  4.2
+    },
+    {
+        "s":  "soundbar-21-channel-858",
+        "t":  "Soundbar 2.1 Channel 9",
+        "a":  "B0223901286",
+        "r":  4.3
+    },
+    {
+        "s":  "gaming-headset-71-surround-869",
+        "t":  "Gaming Headset 7.1 Surround 9",
+        "a":  "B0145904689",
+        "r":  4.4
+    },
+    {
+        "s":  "studio-monitor-speakers-880",
+        "t":  "Studio Monitor Speakers 9",
+        "a":  "B0223272653",
+        "r":  4
+    },
+    {
+        "s":  "neckband-wireless-earbuds-891",
+        "t":  "Neckband Wireless Earbuds 9",
+        "a":  "B0027018682",
+        "r":  4.1
+    },
+    {
+        "s":  "waterproof-speaker-ipx7-902",
+        "t":  "Waterproof Speaker IPX7 10",
+        "a":  "B0222592140",
+        "r":  3.8
+    },
+    {
+        "s":  "over-ear-headphones-premium-913",
+        "t":  "Over-Ear Headphones Premium 10",
+        "a":  "B0064563494",
+        "r":  3.9
+    },
+    {
+        "s":  "in-ear-monitors-hifi-924",
+        "t":  "In-Ear Monitors HIFI 10",
+        "a":  "B0838796105",
+        "r":  4
+    },
+    {
+        "s":  "party-speaker-led-lights-935",
+        "t":  "Party Speaker LED Lights 10",
+        "a":  "B0593986373",
+        "r":  4.1
+    },
+    {
+        "s":  "car-audio-system-946",
+        "t":  "Car Audio System 10",
+        "a":  "B0075396122",
+        "r":  4.2
+    },
+    {
+        "s":  "home-theater-system-957",
+        "t":  "Home Theater System 10",
+        "a":  "B0785058125",
+        "r":  4.3
+    },
+    {
+        "s":  "dab-radio-digital-968",
+        "t":  "DAB Radio Digital 10",
+        "a":  "B0775770749",
+        "r":  4.4
+    },
+    {
+        "s":  "record-player-vinyl-979",
+        "t":  "Record Player Vinyl 10",
+        "a":  "B0703704560",
+        "r":  4.5
+    },
+    {
+        "s":  "wireless-noise-cancelling-headphone-990",
+        "t":  "Wireless Noise Cancelling Headphones 10",
+        "a":  "B0602786012",
+        "r":  4.1
+    }
+]

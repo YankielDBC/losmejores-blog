@@ -1,0 +1,548 @@
+﻿[
+    {
+        "s":  "e-reader-6-touchscreen-7",
+        "t":  "E-Reader 6\" Touchscreen 1",
+        "a":  "B0722291839",
+        "r":  4.8
+    },
+    {
+        "s":  "e-reader-paperwhite-11th-gen-18",
+        "t":  "E-Reader Paperwhite 11th Gen 1",
+        "a":  "B0609536168",
+        "r":  4.3
+    },
+    {
+        "s":  "e-reader-with-warm-light-29",
+        "t":  "E-Reader with Warm Light 1",
+        "a":  "B0349998326",
+        "r":  4.4
+    },
+    {
+        "s":  "tablet-fire-hd-10-40",
+        "t":  "Tablet Fire HD 10 1",
+        "a":  "B0430738002",
+        "r":  4
+    },
+    {
+        "s":  "e-reader-kids-edition-51",
+        "t":  "E-Reader Kids Edition 1",
+        "a":  "B0502247232",
+        "r":  4.1
+    },
+    {
+        "s":  "tablet-8-hd-kids-62",
+        "t":  "Tablet 8\" HD Kids 1",
+        "a":  "B0651746670",
+        "r":  4.2
+    },
+    {
+        "s":  "reading-light-clip-on-73",
+        "t":  "Reading Light Clip On 1",
+        "a":  "B0941126141",
+        "r":  4.3
+    },
+    {
+        "s":  "leather-cover-premium-84",
+        "t":  "Leather Cover Premium 1",
+        "a":  "B0208278989",
+        "r":  4.4
+    },
+    {
+        "s":  "tablet-stand-adjustable-95",
+        "t":  "Tablet Stand Adjustable 1",
+        "a":  "B0206332971",
+        "r":  4.5
+    },
+    {
+        "s":  "stylus-pen-tablet-106",
+        "t":  "Stylus Pen Tablet 2",
+        "a":  "B0351678150",
+        "r":  3.6
+    },
+    {
+        "s":  "screen-protector-pack-117",
+        "t":  "Screen Protector Pack 2",
+        "a":  "B0352317789",
+        "r":  3.7
+    },
+    {
+        "s":  "case-with-stand-128",
+        "t":  "Case with Stand 2",
+        "a":  "B0186274510",
+        "r":  3.8
+    },
+    {
+        "s":  "power-bank-for-e-reader-139",
+        "t":  "Power Bank for E-Reader 2",
+        "a":  "B0667077002",
+        "r":  3.9
+    },
+    {
+        "s":  "audiobook-subscription-150",
+        "t":  "Audiobook Subscription 2",
+        "a":  "B0045138824",
+        "r":  3.5
+    },
+    {
+        "s":  "e-book-bundle-popular-161",
+        "t":  "E-Book Bundle Popular 2",
+        "a":  "B0896896734",
+        "r":  3.6
+    },
+    {
+        "s":  "e-reader-6-touchscreen-172",
+        "t":  "E-Reader 6\" Touchscreen 2",
+        "a":  "B0747006270",
+        "r":  3.7
+    },
+    {
+        "s":  "e-reader-paperwhite-11th-gen-183",
+        "t":  "E-Reader Paperwhite 11th Gen 2",
+        "a":  "B0614509247",
+        "r":  3.8
+    },
+    {
+        "s":  "e-reader-with-warm-light-194",
+        "t":  "E-Reader with Warm Light 2",
+        "a":  "B0919582176",
+        "r":  3.9
+    },
+    {
+        "s":  "tablet-fire-hd-10-205",
+        "t":  "Tablet Fire HD 10 3",
+        "a":  "B0616760490",
+        "r":  3.6
+    },
+    {
+        "s":  "e-reader-kids-edition-216",
+        "t":  "E-Reader Kids Edition 3",
+        "a":  "B0417674031",
+        "r":  3.7
+    },
+    {
+        "s":  "tablet-8-hd-kids-227",
+        "t":  "Tablet 8\" HD Kids 3",
+        "a":  "B0303310970",
+        "r":  3.8
+    },
+    {
+        "s":  "reading-light-clip-on-238",
+        "t":  "Reading Light Clip On 3",
+        "a":  "B0267378870",
+        "r":  3.9
+    },
+    {
+        "s":  "leather-cover-premium-249",
+        "t":  "Leather Cover Premium 3",
+        "a":  "B0650533335",
+        "r":  4
+    },
+    {
+        "s":  "tablet-stand-adjustable-260",
+        "t":  "Tablet Stand Adjustable 3",
+        "a":  "B0888304912",
+        "r":  3.6
+    },
+    {
+        "s":  "stylus-pen-tablet-271",
+        "t":  "Stylus Pen Tablet 3",
+        "a":  "B0048918943",
+        "r":  3.7
+    },
+    {
+        "s":  "screen-protector-pack-282",
+        "t":  "Screen Protector Pack 3",
+        "a":  "B0502608610",
+        "r":  3.8
+    },
+    {
+        "s":  "case-with-stand-293",
+        "t":  "Case with Stand 3",
+        "a":  "B0783827800",
+        "r":  3.9
+    },
+    {
+        "s":  "power-bank-for-e-reader-304",
+        "t":  "Power Bank for E-Reader 4",
+        "a":  "B0249083166",
+        "r":  3.6
+    },
+    {
+        "s":  "audiobook-subscription-315",
+        "t":  "Audiobook Subscription 4",
+        "a":  "B0130837626",
+        "r":  3.7
+    },
+    {
+        "s":  "e-book-bundle-popular-326",
+        "t":  "E-Book Bundle Popular 4",
+        "a":  "B0342040908",
+        "r":  3.8
+    },
+    {
+        "s":  "e-reader-6-touchscreen-337",
+        "t":  "E-Reader 6\" Touchscreen 4",
+        "a":  "B0023332189",
+        "r":  3.9
+    },
+    {
+        "s":  "e-reader-paperwhite-11th-gen-348",
+        "t":  "E-Reader Paperwhite 11th Gen 4",
+        "a":  "B0660080824",
+        "r":  4
+    },
+    {
+        "s":  "e-reader-with-warm-light-359",
+        "t":  "E-Reader with Warm Light 4",
+        "a":  "B0106373260",
+        "r":  4.1
+    },
+    {
+        "s":  "tablet-fire-hd-10-370",
+        "t":  "Tablet Fire HD 10 4",
+        "a":  "B0474939582",
+        "r":  3.7
+    },
+    {
+        "s":  "e-reader-kids-edition-381",
+        "t":  "E-Reader Kids Edition 4",
+        "a":  "B0118296212",
+        "r":  3.8
+    },
+    {
+        "s":  "tablet-8-hd-kids-392",
+        "t":  "Tablet 8\" HD Kids 4",
+        "a":  "B0539442044",
+        "r":  3.9
+    },
+    {
+        "s":  "reading-light-clip-on-403",
+        "t":  "Reading Light Clip On 5",
+        "a":  "B0441096732",
+        "r":  3.6
+    },
+    {
+        "s":  "leather-cover-premium-414",
+        "t":  "Leather Cover Premium 5",
+        "a":  "B0193402457",
+        "r":  3.7
+    },
+    {
+        "s":  "tablet-stand-adjustable-425",
+        "t":  "Tablet Stand Adjustable 5",
+        "a":  "B0953912710",
+        "r":  3.8
+    },
+    {
+        "s":  "stylus-pen-tablet-436",
+        "t":  "Stylus Pen Tablet 5",
+        "a":  "B0123007935",
+        "r":  3.9
+    },
+    {
+        "s":  "screen-protector-pack-447",
+        "t":  "Screen Protector Pack 5",
+        "a":  "B0800273037",
+        "r":  4
+    },
+    {
+        "s":  "case-with-stand-458",
+        "t":  "Case with Stand 5",
+        "a":  "B0946485111",
+        "r":  4.1
+    },
+    {
+        "s":  "power-bank-for-e-reader-469",
+        "t":  "Power Bank for E-Reader 5",
+        "a":  "B0927702558",
+        "r":  4.2
+    },
+    {
+        "s":  "audiobook-subscription-480",
+        "t":  "Audiobook Subscription 5",
+        "a":  "B0575684430",
+        "r":  3.8
+    },
+    {
+        "s":  "e-book-bundle-popular-491",
+        "t":  "E-Book Bundle Popular 5",
+        "a":  "B0947198027",
+        "r":  3.9
+    },
+    {
+        "s":  "e-reader-6-touchscreen-502",
+        "t":  "E-Reader 6\" Touchscreen 6",
+        "a":  "B0645285435",
+        "r":  3.6
+    },
+    {
+        "s":  "e-reader-paperwhite-11th-gen-513",
+        "t":  "E-Reader Paperwhite 11th Gen 6",
+        "a":  "B0924836052",
+        "r":  3.7
+    },
+    {
+        "s":  "e-reader-with-warm-light-524",
+        "t":  "E-Reader with Warm Light 6",
+        "a":  "B0582086127",
+        "r":  3.8
+    },
+    {
+        "s":  "tablet-fire-hd-10-535",
+        "t":  "Tablet Fire HD 10 6",
+        "a":  "B0565414250",
+        "r":  3.9
+    },
+    {
+        "s":  "e-reader-kids-edition-546",
+        "t":  "E-Reader Kids Edition 6",
+        "a":  "B0936183530",
+        "r":  4
+    },
+    {
+        "s":  "tablet-8-hd-kids-557",
+        "t":  "Tablet 8\" HD Kids 6",
+        "a":  "B0438179090",
+        "r":  4.1
+    },
+    {
+        "s":  "reading-light-clip-on-568",
+        "t":  "Reading Light Clip On 6",
+        "a":  "B0106872286",
+        "r":  4.2
+    },
+    {
+        "s":  "leather-cover-premium-579",
+        "t":  "Leather Cover Premium 6",
+        "a":  "B0830780288",
+        "r":  4.3
+    },
+    {
+        "s":  "tablet-stand-adjustable-590",
+        "t":  "Tablet Stand Adjustable 6",
+        "a":  "B0114249344",
+        "r":  3.9
+    },
+    {
+        "s":  "stylus-pen-tablet-601",
+        "t":  "Stylus Pen Tablet 7",
+        "a":  "B0543446360",
+        "r":  3.6
+    },
+    {
+        "s":  "screen-protector-pack-612",
+        "t":  "Screen Protector Pack 7",
+        "a":  "B0902015948",
+        "r":  3.7
+    },
+    {
+        "s":  "case-with-stand-623",
+        "t":  "Case with Stand 7",
+        "a":  "B0155596018",
+        "r":  3.8
+    },
+    {
+        "s":  "power-bank-for-e-reader-634",
+        "t":  "Power Bank for E-Reader 7",
+        "a":  "B0349504848",
+        "r":  3.9
+    },
+    {
+        "s":  "audiobook-subscription-645",
+        "t":  "Audiobook Subscription 7",
+        "a":  "B0836410475",
+        "r":  4
+    },
+    {
+        "s":  "e-book-bundle-popular-656",
+        "t":  "E-Book Bundle Popular 7",
+        "a":  "B0036228273",
+        "r":  4.1
+    },
+    {
+        "s":  "e-reader-6-touchscreen-667",
+        "t":  "E-Reader 6\" Touchscreen 7",
+        "a":  "B0178019977",
+        "r":  4.2
+    },
+    {
+        "s":  "e-reader-paperwhite-11th-gen-678",
+        "t":  "E-Reader Paperwhite 11th Gen 7",
+        "a":  "B0061675308",
+        "r":  4.3
+    },
+    {
+        "s":  "e-reader-with-warm-light-689",
+        "t":  "E-Reader with Warm Light 7",
+        "a":  "B0595405073",
+        "r":  4.4
+    },
+    {
+        "s":  "tablet-fire-hd-10-700",
+        "t":  "Tablet Fire HD 10 8",
+        "a":  "B0723384581",
+        "r":  3.6
+    },
+    {
+        "s":  "e-reader-kids-edition-711",
+        "t":  "E-Reader Kids Edition 8",
+        "a":  "B0778349693",
+        "r":  3.7
+    },
+    {
+        "s":  "tablet-8-hd-kids-722",
+        "t":  "Tablet 8\" HD Kids 8",
+        "a":  "B0911142616",
+        "r":  3.8
+    },
+    {
+        "s":  "reading-light-clip-on-733",
+        "t":  "Reading Light Clip On 8",
+        "a":  "B0547162927",
+        "r":  3.9
+    },
+    {
+        "s":  "leather-cover-premium-744",
+        "t":  "Leather Cover Premium 8",
+        "a":  "B0915117219",
+        "r":  4
+    },
+    {
+        "s":  "tablet-stand-adjustable-755",
+        "t":  "Tablet Stand Adjustable 8",
+        "a":  "B0439336412",
+        "r":  4.1
+    },
+    {
+        "s":  "stylus-pen-tablet-766",
+        "t":  "Stylus Pen Tablet 8",
+        "a":  "B0219197124",
+        "r":  4.2
+    },
+    {
+        "s":  "screen-protector-pack-777",
+        "t":  "Screen Protector Pack 8",
+        "a":  "B0415994844",
+        "r":  4.3
+    },
+    {
+        "s":  "case-with-stand-788",
+        "t":  "Case with Stand 8",
+        "a":  "B0208783141",
+        "r":  4.4
+    },
+    {
+        "s":  "power-bank-for-e-reader-799",
+        "t":  "Power Bank for E-Reader 8",
+        "a":  "B0982981897",
+        "r":  4.5
+    },
+    {
+        "s":  "audiobook-subscription-810",
+        "t":  "Audiobook Subscription 9",
+        "a":  "B0984811345",
+        "r":  3.7
+    },
+    {
+        "s":  "e-book-bundle-popular-821",
+        "t":  "E-Book Bundle Popular 9",
+        "a":  "B0079789329",
+        "r":  3.8
+    },
+    {
+        "s":  "e-reader-6-touchscreen-832",
+        "t":  "E-Reader 6\" Touchscreen 9",
+        "a":  "B0234245797",
+        "r":  3.9
+    },
+    {
+        "s":  "e-reader-paperwhite-11th-gen-843",
+        "t":  "E-Reader Paperwhite 11th Gen 9",
+        "a":  "B0575472462",
+        "r":  4
+    },
+    {
+        "s":  "e-reader-with-warm-light-854",
+        "t":  "E-Reader with Warm Light 9",
+        "a":  "B0332354424",
+        "r":  4.1
+    },
+    {
+        "s":  "tablet-fire-hd-10-865",
+        "t":  "Tablet Fire HD 10 9",
+        "a":  "B0310954781",
+        "r":  4.2
+    },
+    {
+        "s":  "e-reader-kids-edition-876",
+        "t":  "E-Reader Kids Edition 9",
+        "a":  "B0310025971",
+        "r":  4.3
+    },
+    {
+        "s":  "tablet-8-hd-kids-887",
+        "t":  "Tablet 8\" HD Kids 9",
+        "a":  "B0376094033",
+        "r":  4.4
+    },
+    {
+        "s":  "reading-light-clip-on-898",
+        "t":  "Reading Light Clip On 9",
+        "a":  "B0309172623",
+        "r":  4.5
+    },
+    {
+        "s":  "leather-cover-premium-909",
+        "t":  "Leather Cover Premium 10",
+        "a":  "B0207426005",
+        "r":  4.1
+    },
+    {
+        "s":  "tablet-stand-adjustable-920",
+        "t":  "Tablet Stand Adjustable 10",
+        "a":  "B0031876967",
+        "r":  3.8
+    },
+    {
+        "s":  "stylus-pen-tablet-931",
+        "t":  "Stylus Pen Tablet 10",
+        "a":  "B0693959768",
+        "r":  3.9
+    },
+    {
+        "s":  "screen-protector-pack-942",
+        "t":  "Screen Protector Pack 10",
+        "a":  "B0533298852",
+        "r":  4
+    },
+    {
+        "s":  "case-with-stand-953",
+        "t":  "Case with Stand 10",
+        "a":  "B0397214209",
+        "r":  4.1
+    },
+    {
+        "s":  "power-bank-for-e-reader-964",
+        "t":  "Power Bank for E-Reader 10",
+        "a":  "B0714648655",
+        "r":  4.2
+    },
+    {
+        "s":  "audiobook-subscription-975",
+        "t":  "Audiobook Subscription 10",
+        "a":  "B0494407445",
+        "r":  4.3
+    },
+    {
+        "s":  "e-book-bundle-popular-986",
+        "t":  "E-Book Bundle Popular 10",
+        "a":  "B0204608590",
+        "r":  4.4
+    },
+    {
+        "s":  "e-reader-6-touchscreen-997",
+        "t":  "E-Reader 6\" Touchscreen 10",
+        "a":  "B0878914087",
+        "r":  4.5
+    }
+]

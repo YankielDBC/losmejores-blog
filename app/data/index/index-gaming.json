@@ -1,0 +1,548 @@
+﻿[
+    {
+        "s":  "gaming-controller-wireless-2",
+        "t":  "Gaming Controller Wireless 1",
+        "a":  "B0152150146",
+        "r":  4.5
+    },
+    {
+        "s":  "gaming-mouse-rgb-16000dpi-13",
+        "t":  "Gaming Mouse RGB 16000DPI 1",
+        "a":  "B0875433465",
+        "r":  4
+    },
+    {
+        "s":  "gaming-headset-71-surround-24",
+        "t":  "Gaming Headset 7.1 Surround 1",
+        "a":  "B0977812284",
+        "r":  4.1
+    },
+    {
+        "s":  "gaming-chair-ergonomic-pro-35",
+        "t":  "Gaming Chair Ergonomic Pro 1",
+        "a":  "B0031136501",
+        "r":  4.2
+    },
+    {
+        "s":  "4k-gaming-monitor-144hz-46",
+        "t":  "4K Gaming Monitor 144Hz 1",
+        "a":  "B0642368761",
+        "r":  4.3
+    },
+    {
+        "s":  "console-controller-pro-57",
+        "t":  "Console Controller Pro 1",
+        "a":  "B0372480729",
+        "r":  4.4
+    },
+    {
+        "s":  "vr-headset-system-68",
+        "t":  "VR Headset System 1",
+        "a":  "B0618455808",
+        "r":  4.5
+    },
+    {
+        "s":  "gaming-router-wifi-6e-79",
+        "t":  "Gaming Router WiFi 6E 1",
+        "a":  "B0559937419",
+        "r":  4.6
+    },
+    {
+        "s":  "gaming-keyboard-mechanical-90",
+        "t":  "Gaming Keyboard Mechanical 1",
+        "a":  "B0280879795",
+        "r":  4.3
+    },
+    {
+        "s":  "racing-wheel-simulator-101",
+        "t":  "Racing Wheel Simulator 2",
+        "a":  "B0991291784",
+        "r":  4.8
+    },
+    {
+        "s":  "gaming-desk-led-112",
+        "t":  "Gaming Desk LED 2",
+        "a":  "B0511742979",
+        "r":  4.9
+    },
+    {
+        "s":  "capture-card-4k-123",
+        "t":  "Capture Card 4K 2",
+        "a":  "B0669303426",
+        "r":  3.5
+    },
+    {
+        "s":  "streaming-microphone-usb-134",
+        "t":  "Streaming Microphone USB 2",
+        "a":  "B0056268557",
+        "r":  3.6
+    },
+    {
+        "s":  "gaming-laptop-stand-145",
+        "t":  "Gaming Laptop Stand 2",
+        "a":  "B0356370414",
+        "r":  3.7
+    },
+    {
+        "s":  "gaming-power-supply-850w-156",
+        "t":  "Gaming Power Supply 850W 2",
+        "a":  "B0312050200",
+        "r":  3.8
+    },
+    {
+        "s":  "gaming-controller-wireless-167",
+        "t":  "Gaming Controller Wireless 2",
+        "a":  "B0513190195",
+        "r":  3.9
+    },
+    {
+        "s":  "gaming-mouse-rgb-16000dpi-178",
+        "t":  "Gaming Mouse RGB 16000DPI 2",
+        "a":  "B0236020603",
+        "r":  4
+    },
+    {
+        "s":  "gaming-headset-71-surround-189",
+        "t":  "Gaming Headset 7.1 Surround 2",
+        "a":  "B0944496732",
+        "r":  4.1
+    },
+    {
+        "s":  "gaming-chair-ergonomic-pro-200",
+        "t":  "Gaming Chair Ergonomic Pro 3",
+        "a":  "B0755631862",
+        "r":  4.8
+    },
+    {
+        "s":  "4k-gaming-monitor-144hz-211",
+        "t":  "4K Gaming Monitor 144Hz 3",
+        "a":  "B0061905759",
+        "r":  4.9
+    },
+    {
+        "s":  "console-controller-pro-222",
+        "t":  "Console Controller Pro 3",
+        "a":  "B0196859042",
+        "r":  3.5
+    },
+    {
+        "s":  "vr-headset-system-233",
+        "t":  "VR Headset System 3",
+        "a":  "B0804109801",
+        "r":  3.6
+    },
+    {
+        "s":  "gaming-router-wifi-6e-244",
+        "t":  "Gaming Router WiFi 6E 3",
+        "a":  "B0855749399",
+        "r":  3.7
+    },
+    {
+        "s":  "gaming-keyboard-mechanical-255",
+        "t":  "Gaming Keyboard Mechanical 3",
+        "a":  "B0266713551",
+        "r":  3.8
+    },
+    {
+        "s":  "racing-wheel-simulator-266",
+        "t":  "Racing Wheel Simulator 3",
+        "a":  "B0685289453",
+        "r":  3.9
+    },
+    {
+        "s":  "gaming-desk-led-277",
+        "t":  "Gaming Desk LED 3",
+        "a":  "B0387414132",
+        "r":  4
+    },
+    {
+        "s":  "capture-card-4k-288",
+        "t":  "Capture Card 4K 3",
+        "a":  "B0855333692",
+        "r":  4.1
+    },
+    {
+        "s":  "streaming-microphone-usb-299",
+        "t":  "Streaming Microphone USB 3",
+        "a":  "B0446763316",
+        "r":  4.2
+    },
+    {
+        "s":  "gaming-laptop-stand-310",
+        "t":  "Gaming Laptop Stand 4",
+        "a":  "B0671170441",
+        "r":  4.9
+    },
+    {
+        "s":  "gaming-power-supply-850w-321",
+        "t":  "Gaming Power Supply 850W 4",
+        "a":  "B0182619113",
+        "r":  3.5
+    },
+    {
+        "s":  "gaming-controller-wireless-332",
+        "t":  "Gaming Controller Wireless 4",
+        "a":  "B0894114837",
+        "r":  3.6
+    },
+    {
+        "s":  "gaming-mouse-rgb-16000dpi-343",
+        "t":  "Gaming Mouse RGB 16000DPI 4",
+        "a":  "B0345325005",
+        "r":  3.7
+    },
+    {
+        "s":  "gaming-headset-71-surround-354",
+        "t":  "Gaming Headset 7.1 Surround 4",
+        "a":  "B0435622831",
+        "r":  3.8
+    },
+    {
+        "s":  "gaming-chair-ergonomic-pro-365",
+        "t":  "Gaming Chair Ergonomic Pro 4",
+        "a":  "B0141730438",
+        "r":  3.9
+    },
+    {
+        "s":  "4k-gaming-monitor-144hz-376",
+        "t":  "4K Gaming Monitor 144Hz 4",
+        "a":  "B0183308444",
+        "r":  4
+    },
+    {
+        "s":  "console-controller-pro-387",
+        "t":  "Console Controller Pro 4",
+        "a":  "B0044700117",
+        "r":  4.1
+    },
+    {
+        "s":  "vr-headset-system-398",
+        "t":  "VR Headset System 4",
+        "a":  "B0313519174",
+        "r":  4.2
+    },
+    {
+        "s":  "gaming-router-wifi-6e-409",
+        "t":  "Gaming Router WiFi 6E 5",
+        "a":  "B0840166854",
+        "r":  3.9
+    },
+    {
+        "s":  "gaming-keyboard-mechanical-420",
+        "t":  "Gaming Keyboard Mechanical 5",
+        "a":  "B0916356680",
+        "r":  3.5
+    },
+    {
+        "s":  "racing-wheel-simulator-431",
+        "t":  "Racing Wheel Simulator 5",
+        "a":  "B0659755602",
+        "r":  3.6
+    },
+    {
+        "s":  "gaming-desk-led-442",
+        "t":  "Gaming Desk LED 5",
+        "a":  "B0440626815",
+        "r":  3.7
+    },
+    {
+        "s":  "capture-card-4k-453",
+        "t":  "Capture Card 4K 5",
+        "a":  "B0324780361",
+        "r":  3.8
+    },
+    {
+        "s":  "streaming-microphone-usb-464",
+        "t":  "Streaming Microphone USB 5",
+        "a":  "B0281300385",
+        "r":  3.9
+    },
+    {
+        "s":  "gaming-laptop-stand-475",
+        "t":  "Gaming Laptop Stand 5",
+        "a":  "B0613021842",
+        "r":  4
+    },
+    {
+        "s":  "gaming-power-supply-850w-486",
+        "t":  "Gaming Power Supply 850W 5",
+        "a":  "B0532862430",
+        "r":  4.1
+    },
+    {
+        "s":  "gaming-controller-wireless-497",
+        "t":  "Gaming Controller Wireless 5",
+        "a":  "B0294125926",
+        "r":  4.2
+    },
+    {
+        "s":  "gaming-mouse-rgb-16000dpi-508",
+        "t":  "Gaming Mouse RGB 16000DPI 6",
+        "a":  "B0299924438",
+        "r":  3.9
+    },
+    {
+        "s":  "gaming-headset-71-surround-519",
+        "t":  "Gaming Headset 7.1 Surround 6",
+        "a":  "B0388370921",
+        "r":  4
+    },
+    {
+        "s":  "gaming-chair-ergonomic-pro-530",
+        "t":  "Gaming Chair Ergonomic Pro 6",
+        "a":  "B0108998942",
+        "r":  3.6
+    },
+    {
+        "s":  "4k-gaming-monitor-144hz-541",
+        "t":  "4K Gaming Monitor 144Hz 6",
+        "a":  "B0481273211",
+        "r":  3.7
+    },
+    {
+        "s":  "console-controller-pro-552",
+        "t":  "Console Controller Pro 6",
+        "a":  "B0608827667",
+        "r":  3.8
+    },
+    {
+        "s":  "vr-headset-system-563",
+        "t":  "VR Headset System 6",
+        "a":  "B0084639972",
+        "r":  3.9
+    },
+    {
+        "s":  "gaming-router-wifi-6e-574",
+        "t":  "Gaming Router WiFi 6E 6",
+        "a":  "B0305880052",
+        "r":  4
+    },
+    {
+        "s":  "gaming-keyboard-mechanical-585",
+        "t":  "Gaming Keyboard Mechanical 6",
+        "a":  "B0106711818",
+        "r":  4.1
+    },
+    {
+        "s":  "racing-wheel-simulator-596",
+        "t":  "Racing Wheel Simulator 6",
+        "a":  "B0133701055",
+        "r":  4.2
+    },
+    {
+        "s":  "gaming-desk-led-607",
+        "t":  "Gaming Desk LED 7",
+        "a":  "B0383549836",
+        "r":  3.9
+    },
+    {
+        "s":  "capture-card-4k-618",
+        "t":  "Capture Card 4K 7",
+        "a":  "B0804776315",
+        "r":  4
+    },
+    {
+        "s":  "streaming-microphone-usb-629",
+        "t":  "Streaming Microphone USB 7",
+        "a":  "B0560989645",
+        "r":  4.1
+    },
+    {
+        "s":  "gaming-laptop-stand-640",
+        "t":  "Gaming Laptop Stand 7",
+        "a":  "B0284638043",
+        "r":  3.7
+    },
+    {
+        "s":  "gaming-power-supply-850w-651",
+        "t":  "Gaming Power Supply 850W 7",
+        "a":  "B0833887729",
+        "r":  3.8
+    },
+    {
+        "s":  "gaming-controller-wireless-662",
+        "t":  "Gaming Controller Wireless 7",
+        "a":  "B0229608239",
+        "r":  3.9
+    },
+    {
+        "s":  "gaming-mouse-rgb-16000dpi-673",
+        "t":  "Gaming Mouse RGB 16000DPI 7",
+        "a":  "B0958633988",
+        "r":  4
+    },
+    {
+        "s":  "gaming-headset-71-surround-684",
+        "t":  "Gaming Headset 7.1 Surround 7",
+        "a":  "B0965317054",
+        "r":  4.1
+    },
+    {
+        "s":  "gaming-chair-ergonomic-pro-695",
+        "t":  "Gaming Chair Ergonomic Pro 7",
+        "a":  "B0145979494",
+        "r":  4.2
+    },
+    {
+        "s":  "4k-gaming-monitor-144hz-706",
+        "t":  "4K Gaming Monitor 144Hz 8",
+        "a":  "B0273978936",
+        "r":  3.9
+    },
+    {
+        "s":  "console-controller-pro-717",
+        "t":  "Console Controller Pro 8",
+        "a":  "B0261896607",
+        "r":  4
+    },
+    {
+        "s":  "vr-headset-system-728",
+        "t":  "VR Headset System 8",
+        "a":  "B0957321159",
+        "r":  4.1
+    },
+    {
+        "s":  "gaming-router-wifi-6e-739",
+        "t":  "Gaming Router WiFi 6E 8",
+        "a":  "B0851803969",
+        "r":  4.2
+    },
+    {
+        "s":  "gaming-keyboard-mechanical-750",
+        "t":  "Gaming Keyboard Mechanical 8",
+        "a":  "B0221637638",
+        "r":  3.8
+    },
+    {
+        "s":  "racing-wheel-simulator-761",
+        "t":  "Racing Wheel Simulator 8",
+        "a":  "B0574338193",
+        "r":  3.9
+    },
+    {
+        "s":  "gaming-desk-led-772",
+        "t":  "Gaming Desk LED 8",
+        "a":  "B0867917399",
+        "r":  4
+    },
+    {
+        "s":  "capture-card-4k-783",
+        "t":  "Capture Card 4K 8",
+        "a":  "B0942163850",
+        "r":  4.1
+    },
+    {
+        "s":  "streaming-microphone-usb-794",
+        "t":  "Streaming Microphone USB 8",
+        "a":  "B0285855116",
+        "r":  4.2
+    },
+    {
+        "s":  "gaming-laptop-stand-805",
+        "t":  "Gaming Laptop Stand 9",
+        "a":  "B0599776328",
+        "r":  3.9
+    },
+    {
+        "s":  "gaming-power-supply-850w-816",
+        "t":  "Gaming Power Supply 850W 9",
+        "a":  "B0167110447",
+        "r":  4
+    },
+    {
+        "s":  "gaming-controller-wireless-827",
+        "t":  "Gaming Controller Wireless 9",
+        "a":  "B0990269480",
+        "r":  4.1
+    },
+    {
+        "s":  "gaming-mouse-rgb-16000dpi-838",
+        "t":  "Gaming Mouse RGB 16000DPI 9",
+        "a":  "B0573990687",
+        "r":  4.2
+    },
+    {
+        "s":  "gaming-headset-71-surround-849",
+        "t":  "Gaming Headset 7.1 Surround 9",
+        "a":  "B0070100756",
+        "r":  4.3
+    },
+    {
+        "s":  "gaming-chair-ergonomic-pro-860",
+        "t":  "Gaming Chair Ergonomic Pro 9",
+        "a":  "B0776152760",
+        "r":  3.9
+    },
+    {
+        "s":  "4k-gaming-monitor-144hz-871",
+        "t":  "4K Gaming Monitor 144Hz 9",
+        "a":  "B0527305444",
+        "r":  4
+    },
+    {
+        "s":  "console-controller-pro-882",
+        "t":  "Console Controller Pro 9",
+        "a":  "B0071528240",
+        "r":  4.1
+    },
+    {
+        "s":  "vr-headset-system-893",
+        "t":  "VR Headset System 9",
+        "a":  "B0474396365",
+        "r":  4.2
+    },
+    {
+        "s":  "gaming-router-wifi-6e-904",
+        "t":  "Gaming Router WiFi 6E 10",
+        "a":  "B0363837681",
+        "r":  3.9
+    },
+    {
+        "s":  "gaming-keyboard-mechanical-915",
+        "t":  "Gaming Keyboard Mechanical 10",
+        "a":  "B0209795069",
+        "r":  4
+    },
+    {
+        "s":  "racing-wheel-simulator-926",
+        "t":  "Racing Wheel Simulator 10",
+        "a":  "B0586700519",
+        "r":  4.1
+    },
+    {
+        "s":  "gaming-desk-led-937",
+        "t":  "Gaming Desk LED 10",
+        "a":  "B0433680324",
+        "r":  4.2
+    },
+    {
+        "s":  "capture-card-4k-948",
+        "t":  "Capture Card 4K 10",
+        "a":  "B0702774693",
+        "r":  4.3
+    },
+    {
+        "s":  "streaming-microphone-usb-959",
+        "t":  "Streaming Microphone USB 10",
+        "a":  "B0530376921",
+        "r":  4.4
+    },
+    {
+        "s":  "gaming-laptop-stand-970",
+        "t":  "Gaming Laptop Stand 10",
+        "a":  "B0150732152",
+        "r":  4
+    },
+    {
+        "s":  "gaming-power-supply-850w-981",
+        "t":  "Gaming Power Supply 850W 10",
+        "a":  "B0739887119",
+        "r":  4.1
+    },
+    {
+        "s":  "gaming-controller-wireless-992",
+        "t":  "Gaming Controller Wireless 10",
+        "a":  "B0990107635",
+        "r":  4.2
+    }
+]

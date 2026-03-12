@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Search, Star, TrendingUp, Shield, ArrowRight, CheckCircle, Menu, X, Mail, Cpu, Gamepad2, Home, Dumbbell, Headphones, Camera, ChevronDown, Sparkles } from 'lucide-react'
+import productsData from './data/realProducts.json'
 import Link from 'next/link'
 
 // Icon mapping
@@ -10,53 +11,35 @@ const iconMap: Record<string, any> = {
   Cpu, Gamepad2, Home, Dumbbell, Headphones, Camera
 }
 
-// Fetch categories from API
-async function fetchCategories() {
-  try {
-    const res = await fetch('/api/categories')
-    const data = await res.json()
-    if (data.categories) {
-      return Object.entries(data.categories).map(([slug, info]: [string, any]) => ({
-        slug,
-        ...info
-      })).sort((a: any, b: any) => b.count - a.count)
+// Get products from data
+const products = productsData.products || []
+
+// Get unique categories with count
+function getCategories() {
+  const categoryMap = new Map()
+  products.forEach((product: any) => {
+    const cat = product.category || 'other'
+    const slug = cat.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '')
+    if (categoryMap.has(slug)) {
+      categoryMap.get(slug).count++
+    } else {
+      categoryMap.set(slug, { name: cat, slug, count: 1 })
     }
-    return []
-  } catch {
-    return []
-  }
+  })
+  return Array.from(categoryMap.values()).sort((a: any, b: any) => b.count - a.count)
 }
 
-// Fetch featured products (top rated from random categories)
-async function fetchFeaturedProducts() {
-  try {
-    const res = await fetch('/api/categories')
-    const data = await res.json()
-    if (!data.categories) return []
-    
-    const categories = Object.keys(data.categories)
-    const sampleCategories = categories.slice(0, 3)
-    const allProducts: any[] = []
-    
-    for (const cat of sampleCategories) {
-      const prodRes = await fetch(`/api/products?category=${cat}`)
-      const prods = await prodRes.json()
-      if (Array.isArray(prods)) {
-        allProducts.push(...prods)
-      }
-    }
-    
-    return allProducts.sort((a: any, b: any) => (b.rating || 0) - (a.rating || 0)).slice(0, 4)
-  } catch {
-    return []
-  }
+// Get top rated products for featured
+function getFeaturedProducts() {
+  return [...products].sort((a: any, b: any) => (b.rating || 0) - (a.rating || 0)).slice(0, 4)
 }
 
 // Components
-function Navbar({ categories = [] }: { categories?: any[] }) {
+function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [isCategoriesOpen, setIsCategoriesOpen] = useState(false)
+  const categories = getCategories()
 
   useEffect(() => {
     const handleScroll = () => {
@@ -230,7 +213,9 @@ function Navbar({ categories = [] }: { categories?: any[] }) {
 
 function Hero() {
   const [searchQuery, setSearchQuery] = useState('')
-  // Search will be handled by navigating to categories
+  const filteredProducts = searchQuery.length > 2 
+    ? products.filter((p: any) => p.title.toLowerCase().includes(searchQuery.toLowerCase())).slice(0, 5)
+    : []
 
   return (
     <section id="home" className="min-h-[100dvh] flex items-center pt-20 relative overflow-hidden">
@@ -278,6 +263,23 @@ function Hero() {
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full pl-12 pr-4 py-4 rounded-full border border-gray-200 focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/20 text-lg"
               />
+              {filteredProducts.length > 0 && (
+                <div className="absolute top-full mt-2 w-full bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden z-50">
+                  {filteredProducts.map((product: any) => (
+                    <Link
+                      key={product.asin}
+                      href={`/reviews/${product.slug}`}
+                      className="block px-4 py-3 hover:bg-gray-50 border-b border-gray-100 last:border-0"
+                    >
+                      <div className="font-medium text-gray-900 line-clamp-1">{product.title}</div>
+                      <div className="text-sm text-gray-500 flex items-center gap-2">
+                        <Star className="w-3 h-3 text-yellow-500 fill-yellow-500" />
+                        {product.rating} • {product.category}
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              )}
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
@@ -439,8 +441,8 @@ function About() {
   )
 }
 
-function Featured({ products = [] }: { products?: any[] }) {
-  const featured = products
+function Featured() {
+  const featured = getFeaturedProducts()
   
   // Featured product images
   const featuredImages: Record<string, string> = {
@@ -657,7 +659,8 @@ function Newsletter() {
   )
 }
 
-function Footer({ categories = [] }: { categories?: any[] }) {
+function Footer() {
+  const categories = getCategories()
   
   return (
     <footer className="bg-primary text-white py-12">
@@ -707,24 +710,15 @@ function Footer({ categories = [] }: { categories?: any[] }) {
 }
 
 export default function HomePage() {
-  const [categories, setCategories] = useState<any[]>([])
-  const [featuredProducts, setFeaturedProducts] = useState<any[]>([])
-
-  useEffect(() => {
-    // Load categories on mount
-    fetchCategories().then(setCategories)
-    fetchFeaturedProducts().then(setFeaturedProducts)
-  }, [])
-
   return (
     <main>
-      <Navbar categories={categories} />
+      <Navbar />
       <Hero />
       <About />
-      <Featured products={featuredProducts} />
+      <Featured />
       <Methodology />
       <Newsletter />
-      <Footer categories={categories} />
+      <Footer />
     </main>
   )
 }

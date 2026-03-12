@@ -1,0 +1,548 @@
+﻿[
+    {
+        "s":  "exercise-bike-indoor-4",
+        "t":  "Exercise Bike Indoor 1",
+        "a":  "B0442451740",
+        "r":  4.6
+    },
+    {
+        "s":  "treadmill-foldable-25hp-15",
+        "t":  "Treadmill Foldable 2.5HP 1",
+        "a":  "B0602490312",
+        "r":  4.1
+    },
+    {
+        "s":  "resistance-bands-set-5-26",
+        "t":  "Resistance Bands Set 5 1",
+        "a":  "B0143883394",
+        "r":  4.2
+    },
+    {
+        "s":  "adjustable-dumbbells-525lbs-37",
+        "t":  "Adjustable Dumbbells 52.5lbs 1",
+        "a":  "B0756461162",
+        "r":  4.3
+    },
+    {
+        "s":  "yoga-mat-premium-6mm-48",
+        "t":  "Yoga Mat Premium 6mm 1",
+        "a":  "B0402428556",
+        "r":  4.4
+    },
+    {
+        "s":  "foam-roller-recovery-59",
+        "t":  "Foam Roller Recovery 1",
+        "a":  "B0999017093",
+        "r":  4.5
+    },
+    {
+        "s":  "pull-up-bar-doorway-70",
+        "t":  "Pull Up Bar Doorway 1",
+        "a":  "B0469885035",
+        "r":  4.2
+    },
+    {
+        "s":  "kettlebell-set-5-25lbs-81",
+        "t":  "Kettlebell Set 5-25lbs 1",
+        "a":  "B0243259417",
+        "r":  4.3
+    },
+    {
+        "s":  "rowing-machine-water-92",
+        "t":  "Rowing Machine Water 1",
+        "a":  "B0158706775",
+        "r":  4.4
+    },
+    {
+        "s":  "elliptical-trainer-103",
+        "t":  "Elliptical Trainer 2",
+        "a":  "B0314071972",
+        "r":  4.9
+    },
+    {
+        "s":  "weight-bench-adjustable-114",
+        "t":  "Weight Bench Adjustable 2",
+        "a":  "B0664765329",
+        "r":  3.5
+    },
+    {
+        "s":  "jump-rope-speed-125",
+        "t":  "Jump Rope Speed 2",
+        "a":  "B0859249831",
+        "r":  3.6
+    },
+    {
+        "s":  "ab-roller-wheel-136",
+        "t":  "Ab Roller Wheel 2",
+        "a":  "B0408729890",
+        "r":  3.7
+    },
+    {
+        "s":  "battle-ropes-50ft-147",
+        "t":  "Battle Ropes 50ft 2",
+        "a":  "B0206657742",
+        "r":  3.8
+    },
+    {
+        "s":  "olympic-barbell-set-158",
+        "t":  "Olympic Barbell Set 2",
+        "a":  "B0318283048",
+        "r":  3.9
+    },
+    {
+        "s":  "exercise-bike-indoor-169",
+        "t":  "Exercise Bike Indoor 2",
+        "a":  "B0850633814",
+        "r":  4
+    },
+    {
+        "s":  "treadmill-foldable-25hp-180",
+        "t":  "Treadmill Foldable 2.5HP 2",
+        "a":  "B0716864633",
+        "r":  3.7
+    },
+    {
+        "s":  "resistance-bands-set-5-191",
+        "t":  "Resistance Bands Set 5 2",
+        "a":  "B0595351527",
+        "r":  3.8
+    },
+    {
+        "s":  "adjustable-dumbbells-525lbs-202",
+        "t":  "Adjustable Dumbbells 52.5lbs 3",
+        "a":  "B0959939784",
+        "r":  4.9
+    },
+    {
+        "s":  "yoga-mat-premium-6mm-213",
+        "t":  "Yoga Mat Premium 6mm 3",
+        "a":  "B0028824795",
+        "r":  3.5
+    },
+    {
+        "s":  "foam-roller-recovery-224",
+        "t":  "Foam Roller Recovery 3",
+        "a":  "B0302533141",
+        "r":  3.6
+    },
+    {
+        "s":  "pull-up-bar-doorway-235",
+        "t":  "Pull Up Bar Doorway 3",
+        "a":  "B0120100995",
+        "r":  3.7
+    },
+    {
+        "s":  "kettlebell-set-5-25lbs-246",
+        "t":  "Kettlebell Set 5-25lbs 3",
+        "a":  "B0056550036",
+        "r":  3.8
+    },
+    {
+        "s":  "rowing-machine-water-257",
+        "t":  "Rowing Machine Water 3",
+        "a":  "B0919781359",
+        "r":  3.9
+    },
+    {
+        "s":  "elliptical-trainer-268",
+        "t":  "Elliptical Trainer 3",
+        "a":  "B0391258932",
+        "r":  4
+    },
+    {
+        "s":  "weight-bench-adjustable-279",
+        "t":  "Weight Bench Adjustable 3",
+        "a":  "B0391613346",
+        "r":  4.1
+    },
+    {
+        "s":  "jump-rope-speed-290",
+        "t":  "Jump Rope Speed 3",
+        "a":  "B0079000390",
+        "r":  3.8
+    },
+    {
+        "s":  "ab-roller-wheel-301",
+        "t":  "Ab Roller Wheel 4",
+        "a":  "B0369360799",
+        "r":  4.9
+    },
+    {
+        "s":  "battle-ropes-50ft-312",
+        "t":  "Battle Ropes 50ft 4",
+        "a":  "B0617841497",
+        "r":  3.5
+    },
+    {
+        "s":  "olympic-barbell-set-323",
+        "t":  "Olympic Barbell Set 4",
+        "a":  "B0949547271",
+        "r":  3.6
+    },
+    {
+        "s":  "exercise-bike-indoor-334",
+        "t":  "Exercise Bike Indoor 4",
+        "a":  "B0549413840",
+        "r":  3.7
+    },
+    {
+        "s":  "treadmill-foldable-25hp-345",
+        "t":  "Treadmill Foldable 2.5HP 4",
+        "a":  "B0964969224",
+        "r":  3.8
+    },
+    {
+        "s":  "resistance-bands-set-5-356",
+        "t":  "Resistance Bands Set 5 4",
+        "a":  "B0418366161",
+        "r":  3.9
+    },
+    {
+        "s":  "adjustable-dumbbells-525lbs-367",
+        "t":  "Adjustable Dumbbells 52.5lbs 4",
+        "a":  "B0483954868",
+        "r":  4
+    },
+    {
+        "s":  "yoga-mat-premium-6mm-378",
+        "t":  "Yoga Mat Premium 6mm 4",
+        "a":  "B0288208649",
+        "r":  4.1
+    },
+    {
+        "s":  "foam-roller-recovery-389",
+        "t":  "Foam Roller Recovery 4",
+        "a":  "B0302222478",
+        "r":  4.2
+    },
+    {
+        "s":  "pull-up-bar-doorway-400",
+        "t":  "Pull Up Bar Doorway 5",
+        "a":  "B0446169720",
+        "r":  4.9
+    },
+    {
+        "s":  "kettlebell-set-5-25lbs-411",
+        "t":  "Kettlebell Set 5-25lbs 5",
+        "a":  "B0408850196",
+        "r":  3.5
+    },
+    {
+        "s":  "rowing-machine-water-422",
+        "t":  "Rowing Machine Water 5",
+        "a":  "B0569115620",
+        "r":  3.6
+    },
+    {
+        "s":  "elliptical-trainer-433",
+        "t":  "Elliptical Trainer 5",
+        "a":  "B0439010674",
+        "r":  3.7
+    },
+    {
+        "s":  "weight-bench-adjustable-444",
+        "t":  "Weight Bench Adjustable 5",
+        "a":  "B0525410988",
+        "r":  3.8
+    },
+    {
+        "s":  "jump-rope-speed-455",
+        "t":  "Jump Rope Speed 5",
+        "a":  "B0141582854",
+        "r":  3.9
+    },
+    {
+        "s":  "ab-roller-wheel-466",
+        "t":  "Ab Roller Wheel 5",
+        "a":  "B0004799293",
+        "r":  4
+    },
+    {
+        "s":  "battle-ropes-50ft-477",
+        "t":  "Battle Ropes 50ft 5",
+        "a":  "B0597040096",
+        "r":  4.1
+    },
+    {
+        "s":  "olympic-barbell-set-488",
+        "t":  "Olympic Barbell Set 5",
+        "a":  "B0689007931",
+        "r":  4.2
+    },
+    {
+        "s":  "exercise-bike-indoor-499",
+        "t":  "Exercise Bike Indoor 5",
+        "a":  "B0184781270",
+        "r":  4.3
+    },
+    {
+        "s":  "treadmill-foldable-25hp-510",
+        "t":  "Treadmill Foldable 2.5HP 6",
+        "a":  "B0029007628",
+        "r":  3.5
+    },
+    {
+        "s":  "resistance-bands-set-5-521",
+        "t":  "Resistance Bands Set 5 6",
+        "a":  "B0304469652",
+        "r":  3.6
+    },
+    {
+        "s":  "adjustable-dumbbells-525lbs-532",
+        "t":  "Adjustable Dumbbells 52.5lbs 6",
+        "a":  "B0687864071",
+        "r":  3.7
+    },
+    {
+        "s":  "yoga-mat-premium-6mm-543",
+        "t":  "Yoga Mat Premium 6mm 6",
+        "a":  "B0098147787",
+        "r":  3.8
+    },
+    {
+        "s":  "foam-roller-recovery-554",
+        "t":  "Foam Roller Recovery 6",
+        "a":  "B0145599997",
+        "r":  3.9
+    },
+    {
+        "s":  "pull-up-bar-doorway-565",
+        "t":  "Pull Up Bar Doorway 6",
+        "a":  "B0968861843",
+        "r":  4
+    },
+    {
+        "s":  "kettlebell-set-5-25lbs-576",
+        "t":  "Kettlebell Set 5-25lbs 6",
+        "a":  "B0320147659",
+        "r":  4.1
+    },
+    {
+        "s":  "rowing-machine-water-587",
+        "t":  "Rowing Machine Water 6",
+        "a":  "B0243242477",
+        "r":  4.2
+    },
+    {
+        "s":  "elliptical-trainer-598",
+        "t":  "Elliptical Trainer 6",
+        "a":  "B0640073070",
+        "r":  4.3
+    },
+    {
+        "s":  "weight-bench-adjustable-609",
+        "t":  "Weight Bench Adjustable 7",
+        "a":  "B0725634803",
+        "r":  4
+    },
+    {
+        "s":  "jump-rope-speed-620",
+        "t":  "Jump Rope Speed 7",
+        "a":  "B0547037106",
+        "r":  3.6
+    },
+    {
+        "s":  "ab-roller-wheel-631",
+        "t":  "Ab Roller Wheel 7",
+        "a":  "B0681319601",
+        "r":  3.7
+    },
+    {
+        "s":  "battle-ropes-50ft-642",
+        "t":  "Battle Ropes 50ft 7",
+        "a":  "B0634935483",
+        "r":  3.8
+    },
+    {
+        "s":  "olympic-barbell-set-653",
+        "t":  "Olympic Barbell Set 7",
+        "a":  "B0871050254",
+        "r":  3.9
+    },
+    {
+        "s":  "exercise-bike-indoor-664",
+        "t":  "Exercise Bike Indoor 7",
+        "a":  "B0204244492",
+        "r":  4
+    },
+    {
+        "s":  "treadmill-foldable-25hp-675",
+        "t":  "Treadmill Foldable 2.5HP 7",
+        "a":  "B0787545852",
+        "r":  4.1
+    },
+    {
+        "s":  "resistance-bands-set-5-686",
+        "t":  "Resistance Bands Set 5 7",
+        "a":  "B0995389945",
+        "r":  4.2
+    },
+    {
+        "s":  "adjustable-dumbbells-525lbs-697",
+        "t":  "Adjustable Dumbbells 52.5lbs 7",
+        "a":  "B0696655504",
+        "r":  4.3
+    },
+    {
+        "s":  "yoga-mat-premium-6mm-708",
+        "t":  "Yoga Mat Premium 6mm 8",
+        "a":  "B0921955675",
+        "r":  4
+    },
+    {
+        "s":  "foam-roller-recovery-719",
+        "t":  "Foam Roller Recovery 8",
+        "a":  "B0174165088",
+        "r":  4.1
+    },
+    {
+        "s":  "pull-up-bar-doorway-730",
+        "t":  "Pull Up Bar Doorway 8",
+        "a":  "B0684291284",
+        "r":  3.7
+    },
+    {
+        "s":  "kettlebell-set-5-25lbs-741",
+        "t":  "Kettlebell Set 5-25lbs 8",
+        "a":  "B0397259903",
+        "r":  3.8
+    },
+    {
+        "s":  "rowing-machine-water-752",
+        "t":  "Rowing Machine Water 8",
+        "a":  "B0476213684",
+        "r":  3.9
+    },
+    {
+        "s":  "elliptical-trainer-763",
+        "t":  "Elliptical Trainer 8",
+        "a":  "B0509848445",
+        "r":  4
+    },
+    {
+        "s":  "weight-bench-adjustable-774",
+        "t":  "Weight Bench Adjustable 8",
+        "a":  "B0061405894",
+        "r":  4.1
+    },
+    {
+        "s":  "jump-rope-speed-785",
+        "t":  "Jump Rope Speed 8",
+        "a":  "B0541726562",
+        "r":  4.2
+    },
+    {
+        "s":  "ab-roller-wheel-796",
+        "t":  "Ab Roller Wheel 8",
+        "a":  "B0290006814",
+        "r":  4.3
+    },
+    {
+        "s":  "battle-ropes-50ft-807",
+        "t":  "Battle Ropes 50ft 9",
+        "a":  "B0376751859",
+        "r":  4
+    },
+    {
+        "s":  "olympic-barbell-set-818",
+        "t":  "Olympic Barbell Set 9",
+        "a":  "B0314720652",
+        "r":  4.1
+    },
+    {
+        "s":  "exercise-bike-indoor-829",
+        "t":  "Exercise Bike Indoor 9",
+        "a":  "B0878944111",
+        "r":  4.2
+    },
+    {
+        "s":  "treadmill-foldable-25hp-840",
+        "t":  "Treadmill Foldable 2.5HP 9",
+        "a":  "B0990833372",
+        "r":  3.8
+    },
+    {
+        "s":  "resistance-bands-set-5-851",
+        "t":  "Resistance Bands Set 5 9",
+        "a":  "B0684226788",
+        "r":  3.9
+    },
+    {
+        "s":  "adjustable-dumbbells-525lbs-862",
+        "t":  "Adjustable Dumbbells 52.5lbs 9",
+        "a":  "B0589266748",
+        "r":  4
+    },
+    {
+        "s":  "yoga-mat-premium-6mm-873",
+        "t":  "Yoga Mat Premium 6mm 9",
+        "a":  "B0965322909",
+        "r":  4.1
+    },
+    {
+        "s":  "foam-roller-recovery-884",
+        "t":  "Foam Roller Recovery 9",
+        "a":  "B0134156014",
+        "r":  4.2
+    },
+    {
+        "s":  "pull-up-bar-doorway-895",
+        "t":  "Pull Up Bar Doorway 9",
+        "a":  "B0079934900",
+        "r":  4.3
+    },
+    {
+        "s":  "kettlebell-set-5-25lbs-906",
+        "t":  "Kettlebell Set 5-25lbs 10",
+        "a":  "B0602258895",
+        "r":  4
+    },
+    {
+        "s":  "rowing-machine-water-917",
+        "t":  "Rowing Machine Water 10",
+        "a":  "B0172933564",
+        "r":  4.1
+    },
+    {
+        "s":  "elliptical-trainer-928",
+        "t":  "Elliptical Trainer 10",
+        "a":  "B0441167965",
+        "r":  4.2
+    },
+    {
+        "s":  "weight-bench-adjustable-939",
+        "t":  "Weight Bench Adjustable 10",
+        "a":  "B0470179751",
+        "r":  4.3
+    },
+    {
+        "s":  "jump-rope-speed-950",
+        "t":  "Jump Rope Speed 10",
+        "a":  "B0651782815",
+        "r":  3.9
+    },
+    {
+        "s":  "ab-roller-wheel-961",
+        "t":  "Ab Roller Wheel 10",
+        "a":  "B0192141907",
+        "r":  4
+    },
+    {
+        "s":  "battle-ropes-50ft-972",
+        "t":  "Battle Ropes 50ft 10",
+        "a":  "B0317083675",
+        "r":  4.1
+    },
+    {
+        "s":  "olympic-barbell-set-983",
+        "t":  "Olympic Barbell Set 10",
+        "a":  "B0884411673",
+        "r":  4.2
+    },
+    {
+        "s":  "exercise-bike-indoor-994",
+        "t":  "Exercise Bike Indoor 10",
+        "a":  "B0162511360",
+        "r":  4.3
+    }
+]

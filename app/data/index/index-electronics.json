@@ -1,0 +1,650 @@
+﻿[
+    {
+        "s":  "4k-monitor-27-ips-10",
+        "t":  "4K Monitor 27\" IPS 1",
+        "a":  "B0765183601",
+        "r":  3.9
+    },
+    {
+        "s":  "mechanical-keyboard-rgb-21",
+        "t":  "Mechanical Keyboard RGB 1",
+        "a":  "B0266943364",
+        "r":  4
+    },
+    {
+        "s":  "ergonomic-mouse-vertical-32",
+        "t":  "Ergonomic Mouse Vertical 1",
+        "a":  "B0153963465",
+        "r":  4.1
+    },
+    {
+        "s":  "usb-c-hub-7-in-1-43",
+        "t":  "USB-C Hub 7-in-1 1",
+        "a":  "B0798266123",
+        "r":  4.2
+    },
+    {
+        "s":  "webcam-4k-pro-54",
+        "t":  "Webcam 4K Pro 1",
+        "a":  "B0787611113",
+        "r":  4.3
+    },
+    {
+        "s":  "external-ssd-2tb-65",
+        "t":  "External SSD 2TB 1",
+        "a":  "B0489398683",
+        "r":  4.4
+    },
+    {
+        "s":  "bluetooth-50-adapter-76",
+        "t":  "Bluetooth 5.0 Adapter 1",
+        "a":  "B0197677943",
+        "r":  4.5
+    },
+    {
+        "s":  "power-bank-30000mah-87",
+        "t":  "Power Bank 30000mAh 1",
+        "a":  "B0519451255",
+        "r":  4.6
+    },
+    {
+        "s":  "smart-plug-wifi-4-pack-98",
+        "t":  "Smart Plug WiFi 4-pack 1",
+        "a":  "B0706389444",
+        "r":  4.7
+    },
+    {
+        "s":  "led-desk-lamp-eye-care-109",
+        "t":  "LED Desk Lamp Eye Care 2",
+        "a":  "B0458178791",
+        "r":  3.7
+    },
+    {
+        "s":  "usb-microphone-podcast-120",
+        "t":  "USB Microphone Podcast 2",
+        "a":  "B0896185742",
+        "r":  4.9
+    },
+    {
+        "s":  "ring-light-12-131",
+        "t":  "Ring Light 12\" 2",
+        "a":  "B0660383976",
+        "r":  5
+    },
+    {
+        "s":  "laptop-stand-aluminum-142",
+        "t":  "Laptop Stand Aluminum 2",
+        "a":  "B0274439579",
+        "r":  3.6
+    },
+    {
+        "s":  "cable-management-kit-153",
+        "t":  "Cable Management Kit 2",
+        "a":  "B0193220880",
+        "r":  3.7
+    },
+    {
+        "s":  "screen-cleaner-kit-164",
+        "t":  "Screen Cleaner Kit 2",
+        "a":  "B0958040483",
+        "r":  3.8
+    },
+    {
+        "s":  "4k-monitor-27-ips-175",
+        "t":  "4K Monitor 27\" IPS 2",
+        "a":  "B0222396530",
+        "r":  3.9
+    },
+    {
+        "s":  "mechanical-keyboard-rgb-186",
+        "t":  "Mechanical Keyboard RGB 2",
+        "a":  "B0795983743",
+        "r":  4
+    },
+    {
+        "s":  "ergonomic-mouse-vertical-197",
+        "t":  "Ergonomic Mouse Vertical 2",
+        "a":  "B0762235946",
+        "r":  4.1
+    },
+    {
+        "s":  "usb-c-hub-7-in-1-208",
+        "t":  "USB-C Hub 7-in-1 3",
+        "a":  "B0250857473",
+        "r":  3.7
+    },
+    {
+        "s":  "webcam-4k-pro-219",
+        "t":  "Webcam 4K Pro 3",
+        "a":  "B0339487007",
+        "r":  3.8
+    },
+    {
+        "s":  "external-ssd-2tb-230",
+        "t":  "External SSD 2TB 3",
+        "a":  "B0958592886",
+        "r":  5
+    },
+    {
+        "s":  "bluetooth-50-adapter-241",
+        "t":  "Bluetooth 5.0 Adapter 3",
+        "a":  "B0210253527",
+        "r":  3.6
+    },
+    {
+        "s":  "power-bank-30000mah-252",
+        "t":  "Power Bank 30000mAh 3",
+        "a":  "B0940965430",
+        "r":  3.7
+    },
+    {
+        "s":  "smart-plug-wifi-4-pack-263",
+        "t":  "Smart Plug WiFi 4-pack 3",
+        "a":  "B0584608531",
+        "r":  3.8
+    },
+    {
+        "s":  "led-desk-lamp-eye-care-274",
+        "t":  "LED Desk Lamp Eye Care 3",
+        "a":  "B0379475172",
+        "r":  3.9
+    },
+    {
+        "s":  "usb-microphone-podcast-285",
+        "t":  "USB Microphone Podcast 3",
+        "a":  "B0640523933",
+        "r":  4
+    },
+    {
+        "s":  "ring-light-12-296",
+        "t":  "Ring Light 12\" 3",
+        "a":  "B0421944985",
+        "r":  4.1
+    },
+    {
+        "s":  "laptop-stand-aluminum-307",
+        "t":  "Laptop Stand Aluminum 4",
+        "a":  "B0787621496",
+        "r":  3.7
+    },
+    {
+        "s":  "cable-management-kit-318",
+        "t":  "Cable Management Kit 4",
+        "a":  "B0549593163",
+        "r":  3.8
+    },
+    {
+        "s":  "screen-cleaner-kit-329",
+        "t":  "Screen Cleaner Kit 4",
+        "a":  "B0910025682",
+        "r":  3.9
+    },
+    {
+        "s":  "4k-monitor-27-ips-340",
+        "t":  "4K Monitor 27\" IPS 4",
+        "a":  "B0829965724",
+        "r":  3.6
+    },
+    {
+        "s":  "mechanical-keyboard-rgb-351",
+        "t":  "Mechanical Keyboard RGB 4",
+        "a":  "B0716998903",
+        "r":  3.7
+    },
+    {
+        "s":  "ergonomic-mouse-vertical-362",
+        "t":  "Ergonomic Mouse Vertical 4",
+        "a":  "B0146114888",
+        "r":  3.8
+    },
+    {
+        "s":  "usb-c-hub-7-in-1-373",
+        "t":  "USB-C Hub 7-in-1 4",
+        "a":  "B0295123460",
+        "r":  3.9
+    },
+    {
+        "s":  "webcam-4k-pro-384",
+        "t":  "Webcam 4K Pro 4",
+        "a":  "B0193573121",
+        "r":  4
+    },
+    {
+        "s":  "external-ssd-2tb-395",
+        "t":  "External SSD 2TB 4",
+        "a":  "B0132718957",
+        "r":  4.1
+    },
+    {
+        "s":  "bluetooth-50-adapter-406",
+        "t":  "Bluetooth 5.0 Adapter 5",
+        "a":  "B0991993075",
+        "r":  3.7
+    },
+    {
+        "s":  "power-bank-30000mah-417",
+        "t":  "Power Bank 30000mAh 5",
+        "a":  "B0922669055",
+        "r":  3.8
+    },
+    {
+        "s":  "smart-plug-wifi-4-pack-428",
+        "t":  "Smart Plug WiFi 4-pack 5",
+        "a":  "B0101129711",
+        "r":  3.9
+    },
+    {
+        "s":  "led-desk-lamp-eye-care-439",
+        "t":  "LED Desk Lamp Eye Care 5",
+        "a":  "B0650681711",
+        "r":  4
+    },
+    {
+        "s":  "usb-microphone-podcast-450",
+        "t":  "USB Microphone Podcast 5",
+        "a":  "B0632916584",
+        "r":  3.7
+    },
+    {
+        "s":  "ring-light-12-461",
+        "t":  "Ring Light 12\" 5",
+        "a":  "B0847256579",
+        "r":  3.8
+    },
+    {
+        "s":  "laptop-stand-aluminum-472",
+        "t":  "Laptop Stand Aluminum 5",
+        "a":  "B0841532296",
+        "r":  3.9
+    },
+    {
+        "s":  "cable-management-kit-483",
+        "t":  "Cable Management Kit 5",
+        "a":  "B0928520447",
+        "r":  4
+    },
+    {
+        "s":  "screen-cleaner-kit-494",
+        "t":  "Screen Cleaner Kit 5",
+        "a":  "B0056676617",
+        "r":  4.1
+    },
+    {
+        "s":  "4k-monitor-27-ips-505",
+        "t":  "4K Monitor 27\" IPS 6",
+        "a":  "B0319690292",
+        "r":  3.7
+    },
+    {
+        "s":  "mechanical-keyboard-rgb-516",
+        "t":  "Mechanical Keyboard RGB 6",
+        "a":  "B0499814872",
+        "r":  3.8
+    },
+    {
+        "s":  "ergonomic-mouse-vertical-527",
+        "t":  "Ergonomic Mouse Vertical 6",
+        "a":  "B0363715168",
+        "r":  3.9
+    },
+    {
+        "s":  "usb-c-hub-7-in-1-538",
+        "t":  "USB-C Hub 7-in-1 6",
+        "a":  "B0038098924",
+        "r":  4
+    },
+    {
+        "s":  "webcam-4k-pro-549",
+        "t":  "Webcam 4K Pro 6",
+        "a":  "B0733328027",
+        "r":  4.1
+    },
+    {
+        "s":  "external-ssd-2tb-560",
+        "t":  "External SSD 2TB 6",
+        "a":  "B0128778136",
+        "r":  3.8
+    },
+    {
+        "s":  "bluetooth-50-adapter-571",
+        "t":  "Bluetooth 5.0 Adapter 6",
+        "a":  "B0895165608",
+        "r":  3.9
+    },
+    {
+        "s":  "power-bank-30000mah-582",
+        "t":  "Power Bank 30000mAh 6",
+        "a":  "B0382150321",
+        "r":  4
+    },
+    {
+        "s":  "smart-plug-wifi-4-pack-593",
+        "t":  "Smart Plug WiFi 4-pack 6",
+        "a":  "B0207951406",
+        "r":  4.1
+    },
+    {
+        "s":  "led-desk-lamp-eye-care-604",
+        "t":  "LED Desk Lamp Eye Care 7",
+        "a":  "B0153595863",
+        "r":  3.7
+    },
+    {
+        "s":  "usb-microphone-podcast-615",
+        "t":  "USB Microphone Podcast 7",
+        "a":  "B0932059766",
+        "r":  3.8
+    },
+    {
+        "s":  "ring-light-12-626",
+        "t":  "Ring Light 12\" 7",
+        "a":  "B0037641190",
+        "r":  3.9
+    },
+    {
+        "s":  "laptop-stand-aluminum-637",
+        "t":  "Laptop Stand Aluminum 7",
+        "a":  "B0730904317",
+        "r":  4
+    },
+    {
+        "s":  "cable-management-kit-648",
+        "t":  "Cable Management Kit 7",
+        "a":  "B0597053824",
+        "r":  4.1
+    },
+    {
+        "s":  "screen-cleaner-kit-659",
+        "t":  "Screen Cleaner Kit 7",
+        "a":  "B0002174335",
+        "r":  4.2
+    },
+    {
+        "s":  "4k-monitor-27-ips-670",
+        "t":  "4K Monitor 27\" IPS 7",
+        "a":  "B0950422638",
+        "r":  3.9
+    },
+    {
+        "s":  "mechanical-keyboard-rgb-681",
+        "t":  "Mechanical Keyboard RGB 7",
+        "a":  "B0136619669",
+        "r":  4
+    },
+    {
+        "s":  "ergonomic-mouse-vertical-692",
+        "t":  "Ergonomic Mouse Vertical 7",
+        "a":  "B0641228296",
+        "r":  4.1
+    },
+    {
+        "s":  "usb-c-hub-7-in-1-703",
+        "t":  "USB-C Hub 7-in-1 8",
+        "a":  "B0852953091",
+        "r":  3.7
+    },
+    {
+        "s":  "webcam-4k-pro-714",
+        "t":  "Webcam 4K Pro 8",
+        "a":  "B0997250873",
+        "r":  3.8
+    },
+    {
+        "s":  "external-ssd-2tb-725",
+        "t":  "External SSD 2TB 8",
+        "a":  "B0797071613",
+        "r":  3.9
+    },
+    {
+        "s":  "bluetooth-50-adapter-736",
+        "t":  "Bluetooth 5.0 Adapter 8",
+        "a":  "B0907312443",
+        "r":  4
+    },
+    {
+        "s":  "power-bank-30000mah-747",
+        "t":  "Power Bank 30000mAh 8",
+        "a":  "B0853600187",
+        "r":  4.1
+    },
+    {
+        "s":  "smart-plug-wifi-4-pack-758",
+        "t":  "Smart Plug WiFi 4-pack 8",
+        "a":  "B0369318751",
+        "r":  4.2
+    },
+    {
+        "s":  "led-desk-lamp-eye-care-769",
+        "t":  "LED Desk Lamp Eye Care 8",
+        "a":  "B0291507961",
+        "r":  4.3
+    },
+    {
+        "s":  "usb-microphone-podcast-780",
+        "t":  "USB Microphone Podcast 8",
+        "a":  "B0035292522",
+        "r":  4
+    },
+    {
+        "s":  "ring-light-12-791",
+        "t":  "Ring Light 12\" 8",
+        "a":  "B0078178477",
+        "r":  4.1
+    },
+    {
+        "s":  "laptop-stand-aluminum-802",
+        "t":  "Laptop Stand Aluminum 9",
+        "a":  "B0132024943",
+        "r":  3.7
+    },
+    {
+        "s":  "cable-management-kit-813",
+        "t":  "Cable Management Kit 9",
+        "a":  "B0309885960",
+        "r":  3.8
+    },
+    {
+        "s":  "screen-cleaner-kit-824",
+        "t":  "Screen Cleaner Kit 9",
+        "a":  "B0484872371",
+        "r":  3.9
+    },
+    {
+        "s":  "4k-monitor-27-ips-835",
+        "t":  "4K Monitor 27\" IPS 9",
+        "a":  "B0009690014",
+        "r":  4
+    },
+    {
+        "s":  "mechanical-keyboard-rgb-846",
+        "t":  "Mechanical Keyboard RGB 9",
+        "a":  "B0052835961",
+        "r":  4.1
+    },
+    {
+        "s":  "ergonomic-mouse-vertical-857",
+        "t":  "Ergonomic Mouse Vertical 9",
+        "a":  "B0919920925",
+        "r":  4.2
+    },
+    {
+        "s":  "usb-c-hub-7-in-1-868",
+        "t":  "USB-C Hub 7-in-1 9",
+        "a":  "B0780977343",
+        "r":  4.3
+    },
+    {
+        "s":  "webcam-4k-pro-879",
+        "t":  "Webcam 4K Pro 9",
+        "a":  "B0621925593",
+        "r":  4.4
+    },
+    {
+        "s":  "external-ssd-2tb-890",
+        "t":  "External SSD 2TB 9",
+        "a":  "B0601085756",
+        "r":  4.1
+    },
+    {
+        "s":  "bluetooth-50-adapter-901",
+        "t":  "Bluetooth 5.0 Adapter 10",
+        "a":  "B0783507968",
+        "r":  3.7
+    },
+    {
+        "s":  "power-bank-30000mah-912",
+        "t":  "Power Bank 30000mAh 10",
+        "a":  "B0693623103",
+        "r":  3.8
+    },
+    {
+        "s":  "smart-plug-wifi-4-pack-923",
+        "t":  "Smart Plug WiFi 4-pack 10",
+        "a":  "B0009322002",
+        "r":  3.9
+    },
+    {
+        "s":  "led-desk-lamp-eye-care-934",
+        "t":  "LED Desk Lamp Eye Care 10",
+        "a":  "B0800749346",
+        "r":  4
+    },
+    {
+        "s":  "usb-microphone-podcast-945",
+        "t":  "USB Microphone Podcast 10",
+        "a":  "B0892152102",
+        "r":  4.1
+    },
+    {
+        "s":  "ring-light-12-956",
+        "t":  "Ring Light 12\" 10",
+        "a":  "B0027575668",
+        "r":  4.2
+    },
+    {
+        "s":  "laptop-stand-aluminum-967",
+        "t":  "Laptop Stand Aluminum 10",
+        "a":  "B0657812193",
+        "r":  4.3
+    },
+    {
+        "s":  "cable-management-kit-978",
+        "t":  "Cable Management Kit 10",
+        "a":  "B0126427445",
+        "r":  4.4
+    },
+    {
+        "s":  "screen-cleaner-kit-989",
+        "t":  "Screen Cleaner Kit 10",
+        "a":  "B0112662468",
+        "r":  4.5
+    },
+    {
+        "s":  "blink-plus-plan-with-monthly-auto-renewal-1001",
+        "t":  "Blink Plus Plan with Monthly Auto-Renewal",
+        "a":  "B08JHCVHTY",
+        "r":  4.4
+    },
+    {
+        "s":  "apple-earpods-headphones-with-usb-c-plug-1003",
+        "t":  "Apple EarPods Headphones with USB-C Plug",
+        "a":  "B0DCH8VDXF",
+        "r":  4.6
+    },
+    {
+        "s":  "apple-airpods-4-wireless-earbuds-1005",
+        "t":  "Apple AirPods 4 Wireless Earbuds",
+        "a":  "B0DGHMNQ5Z",
+        "r":  4.5
+    },
+    {
+        "s":  "apple-airtag-2nd-generation--1007",
+        "t":  "Apple AirTag (2nd Generation)",
+        "a":  "B0GJTFXNRX",
+        "r":  4.6
+    },
+    {
+        "s":  "apple-ipad-11-inch-with-a16-chip-1009",
+        "t":  "Apple iPad 11-inch with A16 Chip",
+        "a":  "B0DZ75TN5F",
+        "r":  4.7
+    },
+    {
+        "s":  "surge-protector-power-strip-6ft-with-usb-1011",
+        "t":  "Surge Protector Power Strip 6ft with USB",
+        "a":  "B09PDLBFKY",
+        "r":  4.6
+    },
+    {
+        "s":  "roku-streaming-stick-hd-2025-1013",
+        "t":  "Roku Streaming Stick HD 2025",
+        "a":  "B0DXXYS4BJ",
+        "r":  4.7
+    },
+    {
+        "s":  "apple-airpods-pro-3-wireless-earbuds-1015",
+        "t":  "Apple AirPods Pro 3 Wireless Earbuds",
+        "a":  "B0FQFB8FMG",
+        "r":  4.4
+    },
+    {
+        "s":  "apple-airtag-1st-generation-4-pack-1017",
+        "t":  "Apple AirTag (1st Generation) 4 Pack",
+        "a":  "B0D54JZTHY",
+        "r":  4.8
+    },
+    {
+        "s":  "wall-charger-surge-protector-qinlianf-1019",
+        "t":  "Wall Charger Surge Protector QINLIANF",
+        "a":  "B08R6S1M1K",
+        "r":  4.7
+    },
+    {
+        "s":  "amazon-fire-tv-stick-hd-1021",
+        "t":  "Amazon Fire TV Stick HD",
+        "a":  "B0CQMRKRV5",
+        "r":  4.7
+    },
+    {
+        "s":  "roku-tv-replacement-remote-control-2-pack--1023",
+        "t":  "Roku TV Replacement Remote Control (2 Pack)",
+        "a":  "B09Z6Q2MLC",
+        "r":  4.5
+    },
+    {
+        "s":  "amazon-kindle-paperwhite-16gb-1025",
+        "t":  "Amazon Kindle Paperwhite 16GB",
+        "a":  "B0CFPJYX7P",
+        "r":  4.6
+    },
+    {
+        "s":  "10ft-extension-cord-surge-protector-1027",
+        "t":  "10Ft Extension Cord Surge Protector",
+        "a":  "B0DZ254SSR",
+        "r":  4.8
+    },
+    {
+        "s":  "apple-watch-series-11-gps-42mm-1029",
+        "t":  "Apple Watch Series 11 GPS 42mm",
+        "a":  "B0FQF9ZX7P",
+        "r":  4.8
+    },
+    {
+        "s":  "amazon-fire-tv-stick-4k-plus-1031",
+        "t":  "Amazon Fire TV Stick 4K Plus",
+        "a":  "B0F7Z4QZTT",
+        "r":  4.7
+    },
+    {
+        "s":  "fujifilm-instax-mini-instant-film-twin-pack-1033",
+        "t":  "FujifILM Instax Mini Instant Film Twin Pack",
+        "a":  "B00EB4ADQW",
+        "r":  4.8
+    },
+    {
+        "s":  "surge-protector-power-strip-hanycony-1035",
+        "t":  "Surge Protector Power Strip HANYCONY",
+        "a":  "B092J8LPWR",
+        "r":  4.8
+    }
+]

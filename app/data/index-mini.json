@@ -1,0 +1,7457 @@
+﻿[
+    {
+        "a":  "B0476881275",
+        "t":  "Wireless Noise Cancelling Headphones 1",
+        "s":  "wireless-noise-cancelling-headphone-0",
+        "c":  "audio",
+        "r":  4.4
+    },
+    {
+        "a":  "B0290434708",
+        "t":  "Smartwatch Fitness Tracker 1",
+        "s":  "smartwatch-fitness-tracker-1",
+        "c":  "smartwatches",
+        "r":  4.5
+    },
+    {
+        "a":  "B0152150146",
+        "t":  "Gaming Controller Wireless 1",
+        "s":  "gaming-controller-wireless-2",
+        "c":  "gaming",
+        "r":  4.5
+    },
+    {
+        "a":  "B0091100795",
+        "t":  "Robot Vacuum Cleaner LiDAR 1",
+        "s":  "robot-vacuum-cleaner-lidar-3",
+        "c":  "home",
+        "r":  4.6
+    },
+    {
+        "a":  "B0442451740",
+        "t":  "Exercise Bike Indoor 1",
+        "s":  "exercise-bike-indoor-4",
+        "c":  "fitness",
+        "r":  4.6
+    },
+    {
+        "a":  "B0649411265",
+        "t":  "Fire TV Stick 4K Max 1",
+        "s":  "fire-tv-stick-4k-max-5",
+        "c":  "streaming",
+        "r":  4.7
+    },
+    {
+        "a":  "B0360422357",
+        "t":  "Smart Doorbell Camera 1",
+        "s":  "smart-doorbell-camera-6",
+        "c":  "smart-home",
+        "r":  4.7
+    },
+    {
+        "a":  "B0722291839",
+        "t":  "E-Reader 6\" Touchscreen 1",
+        "s":  "e-reader-6-touchscreen-7",
+        "c":  "kindle",
+        "r":  4.8
+    },
+    {
+        "a":  "B0118197428",
+        "t":  "Gas Grill 3 Burner Pro 1",
+        "s":  "gas-grill-3-burner-pro-8",
+        "c":  "grills",
+        "r":  4.8
+    },
+    {
+        "a":  "B0357297257",
+        "t":  "Coffee Machine Espresso 1",
+        "s":  "coffee-machine-espresso-9",
+        "c":  "kitchen",
+        "r":  4.9
+    },
+    {
+        "a":  "B0765183601",
+        "t":  "4K Monitor 27\" IPS 1",
+        "s":  "4k-monitor-27-ips-10",
+        "c":  "electronics",
+        "r":  3.9
+    },
+    {
+        "a":  "B0659072190",
+        "t":  "True Wireless Earbuds Pro 1",
+        "s":  "true-wireless-earbuds-pro-11",
+        "c":  "audio",
+        "r":  3.9
+    },
+    {
+        "a":  "B0890011647",
+        "t":  "Smart Watch GPS 5ATM 1",
+        "s":  "smart-watch-gps-5atm-12",
+        "c":  "smartwatches",
+        "r":  4
+    },
+    {
+        "a":  "B0875433465",
+        "t":  "Gaming Mouse RGB 16000DPI 1",
+        "s":  "gaming-mouse-rgb-16000dpi-13",
+        "c":  "gaming",
+        "r":  4
+    },
+    {
+        "a":  "B0906432750",
+        "t":  "Air Purifier HEPA 13 1",
+        "s":  "air-purifier-hepa-13-14",
+        "c":  "home",
+        "r":  4.1
+    },
+    {
+        "a":  "B0602490312",
+        "t":  "Treadmill Foldable 2.5HP 1",
+        "s":  "treadmill-foldable-25hp-15",
+        "c":  "fitness",
+        "r":  4.1
+    },
+    {
+        "a":  "B0106126029",
+        "t":  "Streaming Device Pro 1",
+        "s":  "streaming-device-pro-16",
+        "c":  "streaming",
+        "r":  4.2
+    },
+    {
+        "a":  "B0955459436",
+        "t":  "Security Camera Indoor 2K 1",
+        "s":  "security-camera-indoor-2k-17",
+        "c":  "smart-home",
+        "r":  4.2
+    },
+    {
+        "a":  "B0609536168",
+        "t":  "E-Reader Paperwhite 11th Gen 1",
+        "s":  "e-reader-paperwhite-11th-gen-18",
+        "c":  "kindle",
+        "r":  4.3
+    },
+    {
+        "a":  "B0349315131",
+        "t":  "Charcoal Grill Kettle 22\" 1",
+        "s":  "charcoal-grill-kettle-22-19",
+        "c":  "grills",
+        "r":  4.3
+    },
+    {
+        "a":  "B0018705264",
+        "t":  "Air Fryer XL 5.8Qt 1",
+        "s":  "air-fryer-xl-58qt-20",
+        "c":  "kitchen",
+        "r":  3.9
+    },
+    {
+        "a":  "B0266943364",
+        "t":  "Mechanical Keyboard RGB 1",
+        "s":  "mechanical-keyboard-rgb-21",
+        "c":  "electronics",
+        "r":  4
+    },
+    {
+        "a":  "B0374128248",
+        "t":  "Portable Bluetooth Speaker 20W 1",
+        "s":  "portable-bluetooth-speaker-20w-22",
+        "c":  "audio",
+        "r":  4
+    },
+    {
+        "a":  "B0540852740",
+        "t":  "Blood Oxygen Monitor Watch 1",
+        "s":  "blood-oxygen-monitor-watch-23",
+        "c":  "smartwatches",
+        "r":  4.1
+    },
+    {
+        "a":  "B0977812284",
+        "t":  "Gaming Headset 7.1 Surround 1",
+        "s":  "gaming-headset-71-surround-24",
+        "c":  "gaming",
+        "r":  4.1
+    },
+    {
+        "a":  "B0009741184",
+        "t":  "Smart Thermostat WiFi 1",
+        "s":  "smart-thermostat-wifi-25",
+        "c":  "home",
+        "r":  4.2
+    },
+    {
+        "a":  "B0143883394",
+        "t":  "Resistance Bands Set 5 1",
+        "s":  "resistance-bands-set-5-26",
+        "c":  "fitness",
+        "r":  4.2
+    },
+    {
+        "a":  "B0191467277",
+        "t":  "Smart TV Box 4K Android 1",
+        "s":  "smart-tv-box-4k-android-27",
+        "c":  "streaming",
+        "r":  4.3
+    },
+    {
+        "a":  "B0419237441",
+        "t":  "Smart Lock Fingerprint 1",
+        "s":  "smart-lock-fingerprint-28",
+        "c":  "smart-home",
+        "r":  4.3
+    },
+    {
+        "a":  "B0349998326",
+        "t":  "E-Reader with Warm Light 1",
+        "s":  "e-reader-with-warm-light-29",
+        "c":  "kindle",
+        "r":  4.4
+    },
+    {
+        "a":  "B0217042964",
+        "t":  "Electric Grill Indoor 1",
+        "s":  "electric-grill-indoor-30",
+        "c":  "grills",
+        "r":  4
+    },
+    {
+        "a":  "B0025453137",
+        "t":  "Food Processor 12-Cup 1",
+        "s":  "food-processor-12-cup-31",
+        "c":  "kitchen",
+        "r":  4
+    },
+    {
+        "a":  "B0153963465",
+        "t":  "Ergonomic Mouse Vertical 1",
+        "s":  "ergonomic-mouse-vertical-32",
+        "c":  "electronics",
+        "r":  4.1
+    },
+    {
+        "a":  "B0151770454",
+        "t":  "Soundbar 2.1 Channel 1",
+        "s":  "soundbar-21-channel-33",
+        "c":  "audio",
+        "r":  4.1
+    },
+    {
+        "a":  "B0072692207",
+        "t":  "Kids Smart Watch GPS 1",
+        "s":  "kids-smart-watch-gps-34",
+        "c":  "smartwatches",
+        "r":  4.2
+    },
+    {
+        "a":  "B0031136501",
+        "t":  "Gaming Chair Ergonomic Pro 1",
+        "s":  "gaming-chair-ergonomic-pro-35",
+        "c":  "gaming",
+        "r":  4.2
+    },
+    {
+        "a":  "B0289869625",
+        "t":  "Coffee Maker Programmable 1",
+        "s":  "coffee-maker-programmable-36",
+        "c":  "home",
+        "r":  4.3
+    },
+    {
+        "a":  "B0756461162",
+        "t":  "Adjustable Dumbbells 52.5lbs 1",
+        "s":  "adjustable-dumbbells-525lbs-37",
+        "c":  "fitness",
+        "r":  4.3
+    },
+    {
+        "a":  "B0538729697",
+        "t":  "Roku Streaming Stick 4K 1",
+        "s":  "roku-streaming-stick-4k-38",
+        "c":  "streaming",
+        "r":  4.4
+    },
+    {
+        "a":  "B0616811313",
+        "t":  "Echo Dot 5th Gen 1",
+        "s":  "echo-dot-5th-gen-39",
+        "c":  "smart-home",
+        "r":  4.4
+    },
+    {
+        "a":  "B0430738002",
+        "t":  "Tablet Fire HD 10 1",
+        "s":  "tablet-fire-hd-10-40",
+        "c":  "kindle",
+        "r":  4
+    },
+    {
+        "a":  "B0871279014",
+        "t":  "Smoker Box Pro Offset 1",
+        "s":  "smoker-box-pro-offset-41",
+        "c":  "grills",
+        "r":  4.1
+    },
+    {
+        "a":  "B0474441578",
+        "t":  "Rice Cooker Multi-Cook 1",
+        "s":  "rice-cooker-multi-cook-42",
+        "c":  "kitchen",
+        "r":  4.1
+    },
+    {
+        "a":  "B0798266123",
+        "t":  "USB-C Hub 7-in-1 1",
+        "s":  "usb-c-hub-7-in-1-43",
+        "c":  "electronics",
+        "r":  4.2
+    },
+    {
+        "a":  "B0913139361",
+        "t":  "Gaming Headset 7.1 Surround 1",
+        "s":  "gaming-headset-71-surround-44",
+        "c":  "audio",
+        "r":  4.2
+    },
+    {
+        "a":  "B0270534244",
+        "t":  "Hybrid Smart Watch Classic 1",
+        "s":  "hybrid-smart-watch-classic-45",
+        "c":  "smartwatches",
+        "r":  4.3
+    },
+    {
+        "a":  "B0642368761",
+        "t":  "4K Gaming Monitor 144Hz 1",
+        "s":  "4k-gaming-monitor-144hz-46",
+        "c":  "gaming",
+        "r":  4.3
+    },
+    {
+        "a":  "B0061767562",
+        "t":  "Instant Pot 7-in-1 1",
+        "s":  "instant-pot-7-in-1-47",
+        "c":  "home",
+        "r":  4.4
+    },
+    {
+        "a":  "B0402428556",
+        "t":  "Yoga Mat Premium 6mm 1",
+        "s":  "yoga-mat-premium-6mm-48",
+        "c":  "fitness",
+        "r":  4.4
+    },
+    {
+        "a":  "B0599729142",
+        "t":  "Chromecast with Google TV 1",
+        "s":  "chromecast-with-google-tv-49",
+        "c":  "streaming",
+        "r":  4.5
+    },
+    {
+        "a":  "B0932694264",
+        "t":  "Smart Light Bulbs RGB 1",
+        "s":  "smart-light-bulbs-rgb-50",
+        "c":  "smart-home",
+        "r":  4.1
+    },
+    {
+        "a":  "B0502247232",
+        "t":  "E-Reader Kids Edition 1",
+        "s":  "e-reader-kids-edition-51",
+        "c":  "kindle",
+        "r":  4.1
+    },
+    {
+        "a":  "B0091757312",
+        "t":  "Grill Accessories 20pc 1",
+        "s":  "grill-accessories-20pc-52",
+        "c":  "grills",
+        "r":  4.2
+    },
+    {
+        "a":  "B0194221898",
+        "t":  "Toaster Oven Digital 1",
+        "s":  "toaster-oven-digital-53",
+        "c":  "kitchen",
+        "r":  4.2
+    },
+    {
+        "a":  "B0787611113",
+        "t":  "Webcam 4K Pro 1",
+        "s":  "webcam-4k-pro-54",
+        "c":  "electronics",
+        "r":  4.3
+    },
+    {
+        "a":  "B0215867393",
+        "t":  "Studio Monitor Speakers 1",
+        "s":  "studio-monitor-speakers-55",
+        "c":  "audio",
+        "r":  4.3
+    },
+    {
+        "a":  "B0277957906",
+        "t":  "Sports Watch Pro AMOLED 1",
+        "s":  "sports-watch-pro-amoled-56",
+        "c":  "smartwatches",
+        "r":  4.4
+    },
+    {
+        "a":  "B0372480729",
+        "t":  "Console Controller Pro 1",
+        "s":  "console-controller-pro-57",
+        "c":  "gaming",
+        "r":  4.4
+    },
+    {
+        "a":  "B0428637765",
+        "t":  "Blender Professional 1200W 1",
+        "s":  "blender-professional-1200w-58",
+        "c":  "home",
+        "r":  4.5
+    },
+    {
+        "a":  "B0999017093",
+        "t":  "Foam Roller Recovery 1",
+        "s":  "foam-roller-recovery-59",
+        "c":  "fitness",
+        "r":  4.5
+    },
+    {
+        "a":  "B0754779761",
+        "t":  "Android TV Box 8K 1",
+        "s":  "android-tv-box-8k-60",
+        "c":  "streaming",
+        "r":  4.1
+    },
+    {
+        "a":  "B0415023255",
+        "t":  "Motion Sensor Kit 1",
+        "s":  "motion-sensor-kit-61",
+        "c":  "smart-home",
+        "r":  4.2
+    },
+    {
+        "a":  "B0651746670",
+        "t":  "Tablet 8\" HD Kids 1",
+        "s":  "tablet-8-hd-kids-62",
+        "c":  "kindle",
+        "r":  4.2
+    },
+    {
+        "a":  "B0967107250",
+        "t":  "BBQ Tool Set Deluxe 1",
+        "s":  "bbq-tool-set-deluxe-63",
+        "c":  "grills",
+        "r":  4.3
+    },
+    {
+        "a":  "B0546036566",
+        "t":  "Hand Mixer Stand Mix 1",
+        "s":  "hand-mixer-stand-mix-64",
+        "c":  "kitchen",
+        "r":  4.3
+    },
+    {
+        "a":  "B0489398683",
+        "t":  "External SSD 2TB 1",
+        "s":  "external-ssd-2tb-65",
+        "c":  "electronics",
+        "r":  4.4
+    },
+    {
+        "a":  "B0951871015",
+        "t":  "Neckband Wireless Earbuds 1",
+        "s":  "neckband-wireless-earbuds-66",
+        "c":  "audio",
+        "r":  4.4
+    },
+    {
+        "a":  "B0909159151",
+        "t":  "Fashion Smart Watch 1",
+        "s":  "fashion-smart-watch-67",
+        "c":  "smartwatches",
+        "r":  4.5
+    },
+    {
+        "a":  "B0618455808",
+        "t":  "VR Headset System 1",
+        "s":  "vr-headset-system-68",
+        "c":  "gaming",
+        "r":  4.5
+    },
+    {
+        "a":  "B0651860564",
+        "t":  "Air Fryer XXL Digital 1",
+        "s":  "air-fryer-xxl-digital-69",
+        "c":  "home",
+        "r":  4.6
+    },
+    {
+        "a":  "B0469885035",
+        "t":  "Pull Up Bar Doorway 1",
+        "s":  "pull-up-bar-doorway-70",
+        "c":  "fitness",
+        "r":  4.2
+    },
+    {
+        "a":  "B0994703986",
+        "t":  "Apple TV 4K 1",
+        "s":  "apple-tv-4k-71",
+        "c":  "streaming",
+        "r":  4.2
+    },
+    {
+        "a":  "B0719004364",
+        "t":  "Smart Plug Mini 1",
+        "s":  "smart-plug-mini-72",
+        "c":  "smart-home",
+        "r":  4.3
+    },
+    {
+        "a":  "B0941126141",
+        "t":  "Reading Light Clip On 1",
+        "s":  "reading-light-clip-on-73",
+        "c":  "kindle",
+        "r":  4.3
+    },
+    {
+        "a":  "B0887189565",
+        "t":  "Grill Cover Waterproof 1",
+        "s":  "grill-cover-waterproof-74",
+        "c":  "grills",
+        "r":  4.4
+    },
+    {
+        "a":  "B0065185524",
+        "t":  "Immersion Blender 800W 1",
+        "s":  "immersion-blender-800w-75",
+        "c":  "kitchen",
+        "r":  4.4
+    },
+    {
+        "a":  "B0197677943",
+        "t":  "Bluetooth 5.0 Adapter 1",
+        "s":  "bluetooth-50-adapter-76",
+        "c":  "electronics",
+        "r":  4.5
+    },
+    {
+        "a":  "B0493117732",
+        "t":  "Waterproof Speaker IPX7 1",
+        "s":  "waterproof-speaker-ipx7-77",
+        "c":  "audio",
+        "r":  4.5
+    },
+    {
+        "a":  "B0461099100",
+        "t":  "Diver Watch Smart 1",
+        "s":  "diver-watch-smart-78",
+        "c":  "smartwatches",
+        "r":  4.6
+    },
+    {
+        "a":  "B0559937419",
+        "t":  "Gaming Router WiFi 6E 1",
+        "s":  "gaming-router-wifi-6e-79",
+        "c":  "gaming",
+        "r":  4.6
+    },
+    {
+        "a":  "B0128988229",
+        "t":  "Robot Mop Automatic 1",
+        "s":  "robot-mop-automatic-80",
+        "c":  "home",
+        "r":  4.2
+    },
+    {
+        "a":  "B0243259417",
+        "t":  "Kettlebell Set 5-25lbs 1",
+        "s":  "kettlebell-set-5-25lbs-81",
+        "c":  "fitness",
+        "r":  4.3
+    },
+    {
+        "a":  "B0716135068",
+        "t":  "Nvidia Shield Pro 1",
+        "s":  "nvidia-shield-pro-82",
+        "c":  "streaming",
+        "r":  4.3
+    },
+    {
+        "a":  "B0579623945",
+        "t":  "Video Doorbell Pro 1",
+        "s":  "video-doorbell-pro-83",
+        "c":  "smart-home",
+        "r":  4.4
+    },
+    {
+        "a":  "B0208278989",
+        "t":  "Leather Cover Premium 1",
+        "s":  "leather-cover-premium-84",
+        "c":  "kindle",
+        "r":  4.4
+    },
+    {
+        "a":  "B0945515300",
+        "t":  "Pellet Grill Smoker 1",
+        "s":  "pellet-grill-smoker-85",
+        "c":  "grills",
+        "r":  4.5
+    },
+    {
+        "a":  "B0144393656",
+        "t":  "Electric Kettle 1.7L 1",
+        "s":  "electric-kettle-17l-86",
+        "c":  "kitchen",
+        "r":  4.5
+    },
+    {
+        "a":  "B0519451255",
+        "t":  "Power Bank 30000mAh 1",
+        "s":  "power-bank-30000mah-87",
+        "c":  "electronics",
+        "r":  4.6
+    },
+    {
+        "a":  "B0218026582",
+        "t":  "Over-Ear Headphones Premium 1",
+        "s":  "over-ear-headphones-premium-88",
+        "c":  "audio",
+        "r":  4.6
+    },
+    {
+        "a":  "B0529408101",
+        "t":  "Classic Analog Smart Hybrid 1",
+        "s":  "classic-analog-smart-hybrid-89",
+        "c":  "smartwatches",
+        "r":  4.7
+    },
+    {
+        "a":  "B0280879795",
+        "t":  "Gaming Keyboard Mechanical 1",
+        "s":  "gaming-keyboard-mechanical-90",
+        "c":  "gaming",
+        "r":  4.3
+    },
+    {
+        "a":  "B0367013044",
+        "t":  "Dehumidifier Electric 1",
+        "s":  "dehumidifier-electric-91",
+        "c":  "home",
+        "r":  4.3
+    },
+    {
+        "a":  "B0158706775",
+        "t":  "Rowing Machine Water 1",
+        "s":  "rowing-machine-water-92",
+        "c":  "fitness",
+        "r":  4.4
+    },
+    {
+        "a":  "B0072896123",
+        "t":  "Amazon Fire TV Cube 1",
+        "s":  "amazon-fire-tv-cube-93",
+        "c":  "streaming",
+        "r":  4.4
+    },
+    {
+        "a":  "B0083168650",
+        "t":  "Garage Door Opener Smart 1",
+        "s":  "garage-door-opener-smart-94",
+        "c":  "smart-home",
+        "r":  4.5
+    },
+    {
+        "a":  "B0206332971",
+        "t":  "Tablet Stand Adjustable 1",
+        "s":  "tablet-stand-adjustable-95",
+        "c":  "kindle",
+        "r":  4.5
+    },
+    {
+        "a":  "B0140739582",
+        "t":  "Propane Tank 20lb 1",
+        "s":  "propane-tank-20lb-96",
+        "c":  "grills",
+        "r":  4.6
+    },
+    {
+        "a":  "B0406740824",
+        "t":  "Sous Vide Precision 1",
+        "s":  "sous-vide-precision-97",
+        "c":  "kitchen",
+        "r":  4.6
+    },
+    {
+        "a":  "B0706389444",
+        "t":  "Smart Plug WiFi 4-pack 1",
+        "s":  "smart-plug-wifi-4-pack-98",
+        "c":  "electronics",
+        "r":  4.7
+    },
+    {
+        "a":  "B0911601068",
+        "t":  "In-Ear Monitors HIFI 1",
+        "s":  "in-ear-monitors-hifi-99",
+        "c":  "audio",
+        "r":  4.7
+    },
+    {
+        "a":  "B0915078916",
+        "t":  "GPS Running Watch 2",
+        "s":  "gps-running-watch-100",
+        "c":  "smartwatches",
+        "r":  4.8
+    },
+    {
+        "a":  "B0991291784",
+        "t":  "Racing Wheel Simulator 2",
+        "s":  "racing-wheel-simulator-101",
+        "c":  "gaming",
+        "r":  4.8
+    },
+    {
+        "a":  "B0683012925",
+        "t":  "Humidifier Ultrasonic 2",
+        "s":  "humidifier-ultrasonic-102",
+        "c":  "home",
+        "r":  4.9
+    },
+    {
+        "a":  "B0314071972",
+        "t":  "Elliptical Trainer 2",
+        "s":  "elliptical-trainer-103",
+        "c":  "fitness",
+        "r":  4.9
+    },
+    {
+        "a":  "B0044211478",
+        "t":  "TiVo Stream 4K 2",
+        "s":  "tivo-stream-4k-104",
+        "c":  "streaming",
+        "r":  5
+    },
+    {
+        "a":  "B0552767369",
+        "t":  "Smart Switch WiFi 2",
+        "s":  "smart-switch-wifi-105",
+        "c":  "smart-home",
+        "r":  3.5
+    },
+    {
+        "a":  "B0351678150",
+        "t":  "Stylus Pen Tablet 2",
+        "s":  "stylus-pen-tablet-106",
+        "c":  "kindle",
+        "r":  3.6
+    },
+    {
+        "a":  "B0893048891",
+        "t":  "Charcoal chimney Starter 2",
+        "s":  "charcoal-chimney-starter-107",
+        "c":  "grills",
+        "r":  3.6
+    },
+    {
+        "a":  "B0307058880",
+        "t":  "Ice Cream Maker 2",
+        "s":  "ice-cream-maker-108",
+        "c":  "kitchen",
+        "r":  3.7
+    },
+    {
+        "a":  "B0458178791",
+        "t":  "LED Desk Lamp Eye Care 2",
+        "s":  "led-desk-lamp-eye-care-109",
+        "c":  "electronics",
+        "r":  3.7
+    },
+    {
+        "a":  "B0863519327",
+        "t":  "Party Speaker LED Lights 2",
+        "s":  "party-speaker-led-lights-110",
+        "c":  "audio",
+        "r":  4.8
+    },
+    {
+        "a":  "B0563785065",
+        "t":  "Triathlon Smart Watch 2",
+        "s":  "triathlon-smart-watch-111",
+        "c":  "smartwatches",
+        "r":  4.9
+    },
+    {
+        "a":  "B0511742979",
+        "t":  "Gaming Desk LED 2",
+        "s":  "gaming-desk-led-112",
+        "c":  "gaming",
+        "r":  4.9
+    },
+    {
+        "a":  "B0895628004",
+        "t":  "Vacuum Cleaner Bagless 2",
+        "s":  "vacuum-cleaner-bagless-113",
+        "c":  "home",
+        "r":  5
+    },
+    {
+        "a":  "B0664765329",
+        "t":  "Weight Bench Adjustable 2",
+        "s":  "weight-bench-adjustable-114",
+        "c":  "fitness",
+        "r":  3.5
+    },
+    {
+        "a":  "B0271407599",
+        "t":  "AT\u0026T TV Stream 2",
+        "s":  "att-tv-stream-115",
+        "c":  "streaming",
+        "r":  3.6
+    },
+    {
+        "a":  "B0014262889",
+        "t":  "Smart Thermostat Learning 2",
+        "s":  "smart-thermostat-learning-116",
+        "c":  "smart-home",
+        "r":  3.6
+    },
+    {
+        "a":  "B0352317789",
+        "t":  "Screen Protector Pack 2",
+        "s":  "screen-protector-pack-117",
+        "c":  "kindle",
+        "r":  3.7
+    },
+    {
+        "a":  "B0341275987",
+        "t":  "Meat Thermometer Digital 2",
+        "s":  "meat-thermometer-digital-118",
+        "c":  "grills",
+        "r":  3.7
+    },
+    {
+        "a":  "B0535471911",
+        "t":  "Bread Maker Automatic 2",
+        "s":  "bread-maker-automatic-119",
+        "c":  "kitchen",
+        "r":  3.8
+    },
+    {
+        "a":  "B0896185742",
+        "t":  "USB Microphone Podcast 2",
+        "s":  "usb-microphone-podcast-120",
+        "c":  "electronics",
+        "r":  4.9
+    },
+    {
+        "a":  "B0310230052",
+        "t":  "Car Audio System 2",
+        "s":  "car-audio-system-121",
+        "c":  "audio",
+        "r":  4.9
+    },
+    {
+        "a":  "B0020968472",
+        "t":  "Business Smart Watch 2",
+        "s":  "business-smart-watch-122",
+        "c":  "smartwatches",
+        "r":  5
+    },
+    {
+        "a":  "B0669303426",
+        "t":  "Capture Card 4K 2",
+        "s":  "capture-card-4k-123",
+        "c":  "gaming",
+        "r":  3.5
+    },
+    {
+        "a":  "B0358599631",
+        "t":  "Window Cleaner Robot 2",
+        "s":  "window-cleaner-robot-124",
+        "c":  "home",
+        "r":  3.6
+    },
+    {
+        "a":  "B0859249831",
+        "t":  "Jump Rope Speed 2",
+        "s":  "jump-rope-speed-125",
+        "c":  "fitness",
+        "r":  3.6
+    },
+    {
+        "a":  "B0524362864",
+        "t":  "YouTube TV Box 2",
+        "s":  "youtube-tv-box-126",
+        "c":  "streaming",
+        "r":  3.7
+    },
+    {
+        "a":  "B0537965379",
+        "t":  "Window Sensor Alarm 2",
+        "s":  "window-sensor-alarm-127",
+        "c":  "smart-home",
+        "r":  3.7
+    },
+    {
+        "a":  "B0186274510",
+        "t":  "Case with Stand 2",
+        "s":  "case-with-stand-128",
+        "c":  "kindle",
+        "r":  3.8
+    },
+    {
+        "a":  "B0688710846",
+        "t":  "Grill Basket Veggies 2",
+        "s":  "grill-basket-veggies-129",
+        "c":  "grills",
+        "r":  3.8
+    },
+    {
+        "a":  "B0466342795",
+        "t":  "Pizza Oven Countertop 2",
+        "s":  "pizza-oven-countertop-130",
+        "c":  "kitchen",
+        "r":  4.9
+    },
+    {
+        "a":  "B0660383976",
+        "t":  "Ring Light 12\" 2",
+        "s":  "ring-light-12-131",
+        "c":  "electronics",
+        "r":  5
+    },
+    {
+        "a":  "B0115480986",
+        "t":  "Home Theater System 2",
+        "s":  "home-theater-system-132",
+        "c":  "audio",
+        "r":  3.5
+    },
+    {
+        "a":  "B0424153447",
+        "t":  "Kids GPS Watch Phone 2",
+        "s":  "kids-gps-watch-phone-133",
+        "c":  "smartwatches",
+        "r":  3.6
+    },
+    {
+        "a":  "B0056268557",
+        "t":  "Streaming Microphone USB 2",
+        "s":  "streaming-microphone-usb-134",
+        "c":  "gaming",
+        "r":  3.6
+    },
+    {
+        "a":  "B0813687408",
+        "t":  "Pet Hair Remover 2",
+        "s":  "pet-hair-remover-135",
+        "c":  "home",
+        "r":  3.7
+    },
+    {
+        "a":  "B0408729890",
+        "t":  "Ab Roller Wheel 2",
+        "s":  "ab-roller-wheel-136",
+        "c":  "fitness",
+        "r":  3.7
+    },
+    {
+        "a":  "B0157323735",
+        "t":  "IPTV Box Premium 2",
+        "s":  "iptv-box-premium-137",
+        "c":  "streaming",
+        "r":  3.8
+    },
+    {
+        "a":  "B0276571414",
+        "t":  "Water Leak Detector 2",
+        "s":  "water-leak-detector-138",
+        "c":  "smart-home",
+        "r":  3.8
+    },
+    {
+        "a":  "B0667077002",
+        "t":  "Power Bank for E-Reader 2",
+        "s":  "power-bank-for-e-reader-139",
+        "c":  "kindle",
+        "r":  3.9
+    },
+    {
+        "a":  "B0108307426",
+        "t":  "Spatchcock Chicken Rack 2",
+        "s":  "spatchcock-chicken-rack-140",
+        "c":  "grills",
+        "r":  5
+    },
+    {
+        "a":  "B0167897332",
+        "t":  "Waffle Maker Belgian 2",
+        "s":  "waffle-maker-belgian-141",
+        "c":  "kitchen",
+        "r":  3.5
+    },
+    {
+        "a":  "B0274439579",
+        "t":  "Laptop Stand Aluminum 2",
+        "s":  "laptop-stand-aluminum-142",
+        "c":  "electronics",
+        "r":  3.6
+    },
+    {
+        "a":  "B0685711272",
+        "t":  "DAB Radio Digital 2",
+        "s":  "dab-radio-digital-143",
+        "c":  "audio",
+        "r":  3.6
+    },
+    {
+        "a":  "B0787108825",
+        "t":  "Senior Watch with SOS 2",
+        "s":  "senior-watch-with-sos-144",
+        "c":  "smartwatches",
+        "r":  3.7
+    },
+    {
+        "a":  "B0356370414",
+        "t":  "Gaming Laptop Stand 2",
+        "s":  "gaming-laptop-stand-145",
+        "c":  "gaming",
+        "r":  3.7
+    },
+    {
+        "a":  "B0450990645",
+        "t":  "Steam Cleaner Multi-Surface 2",
+        "s":  "steam-cleaner-multi-surface-146",
+        "c":  "home",
+        "r":  3.8
+    },
+    {
+        "a":  "B0206657742",
+        "t":  "Battle Ropes 50ft 2",
+        "s":  "battle-ropes-50ft-147",
+        "c":  "fitness",
+        "r":  3.8
+    },
+    {
+        "a":  "B0390813876",
+        "t":  "Media Player NAS 2",
+        "s":  "media-player-nas-148",
+        "c":  "streaming",
+        "r":  3.9
+    },
+    {
+        "a":  "B0390082009",
+        "t":  "Smart Bulb E27 2",
+        "s":  "smart-bulb-e27-149",
+        "c":  "smart-home",
+        "r":  3.9
+    },
+    {
+        "a":  "B0045138824",
+        "t":  "Audiobook Subscription 2",
+        "s":  "audiobook-subscription-150",
+        "c":  "kindle",
+        "r":  3.5
+    },
+    {
+        "a":  "B0869449590",
+        "t":  "Rib Rack Vertical 2",
+        "s":  "rib-rack-vertical-151",
+        "c":  "grills",
+        "r":  3.6
+    },
+    {
+        "a":  "B0872036331",
+        "t":  "Slow Cooker 6Qt 2",
+        "s":  "slow-cooker-6qt-152",
+        "c":  "kitchen",
+        "r":  3.6
+    },
+    {
+        "a":  "B0193220880",
+        "t":  "Cable Management Kit 2",
+        "s":  "cable-management-kit-153",
+        "c":  "electronics",
+        "r":  3.7
+    },
+    {
+        "a":  "B0534326865",
+        "t":  "Record Player Vinyl 2",
+        "s":  "record-player-vinyl-154",
+        "c":  "audio",
+        "r":  3.7
+    },
+    {
+        "a":  "B0090351304",
+        "t":  "Fashion Ladies Smartwatch 2",
+        "s":  "fashion-ladies-smartwatch-155",
+        "c":  "smartwatches",
+        "r":  3.8
+    },
+    {
+        "a":  "B0312050200",
+        "t":  "Gaming Power Supply 850W 2",
+        "s":  "gaming-power-supply-850w-156",
+        "c":  "gaming",
+        "r":  3.8
+    },
+    {
+        "a":  "B0619797334",
+        "t":  "Dishwasher Portable 2",
+        "s":  "dishwasher-portable-157",
+        "c":  "home",
+        "r":  3.9
+    },
+    {
+        "a":  "B0318283048",
+        "t":  "Olympic Barbell Set 2",
+        "s":  "olympic-barbell-set-158",
+        "c":  "fitness",
+        "r":  3.9
+    },
+    {
+        "a":  "B0076757473",
+        "t":  "Portable Monitor 15.6\" 2",
+        "s":  "portable-monitor-156-159",
+        "c":  "streaming",
+        "r":  4
+    },
+    {
+        "a":  "B0075895036",
+        "t":  "Curtain Motor Smart 2",
+        "s":  "curtain-motor-smart-160",
+        "c":  "smart-home",
+        "r":  3.6
+    },
+    {
+        "a":  "B0896896734",
+        "t":  "E-Book Bundle Popular 2",
+        "s":  "e-book-bundle-popular-161",
+        "c":  "kindle",
+        "r":  3.6
+    },
+    {
+        "a":  "B0869070591",
+        "t":  "Wireless Grill Thermometer 2",
+        "s":  "wireless-grill-thermometer-162",
+        "c":  "grills",
+        "r":  3.7
+    },
+    {
+        "a":  "B0243681787",
+        "t":  "Pressure Cooker 6Qt 2",
+        "s":  "pressure-cooker-6qt-163",
+        "c":  "kitchen",
+        "r":  3.7
+    },
+    {
+        "a":  "B0958040483",
+        "t":  "Screen Cleaner Kit 2",
+        "s":  "screen-cleaner-kit-164",
+        "c":  "electronics",
+        "r":  3.8
+    },
+    {
+        "a":  "B0137216287",
+        "t":  "Wireless Noise Cancelling Headphones 2",
+        "s":  "wireless-noise-cancelling-headphone-165",
+        "c":  "audio",
+        "r":  3.8
+    },
+    {
+        "a":  "B0319086079",
+        "t":  "Smartwatch Fitness Tracker 2",
+        "s":  "smartwatch-fitness-tracker-166",
+        "c":  "smartwatches",
+        "r":  3.9
+    },
+    {
+        "a":  "B0513190195",
+        "t":  "Gaming Controller Wireless 2",
+        "s":  "gaming-controller-wireless-167",
+        "c":  "gaming",
+        "r":  3.9
+    },
+    {
+        "a":  "B0142374194",
+        "t":  "Robot Vacuum Cleaner LiDAR 2",
+        "s":  "robot-vacuum-cleaner-lidar-168",
+        "c":  "home",
+        "r":  4
+    },
+    {
+        "a":  "B0850633814",
+        "t":  "Exercise Bike Indoor 2",
+        "s":  "exercise-bike-indoor-169",
+        "c":  "fitness",
+        "r":  4
+    },
+    {
+        "a":  "B0826773312",
+        "t":  "Fire TV Stick 4K Max 2",
+        "s":  "fire-tv-stick-4k-max-170",
+        "c":  "streaming",
+        "r":  3.6
+    },
+    {
+        "a":  "B0688746565",
+        "t":  "Smart Doorbell Camera 2",
+        "s":  "smart-doorbell-camera-171",
+        "c":  "smart-home",
+        "r":  3.7
+    },
+    {
+        "a":  "B0747006270",
+        "t":  "E-Reader 6\" Touchscreen 2",
+        "s":  "e-reader-6-touchscreen-172",
+        "c":  "kindle",
+        "r":  3.7
+    },
+    {
+        "a":  "B0570936797",
+        "t":  "Gas Grill 3 Burner Pro 2",
+        "s":  "gas-grill-3-burner-pro-173",
+        "c":  "grills",
+        "r":  3.8
+    },
+    {
+        "a":  "B0998890356",
+        "t":  "Coffee Machine Espresso 2",
+        "s":  "coffee-machine-espresso-174",
+        "c":  "kitchen",
+        "r":  3.8
+    },
+    {
+        "a":  "B0222396530",
+        "t":  "4K Monitor 27\" IPS 2",
+        "s":  "4k-monitor-27-ips-175",
+        "c":  "electronics",
+        "r":  3.9
+    },
+    {
+        "a":  "B0132073017",
+        "t":  "True Wireless Earbuds Pro 2",
+        "s":  "true-wireless-earbuds-pro-176",
+        "c":  "audio",
+        "r":  3.9
+    },
+    {
+        "a":  "B0175133032",
+        "t":  "Smart Watch GPS 5ATM 2",
+        "s":  "smart-watch-gps-5atm-177",
+        "c":  "smartwatches",
+        "r":  4
+    },
+    {
+        "a":  "B0236020603",
+        "t":  "Gaming Mouse RGB 16000DPI 2",
+        "s":  "gaming-mouse-rgb-16000dpi-178",
+        "c":  "gaming",
+        "r":  4
+    },
+    {
+        "a":  "B0767000785",
+        "t":  "Air Purifier HEPA 13 2",
+        "s":  "air-purifier-hepa-13-179",
+        "c":  "home",
+        "r":  4.1
+    },
+    {
+        "a":  "B0716864633",
+        "t":  "Treadmill Foldable 2.5HP 2",
+        "s":  "treadmill-foldable-25hp-180",
+        "c":  "fitness",
+        "r":  3.7
+    },
+    {
+        "a":  "B0694405870",
+        "t":  "Streaming Device Pro 2",
+        "s":  "streaming-device-pro-181",
+        "c":  "streaming",
+        "r":  3.7
+    },
+    {
+        "a":  "B0077786572",
+        "t":  "Security Camera Indoor 2K 2",
+        "s":  "security-camera-indoor-2k-182",
+        "c":  "smart-home",
+        "r":  3.8
+    },
+    {
+        "a":  "B0614509247",
+        "t":  "E-Reader Paperwhite 11th Gen 2",
+        "s":  "e-reader-paperwhite-11th-gen-183",
+        "c":  "kindle",
+        "r":  3.8
+    },
+    {
+        "a":  "B0674895492",
+        "t":  "Charcoal Grill Kettle 22\" 2",
+        "s":  "charcoal-grill-kettle-22-184",
+        "c":  "grills",
+        "r":  3.9
+    },
+    {
+        "a":  "B0804361683",
+        "t":  "Air Fryer XL 5.8Qt 2",
+        "s":  "air-fryer-xl-58qt-185",
+        "c":  "kitchen",
+        "r":  3.9
+    },
+    {
+        "a":  "B0795983743",
+        "t":  "Mechanical Keyboard RGB 2",
+        "s":  "mechanical-keyboard-rgb-186",
+        "c":  "electronics",
+        "r":  4
+    },
+    {
+        "a":  "B0825345819",
+        "t":  "Portable Bluetooth Speaker 20W 2",
+        "s":  "portable-bluetooth-speaker-20w-187",
+        "c":  "audio",
+        "r":  4
+    },
+    {
+        "a":  "B0630512052",
+        "t":  "Blood Oxygen Monitor Watch 2",
+        "s":  "blood-oxygen-monitor-watch-188",
+        "c":  "smartwatches",
+        "r":  4.1
+    },
+    {
+        "a":  "B0944496732",
+        "t":  "Gaming Headset 7.1 Surround 2",
+        "s":  "gaming-headset-71-surround-189",
+        "c":  "gaming",
+        "r":  4.1
+    },
+    {
+        "a":  "B0444097545",
+        "t":  "Smart Thermostat WiFi 2",
+        "s":  "smart-thermostat-wifi-190",
+        "c":  "home",
+        "r":  3.7
+    },
+    {
+        "a":  "B0595351527",
+        "t":  "Resistance Bands Set 5 2",
+        "s":  "resistance-bands-set-5-191",
+        "c":  "fitness",
+        "r":  3.8
+    },
+    {
+        "a":  "B0070084638",
+        "t":  "Smart TV Box 4K Android 2",
+        "s":  "smart-tv-box-4k-android-192",
+        "c":  "streaming",
+        "r":  3.8
+    },
+    {
+        "a":  "B0639365785",
+        "t":  "Smart Lock Fingerprint 2",
+        "s":  "smart-lock-fingerprint-193",
+        "c":  "smart-home",
+        "r":  3.9
+    },
+    {
+        "a":  "B0919582176",
+        "t":  "E-Reader with Warm Light 2",
+        "s":  "e-reader-with-warm-light-194",
+        "c":  "kindle",
+        "r":  3.9
+    },
+    {
+        "a":  "B0700045976",
+        "t":  "Electric Grill Indoor 2",
+        "s":  "electric-grill-indoor-195",
+        "c":  "grills",
+        "r":  4
+    },
+    {
+        "a":  "B0606500466",
+        "t":  "Food Processor 12-Cup 2",
+        "s":  "food-processor-12-cup-196",
+        "c":  "kitchen",
+        "r":  4
+    },
+    {
+        "a":  "B0762235946",
+        "t":  "Ergonomic Mouse Vertical 2",
+        "s":  "ergonomic-mouse-vertical-197",
+        "c":  "electronics",
+        "r":  4.1
+    },
+    {
+        "a":  "B0498743808",
+        "t":  "Soundbar 2.1 Channel 2",
+        "s":  "soundbar-21-channel-198",
+        "c":  "audio",
+        "r":  4.1
+    },
+    {
+        "a":  "B0152238566",
+        "t":  "Kids Smart Watch GPS 2",
+        "s":  "kids-smart-watch-gps-199",
+        "c":  "smartwatches",
+        "r":  4.2
+    },
+    {
+        "a":  "B0755631862",
+        "t":  "Gaming Chair Ergonomic Pro 3",
+        "s":  "gaming-chair-ergonomic-pro-200",
+        "c":  "gaming",
+        "r":  4.8
+    },
+    {
+        "a":  "B0334578080",
+        "t":  "Coffee Maker Programmable 3",
+        "s":  "coffee-maker-programmable-201",
+        "c":  "home",
+        "r":  4.9
+    },
+    {
+        "a":  "B0959939784",
+        "t":  "Adjustable Dumbbells 52.5lbs 3",
+        "s":  "adjustable-dumbbells-525lbs-202",
+        "c":  "fitness",
+        "r":  4.9
+    },
+    {
+        "a":  "B0069817994",
+        "t":  "Roku Streaming Stick 4K 3",
+        "s":  "roku-streaming-stick-4k-203",
+        "c":  "streaming",
+        "r":  5
+    },
+    {
+        "a":  "B0221385401",
+        "t":  "Echo Dot 5th Gen 3",
+        "s":  "echo-dot-5th-gen-204",
+        "c":  "smart-home",
+        "r":  3.5
+    },
+    {
+        "a":  "B0616760490",
+        "t":  "Tablet Fire HD 10 3",
+        "s":  "tablet-fire-hd-10-205",
+        "c":  "kindle",
+        "r":  3.6
+    },
+    {
+        "a":  "B0659946547",
+        "t":  "Smoker Box Pro Offset 3",
+        "s":  "smoker-box-pro-offset-206",
+        "c":  "grills",
+        "r":  3.6
+    },
+    {
+        "a":  "B0382327686",
+        "t":  "Rice Cooker Multi-Cook 3",
+        "s":  "rice-cooker-multi-cook-207",
+        "c":  "kitchen",
+        "r":  3.7
+    },
+    {
+        "a":  "B0250857473",
+        "t":  "USB-C Hub 7-in-1 3",
+        "s":  "usb-c-hub-7-in-1-208",
+        "c":  "electronics",
+        "r":  3.7
+    },
+    {
+        "a":  "B0573194796",
+        "t":  "Gaming Headset 7.1 Surround 3",
+        "s":  "gaming-headset-71-surround-209",
+        "c":  "audio",
+        "r":  3.8
+    },
+    {
+        "a":  "B0166699768",
+        "t":  "Hybrid Smart Watch Classic 3",
+        "s":  "hybrid-smart-watch-classic-210",
+        "c":  "smartwatches",
+        "r":  4.9
+    },
+    {
+        "a":  "B0061905759",
+        "t":  "4K Gaming Monitor 144Hz 3",
+        "s":  "4k-gaming-monitor-144hz-211",
+        "c":  "gaming",
+        "r":  4.9
+    },
+    {
+        "a":  "B0282457555",
+        "t":  "Instant Pot 7-in-1 3",
+        "s":  "instant-pot-7-in-1-212",
+        "c":  "home",
+        "r":  5
+    },
+    {
+        "a":  "B0028824795",
+        "t":  "Yoga Mat Premium 6mm 3",
+        "s":  "yoga-mat-premium-6mm-213",
+        "c":  "fitness",
+        "r":  3.5
+    },
+    {
+        "a":  "B0527258128",
+        "t":  "Chromecast with Google TV 3",
+        "s":  "chromecast-with-google-tv-214",
+        "c":  "streaming",
+        "r":  3.6
+    },
+    {
+        "a":  "B0194869566",
+        "t":  "Smart Light Bulbs RGB 3",
+        "s":  "smart-light-bulbs-rgb-215",
+        "c":  "smart-home",
+        "r":  3.6
+    },
+    {
+        "a":  "B0417674031",
+        "t":  "E-Reader Kids Edition 3",
+        "s":  "e-reader-kids-edition-216",
+        "c":  "kindle",
+        "r":  3.7
+    },
+    {
+        "a":  "B0346831110",
+        "t":  "Grill Accessories 20pc 3",
+        "s":  "grill-accessories-20pc-217",
+        "c":  "grills",
+        "r":  3.7
+    },
+    {
+        "a":  "B0608269440",
+        "t":  "Toaster Oven Digital 3",
+        "s":  "toaster-oven-digital-218",
+        "c":  "kitchen",
+        "r":  3.8
+    },
+    {
+        "a":  "B0339487007",
+        "t":  "Webcam 4K Pro 3",
+        "s":  "webcam-4k-pro-219",
+        "c":  "electronics",
+        "r":  3.8
+    },
+    {
+        "a":  "B0654804238",
+        "t":  "Studio Monitor Speakers 3",
+        "s":  "studio-monitor-speakers-220",
+        "c":  "audio",
+        "r":  4.9
+    },
+    {
+        "a":  "B0082773616",
+        "t":  "Sports Watch Pro AMOLED 3",
+        "s":  "sports-watch-pro-amoled-221",
+        "c":  "smartwatches",
+        "r":  5
+    },
+    {
+        "a":  "B0196859042",
+        "t":  "Console Controller Pro 3",
+        "s":  "console-controller-pro-222",
+        "c":  "gaming",
+        "r":  3.5
+    },
+    {
+        "a":  "B0877357781",
+        "t":  "Blender Professional 1200W 3",
+        "s":  "blender-professional-1200w-223",
+        "c":  "home",
+        "r":  3.6
+    },
+    {
+        "a":  "B0302533141",
+        "t":  "Foam Roller Recovery 3",
+        "s":  "foam-roller-recovery-224",
+        "c":  "fitness",
+        "r":  3.6
+    },
+    {
+        "a":  "B0054595715",
+        "t":  "Android TV Box 8K 3",
+        "s":  "android-tv-box-8k-225",
+        "c":  "streaming",
+        "r":  3.7
+    },
+    {
+        "a":  "B0454283728",
+        "t":  "Motion Sensor Kit 3",
+        "s":  "motion-sensor-kit-226",
+        "c":  "smart-home",
+        "r":  3.7
+    },
+    {
+        "a":  "B0303310970",
+        "t":  "Tablet 8\" HD Kids 3",
+        "s":  "tablet-8-hd-kids-227",
+        "c":  "kindle",
+        "r":  3.8
+    },
+    {
+        "a":  "B0822525489",
+        "t":  "BBQ Tool Set Deluxe 3",
+        "s":  "bbq-tool-set-deluxe-228",
+        "c":  "grills",
+        "r":  3.8
+    },
+    {
+        "a":  "B0230252292",
+        "t":  "Hand Mixer Stand Mix 3",
+        "s":  "hand-mixer-stand-mix-229",
+        "c":  "kitchen",
+        "r":  3.9
+    },
+    {
+        "a":  "B0958592886",
+        "t":  "External SSD 2TB 3",
+        "s":  "external-ssd-2tb-230",
+        "c":  "electronics",
+        "r":  5
+    },
+    {
+        "a":  "B0460534358",
+        "t":  "Neckband Wireless Earbuds 3",
+        "s":  "neckband-wireless-earbuds-231",
+        "c":  "audio",
+        "r":  3.5
+    },
+    {
+        "a":  "B0380910571",
+        "t":  "Fashion Smart Watch 3",
+        "s":  "fashion-smart-watch-232",
+        "c":  "smartwatches",
+        "r":  3.6
+    },
+    {
+        "a":  "B0804109801",
+        "t":  "VR Headset System 3",
+        "s":  "vr-headset-system-233",
+        "c":  "gaming",
+        "r":  3.6
+    },
+    {
+        "a":  "B0349920096",
+        "t":  "Air Fryer XXL Digital 3",
+        "s":  "air-fryer-xxl-digital-234",
+        "c":  "home",
+        "r":  3.7
+    },
+    {
+        "a":  "B0120100995",
+        "t":  "Pull Up Bar Doorway 3",
+        "s":  "pull-up-bar-doorway-235",
+        "c":  "fitness",
+        "r":  3.7
+    },
+    {
+        "a":  "B0854509849",
+        "t":  "Apple TV 4K 3",
+        "s":  "apple-tv-4k-236",
+        "c":  "streaming",
+        "r":  3.8
+    },
+    {
+        "a":  "B0206924917",
+        "t":  "Smart Plug Mini 3",
+        "s":  "smart-plug-mini-237",
+        "c":  "smart-home",
+        "r":  3.8
+    },
+    {
+        "a":  "B0267378870",
+        "t":  "Reading Light Clip On 3",
+        "s":  "reading-light-clip-on-238",
+        "c":  "kindle",
+        "r":  3.9
+    },
+    {
+        "a":  "B0643657974",
+        "t":  "Grill Cover Waterproof 3",
+        "s":  "grill-cover-waterproof-239",
+        "c":  "grills",
+        "r":  3.9
+    },
+    {
+        "a":  "B0283949619",
+        "t":  "Immersion Blender 800W 3",
+        "s":  "immersion-blender-800w-240",
+        "c":  "kitchen",
+        "r":  3.5
+    },
+    {
+        "a":  "B0210253527",
+        "t":  "Bluetooth 5.0 Adapter 3",
+        "s":  "bluetooth-50-adapter-241",
+        "c":  "electronics",
+        "r":  3.6
+    },
+    {
+        "a":  "B0010902930",
+        "t":  "Waterproof Speaker IPX7 3",
+        "s":  "waterproof-speaker-ipx7-242",
+        "c":  "audio",
+        "r":  3.6
+    },
+    {
+        "a":  "B0366344143",
+        "t":  "Diver Watch Smart 3",
+        "s":  "diver-watch-smart-243",
+        "c":  "smartwatches",
+        "r":  3.7
+    },
+    {
+        "a":  "B0855749399",
+        "t":  "Gaming Router WiFi 6E 3",
+        "s":  "gaming-router-wifi-6e-244",
+        "c":  "gaming",
+        "r":  3.7
+    },
+    {
+        "a":  "B0967070466",
+        "t":  "Robot Mop Automatic 3",
+        "s":  "robot-mop-automatic-245",
+        "c":  "home",
+        "r":  3.8
+    },
+    {
+        "a":  "B0056550036",
+        "t":  "Kettlebell Set 5-25lbs 3",
+        "s":  "kettlebell-set-5-25lbs-246",
+        "c":  "fitness",
+        "r":  3.8
+    },
+    {
+        "a":  "B0474034628",
+        "t":  "Nvidia Shield Pro 3",
+        "s":  "nvidia-shield-pro-247",
+        "c":  "streaming",
+        "r":  3.9
+    },
+    {
+        "a":  "B0433247871",
+        "t":  "Video Doorbell Pro 3",
+        "s":  "video-doorbell-pro-248",
+        "c":  "smart-home",
+        "r":  3.9
+    },
+    {
+        "a":  "B0650533335",
+        "t":  "Leather Cover Premium 3",
+        "s":  "leather-cover-premium-249",
+        "c":  "kindle",
+        "r":  4
+    },
+    {
+        "a":  "B0052987248",
+        "t":  "Pellet Grill Smoker 3",
+        "s":  "pellet-grill-smoker-250",
+        "c":  "grills",
+        "r":  3.6
+    },
+    {
+        "a":  "B0431537450",
+        "t":  "Electric Kettle 1.7L 3",
+        "s":  "electric-kettle-17l-251",
+        "c":  "kitchen",
+        "r":  3.6
+    },
+    {
+        "a":  "B0940965430",
+        "t":  "Power Bank 30000mAh 3",
+        "s":  "power-bank-30000mah-252",
+        "c":  "electronics",
+        "r":  3.7
+    },
+    {
+        "a":  "B0739806819",
+        "t":  "Over-Ear Headphones Premium 3",
+        "s":  "over-ear-headphones-premium-253",
+        "c":  "audio",
+        "r":  3.7
+    },
+    {
+        "a":  "B0291596989",
+        "t":  "Classic Analog Smart Hybrid 3",
+        "s":  "classic-analog-smart-hybrid-254",
+        "c":  "smartwatches",
+        "r":  3.8
+    },
+    {
+        "a":  "B0266713551",
+        "t":  "Gaming Keyboard Mechanical 3",
+        "s":  "gaming-keyboard-mechanical-255",
+        "c":  "gaming",
+        "r":  3.8
+    },
+    {
+        "a":  "B0494896485",
+        "t":  "Dehumidifier Electric 3",
+        "s":  "dehumidifier-electric-256",
+        "c":  "home",
+        "r":  3.9
+    },
+    {
+        "a":  "B0919781359",
+        "t":  "Rowing Machine Water 3",
+        "s":  "rowing-machine-water-257",
+        "c":  "fitness",
+        "r":  3.9
+    },
+    {
+        "a":  "B0139340162",
+        "t":  "Amazon Fire TV Cube 3",
+        "s":  "amazon-fire-tv-cube-258",
+        "c":  "streaming",
+        "r":  4
+    },
+    {
+        "a":  "B0054542954",
+        "t":  "Garage Door Opener Smart 3",
+        "s":  "garage-door-opener-smart-259",
+        "c":  "smart-home",
+        "r":  4
+    },
+    {
+        "a":  "B0888304912",
+        "t":  "Tablet Stand Adjustable 3",
+        "s":  "tablet-stand-adjustable-260",
+        "c":  "kindle",
+        "r":  3.6
+    },
+    {
+        "a":  "B0326996897",
+        "t":  "Propane Tank 20lb 3",
+        "s":  "propane-tank-20lb-261",
+        "c":  "grills",
+        "r":  3.7
+    },
+    {
+        "a":  "B0131334713",
+        "t":  "Sous Vide Precision 3",
+        "s":  "sous-vide-precision-262",
+        "c":  "kitchen",
+        "r":  3.7
+    },
+    {
+        "a":  "B0584608531",
+        "t":  "Smart Plug WiFi 4-pack 3",
+        "s":  "smart-plug-wifi-4-pack-263",
+        "c":  "electronics",
+        "r":  3.8
+    },
+    {
+        "a":  "B0779653989",
+        "t":  "In-Ear Monitors HIFI 3",
+        "s":  "in-ear-monitors-hifi-264",
+        "c":  "audio",
+        "r":  3.8
+    },
+    {
+        "a":  "B0213614273",
+        "t":  "GPS Running Watch 3",
+        "s":  "gps-running-watch-265",
+        "c":  "smartwatches",
+        "r":  3.9
+    },
+    {
+        "a":  "B0685289453",
+        "t":  "Racing Wheel Simulator 3",
+        "s":  "racing-wheel-simulator-266",
+        "c":  "gaming",
+        "r":  3.9
+    },
+    {
+        "a":  "B0619388231",
+        "t":  "Humidifier Ultrasonic 3",
+        "s":  "humidifier-ultrasonic-267",
+        "c":  "home",
+        "r":  4
+    },
+    {
+        "a":  "B0391258932",
+        "t":  "Elliptical Trainer 3",
+        "s":  "elliptical-trainer-268",
+        "c":  "fitness",
+        "r":  4
+    },
+    {
+        "a":  "B0853531886",
+        "t":  "TiVo Stream 4K 3",
+        "s":  "tivo-stream-4k-269",
+        "c":  "streaming",
+        "r":  4.1
+    },
+    {
+        "a":  "B0460400536",
+        "t":  "Smart Switch WiFi 3",
+        "s":  "smart-switch-wifi-270",
+        "c":  "smart-home",
+        "r":  3.7
+    },
+    {
+        "a":  "B0048918943",
+        "t":  "Stylus Pen Tablet 3",
+        "s":  "stylus-pen-tablet-271",
+        "c":  "kindle",
+        "r":  3.7
+    },
+    {
+        "a":  "B0006178989",
+        "t":  "Charcoal chimney Starter 3",
+        "s":  "charcoal-chimney-starter-272",
+        "c":  "grills",
+        "r":  3.8
+    },
+    {
+        "a":  "B0372739129",
+        "t":  "Ice Cream Maker 3",
+        "s":  "ice-cream-maker-273",
+        "c":  "kitchen",
+        "r":  3.8
+    },
+    {
+        "a":  "B0379475172",
+        "t":  "LED Desk Lamp Eye Care 3",
+        "s":  "led-desk-lamp-eye-care-274",
+        "c":  "electronics",
+        "r":  3.9
+    },
+    {
+        "a":  "B0361080169",
+        "t":  "Party Speaker LED Lights 3",
+        "s":  "party-speaker-led-lights-275",
+        "c":  "audio",
+        "r":  3.9
+    },
+    {
+        "a":  "B0432355125",
+        "t":  "Triathlon Smart Watch 3",
+        "s":  "triathlon-smart-watch-276",
+        "c":  "smartwatches",
+        "r":  4
+    },
+    {
+        "a":  "B0387414132",
+        "t":  "Gaming Desk LED 3",
+        "s":  "gaming-desk-led-277",
+        "c":  "gaming",
+        "r":  4
+    },
+    {
+        "a":  "B0142718857",
+        "t":  "Vacuum Cleaner Bagless 3",
+        "s":  "vacuum-cleaner-bagless-278",
+        "c":  "home",
+        "r":  4.1
+    },
+    {
+        "a":  "B0391613346",
+        "t":  "Weight Bench Adjustable 3",
+        "s":  "weight-bench-adjustable-279",
+        "c":  "fitness",
+        "r":  4.1
+    },
+    {
+        "a":  "B0789920439",
+        "t":  "AT\u0026T TV Stream 3",
+        "s":  "att-tv-stream-280",
+        "c":  "streaming",
+        "r":  3.7
+    },
+    {
+        "a":  "B0022688472",
+        "t":  "Smart Thermostat Learning 3",
+        "s":  "smart-thermostat-learning-281",
+        "c":  "smart-home",
+        "r":  3.8
+    },
+    {
+        "a":  "B0502608610",
+        "t":  "Screen Protector Pack 3",
+        "s":  "screen-protector-pack-282",
+        "c":  "kindle",
+        "r":  3.8
+    },
+    {
+        "a":  "B0829785296",
+        "t":  "Meat Thermometer Digital 3",
+        "s":  "meat-thermometer-digital-283",
+        "c":  "grills",
+        "r":  3.9
+    },
+    {
+        "a":  "B0064380017",
+        "t":  "Bread Maker Automatic 3",
+        "s":  "bread-maker-automatic-284",
+        "c":  "kitchen",
+        "r":  3.9
+    },
+    {
+        "a":  "B0640523933",
+        "t":  "USB Microphone Podcast 3",
+        "s":  "usb-microphone-podcast-285",
+        "c":  "electronics",
+        "r":  4
+    },
+    {
+        "a":  "B0526335717",
+        "t":  "Car Audio System 3",
+        "s":  "car-audio-system-286",
+        "c":  "audio",
+        "r":  4
+    },
+    {
+        "a":  "B0731816131",
+        "t":  "Business Smart Watch 3",
+        "s":  "business-smart-watch-287",
+        "c":  "smartwatches",
+        "r":  4.1
+    },
+    {
+        "a":  "B0855333692",
+        "t":  "Capture Card 4K 3",
+        "s":  "capture-card-4k-288",
+        "c":  "gaming",
+        "r":  4.1
+    },
+    {
+        "a":  "B0199827952",
+        "t":  "Window Cleaner Robot 3",
+        "s":  "window-cleaner-robot-289",
+        "c":  "home",
+        "r":  4.2
+    },
+    {
+        "a":  "B0079000390",
+        "t":  "Jump Rope Speed 3",
+        "s":  "jump-rope-speed-290",
+        "c":  "fitness",
+        "r":  3.8
+    },
+    {
+        "a":  "B0928254480",
+        "t":  "YouTube TV Box 3",
+        "s":  "youtube-tv-box-291",
+        "c":  "streaming",
+        "r":  3.8
+    },
+    {
+        "a":  "B0009146989",
+        "t":  "Window Sensor Alarm 3",
+        "s":  "window-sensor-alarm-292",
+        "c":  "smart-home",
+        "r":  3.9
+    },
+    {
+        "a":  "B0783827800",
+        "t":  "Case with Stand 3",
+        "s":  "case-with-stand-293",
+        "c":  "kindle",
+        "r":  3.9
+    },
+    {
+        "a":  "B0574712454",
+        "t":  "Grill Basket Veggies 3",
+        "s":  "grill-basket-veggies-294",
+        "c":  "grills",
+        "r":  4
+    },
+    {
+        "a":  "B0516649085",
+        "t":  "Pizza Oven Countertop 3",
+        "s":  "pizza-oven-countertop-295",
+        "c":  "kitchen",
+        "r":  4
+    },
+    {
+        "a":  "B0421944985",
+        "t":  "Ring Light 12\" 3",
+        "s":  "ring-light-12-296",
+        "c":  "electronics",
+        "r":  4.1
+    },
+    {
+        "a":  "B0549140801",
+        "t":  "Home Theater System 3",
+        "s":  "home-theater-system-297",
+        "c":  "audio",
+        "r":  4.1
+    },
+    {
+        "a":  "B0260220190",
+        "t":  "Kids GPS Watch Phone 3",
+        "s":  "kids-gps-watch-phone-298",
+        "c":  "smartwatches",
+        "r":  4.2
+    },
+    {
+        "a":  "B0446763316",
+        "t":  "Streaming Microphone USB 3",
+        "s":  "streaming-microphone-usb-299",
+        "c":  "gaming",
+        "r":  4.2
+    },
+    {
+        "a":  "B0222473996",
+        "t":  "Pet Hair Remover 4",
+        "s":  "pet-hair-remover-300",
+        "c":  "home",
+        "r":  4.9
+    },
+    {
+        "a":  "B0369360799",
+        "t":  "Ab Roller Wheel 4",
+        "s":  "ab-roller-wheel-301",
+        "c":  "fitness",
+        "r":  4.9
+    },
+    {
+        "a":  "B0100777952",
+        "t":  "IPTV Box Premium 4",
+        "s":  "iptv-box-premium-302",
+        "c":  "streaming",
+        "r":  5
+    },
+    {
+        "a":  "B0503992208",
+        "t":  "Water Leak Detector 4",
+        "s":  "water-leak-detector-303",
+        "c":  "smart-home",
+        "r":  3.5
+    },
+    {
+        "a":  "B0249083166",
+        "t":  "Power Bank for E-Reader 4",
+        "s":  "power-bank-for-e-reader-304",
+        "c":  "kindle",
+        "r":  3.6
+    },
+    {
+        "a":  "B0444919840",
+        "t":  "Spatchcock Chicken Rack 4",
+        "s":  "spatchcock-chicken-rack-305",
+        "c":  "grills",
+        "r":  3.6
+    },
+    {
+        "a":  "B0116977959",
+        "t":  "Waffle Maker Belgian 4",
+        "s":  "waffle-maker-belgian-306",
+        "c":  "kitchen",
+        "r":  3.7
+    },
+    {
+        "a":  "B0787621496",
+        "t":  "Laptop Stand Aluminum 4",
+        "s":  "laptop-stand-aluminum-307",
+        "c":  "electronics",
+        "r":  3.7
+    },
+    {
+        "a":  "B0891511793",
+        "t":  "DAB Radio Digital 4",
+        "s":  "dab-radio-digital-308",
+        "c":  "audio",
+        "r":  3.8
+    },
+    {
+        "a":  "B0289458923",
+        "t":  "Senior Watch with SOS 4",
+        "s":  "senior-watch-with-sos-309",
+        "c":  "smartwatches",
+        "r":  3.8
+    },
+    {
+        "a":  "B0671170441",
+        "t":  "Gaming Laptop Stand 4",
+        "s":  "gaming-laptop-stand-310",
+        "c":  "gaming",
+        "r":  4.9
+    },
+    {
+        "a":  "B0193843363",
+        "t":  "Steam Cleaner Multi-Surface 4",
+        "s":  "steam-cleaner-multi-surface-311",
+        "c":  "home",
+        "r":  5
+    },
+    {
+        "a":  "B0617841497",
+        "t":  "Battle Ropes 50ft 4",
+        "s":  "battle-ropes-50ft-312",
+        "c":  "fitness",
+        "r":  3.5
+    },
+    {
+        "a":  "B0660667751",
+        "t":  "Media Player NAS 4",
+        "s":  "media-player-nas-313",
+        "c":  "streaming",
+        "r":  3.6
+    },
+    {
+        "a":  "B0616193267",
+        "t":  "Smart Bulb E27 4",
+        "s":  "smart-bulb-e27-314",
+        "c":  "smart-home",
+        "r":  3.6
+    },
+    {
+        "a":  "B0130837626",
+        "t":  "Audiobook Subscription 4",
+        "s":  "audiobook-subscription-315",
+        "c":  "kindle",
+        "r":  3.7
+    },
+    {
+        "a":  "B0588892099",
+        "t":  "Rib Rack Vertical 4",
+        "s":  "rib-rack-vertical-316",
+        "c":  "grills",
+        "r":  3.7
+    },
+    {
+        "a":  "B0263347355",
+        "t":  "Slow Cooker 6Qt 4",
+        "s":  "slow-cooker-6qt-317",
+        "c":  "kitchen",
+        "r":  3.8
+    },
+    {
+        "a":  "B0549593163",
+        "t":  "Cable Management Kit 4",
+        "s":  "cable-management-kit-318",
+        "c":  "electronics",
+        "r":  3.8
+    },
+    {
+        "a":  "B0248420345",
+        "t":  "Record Player Vinyl 4",
+        "s":  "record-player-vinyl-319",
+        "c":  "audio",
+        "r":  3.9
+    },
+    {
+        "a":  "B0577299129",
+        "t":  "Fashion Ladies Smartwatch 4",
+        "s":  "fashion-ladies-smartwatch-320",
+        "c":  "smartwatches",
+        "r":  5
+    },
+    {
+        "a":  "B0182619113",
+        "t":  "Gaming Power Supply 850W 4",
+        "s":  "gaming-power-supply-850w-321",
+        "c":  "gaming",
+        "r":  3.5
+    },
+    {
+        "a":  "B0545845398",
+        "t":  "Dishwasher Portable 4",
+        "s":  "dishwasher-portable-322",
+        "c":  "home",
+        "r":  3.6
+    },
+    {
+        "a":  "B0949547271",
+        "t":  "Olympic Barbell Set 4",
+        "s":  "olympic-barbell-set-323",
+        "c":  "fitness",
+        "r":  3.6
+    },
+    {
+        "a":  "B0137717976",
+        "t":  "Portable Monitor 15.6\" 4",
+        "s":  "portable-monitor-156-324",
+        "c":  "streaming",
+        "r":  3.7
+    },
+    {
+        "a":  "B0468853346",
+        "t":  "Curtain Motor Smart 4",
+        "s":  "curtain-motor-smart-325",
+        "c":  "smart-home",
+        "r":  3.7
+    },
+    {
+        "a":  "B0342040908",
+        "t":  "E-Book Bundle Popular 4",
+        "s":  "e-book-bundle-popular-326",
+        "c":  "kindle",
+        "r":  3.8
+    },
+    {
+        "a":  "B0128876491",
+        "t":  "Wireless Grill Thermometer 4",
+        "s":  "wireless-grill-thermometer-327",
+        "c":  "grills",
+        "r":  3.8
+    },
+    {
+        "a":  "B0260177592",
+        "t":  "Pressure Cooker 6Qt 4",
+        "s":  "pressure-cooker-6qt-328",
+        "c":  "kitchen",
+        "r":  3.9
+    },
+    {
+        "a":  "B0910025682",
+        "t":  "Screen Cleaner Kit 4",
+        "s":  "screen-cleaner-kit-329",
+        "c":  "electronics",
+        "r":  3.9
+    },
+    {
+        "a":  "B0971444648",
+        "t":  "Wireless Noise Cancelling Headphones 4",
+        "s":  "wireless-noise-cancelling-headphone-330",
+        "c":  "audio",
+        "r":  3.5
+    },
+    {
+        "a":  "B0370818633",
+        "t":  "Smartwatch Fitness Tracker 4",
+        "s":  "smartwatch-fitness-tracker-331",
+        "c":  "smartwatches",
+        "r":  3.6
+    },
+    {
+        "a":  "B0894114837",
+        "t":  "Gaming Controller Wireless 4",
+        "s":  "gaming-controller-wireless-332",
+        "c":  "gaming",
+        "r":  3.6
+    },
+    {
+        "a":  "B0312971417",
+        "t":  "Robot Vacuum Cleaner LiDAR 4",
+        "s":  "robot-vacuum-cleaner-lidar-333",
+        "c":  "home",
+        "r":  3.7
+    },
+    {
+        "a":  "B0549413840",
+        "t":  "Exercise Bike Indoor 4",
+        "s":  "exercise-bike-indoor-334",
+        "c":  "fitness",
+        "r":  3.7
+    },
+    {
+        "a":  "B0892596050",
+        "t":  "Fire TV Stick 4K Max 4",
+        "s":  "fire-tv-stick-4k-max-335",
+        "c":  "streaming",
+        "r":  3.8
+    },
+    {
+        "a":  "B0350544140",
+        "t":  "Smart Doorbell Camera 4",
+        "s":  "smart-doorbell-camera-336",
+        "c":  "smart-home",
+        "r":  3.8
+    },
+    {
+        "a":  "B0023332189",
+        "t":  "E-Reader 6\" Touchscreen 4",
+        "s":  "e-reader-6-touchscreen-337",
+        "c":  "kindle",
+        "r":  3.9
+    },
+    {
+        "a":  "B0519248116",
+        "t":  "Gas Grill 3 Burner Pro 4",
+        "s":  "gas-grill-3-burner-pro-338",
+        "c":  "grills",
+        "r":  3.9
+    },
+    {
+        "a":  "B0223929937",
+        "t":  "Coffee Machine Espresso 4",
+        "s":  "coffee-machine-espresso-339",
+        "c":  "kitchen",
+        "r":  4
+    },
+    {
+        "a":  "B0829965724",
+        "t":  "4K Monitor 27\" IPS 4",
+        "s":  "4k-monitor-27-ips-340",
+        "c":  "electronics",
+        "r":  3.6
+    },
+    {
+        "a":  "B0435281096",
+        "t":  "True Wireless Earbuds Pro 4",
+        "s":  "true-wireless-earbuds-pro-341",
+        "c":  "audio",
+        "r":  3.6
+    },
+    {
+        "a":  "B0834055353",
+        "t":  "Smart Watch GPS 5ATM 4",
+        "s":  "smart-watch-gps-5atm-342",
+        "c":  "smartwatches",
+        "r":  3.7
+    },
+    {
+        "a":  "B0345325005",
+        "t":  "Gaming Mouse RGB 16000DPI 4",
+        "s":  "gaming-mouse-rgb-16000dpi-343",
+        "c":  "gaming",
+        "r":  3.7
+    },
+    {
+        "a":  "B0942500939",
+        "t":  "Air Purifier HEPA 13 4",
+        "s":  "air-purifier-hepa-13-344",
+        "c":  "home",
+        "r":  3.8
+    },
+    {
+        "a":  "B0964969224",
+        "t":  "Treadmill Foldable 2.5HP 4",
+        "s":  "treadmill-foldable-25hp-345",
+        "c":  "fitness",
+        "r":  3.8
+    },
+    {
+        "a":  "B0535137357",
+        "t":  "Streaming Device Pro 4",
+        "s":  "streaming-device-pro-346",
+        "c":  "streaming",
+        "r":  3.9
+    },
+    {
+        "a":  "B0173463416",
+        "t":  "Security Camera Indoor 2K 4",
+        "s":  "security-camera-indoor-2k-347",
+        "c":  "smart-home",
+        "r":  3.9
+    },
+    {
+        "a":  "B0660080824",
+        "t":  "E-Reader Paperwhite 11th Gen 4",
+        "s":  "e-reader-paperwhite-11th-gen-348",
+        "c":  "kindle",
+        "r":  4
+    },
+    {
+        "a":  "B0337333599",
+        "t":  "Charcoal Grill Kettle 22\" 4",
+        "s":  "charcoal-grill-kettle-22-349",
+        "c":  "grills",
+        "r":  4
+    },
+    {
+        "a":  "B0217852447",
+        "t":  "Air Fryer XL 5.8Qt 4",
+        "s":  "air-fryer-xl-58qt-350",
+        "c":  "kitchen",
+        "r":  3.6
+    },
+    {
+        "a":  "B0716998903",
+        "t":  "Mechanical Keyboard RGB 4",
+        "s":  "mechanical-keyboard-rgb-351",
+        "c":  "electronics",
+        "r":  3.7
+    },
+    {
+        "a":  "B0676382299",
+        "t":  "Portable Bluetooth Speaker 20W 4",
+        "s":  "portable-bluetooth-speaker-20w-352",
+        "c":  "audio",
+        "r":  3.7
+    },
+    {
+        "a":  "B0831104894",
+        "t":  "Blood Oxygen Monitor Watch 4",
+        "s":  "blood-oxygen-monitor-watch-353",
+        "c":  "smartwatches",
+        "r":  3.8
+    },
+    {
+        "a":  "B0435622831",
+        "t":  "Gaming Headset 7.1 Surround 4",
+        "s":  "gaming-headset-71-surround-354",
+        "c":  "gaming",
+        "r":  3.8
+    },
+    {
+        "a":  "B0802938285",
+        "t":  "Smart Thermostat WiFi 4",
+        "s":  "smart-thermostat-wifi-355",
+        "c":  "home",
+        "r":  3.9
+    },
+    {
+        "a":  "B0418366161",
+        "t":  "Resistance Bands Set 5 4",
+        "s":  "resistance-bands-set-5-356",
+        "c":  "fitness",
+        "r":  3.9
+    },
+    {
+        "a":  "B0360995291",
+        "t":  "Smart TV Box 4K Android 4",
+        "s":  "smart-tv-box-4k-android-357",
+        "c":  "streaming",
+        "r":  4
+    },
+    {
+        "a":  "B0388545182",
+        "t":  "Smart Lock Fingerprint 4",
+        "s":  "smart-lock-fingerprint-358",
+        "c":  "smart-home",
+        "r":  4
+    },
+    {
+        "a":  "B0106373260",
+        "t":  "E-Reader with Warm Light 4",
+        "s":  "e-reader-with-warm-light-359",
+        "c":  "kindle",
+        "r":  4.1
+    },
+    {
+        "a":  "B0031295935",
+        "t":  "Electric Grill Indoor 4",
+        "s":  "electric-grill-indoor-360",
+        "c":  "grills",
+        "r":  3.7
+    },
+    {
+        "a":  "B0446760023",
+        "t":  "Food Processor 12-Cup 4",
+        "s":  "food-processor-12-cup-361",
+        "c":  "kitchen",
+        "r":  3.7
+    },
+    {
+        "a":  "B0146114888",
+        "t":  "Ergonomic Mouse Vertical 4",
+        "s":  "ergonomic-mouse-vertical-362",
+        "c":  "electronics",
+        "r":  3.8
+    },
+    {
+        "a":  "B0961054889",
+        "t":  "Soundbar 2.1 Channel 4",
+        "s":  "soundbar-21-channel-363",
+        "c":  "audio",
+        "r":  3.8
+    },
+    {
+        "a":  "B0057978875",
+        "t":  "Kids Smart Watch GPS 4",
+        "s":  "kids-smart-watch-gps-364",
+        "c":  "smartwatches",
+        "r":  3.9
+    },
+    {
+        "a":  "B0141730438",
+        "t":  "Gaming Chair Ergonomic Pro 4",
+        "s":  "gaming-chair-ergonomic-pro-365",
+        "c":  "gaming",
+        "r":  3.9
+    },
+    {
+        "a":  "B0515212555",
+        "t":  "Coffee Maker Programmable 4",
+        "s":  "coffee-maker-programmable-366",
+        "c":  "home",
+        "r":  4
+    },
+    {
+        "a":  "B0483954868",
+        "t":  "Adjustable Dumbbells 52.5lbs 4",
+        "s":  "adjustable-dumbbells-525lbs-367",
+        "c":  "fitness",
+        "r":  4
+    },
+    {
+        "a":  "B0039016509",
+        "t":  "Roku Streaming Stick 4K 4",
+        "s":  "roku-streaming-stick-4k-368",
+        "c":  "streaming",
+        "r":  4.1
+    },
+    {
+        "a":  "B0064595746",
+        "t":  "Echo Dot 5th Gen 4",
+        "s":  "echo-dot-5th-gen-369",
+        "c":  "smart-home",
+        "r":  4.1
+    },
+    {
+        "a":  "B0474939582",
+        "t":  "Tablet Fire HD 10 4",
+        "s":  "tablet-fire-hd-10-370",
+        "c":  "kindle",
+        "r":  3.7
+    },
+    {
+        "a":  "B0913035203",
+        "t":  "Smoker Box Pro Offset 4",
+        "s":  "smoker-box-pro-offset-371",
+        "c":  "grills",
+        "r":  3.8
+    },
+    {
+        "a":  "B0999439109",
+        "t":  "Rice Cooker Multi-Cook 4",
+        "s":  "rice-cooker-multi-cook-372",
+        "c":  "kitchen",
+        "r":  3.8
+    },
+    {
+        "a":  "B0295123460",
+        "t":  "USB-C Hub 7-in-1 4",
+        "s":  "usb-c-hub-7-in-1-373",
+        "c":  "electronics",
+        "r":  3.9
+    },
+    {
+        "a":  "B0754755646",
+        "t":  "Gaming Headset 7.1 Surround 4",
+        "s":  "gaming-headset-71-surround-374",
+        "c":  "audio",
+        "r":  3.9
+    },
+    {
+        "a":  "B0615416505",
+        "t":  "Hybrid Smart Watch Classic 4",
+        "s":  "hybrid-smart-watch-classic-375",
+        "c":  "smartwatches",
+        "r":  4
+    },
+    {
+        "a":  "B0183308444",
+        "t":  "4K Gaming Monitor 144Hz 4",
+        "s":  "4k-gaming-monitor-144hz-376",
+        "c":  "gaming",
+        "r":  4
+    },
+    {
+        "a":  "B0577648714",
+        "t":  "Instant Pot 7-in-1 4",
+        "s":  "instant-pot-7-in-1-377",
+        "c":  "home",
+        "r":  4.1
+    },
+    {
+        "a":  "B0288208649",
+        "t":  "Yoga Mat Premium 6mm 4",
+        "s":  "yoga-mat-premium-6mm-378",
+        "c":  "fitness",
+        "r":  4.1
+    },
+    {
+        "a":  "B0070634957",
+        "t":  "Chromecast with Google TV 4",
+        "s":  "chromecast-with-google-tv-379",
+        "c":  "streaming",
+        "r":  4.2
+    },
+    {
+        "a":  "B0874983040",
+        "t":  "Smart Light Bulbs RGB 4",
+        "s":  "smart-light-bulbs-rgb-380",
+        "c":  "smart-home",
+        "r":  3.8
+    },
+    {
+        "a":  "B0118296212",
+        "t":  "E-Reader Kids Edition 4",
+        "s":  "e-reader-kids-edition-381",
+        "c":  "kindle",
+        "r":  3.8
+    },
+    {
+        "a":  "B0862665519",
+        "t":  "Grill Accessories 20pc 4",
+        "s":  "grill-accessories-20pc-382",
+        "c":  "grills",
+        "r":  3.9
+    },
+    {
+        "a":  "B0749114233",
+        "t":  "Toaster Oven Digital 4",
+        "s":  "toaster-oven-digital-383",
+        "c":  "kitchen",
+        "r":  3.9
+    },
+    {
+        "a":  "B0193573121",
+        "t":  "Webcam 4K Pro 4",
+        "s":  "webcam-4k-pro-384",
+        "c":  "electronics",
+        "r":  4
+    },
+    {
+        "a":  "B0632692761",
+        "t":  "Studio Monitor Speakers 4",
+        "s":  "studio-monitor-speakers-385",
+        "c":  "audio",
+        "r":  4
+    },
+    {
+        "a":  "B0790628322",
+        "t":  "Sports Watch Pro AMOLED 4",
+        "s":  "sports-watch-pro-amoled-386",
+        "c":  "smartwatches",
+        "r":  4.1
+    },
+    {
+        "a":  "B0044700117",
+        "t":  "Console Controller Pro 4",
+        "s":  "console-controller-pro-387",
+        "c":  "gaming",
+        "r":  4.1
+    },
+    {
+        "a":  "B0510955640",
+        "t":  "Blender Professional 1200W 4",
+        "s":  "blender-professional-1200w-388",
+        "c":  "home",
+        "r":  4.2
+    },
+    {
+        "a":  "B0302222478",
+        "t":  "Foam Roller Recovery 4",
+        "s":  "foam-roller-recovery-389",
+        "c":  "fitness",
+        "r":  4.2
+    },
+    {
+        "a":  "B0833358594",
+        "t":  "Android TV Box 8K 4",
+        "s":  "android-tv-box-8k-390",
+        "c":  "streaming",
+        "r":  3.8
+    },
+    {
+        "a":  "B0137531917",
+        "t":  "Motion Sensor Kit 4",
+        "s":  "motion-sensor-kit-391",
+        "c":  "smart-home",
+        "r":  3.9
+    },
+    {
+        "a":  "B0539442044",
+        "t":  "Tablet 8\" HD Kids 4",
+        "s":  "tablet-8-hd-kids-392",
+        "c":  "kindle",
+        "r":  3.9
+    },
+    {
+        "a":  "B0965679270",
+        "t":  "BBQ Tool Set Deluxe 4",
+        "s":  "bbq-tool-set-deluxe-393",
+        "c":  "grills",
+        "r":  4
+    },
+    {
+        "a":  "B0276206714",
+        "t":  "Hand Mixer Stand Mix 4",
+        "s":  "hand-mixer-stand-mix-394",
+        "c":  "kitchen",
+        "r":  4
+    },
+    {
+        "a":  "B0132718957",
+        "t":  "External SSD 2TB 4",
+        "s":  "external-ssd-2tb-395",
+        "c":  "electronics",
+        "r":  4.1
+    },
+    {
+        "a":  "B0640146885",
+        "t":  "Neckband Wireless Earbuds 4",
+        "s":  "neckband-wireless-earbuds-396",
+        "c":  "audio",
+        "r":  4.1
+    },
+    {
+        "a":  "B0471601815",
+        "t":  "Fashion Smart Watch 4",
+        "s":  "fashion-smart-watch-397",
+        "c":  "smartwatches",
+        "r":  4.2
+    },
+    {
+        "a":  "B0313519174",
+        "t":  "VR Headset System 4",
+        "s":  "vr-headset-system-398",
+        "c":  "gaming",
+        "r":  4.2
+    },
+    {
+        "a":  "B0982307520",
+        "t":  "Air Fryer XXL Digital 4",
+        "s":  "air-fryer-xxl-digital-399",
+        "c":  "home",
+        "r":  4.3
+    },
+    {
+        "a":  "B0446169720",
+        "t":  "Pull Up Bar Doorway 5",
+        "s":  "pull-up-bar-doorway-400",
+        "c":  "fitness",
+        "r":  4.9
+    },
+    {
+        "a":  "B0404008639",
+        "t":  "Apple TV 4K 5",
+        "s":  "apple-tv-4k-401",
+        "c":  "streaming",
+        "r":  5
+    },
+    {
+        "a":  "B0165367035",
+        "t":  "Smart Plug Mini 5",
+        "s":  "smart-plug-mini-402",
+        "c":  "smart-home",
+        "r":  3.5
+    },
+    {
+        "a":  "B0441096732",
+        "t":  "Reading Light Clip On 5",
+        "s":  "reading-light-clip-on-403",
+        "c":  "kindle",
+        "r":  3.6
+    },
+    {
+        "a":  "B0090023171",
+        "t":  "Grill Cover Waterproof 5",
+        "s":  "grill-cover-waterproof-404",
+        "c":  "grills",
+        "r":  3.6
+    },
+    {
+        "a":  "B0467566958",
+        "t":  "Immersion Blender 800W 5",
+        "s":  "immersion-blender-800w-405",
+        "c":  "kitchen",
+        "r":  3.7
+    },
+    {
+        "a":  "B0991993075",
+        "t":  "Bluetooth 5.0 Adapter 5",
+        "s":  "bluetooth-50-adapter-406",
+        "c":  "electronics",
+        "r":  3.7
+    },
+    {
+        "a":  "B0671624221",
+        "t":  "Waterproof Speaker IPX7 5",
+        "s":  "waterproof-speaker-ipx7-407",
+        "c":  "audio",
+        "r":  3.8
+    },
+    {
+        "a":  "B0681404031",
+        "t":  "Diver Watch Smart 5",
+        "s":  "diver-watch-smart-408",
+        "c":  "smartwatches",
+        "r":  3.8
+    },
+    {
+        "a":  "B0840166854",
+        "t":  "Gaming Router WiFi 6E 5",
+        "s":  "gaming-router-wifi-6e-409",
+        "c":  "gaming",
+        "r":  3.9
+    },
+    {
+        "a":  "B0148678445",
+        "t":  "Robot Mop Automatic 5",
+        "s":  "robot-mop-automatic-410",
+        "c":  "home",
+        "r":  5
+    },
+    {
+        "a":  "B0408850196",
+        "t":  "Kettlebell Set 5-25lbs 5",
+        "s":  "kettlebell-set-5-25lbs-411",
+        "c":  "fitness",
+        "r":  3.5
+    },
+    {
+        "a":  "B0702862253",
+        "t":  "Nvidia Shield Pro 5",
+        "s":  "nvidia-shield-pro-412",
+        "c":  "streaming",
+        "r":  3.6
+    },
+    {
+        "a":  "B0839377621",
+        "t":  "Video Doorbell Pro 5",
+        "s":  "video-doorbell-pro-413",
+        "c":  "smart-home",
+        "r":  3.6
+    },
+    {
+        "a":  "B0193402457",
+        "t":  "Leather Cover Premium 5",
+        "s":  "leather-cover-premium-414",
+        "c":  "kindle",
+        "r":  3.7
+    },
+    {
+        "a":  "B0888155777",
+        "t":  "Pellet Grill Smoker 5",
+        "s":  "pellet-grill-smoker-415",
+        "c":  "grills",
+        "r":  3.7
+    },
+    {
+        "a":  "B0651885254",
+        "t":  "Electric Kettle 1.7L 5",
+        "s":  "electric-kettle-17l-416",
+        "c":  "kitchen",
+        "r":  3.8
+    },
+    {
+        "a":  "B0922669055",
+        "t":  "Power Bank 30000mAh 5",
+        "s":  "power-bank-30000mah-417",
+        "c":  "electronics",
+        "r":  3.8
+    },
+    {
+        "a":  "B0937413239",
+        "t":  "Over-Ear Headphones Premium 5",
+        "s":  "over-ear-headphones-premium-418",
+        "c":  "audio",
+        "r":  3.9
+    },
+    {
+        "a":  "B0447817439",
+        "t":  "Classic Analog Smart Hybrid 5",
+        "s":  "classic-analog-smart-hybrid-419",
+        "c":  "smartwatches",
+        "r":  3.9
+    },
+    {
+        "a":  "B0916356680",
+        "t":  "Gaming Keyboard Mechanical 5",
+        "s":  "gaming-keyboard-mechanical-420",
+        "c":  "gaming",
+        "r":  3.5
+    },
+    {
+        "a":  "B0927893539",
+        "t":  "Dehumidifier Electric 5",
+        "s":  "dehumidifier-electric-421",
+        "c":  "home",
+        "r":  3.6
+    },
+    {
+        "a":  "B0569115620",
+        "t":  "Rowing Machine Water 5",
+        "s":  "rowing-machine-water-422",
+        "c":  "fitness",
+        "r":  3.6
+    },
+    {
+        "a":  "B0169923509",
+        "t":  "Amazon Fire TV Cube 5",
+        "s":  "amazon-fire-tv-cube-423",
+        "c":  "streaming",
+        "r":  3.7
+    },
+    {
+        "a":  "B0308102724",
+        "t":  "Garage Door Opener Smart 5",
+        "s":  "garage-door-opener-smart-424",
+        "c":  "smart-home",
+        "r":  3.7
+    },
+    {
+        "a":  "B0953912710",
+        "t":  "Tablet Stand Adjustable 5",
+        "s":  "tablet-stand-adjustable-425",
+        "c":  "kindle",
+        "r":  3.8
+    },
+    {
+        "a":  "B0881094617",
+        "t":  "Propane Tank 20lb 5",
+        "s":  "propane-tank-20lb-426",
+        "c":  "grills",
+        "r":  3.8
+    },
+    {
+        "a":  "B0216338565",
+        "t":  "Sous Vide Precision 5",
+        "s":  "sous-vide-precision-427",
+        "c":  "kitchen",
+        "r":  3.9
+    },
+    {
+        "a":  "B0101129711",
+        "t":  "Smart Plug WiFi 4-pack 5",
+        "s":  "smart-plug-wifi-4-pack-428",
+        "c":  "electronics",
+        "r":  3.9
+    },
+    {
+        "a":  "B0088322745",
+        "t":  "In-Ear Monitors HIFI 5",
+        "s":  "in-ear-monitors-hifi-429",
+        "c":  "audio",
+        "r":  4
+    },
+    {
+        "a":  "B0287892043",
+        "t":  "GPS Running Watch 5",
+        "s":  "gps-running-watch-430",
+        "c":  "smartwatches",
+        "r":  3.6
+    },
+    {
+        "a":  "B0659755602",
+        "t":  "Racing Wheel Simulator 5",
+        "s":  "racing-wheel-simulator-431",
+        "c":  "gaming",
+        "r":  3.6
+    },
+    {
+        "a":  "B0001847475",
+        "t":  "Humidifier Ultrasonic 5",
+        "s":  "humidifier-ultrasonic-432",
+        "c":  "home",
+        "r":  3.7
+    },
+    {
+        "a":  "B0439010674",
+        "t":  "Elliptical Trainer 5",
+        "s":  "elliptical-trainer-433",
+        "c":  "fitness",
+        "r":  3.7
+    },
+    {
+        "a":  "B0305110956",
+        "t":  "TiVo Stream 4K 5",
+        "s":  "tivo-stream-4k-434",
+        "c":  "streaming",
+        "r":  3.8
+    },
+    {
+        "a":  "B0834505071",
+        "t":  "Smart Switch WiFi 5",
+        "s":  "smart-switch-wifi-435",
+        "c":  "smart-home",
+        "r":  3.8
+    },
+    {
+        "a":  "B0123007935",
+        "t":  "Stylus Pen Tablet 5",
+        "s":  "stylus-pen-tablet-436",
+        "c":  "kindle",
+        "r":  3.9
+    },
+    {
+        "a":  "B0369289654",
+        "t":  "Charcoal chimney Starter 5",
+        "s":  "charcoal-chimney-starter-437",
+        "c":  "grills",
+        "r":  3.9
+    },
+    {
+        "a":  "B0352941220",
+        "t":  "Ice Cream Maker 5",
+        "s":  "ice-cream-maker-438",
+        "c":  "kitchen",
+        "r":  4
+    },
+    {
+        "a":  "B0650681711",
+        "t":  "LED Desk Lamp Eye Care 5",
+        "s":  "led-desk-lamp-eye-care-439",
+        "c":  "electronics",
+        "r":  4
+    },
+    {
+        "a":  "B0575026512",
+        "t":  "Party Speaker LED Lights 5",
+        "s":  "party-speaker-led-lights-440",
+        "c":  "audio",
+        "r":  3.6
+    },
+    {
+        "a":  "B0387594329",
+        "t":  "Triathlon Smart Watch 5",
+        "s":  "triathlon-smart-watch-441",
+        "c":  "smartwatches",
+        "r":  3.7
+    },
+    {
+        "a":  "B0440626815",
+        "t":  "Gaming Desk LED 5",
+        "s":  "gaming-desk-led-442",
+        "c":  "gaming",
+        "r":  3.7
+    },
+    {
+        "a":  "B0654677066",
+        "t":  "Vacuum Cleaner Bagless 5",
+        "s":  "vacuum-cleaner-bagless-443",
+        "c":  "home",
+        "r":  3.8
+    },
+    {
+        "a":  "B0525410988",
+        "t":  "Weight Bench Adjustable 5",
+        "s":  "weight-bench-adjustable-444",
+        "c":  "fitness",
+        "r":  3.8
+    },
+    {
+        "a":  "B0003804999",
+        "t":  "AT\u0026T TV Stream 5",
+        "s":  "att-tv-stream-445",
+        "c":  "streaming",
+        "r":  3.9
+    },
+    {
+        "a":  "B0447179024",
+        "t":  "Smart Thermostat Learning 5",
+        "s":  "smart-thermostat-learning-446",
+        "c":  "smart-home",
+        "r":  3.9
+    },
+    {
+        "a":  "B0800273037",
+        "t":  "Screen Protector Pack 5",
+        "s":  "screen-protector-pack-447",
+        "c":  "kindle",
+        "r":  4
+    },
+    {
+        "a":  "B0694909904",
+        "t":  "Meat Thermometer Digital 5",
+        "s":  "meat-thermometer-digital-448",
+        "c":  "grills",
+        "r":  4
+    },
+    {
+        "a":  "B0524478785",
+        "t":  "Bread Maker Automatic 5",
+        "s":  "bread-maker-automatic-449",
+        "c":  "kitchen",
+        "r":  4.1
+    },
+    {
+        "a":  "B0632916584",
+        "t":  "USB Microphone Podcast 5",
+        "s":  "usb-microphone-podcast-450",
+        "c":  "electronics",
+        "r":  3.7
+    },
+    {
+        "a":  "B0857102753",
+        "t":  "Car Audio System 5",
+        "s":  "car-audio-system-451",
+        "c":  "audio",
+        "r":  3.7
+    },
+    {
+        "a":  "B0051112980",
+        "t":  "Business Smart Watch 5",
+        "s":  "business-smart-watch-452",
+        "c":  "smartwatches",
+        "r":  3.8
+    },
+    {
+        "a":  "B0324780361",
+        "t":  "Capture Card 4K 5",
+        "s":  "capture-card-4k-453",
+        "c":  "gaming",
+        "r":  3.8
+    },
+    {
+        "a":  "B0419219423",
+        "t":  "Window Cleaner Robot 5",
+        "s":  "window-cleaner-robot-454",
+        "c":  "home",
+        "r":  3.9
+    },
+    {
+        "a":  "B0141582854",
+        "t":  "Jump Rope Speed 5",
+        "s":  "jump-rope-speed-455",
+        "c":  "fitness",
+        "r":  3.9
+    },
+    {
+        "a":  "B0465504476",
+        "t":  "YouTube TV Box 5",
+        "s":  "youtube-tv-box-456",
+        "c":  "streaming",
+        "r":  4
+    },
+    {
+        "a":  "B0910578590",
+        "t":  "Window Sensor Alarm 5",
+        "s":  "window-sensor-alarm-457",
+        "c":  "smart-home",
+        "r":  4
+    },
+    {
+        "a":  "B0946485111",
+        "t":  "Case with Stand 5",
+        "s":  "case-with-stand-458",
+        "c":  "kindle",
+        "r":  4.1
+    },
+    {
+        "a":  "B0450603900",
+        "t":  "Grill Basket Veggies 5",
+        "s":  "grill-basket-veggies-459",
+        "c":  "grills",
+        "r":  4.1
+    },
+    {
+        "a":  "B0402005177",
+        "t":  "Pizza Oven Countertop 5",
+        "s":  "pizza-oven-countertop-460",
+        "c":  "kitchen",
+        "r":  3.7
+    },
+    {
+        "a":  "B0847256579",
+        "t":  "Ring Light 12\" 5",
+        "s":  "ring-light-12-461",
+        "c":  "electronics",
+        "r":  3.8
+    },
+    {
+        "a":  "B0807789975",
+        "t":  "Home Theater System 5",
+        "s":  "home-theater-system-462",
+        "c":  "audio",
+        "r":  3.8
+    },
+    {
+        "a":  "B0081639394",
+        "t":  "Kids GPS Watch Phone 5",
+        "s":  "kids-gps-watch-phone-463",
+        "c":  "smartwatches",
+        "r":  3.9
+    },
+    {
+        "a":  "B0281300385",
+        "t":  "Streaming Microphone USB 5",
+        "s":  "streaming-microphone-usb-464",
+        "c":  "gaming",
+        "r":  3.9
+    },
+    {
+        "a":  "B0030664809",
+        "t":  "Pet Hair Remover 5",
+        "s":  "pet-hair-remover-465",
+        "c":  "home",
+        "r":  4
+    },
+    {
+        "a":  "B0004799293",
+        "t":  "Ab Roller Wheel 5",
+        "s":  "ab-roller-wheel-466",
+        "c":  "fitness",
+        "r":  4
+    },
+    {
+        "a":  "B0066536373",
+        "t":  "IPTV Box Premium 5",
+        "s":  "iptv-box-premium-467",
+        "c":  "streaming",
+        "r":  4.1
+    },
+    {
+        "a":  "B0122917204",
+        "t":  "Water Leak Detector 5",
+        "s":  "water-leak-detector-468",
+        "c":  "smart-home",
+        "r":  4.1
+    },
+    {
+        "a":  "B0927702558",
+        "t":  "Power Bank for E-Reader 5",
+        "s":  "power-bank-for-e-reader-469",
+        "c":  "kindle",
+        "r":  4.2
+    },
+    {
+        "a":  "B0046840109",
+        "t":  "Spatchcock Chicken Rack 5",
+        "s":  "spatchcock-chicken-rack-470",
+        "c":  "grills",
+        "r":  3.8
+    },
+    {
+        "a":  "B0039488683",
+        "t":  "Waffle Maker Belgian 5",
+        "s":  "waffle-maker-belgian-471",
+        "c":  "kitchen",
+        "r":  3.8
+    },
+    {
+        "a":  "B0841532296",
+        "t":  "Laptop Stand Aluminum 5",
+        "s":  "laptop-stand-aluminum-472",
+        "c":  "electronics",
+        "r":  3.9
+    },
+    {
+        "a":  "B0602204093",
+        "t":  "DAB Radio Digital 5",
+        "s":  "dab-radio-digital-473",
+        "c":  "audio",
+        "r":  3.9
+    },
+    {
+        "a":  "B0846363410",
+        "t":  "Senior Watch with SOS 5",
+        "s":  "senior-watch-with-sos-474",
+        "c":  "smartwatches",
+        "r":  4
+    },
+    {
+        "a":  "B0613021842",
+        "t":  "Gaming Laptop Stand 5",
+        "s":  "gaming-laptop-stand-475",
+        "c":  "gaming",
+        "r":  4
+    },
+    {
+        "a":  "B0092040948",
+        "t":  "Steam Cleaner Multi-Surface 5",
+        "s":  "steam-cleaner-multi-surface-476",
+        "c":  "home",
+        "r":  4.1
+    },
+    {
+        "a":  "B0597040096",
+        "t":  "Battle Ropes 50ft 5",
+        "s":  "battle-ropes-50ft-477",
+        "c":  "fitness",
+        "r":  4.1
+    },
+    {
+        "a":  "B0674410402",
+        "t":  "Media Player NAS 5",
+        "s":  "media-player-nas-478",
+        "c":  "streaming",
+        "r":  4.2
+    },
+    {
+        "a":  "B0857017843",
+        "t":  "Smart Bulb E27 5",
+        "s":  "smart-bulb-e27-479",
+        "c":  "smart-home",
+        "r":  4.2
+    },
+    {
+        "a":  "B0575684430",
+        "t":  "Audiobook Subscription 5",
+        "s":  "audiobook-subscription-480",
+        "c":  "kindle",
+        "r":  3.8
+    },
+    {
+        "a":  "B0384694258",
+        "t":  "Rib Rack Vertical 5",
+        "s":  "rib-rack-vertical-481",
+        "c":  "grills",
+        "r":  3.9
+    },
+    {
+        "a":  "B0036334329",
+        "t":  "Slow Cooker 6Qt 5",
+        "s":  "slow-cooker-6qt-482",
+        "c":  "kitchen",
+        "r":  3.9
+    },
+    {
+        "a":  "B0928520447",
+        "t":  "Cable Management Kit 5",
+        "s":  "cable-management-kit-483",
+        "c":  "electronics",
+        "r":  4
+    },
+    {
+        "a":  "B0279037885",
+        "t":  "Record Player Vinyl 5",
+        "s":  "record-player-vinyl-484",
+        "c":  "audio",
+        "r":  4
+    },
+    {
+        "a":  "B0504938256",
+        "t":  "Fashion Ladies Smartwatch 5",
+        "s":  "fashion-ladies-smartwatch-485",
+        "c":  "smartwatches",
+        "r":  4.1
+    },
+    {
+        "a":  "B0532862430",
+        "t":  "Gaming Power Supply 850W 5",
+        "s":  "gaming-power-supply-850w-486",
+        "c":  "gaming",
+        "r":  4.1
+    },
+    {
+        "a":  "B0492359189",
+        "t":  "Dishwasher Portable 5",
+        "s":  "dishwasher-portable-487",
+        "c":  "home",
+        "r":  4.2
+    },
+    {
+        "a":  "B0689007931",
+        "t":  "Olympic Barbell Set 5",
+        "s":  "olympic-barbell-set-488",
+        "c":  "fitness",
+        "r":  4.2
+    },
+    {
+        "a":  "B0132947643",
+        "t":  "Portable Monitor 15.6\" 5",
+        "s":  "portable-monitor-156-489",
+        "c":  "streaming",
+        "r":  4.3
+    },
+    {
+        "a":  "B0844922305",
+        "t":  "Curtain Motor Smart 5",
+        "s":  "curtain-motor-smart-490",
+        "c":  "smart-home",
+        "r":  3.9
+    },
+    {
+        "a":  "B0947198027",
+        "t":  "E-Book Bundle Popular 5",
+        "s":  "e-book-bundle-popular-491",
+        "c":  "kindle",
+        "r":  3.9
+    },
+    {
+        "a":  "B0278712780",
+        "t":  "Wireless Grill Thermometer 5",
+        "s":  "wireless-grill-thermometer-492",
+        "c":  "grills",
+        "r":  4
+    },
+    {
+        "a":  "B0138423940",
+        "t":  "Pressure Cooker 6Qt 5",
+        "s":  "pressure-cooker-6qt-493",
+        "c":  "kitchen",
+        "r":  4
+    },
+    {
+        "a":  "B0056676617",
+        "t":  "Screen Cleaner Kit 5",
+        "s":  "screen-cleaner-kit-494",
+        "c":  "electronics",
+        "r":  4.1
+    },
+    {
+        "a":  "B0000555956",
+        "t":  "Wireless Noise Cancelling Headphones 5",
+        "s":  "wireless-noise-cancelling-headphone-495",
+        "c":  "audio",
+        "r":  4.1
+    },
+    {
+        "a":  "B0471586011",
+        "t":  "Smartwatch Fitness Tracker 5",
+        "s":  "smartwatch-fitness-tracker-496",
+        "c":  "smartwatches",
+        "r":  4.2
+    },
+    {
+        "a":  "B0294125926",
+        "t":  "Gaming Controller Wireless 5",
+        "s":  "gaming-controller-wireless-497",
+        "c":  "gaming",
+        "r":  4.2
+    },
+    {
+        "a":  "B0376938111",
+        "t":  "Robot Vacuum Cleaner LiDAR 5",
+        "s":  "robot-vacuum-cleaner-lidar-498",
+        "c":  "home",
+        "r":  4.3
+    },
+    {
+        "a":  "B0184781270",
+        "t":  "Exercise Bike Indoor 5",
+        "s":  "exercise-bike-indoor-499",
+        "c":  "fitness",
+        "r":  4.3
+    },
+    {
+        "a":  "B0905322139",
+        "t":  "Fire TV Stick 4K Max 6",
+        "s":  "fire-tv-stick-4k-max-500",
+        "c":  "streaming",
+        "r":  5
+    },
+    {
+        "a":  "B0202219915",
+        "t":  "Smart Doorbell Camera 6",
+        "s":  "smart-doorbell-camera-501",
+        "c":  "smart-home",
+        "r":  3.5
+    },
+    {
+        "a":  "B0645285435",
+        "t":  "E-Reader 6\" Touchscreen 6",
+        "s":  "e-reader-6-touchscreen-502",
+        "c":  "kindle",
+        "r":  3.6
+    },
+    {
+        "a":  "B0106819672",
+        "t":  "Gas Grill 3 Burner Pro 6",
+        "s":  "gas-grill-3-burner-pro-503",
+        "c":  "grills",
+        "r":  3.6
+    },
+    {
+        "a":  "B0632641708",
+        "t":  "Coffee Machine Espresso 6",
+        "s":  "coffee-machine-espresso-504",
+        "c":  "kitchen",
+        "r":  3.7
+    },
+    {
+        "a":  "B0319690292",
+        "t":  "4K Monitor 27\" IPS 6",
+        "s":  "4k-monitor-27-ips-505",
+        "c":  "electronics",
+        "r":  3.7
+    },
+    {
+        "a":  "B0531091199",
+        "t":  "True Wireless Earbuds Pro 6",
+        "s":  "true-wireless-earbuds-pro-506",
+        "c":  "audio",
+        "r":  3.8
+    },
+    {
+        "a":  "B0978017359",
+        "t":  "Smart Watch GPS 5ATM 6",
+        "s":  "smart-watch-gps-5atm-507",
+        "c":  "smartwatches",
+        "r":  3.8
+    },
+    {
+        "a":  "B0299924438",
+        "t":  "Gaming Mouse RGB 16000DPI 6",
+        "s":  "gaming-mouse-rgb-16000dpi-508",
+        "c":  "gaming",
+        "r":  3.9
+    },
+    {
+        "a":  "B0556998177",
+        "t":  "Air Purifier HEPA 13 6",
+        "s":  "air-purifier-hepa-13-509",
+        "c":  "home",
+        "r":  3.9
+    },
+    {
+        "a":  "B0029007628",
+        "t":  "Treadmill Foldable 2.5HP 6",
+        "s":  "treadmill-foldable-25hp-510",
+        "c":  "fitness",
+        "r":  3.5
+    },
+    {
+        "a":  "B0924481605",
+        "t":  "Streaming Device Pro 6",
+        "s":  "streaming-device-pro-511",
+        "c":  "streaming",
+        "r":  3.6
+    },
+    {
+        "a":  "B0942506779",
+        "t":  "Security Camera Indoor 2K 6",
+        "s":  "security-camera-indoor-2k-512",
+        "c":  "smart-home",
+        "r":  3.6
+    },
+    {
+        "a":  "B0924836052",
+        "t":  "E-Reader Paperwhite 11th Gen 6",
+        "s":  "e-reader-paperwhite-11th-gen-513",
+        "c":  "kindle",
+        "r":  3.7
+    },
+    {
+        "a":  "B0977234310",
+        "t":  "Charcoal Grill Kettle 22\" 6",
+        "s":  "charcoal-grill-kettle-22-514",
+        "c":  "grills",
+        "r":  3.7
+    },
+    {
+        "a":  "B0857286791",
+        "t":  "Air Fryer XL 5.8Qt 6",
+        "s":  "air-fryer-xl-58qt-515",
+        "c":  "kitchen",
+        "r":  3.8
+    },
+    {
+        "a":  "B0499814872",
+        "t":  "Mechanical Keyboard RGB 6",
+        "s":  "mechanical-keyboard-rgb-516",
+        "c":  "electronics",
+        "r":  3.8
+    },
+    {
+        "a":  "B0642045088",
+        "t":  "Portable Bluetooth Speaker 20W 6",
+        "s":  "portable-bluetooth-speaker-20w-517",
+        "c":  "audio",
+        "r":  3.9
+    },
+    {
+        "a":  "B0478486837",
+        "t":  "Blood Oxygen Monitor Watch 6",
+        "s":  "blood-oxygen-monitor-watch-518",
+        "c":  "smartwatches",
+        "r":  3.9
+    },
+    {
+        "a":  "B0388370921",
+        "t":  "Gaming Headset 7.1 Surround 6",
+        "s":  "gaming-headset-71-surround-519",
+        "c":  "gaming",
+        "r":  4
+    },
+    {
+        "a":  "B0302458467",
+        "t":  "Smart Thermostat WiFi 6",
+        "s":  "smart-thermostat-wifi-520",
+        "c":  "home",
+        "r":  3.6
+    },
+    {
+        "a":  "B0304469652",
+        "t":  "Resistance Bands Set 5 6",
+        "s":  "resistance-bands-set-5-521",
+        "c":  "fitness",
+        "r":  3.6
+    },
+    {
+        "a":  "B0380293428",
+        "t":  "Smart TV Box 4K Android 6",
+        "s":  "smart-tv-box-4k-android-522",
+        "c":  "streaming",
+        "r":  3.7
+    },
+    {
+        "a":  "B0034028484",
+        "t":  "Smart Lock Fingerprint 6",
+        "s":  "smart-lock-fingerprint-523",
+        "c":  "smart-home",
+        "r":  3.7
+    },
+    {
+        "a":  "B0582086127",
+        "t":  "E-Reader with Warm Light 6",
+        "s":  "e-reader-with-warm-light-524",
+        "c":  "kindle",
+        "r":  3.8
+    },
+    {
+        "a":  "B0465940062",
+        "t":  "Electric Grill Indoor 6",
+        "s":  "electric-grill-indoor-525",
+        "c":  "grills",
+        "r":  3.8
+    },
+    {
+        "a":  "B0077682911",
+        "t":  "Food Processor 12-Cup 6",
+        "s":  "food-processor-12-cup-526",
+        "c":  "kitchen",
+        "r":  3.9
+    },
+    {
+        "a":  "B0363715168",
+        "t":  "Ergonomic Mouse Vertical 6",
+        "s":  "ergonomic-mouse-vertical-527",
+        "c":  "electronics",
+        "r":  3.9
+    },
+    {
+        "a":  "B0748579858",
+        "t":  "Soundbar 2.1 Channel 6",
+        "s":  "soundbar-21-channel-528",
+        "c":  "audio",
+        "r":  4
+    },
+    {
+        "a":  "B0523754115",
+        "t":  "Kids Smart Watch GPS 6",
+        "s":  "kids-smart-watch-gps-529",
+        "c":  "smartwatches",
+        "r":  4
+    },
+    {
+        "a":  "B0108998942",
+        "t":  "Gaming Chair Ergonomic Pro 6",
+        "s":  "gaming-chair-ergonomic-pro-530",
+        "c":  "gaming",
+        "r":  3.6
+    },
+    {
+        "a":  "B0064598548",
+        "t":  "Coffee Maker Programmable 6",
+        "s":  "coffee-maker-programmable-531",
+        "c":  "home",
+        "r":  3.7
+    },
+    {
+        "a":  "B0687864071",
+        "t":  "Adjustable Dumbbells 52.5lbs 6",
+        "s":  "adjustable-dumbbells-525lbs-532",
+        "c":  "fitness",
+        "r":  3.7
+    },
+    {
+        "a":  "B0582818694",
+        "t":  "Roku Streaming Stick 4K 6",
+        "s":  "roku-streaming-stick-4k-533",
+        "c":  "streaming",
+        "r":  3.8
+    },
+    {
+        "a":  "B0420886607",
+        "t":  "Echo Dot 5th Gen 6",
+        "s":  "echo-dot-5th-gen-534",
+        "c":  "smart-home",
+        "r":  3.8
+    },
+    {
+        "a":  "B0565414250",
+        "t":  "Tablet Fire HD 10 6",
+        "s":  "tablet-fire-hd-10-535",
+        "c":  "kindle",
+        "r":  3.9
+    },
+    {
+        "a":  "B0800491613",
+        "t":  "Smoker Box Pro Offset 6",
+        "s":  "smoker-box-pro-offset-536",
+        "c":  "grills",
+        "r":  3.9
+    },
+    {
+        "a":  "B0918877224",
+        "t":  "Rice Cooker Multi-Cook 6",
+        "s":  "rice-cooker-multi-cook-537",
+        "c":  "kitchen",
+        "r":  4
+    },
+    {
+        "a":  "B0038098924",
+        "t":  "USB-C Hub 7-in-1 6",
+        "s":  "usb-c-hub-7-in-1-538",
+        "c":  "electronics",
+        "r":  4
+    },
+    {
+        "a":  "B0779710561",
+        "t":  "Gaming Headset 7.1 Surround 6",
+        "s":  "gaming-headset-71-surround-539",
+        "c":  "audio",
+        "r":  4.1
+    },
+    {
+        "a":  "B0296903666",
+        "t":  "Hybrid Smart Watch Classic 6",
+        "s":  "hybrid-smart-watch-classic-540",
+        "c":  "smartwatches",
+        "r":  3.7
+    },
+    {
+        "a":  "B0481273211",
+        "t":  "4K Gaming Monitor 144Hz 6",
+        "s":  "4k-gaming-monitor-144hz-541",
+        "c":  "gaming",
+        "r":  3.7
+    },
+    {
+        "a":  "B0805911058",
+        "t":  "Instant Pot 7-in-1 6",
+        "s":  "instant-pot-7-in-1-542",
+        "c":  "home",
+        "r":  3.8
+    },
+    {
+        "a":  "B0098147787",
+        "t":  "Yoga Mat Premium 6mm 6",
+        "s":  "yoga-mat-premium-6mm-543",
+        "c":  "fitness",
+        "r":  3.8
+    },
+    {
+        "a":  "B0329427952",
+        "t":  "Chromecast with Google TV 6",
+        "s":  "chromecast-with-google-tv-544",
+        "c":  "streaming",
+        "r":  3.9
+    },
+    {
+        "a":  "B0188602613",
+        "t":  "Smart Light Bulbs RGB 6",
+        "s":  "smart-light-bulbs-rgb-545",
+        "c":  "smart-home",
+        "r":  3.9
+    },
+    {
+        "a":  "B0936183530",
+        "t":  "E-Reader Kids Edition 6",
+        "s":  "e-reader-kids-edition-546",
+        "c":  "kindle",
+        "r":  4
+    },
+    {
+        "a":  "B0525579235",
+        "t":  "Grill Accessories 20pc 6",
+        "s":  "grill-accessories-20pc-547",
+        "c":  "grills",
+        "r":  4
+    },
+    {
+        "a":  "B0622786846",
+        "t":  "Toaster Oven Digital 6",
+        "s":  "toaster-oven-digital-548",
+        "c":  "kitchen",
+        "r":  4.1
+    },
+    {
+        "a":  "B0733328027",
+        "t":  "Webcam 4K Pro 6",
+        "s":  "webcam-4k-pro-549",
+        "c":  "electronics",
+        "r":  4.1
+    },
+    {
+        "a":  "B0354160252",
+        "t":  "Studio Monitor Speakers 6",
+        "s":  "studio-monitor-speakers-550",
+        "c":  "audio",
+        "r":  3.7
+    },
+    {
+        "a":  "B0706260834",
+        "t":  "Sports Watch Pro AMOLED 6",
+        "s":  "sports-watch-pro-amoled-551",
+        "c":  "smartwatches",
+        "r":  3.8
+    },
+    {
+        "a":  "B0608827667",
+        "t":  "Console Controller Pro 6",
+        "s":  "console-controller-pro-552",
+        "c":  "gaming",
+        "r":  3.8
+    },
+    {
+        "a":  "B0777128684",
+        "t":  "Blender Professional 1200W 6",
+        "s":  "blender-professional-1200w-553",
+        "c":  "home",
+        "r":  3.9
+    },
+    {
+        "a":  "B0145599997",
+        "t":  "Foam Roller Recovery 6",
+        "s":  "foam-roller-recovery-554",
+        "c":  "fitness",
+        "r":  3.9
+    },
+    {
+        "a":  "B0170788017",
+        "t":  "Android TV Box 8K 6",
+        "s":  "android-tv-box-8k-555",
+        "c":  "streaming",
+        "r":  4
+    },
+    {
+        "a":  "B0048870631",
+        "t":  "Motion Sensor Kit 6",
+        "s":  "motion-sensor-kit-556",
+        "c":  "smart-home",
+        "r":  4
+    },
+    {
+        "a":  "B0438179090",
+        "t":  "Tablet 8\" HD Kids 6",
+        "s":  "tablet-8-hd-kids-557",
+        "c":  "kindle",
+        "r":  4.1
+    },
+    {
+        "a":  "B0543969194",
+        "t":  "BBQ Tool Set Deluxe 6",
+        "s":  "bbq-tool-set-deluxe-558",
+        "c":  "grills",
+        "r":  4.1
+    },
+    {
+        "a":  "B0430225704",
+        "t":  "Hand Mixer Stand Mix 6",
+        "s":  "hand-mixer-stand-mix-559",
+        "c":  "kitchen",
+        "r":  4.2
+    },
+    {
+        "a":  "B0128778136",
+        "t":  "External SSD 2TB 6",
+        "s":  "external-ssd-2tb-560",
+        "c":  "electronics",
+        "r":  3.8
+    },
+    {
+        "a":  "B0900336384",
+        "t":  "Neckband Wireless Earbuds 6",
+        "s":  "neckband-wireless-earbuds-561",
+        "c":  "audio",
+        "r":  3.8
+    },
+    {
+        "a":  "B0528458378",
+        "t":  "Fashion Smart Watch 6",
+        "s":  "fashion-smart-watch-562",
+        "c":  "smartwatches",
+        "r":  3.9
+    },
+    {
+        "a":  "B0084639972",
+        "t":  "VR Headset System 6",
+        "s":  "vr-headset-system-563",
+        "c":  "gaming",
+        "r":  3.9
+    },
+    {
+        "a":  "B0805455960",
+        "t":  "Air Fryer XXL Digital 6",
+        "s":  "air-fryer-xxl-digital-564",
+        "c":  "home",
+        "r":  4
+    },
+    {
+        "a":  "B0968861843",
+        "t":  "Pull Up Bar Doorway 6",
+        "s":  "pull-up-bar-doorway-565",
+        "c":  "fitness",
+        "r":  4
+    },
+    {
+        "a":  "B0566042218",
+        "t":  "Apple TV 4K 6",
+        "s":  "apple-tv-4k-566",
+        "c":  "streaming",
+        "r":  4.1
+    },
+    {
+        "a":  "B0738164897",
+        "t":  "Smart Plug Mini 6",
+        "s":  "smart-plug-mini-567",
+        "c":  "smart-home",
+        "r":  4.1
+    },
+    {
+        "a":  "B0106872286",
+        "t":  "Reading Light Clip On 6",
+        "s":  "reading-light-clip-on-568",
+        "c":  "kindle",
+        "r":  4.2
+    },
+    {
+        "a":  "B0648921428",
+        "t":  "Grill Cover Waterproof 6",
+        "s":  "grill-cover-waterproof-569",
+        "c":  "grills",
+        "r":  4.2
+    },
+    {
+        "a":  "B0973734900",
+        "t":  "Immersion Blender 800W 6",
+        "s":  "immersion-blender-800w-570",
+        "c":  "kitchen",
+        "r":  3.8
+    },
+    {
+        "a":  "B0895165608",
+        "t":  "Bluetooth 5.0 Adapter 6",
+        "s":  "bluetooth-50-adapter-571",
+        "c":  "electronics",
+        "r":  3.9
+    },
+    {
+        "a":  "B0789123047",
+        "t":  "Waterproof Speaker IPX7 6",
+        "s":  "waterproof-speaker-ipx7-572",
+        "c":  "audio",
+        "r":  3.9
+    },
+    {
+        "a":  "B0828161445",
+        "t":  "Diver Watch Smart 6",
+        "s":  "diver-watch-smart-573",
+        "c":  "smartwatches",
+        "r":  4
+    },
+    {
+        "a":  "B0305880052",
+        "t":  "Gaming Router WiFi 6E 6",
+        "s":  "gaming-router-wifi-6e-574",
+        "c":  "gaming",
+        "r":  4
+    },
+    {
+        "a":  "B0489211903",
+        "t":  "Robot Mop Automatic 6",
+        "s":  "robot-mop-automatic-575",
+        "c":  "home",
+        "r":  4.1
+    },
+    {
+        "a":  "B0320147659",
+        "t":  "Kettlebell Set 5-25lbs 6",
+        "s":  "kettlebell-set-5-25lbs-576",
+        "c":  "fitness",
+        "r":  4.1
+    },
+    {
+        "a":  "B0446739526",
+        "t":  "Nvidia Shield Pro 6",
+        "s":  "nvidia-shield-pro-577",
+        "c":  "streaming",
+        "r":  4.2
+    },
+    {
+        "a":  "B0572309412",
+        "t":  "Video Doorbell Pro 6",
+        "s":  "video-doorbell-pro-578",
+        "c":  "smart-home",
+        "r":  4.2
+    },
+    {
+        "a":  "B0830780288",
+        "t":  "Leather Cover Premium 6",
+        "s":  "leather-cover-premium-579",
+        "c":  "kindle",
+        "r":  4.3
+    },
+    {
+        "a":  "B0451261488",
+        "t":  "Pellet Grill Smoker 6",
+        "s":  "pellet-grill-smoker-580",
+        "c":  "grills",
+        "r":  3.9
+    },
+    {
+        "a":  "B0404466234",
+        "t":  "Electric Kettle 1.7L 6",
+        "s":  "electric-kettle-17l-581",
+        "c":  "kitchen",
+        "r":  3.9
+    },
+    {
+        "a":  "B0382150321",
+        "t":  "Power Bank 30000mAh 6",
+        "s":  "power-bank-30000mah-582",
+        "c":  "electronics",
+        "r":  4
+    },
+    {
+        "a":  "B0654994478",
+        "t":  "Over-Ear Headphones Premium 6",
+        "s":  "over-ear-headphones-premium-583",
+        "c":  "audio",
+        "r":  4
+    },
+    {
+        "a":  "B0913174215",
+        "t":  "Classic Analog Smart Hybrid 6",
+        "s":  "classic-analog-smart-hybrid-584",
+        "c":  "smartwatches",
+        "r":  4.1
+    },
+    {
+        "a":  "B0106711818",
+        "t":  "Gaming Keyboard Mechanical 6",
+        "s":  "gaming-keyboard-mechanical-585",
+        "c":  "gaming",
+        "r":  4.1
+    },
+    {
+        "a":  "B0830234203",
+        "t":  "Dehumidifier Electric 6",
+        "s":  "dehumidifier-electric-586",
+        "c":  "home",
+        "r":  4.2
+    },
+    {
+        "a":  "B0243242477",
+        "t":  "Rowing Machine Water 6",
+        "s":  "rowing-machine-water-587",
+        "c":  "fitness",
+        "r":  4.2
+    },
+    {
+        "a":  "B0845066680",
+        "t":  "Amazon Fire TV Cube 6",
+        "s":  "amazon-fire-tv-cube-588",
+        "c":  "streaming",
+        "r":  4.3
+    },
+    {
+        "a":  "B0770555756",
+        "t":  "Garage Door Opener Smart 6",
+        "s":  "garage-door-opener-smart-589",
+        "c":  "smart-home",
+        "r":  4.3
+    },
+    {
+        "a":  "B0114249344",
+        "t":  "Tablet Stand Adjustable 6",
+        "s":  "tablet-stand-adjustable-590",
+        "c":  "kindle",
+        "r":  3.9
+    },
+    {
+        "a":  "B0163057894",
+        "t":  "Propane Tank 20lb 6",
+        "s":  "propane-tank-20lb-591",
+        "c":  "grills",
+        "r":  4
+    },
+    {
+        "a":  "B0501209437",
+        "t":  "Sous Vide Precision 6",
+        "s":  "sous-vide-precision-592",
+        "c":  "kitchen",
+        "r":  4
+    },
+    {
+        "a":  "B0207951406",
+        "t":  "Smart Plug WiFi 4-pack 6",
+        "s":  "smart-plug-wifi-4-pack-593",
+        "c":  "electronics",
+        "r":  4.1
+    },
+    {
+        "a":  "B0154340405",
+        "t":  "In-Ear Monitors HIFI 6",
+        "s":  "in-ear-monitors-hifi-594",
+        "c":  "audio",
+        "r":  4.1
+    },
+    {
+        "a":  "B0215703616",
+        "t":  "GPS Running Watch 6",
+        "s":  "gps-running-watch-595",
+        "c":  "smartwatches",
+        "r":  4.2
+    },
+    {
+        "a":  "B0133701055",
+        "t":  "Racing Wheel Simulator 6",
+        "s":  "racing-wheel-simulator-596",
+        "c":  "gaming",
+        "r":  4.2
+    },
+    {
+        "a":  "B0969426352",
+        "t":  "Humidifier Ultrasonic 6",
+        "s":  "humidifier-ultrasonic-597",
+        "c":  "home",
+        "r":  4.3
+    },
+    {
+        "a":  "B0640073070",
+        "t":  "Elliptical Trainer 6",
+        "s":  "elliptical-trainer-598",
+        "c":  "fitness",
+        "r":  4.3
+    },
+    {
+        "a":  "B0579249953",
+        "t":  "TiVo Stream 4K 6",
+        "s":  "tivo-stream-4k-599",
+        "c":  "streaming",
+        "r":  4.4
+    },
+    {
+        "a":  "B0010824134",
+        "t":  "Smart Switch WiFi 7",
+        "s":  "smart-switch-wifi-600",
+        "c":  "smart-home",
+        "r":  3.5
+    },
+    {
+        "a":  "B0543446360",
+        "t":  "Stylus Pen Tablet 7",
+        "s":  "stylus-pen-tablet-601",
+        "c":  "kindle",
+        "r":  3.6
+    },
+    {
+        "a":  "B0357204539",
+        "t":  "Charcoal chimney Starter 7",
+        "s":  "charcoal-chimney-starter-602",
+        "c":  "grills",
+        "r":  3.6
+    },
+    {
+        "a":  "B0239894388",
+        "t":  "Ice Cream Maker 7",
+        "s":  "ice-cream-maker-603",
+        "c":  "kitchen",
+        "r":  3.7
+    },
+    {
+        "a":  "B0153595863",
+        "t":  "LED Desk Lamp Eye Care 7",
+        "s":  "led-desk-lamp-eye-care-604",
+        "c":  "electronics",
+        "r":  3.7
+    },
+    {
+        "a":  "B0583198145",
+        "t":  "Party Speaker LED Lights 7",
+        "s":  "party-speaker-led-lights-605",
+        "c":  "audio",
+        "r":  3.8
+    },
+    {
+        "a":  "B0701140943",
+        "t":  "Triathlon Smart Watch 7",
+        "s":  "triathlon-smart-watch-606",
+        "c":  "smartwatches",
+        "r":  3.8
+    },
+    {
+        "a":  "B0383549836",
+        "t":  "Gaming Desk LED 7",
+        "s":  "gaming-desk-led-607",
+        "c":  "gaming",
+        "r":  3.9
+    },
+    {
+        "a":  "B0317822969",
+        "t":  "Vacuum Cleaner Bagless 7",
+        "s":  "vacuum-cleaner-bagless-608",
+        "c":  "home",
+        "r":  3.9
+    },
+    {
+        "a":  "B0725634803",
+        "t":  "Weight Bench Adjustable 7",
+        "s":  "weight-bench-adjustable-609",
+        "c":  "fitness",
+        "r":  4
+    },
+    {
+        "a":  "B0182549819",
+        "t":  "AT\u0026T TV Stream 7",
+        "s":  "att-tv-stream-610",
+        "c":  "streaming",
+        "r":  3.6
+    },
+    {
+        "a":  "B0218767143",
+        "t":  "Smart Thermostat Learning 7",
+        "s":  "smart-thermostat-learning-611",
+        "c":  "smart-home",
+        "r":  3.6
+    },
+    {
+        "a":  "B0902015948",
+        "t":  "Screen Protector Pack 7",
+        "s":  "screen-protector-pack-612",
+        "c":  "kindle",
+        "r":  3.7
+    },
+    {
+        "a":  "B0674135118",
+        "t":  "Meat Thermometer Digital 7",
+        "s":  "meat-thermometer-digital-613",
+        "c":  "grills",
+        "r":  3.7
+    },
+    {
+        "a":  "B0071724720",
+        "t":  "Bread Maker Automatic 7",
+        "s":  "bread-maker-automatic-614",
+        "c":  "kitchen",
+        "r":  3.8
+    },
+    {
+        "a":  "B0932059766",
+        "t":  "USB Microphone Podcast 7",
+        "s":  "usb-microphone-podcast-615",
+        "c":  "electronics",
+        "r":  3.8
+    },
+    {
+        "a":  "B0417893330",
+        "t":  "Car Audio System 7",
+        "s":  "car-audio-system-616",
+        "c":  "audio",
+        "r":  3.9
+    },
+    {
+        "a":  "B0392639471",
+        "t":  "Business Smart Watch 7",
+        "s":  "business-smart-watch-617",
+        "c":  "smartwatches",
+        "r":  3.9
+    },
+    {
+        "a":  "B0804776315",
+        "t":  "Capture Card 4K 7",
+        "s":  "capture-card-4k-618",
+        "c":  "gaming",
+        "r":  4
+    },
+    {
+        "a":  "B0158605720",
+        "t":  "Window Cleaner Robot 7",
+        "s":  "window-cleaner-robot-619",
+        "c":  "home",
+        "r":  4
+    },
+    {
+        "a":  "B0547037106",
+        "t":  "Jump Rope Speed 7",
+        "s":  "jump-rope-speed-620",
+        "c":  "fitness",
+        "r":  3.6
+    },
+    {
+        "a":  "B0931016019",
+        "t":  "YouTube TV Box 7",
+        "s":  "youtube-tv-box-621",
+        "c":  "streaming",
+        "r":  3.7
+    },
+    {
+        "a":  "B0467194516",
+        "t":  "Window Sensor Alarm 7",
+        "s":  "window-sensor-alarm-622",
+        "c":  "smart-home",
+        "r":  3.7
+    },
+    {
+        "a":  "B0155596018",
+        "t":  "Case with Stand 7",
+        "s":  "case-with-stand-623",
+        "c":  "kindle",
+        "r":  3.8
+    },
+    {
+        "a":  "B0760849949",
+        "t":  "Grill Basket Veggies 7",
+        "s":  "grill-basket-veggies-624",
+        "c":  "grills",
+        "r":  3.8
+    },
+    {
+        "a":  "B0722424583",
+        "t":  "Pizza Oven Countertop 7",
+        "s":  "pizza-oven-countertop-625",
+        "c":  "kitchen",
+        "r":  3.9
+    },
+    {
+        "a":  "B0037641190",
+        "t":  "Ring Light 12\" 7",
+        "s":  "ring-light-12-626",
+        "c":  "electronics",
+        "r":  3.9
+    },
+    {
+        "a":  "B0272587343",
+        "t":  "Home Theater System 7",
+        "s":  "home-theater-system-627",
+        "c":  "audio",
+        "r":  4
+    },
+    {
+        "a":  "B0316763177",
+        "t":  "Kids GPS Watch Phone 7",
+        "s":  "kids-gps-watch-phone-628",
+        "c":  "smartwatches",
+        "r":  4
+    },
+    {
+        "a":  "B0560989645",
+        "t":  "Streaming Microphone USB 7",
+        "s":  "streaming-microphone-usb-629",
+        "c":  "gaming",
+        "r":  4.1
+    },
+    {
+        "a":  "B0109296014",
+        "t":  "Pet Hair Remover 7",
+        "s":  "pet-hair-remover-630",
+        "c":  "home",
+        "r":  3.7
+    },
+    {
+        "a":  "B0681319601",
+        "t":  "Ab Roller Wheel 7",
+        "s":  "ab-roller-wheel-631",
+        "c":  "fitness",
+        "r":  3.7
+    },
+    {
+        "a":  "B0582021911",
+        "t":  "IPTV Box Premium 7",
+        "s":  "iptv-box-premium-632",
+        "c":  "streaming",
+        "r":  3.8
+    },
+    {
+        "a":  "B0408252047",
+        "t":  "Water Leak Detector 7",
+        "s":  "water-leak-detector-633",
+        "c":  "smart-home",
+        "r":  3.8
+    },
+    {
+        "a":  "B0349504848",
+        "t":  "Power Bank for E-Reader 7",
+        "s":  "power-bank-for-e-reader-634",
+        "c":  "kindle",
+        "r":  3.9
+    },
+    {
+        "a":  "B0590988471",
+        "t":  "Spatchcock Chicken Rack 7",
+        "s":  "spatchcock-chicken-rack-635",
+        "c":  "grills",
+        "r":  3.9
+    },
+    {
+        "a":  "B0746074128",
+        "t":  "Waffle Maker Belgian 7",
+        "s":  "waffle-maker-belgian-636",
+        "c":  "kitchen",
+        "r":  4
+    },
+    {
+        "a":  "B0730904317",
+        "t":  "Laptop Stand Aluminum 7",
+        "s":  "laptop-stand-aluminum-637",
+        "c":  "electronics",
+        "r":  4
+    },
+    {
+        "a":  "B0600736435",
+        "t":  "DAB Radio Digital 7",
+        "s":  "dab-radio-digital-638",
+        "c":  "audio",
+        "r":  4.1
+    },
+    {
+        "a":  "B0785886431",
+        "t":  "Senior Watch with SOS 7",
+        "s":  "senior-watch-with-sos-639",
+        "c":  "smartwatches",
+        "r":  4.1
+    },
+    {
+        "a":  "B0284638043",
+        "t":  "Gaming Laptop Stand 7",
+        "s":  "gaming-laptop-stand-640",
+        "c":  "gaming",
+        "r":  3.7
+    },
+    {
+        "a":  "B0062243524",
+        "t":  "Steam Cleaner Multi-Surface 7",
+        "s":  "steam-cleaner-multi-surface-641",
+        "c":  "home",
+        "r":  3.8
+    },
+    {
+        "a":  "B0634935483",
+        "t":  "Battle Ropes 50ft 7",
+        "s":  "battle-ropes-50ft-642",
+        "c":  "fitness",
+        "r":  3.8
+    },
+    {
+        "a":  "B0187564194",
+        "t":  "Media Player NAS 7",
+        "s":  "media-player-nas-643",
+        "c":  "streaming",
+        "r":  3.9
+    },
+    {
+        "a":  "B0343200559",
+        "t":  "Smart Bulb E27 7",
+        "s":  "smart-bulb-e27-644",
+        "c":  "smart-home",
+        "r":  3.9
+    },
+    {
+        "a":  "B0836410475",
+        "t":  "Audiobook Subscription 7",
+        "s":  "audiobook-subscription-645",
+        "c":  "kindle",
+        "r":  4
+    },
+    {
+        "a":  "B0848720902",
+        "t":  "Rib Rack Vertical 7",
+        "s":  "rib-rack-vertical-646",
+        "c":  "grills",
+        "r":  4
+    },
+    {
+        "a":  "B0241169534",
+        "t":  "Slow Cooker 6Qt 7",
+        "s":  "slow-cooker-6qt-647",
+        "c":  "kitchen",
+        "r":  4.1
+    },
+    {
+        "a":  "B0597053824",
+        "t":  "Cable Management Kit 7",
+        "s":  "cable-management-kit-648",
+        "c":  "electronics",
+        "r":  4.1
+    },
+    {
+        "a":  "B0493399996",
+        "t":  "Record Player Vinyl 7",
+        "s":  "record-player-vinyl-649",
+        "c":  "audio",
+        "r":  4.2
+    },
+    {
+        "a":  "B0680757096",
+        "t":  "Fashion Ladies Smartwatch 7",
+        "s":  "fashion-ladies-smartwatch-650",
+        "c":  "smartwatches",
+        "r":  3.8
+    },
+    {
+        "a":  "B0833887729",
+        "t":  "Gaming Power Supply 850W 7",
+        "s":  "gaming-power-supply-850w-651",
+        "c":  "gaming",
+        "r":  3.8
+    },
+    {
+        "a":  "B0389781274",
+        "t":  "Dishwasher Portable 7",
+        "s":  "dishwasher-portable-652",
+        "c":  "home",
+        "r":  3.9
+    },
+    {
+        "a":  "B0871050254",
+        "t":  "Olympic Barbell Set 7",
+        "s":  "olympic-barbell-set-653",
+        "c":  "fitness",
+        "r":  3.9
+    },
+    {
+        "a":  "B0309015925",
+        "t":  "Portable Monitor 15.6\" 7",
+        "s":  "portable-monitor-156-654",
+        "c":  "streaming",
+        "r":  4
+    },
+    {
+        "a":  "B0186540423",
+        "t":  "Curtain Motor Smart 7",
+        "s":  "curtain-motor-smart-655",
+        "c":  "smart-home",
+        "r":  4
+    },
+    {
+        "a":  "B0036228273",
+        "t":  "E-Book Bundle Popular 7",
+        "s":  "e-book-bundle-popular-656",
+        "c":  "kindle",
+        "r":  4.1
+    },
+    {
+        "a":  "B0990835866",
+        "t":  "Wireless Grill Thermometer 7",
+        "s":  "wireless-grill-thermometer-657",
+        "c":  "grills",
+        "r":  4.1
+    },
+    {
+        "a":  "B0714254001",
+        "t":  "Pressure Cooker 6Qt 7",
+        "s":  "pressure-cooker-6qt-658",
+        "c":  "kitchen",
+        "r":  4.2
+    },
+    {
+        "a":  "B0002174335",
+        "t":  "Screen Cleaner Kit 7",
+        "s":  "screen-cleaner-kit-659",
+        "c":  "electronics",
+        "r":  4.2
+    },
+    {
+        "a":  "B0720831566",
+        "t":  "Wireless Noise Cancelling Headphones 7",
+        "s":  "wireless-noise-cancelling-headphone-660",
+        "c":  "audio",
+        "r":  3.8
+    },
+    {
+        "a":  "B0036817417",
+        "t":  "Smartwatch Fitness Tracker 7",
+        "s":  "smartwatch-fitness-tracker-661",
+        "c":  "smartwatches",
+        "r":  3.9
+    },
+    {
+        "a":  "B0229608239",
+        "t":  "Gaming Controller Wireless 7",
+        "s":  "gaming-controller-wireless-662",
+        "c":  "gaming",
+        "r":  3.9
+    },
+    {
+        "a":  "B0756490702",
+        "t":  "Robot Vacuum Cleaner LiDAR 7",
+        "s":  "robot-vacuum-cleaner-lidar-663",
+        "c":  "home",
+        "r":  4
+    },
+    {
+        "a":  "B0204244492",
+        "t":  "Exercise Bike Indoor 7",
+        "s":  "exercise-bike-indoor-664",
+        "c":  "fitness",
+        "r":  4
+    },
+    {
+        "a":  "B0094279182",
+        "t":  "Fire TV Stick 4K Max 7",
+        "s":  "fire-tv-stick-4k-max-665",
+        "c":  "streaming",
+        "r":  4.1
+    },
+    {
+        "a":  "B0301354652",
+        "t":  "Smart Doorbell Camera 7",
+        "s":  "smart-doorbell-camera-666",
+        "c":  "smart-home",
+        "r":  4.1
+    },
+    {
+        "a":  "B0178019977",
+        "t":  "E-Reader 6\" Touchscreen 7",
+        "s":  "e-reader-6-touchscreen-667",
+        "c":  "kindle",
+        "r":  4.2
+    },
+    {
+        "a":  "B0632489871",
+        "t":  "Gas Grill 3 Burner Pro 7",
+        "s":  "gas-grill-3-burner-pro-668",
+        "c":  "grills",
+        "r":  4.2
+    },
+    {
+        "a":  "B0700364892",
+        "t":  "Coffee Machine Espresso 7",
+        "s":  "coffee-machine-espresso-669",
+        "c":  "kitchen",
+        "r":  4.3
+    },
+    {
+        "a":  "B0950422638",
+        "t":  "4K Monitor 27\" IPS 7",
+        "s":  "4k-monitor-27-ips-670",
+        "c":  "electronics",
+        "r":  3.9
+    },
+    {
+        "a":  "B0853519941",
+        "t":  "True Wireless Earbuds Pro 7",
+        "s":  "true-wireless-earbuds-pro-671",
+        "c":  "audio",
+        "r":  3.9
+    },
+    {
+        "a":  "B0154809579",
+        "t":  "Smart Watch GPS 5ATM 7",
+        "s":  "smart-watch-gps-5atm-672",
+        "c":  "smartwatches",
+        "r":  4
+    },
+    {
+        "a":  "B0958633988",
+        "t":  "Gaming Mouse RGB 16000DPI 7",
+        "s":  "gaming-mouse-rgb-16000dpi-673",
+        "c":  "gaming",
+        "r":  4
+    },
+    {
+        "a":  "B0471944317",
+        "t":  "Air Purifier HEPA 13 7",
+        "s":  "air-purifier-hepa-13-674",
+        "c":  "home",
+        "r":  4.1
+    },
+    {
+        "a":  "B0787545852",
+        "t":  "Treadmill Foldable 2.5HP 7",
+        "s":  "treadmill-foldable-25hp-675",
+        "c":  "fitness",
+        "r":  4.1
+    },
+    {
+        "a":  "B0126526838",
+        "t":  "Streaming Device Pro 7",
+        "s":  "streaming-device-pro-676",
+        "c":  "streaming",
+        "r":  4.2
+    },
+    {
+        "a":  "B0953611609",
+        "t":  "Security Camera Indoor 2K 7",
+        "s":  "security-camera-indoor-2k-677",
+        "c":  "smart-home",
+        "r":  4.2
+    },
+    {
+        "a":  "B0061675308",
+        "t":  "E-Reader Paperwhite 11th Gen 7",
+        "s":  "e-reader-paperwhite-11th-gen-678",
+        "c":  "kindle",
+        "r":  4.3
+    },
+    {
+        "a":  "B0489284544",
+        "t":  "Charcoal Grill Kettle 22\" 7",
+        "s":  "charcoal-grill-kettle-22-679",
+        "c":  "grills",
+        "r":  4.3
+    },
+    {
+        "a":  "B0102247984",
+        "t":  "Air Fryer XL 5.8Qt 7",
+        "s":  "air-fryer-xl-58qt-680",
+        "c":  "kitchen",
+        "r":  3.9
+    },
+    {
+        "a":  "B0136619669",
+        "t":  "Mechanical Keyboard RGB 7",
+        "s":  "mechanical-keyboard-rgb-681",
+        "c":  "electronics",
+        "r":  4
+    },
+    {
+        "a":  "B0253307734",
+        "t":  "Portable Bluetooth Speaker 20W 7",
+        "s":  "portable-bluetooth-speaker-20w-682",
+        "c":  "audio",
+        "r":  4
+    },
+    {
+        "a":  "B0302225065",
+        "t":  "Blood Oxygen Monitor Watch 7",
+        "s":  "blood-oxygen-monitor-watch-683",
+        "c":  "smartwatches",
+        "r":  4.1
+    },
+    {
+        "a":  "B0965317054",
+        "t":  "Gaming Headset 7.1 Surround 7",
+        "s":  "gaming-headset-71-surround-684",
+        "c":  "gaming",
+        "r":  4.1
+    },
+    {
+        "a":  "B0076270149",
+        "t":  "Smart Thermostat WiFi 7",
+        "s":  "smart-thermostat-wifi-685",
+        "c":  "home",
+        "r":  4.2
+    },
+    {
+        "a":  "B0995389945",
+        "t":  "Resistance Bands Set 5 7",
+        "s":  "resistance-bands-set-5-686",
+        "c":  "fitness",
+        "r":  4.2
+    },
+    {
+        "a":  "B0067600069",
+        "t":  "Smart TV Box 4K Android 7",
+        "s":  "smart-tv-box-4k-android-687",
+        "c":  "streaming",
+        "r":  4.3
+    },
+    {
+        "a":  "B0403845873",
+        "t":  "Smart Lock Fingerprint 7",
+        "s":  "smart-lock-fingerprint-688",
+        "c":  "smart-home",
+        "r":  4.3
+    },
+    {
+        "a":  "B0595405073",
+        "t":  "E-Reader with Warm Light 7",
+        "s":  "e-reader-with-warm-light-689",
+        "c":  "kindle",
+        "r":  4.4
+    },
+    {
+        "a":  "B0669623933",
+        "t":  "Electric Grill Indoor 7",
+        "s":  "electric-grill-indoor-690",
+        "c":  "grills",
+        "r":  4
+    },
+    {
+        "a":  "B0375576156",
+        "t":  "Food Processor 12-Cup 7",
+        "s":  "food-processor-12-cup-691",
+        "c":  "kitchen",
+        "r":  4
+    },
+    {
+        "a":  "B0641228296",
+        "t":  "Ergonomic Mouse Vertical 7",
+        "s":  "ergonomic-mouse-vertical-692",
+        "c":  "electronics",
+        "r":  4.1
+    },
+    {
+        "a":  "B0871595440",
+        "t":  "Soundbar 2.1 Channel 7",
+        "s":  "soundbar-21-channel-693",
+        "c":  "audio",
+        "r":  4.1
+    },
+    {
+        "a":  "B0202253968",
+        "t":  "Kids Smart Watch GPS 7",
+        "s":  "kids-smart-watch-gps-694",
+        "c":  "smartwatches",
+        "r":  4.2
+    },
+    {
+        "a":  "B0145979494",
+        "t":  "Gaming Chair Ergonomic Pro 7",
+        "s":  "gaming-chair-ergonomic-pro-695",
+        "c":  "gaming",
+        "r":  4.2
+    },
+    {
+        "a":  "B0951061678",
+        "t":  "Coffee Maker Programmable 7",
+        "s":  "coffee-maker-programmable-696",
+        "c":  "home",
+        "r":  4.3
+    },
+    {
+        "a":  "B0696655504",
+        "t":  "Adjustable Dumbbells 52.5lbs 7",
+        "s":  "adjustable-dumbbells-525lbs-697",
+        "c":  "fitness",
+        "r":  4.3
+    },
+    {
+        "a":  "B0641029121",
+        "t":  "Roku Streaming Stick 4K 7",
+        "s":  "roku-streaming-stick-4k-698",
+        "c":  "streaming",
+        "r":  4.4
+    },
+    {
+        "a":  "B0440682356",
+        "t":  "Echo Dot 5th Gen 7",
+        "s":  "echo-dot-5th-gen-699",
+        "c":  "smart-home",
+        "r":  4.4
+    },
+    {
+        "a":  "B0723384581",
+        "t":  "Tablet Fire HD 10 8",
+        "s":  "tablet-fire-hd-10-700",
+        "c":  "kindle",
+        "r":  3.6
+    },
+    {
+        "a":  "B0234656099",
+        "t":  "Smoker Box Pro Offset 8",
+        "s":  "smoker-box-pro-offset-701",
+        "c":  "grills",
+        "r":  3.6
+    },
+    {
+        "a":  "B0154672030",
+        "t":  "Rice Cooker Multi-Cook 8",
+        "s":  "rice-cooker-multi-cook-702",
+        "c":  "kitchen",
+        "r":  3.7
+    },
+    {
+        "a":  "B0852953091",
+        "t":  "USB-C Hub 7-in-1 8",
+        "s":  "usb-c-hub-7-in-1-703",
+        "c":  "electronics",
+        "r":  3.7
+    },
+    {
+        "a":  "B0344027797",
+        "t":  "Gaming Headset 7.1 Surround 8",
+        "s":  "gaming-headset-71-surround-704",
+        "c":  "audio",
+        "r":  3.8
+    },
+    {
+        "a":  "B0276546457",
+        "t":  "Hybrid Smart Watch Classic 8",
+        "s":  "hybrid-smart-watch-classic-705",
+        "c":  "smartwatches",
+        "r":  3.8
+    },
+    {
+        "a":  "B0273978936",
+        "t":  "4K Gaming Monitor 144Hz 8",
+        "s":  "4k-gaming-monitor-144hz-706",
+        "c":  "gaming",
+        "r":  3.9
+    },
+    {
+        "a":  "B0516552951",
+        "t":  "Instant Pot 7-in-1 8",
+        "s":  "instant-pot-7-in-1-707",
+        "c":  "home",
+        "r":  3.9
+    },
+    {
+        "a":  "B0921955675",
+        "t":  "Yoga Mat Premium 6mm 8",
+        "s":  "yoga-mat-premium-6mm-708",
+        "c":  "fitness",
+        "r":  4
+    },
+    {
+        "a":  "B0497411585",
+        "t":  "Chromecast with Google TV 8",
+        "s":  "chromecast-with-google-tv-709",
+        "c":  "streaming",
+        "r":  4
+    },
+    {
+        "a":  "B0104895457",
+        "t":  "Smart Light Bulbs RGB 8",
+        "s":  "smart-light-bulbs-rgb-710",
+        "c":  "smart-home",
+        "r":  3.6
+    },
+    {
+        "a":  "B0778349693",
+        "t":  "E-Reader Kids Edition 8",
+        "s":  "e-reader-kids-edition-711",
+        "c":  "kindle",
+        "r":  3.7
+    },
+    {
+        "a":  "B0166161245",
+        "t":  "Grill Accessories 20pc 8",
+        "s":  "grill-accessories-20pc-712",
+        "c":  "grills",
+        "r":  3.7
+    },
+    {
+        "a":  "B0393971650",
+        "t":  "Toaster Oven Digital 8",
+        "s":  "toaster-oven-digital-713",
+        "c":  "kitchen",
+        "r":  3.8
+    },
+    {
+        "a":  "B0997250873",
+        "t":  "Webcam 4K Pro 8",
+        "s":  "webcam-4k-pro-714",
+        "c":  "electronics",
+        "r":  3.8
+    },
+    {
+        "a":  "B0514617946",
+        "t":  "Studio Monitor Speakers 8",
+        "s":  "studio-monitor-speakers-715",
+        "c":  "audio",
+        "r":  3.9
+    },
+    {
+        "a":  "B0116702897",
+        "t":  "Sports Watch Pro AMOLED 8",
+        "s":  "sports-watch-pro-amoled-716",
+        "c":  "smartwatches",
+        "r":  3.9
+    },
+    {
+        "a":  "B0261896607",
+        "t":  "Console Controller Pro 8",
+        "s":  "console-controller-pro-717",
+        "c":  "gaming",
+        "r":  4
+    },
+    {
+        "a":  "B0596305774",
+        "t":  "Blender Professional 1200W 8",
+        "s":  "blender-professional-1200w-718",
+        "c":  "home",
+        "r":  4
+    },
+    {
+        "a":  "B0174165088",
+        "t":  "Foam Roller Recovery 8",
+        "s":  "foam-roller-recovery-719",
+        "c":  "fitness",
+        "r":  4.1
+    },
+    {
+        "a":  "B0178632412",
+        "t":  "Android TV Box 8K 8",
+        "s":  "android-tv-box-8k-720",
+        "c":  "streaming",
+        "r":  3.7
+    },
+    {
+        "a":  "B0552297960",
+        "t":  "Motion Sensor Kit 8",
+        "s":  "motion-sensor-kit-721",
+        "c":  "smart-home",
+        "r":  3.7
+    },
+    {
+        "a":  "B0911142616",
+        "t":  "Tablet 8\" HD Kids 8",
+        "s":  "tablet-8-hd-kids-722",
+        "c":  "kindle",
+        "r":  3.8
+    },
+    {
+        "a":  "B0180443289",
+        "t":  "BBQ Tool Set Deluxe 8",
+        "s":  "bbq-tool-set-deluxe-723",
+        "c":  "grills",
+        "r":  3.8
+    },
+    {
+        "a":  "B0327586195",
+        "t":  "Hand Mixer Stand Mix 8",
+        "s":  "hand-mixer-stand-mix-724",
+        "c":  "kitchen",
+        "r":  3.9
+    },
+    {
+        "a":  "B0797071613",
+        "t":  "External SSD 2TB 8",
+        "s":  "external-ssd-2tb-725",
+        "c":  "electronics",
+        "r":  3.9
+    },
+    {
+        "a":  "B0274552228",
+        "t":  "Neckband Wireless Earbuds 8",
+        "s":  "neckband-wireless-earbuds-726",
+        "c":  "audio",
+        "r":  4
+    },
+    {
+        "a":  "B0280630542",
+        "t":  "Fashion Smart Watch 8",
+        "s":  "fashion-smart-watch-727",
+        "c":  "smartwatches",
+        "r":  4
+    },
+    {
+        "a":  "B0957321159",
+        "t":  "VR Headset System 8",
+        "s":  "vr-headset-system-728",
+        "c":  "gaming",
+        "r":  4.1
+    },
+    {
+        "a":  "B0927974170",
+        "t":  "Air Fryer XXL Digital 8",
+        "s":  "air-fryer-xxl-digital-729",
+        "c":  "home",
+        "r":  4.1
+    },
+    {
+        "a":  "B0684291284",
+        "t":  "Pull Up Bar Doorway 8",
+        "s":  "pull-up-bar-doorway-730",
+        "c":  "fitness",
+        "r":  3.7
+    },
+    {
+        "a":  "B0883092915",
+        "t":  "Apple TV 4K 8",
+        "s":  "apple-tv-4k-731",
+        "c":  "streaming",
+        "r":  3.8
+    },
+    {
+        "a":  "B0995268512",
+        "t":  "Smart Plug Mini 8",
+        "s":  "smart-plug-mini-732",
+        "c":  "smart-home",
+        "r":  3.8
+    },
+    {
+        "a":  "B0547162927",
+        "t":  "Reading Light Clip On 8",
+        "s":  "reading-light-clip-on-733",
+        "c":  "kindle",
+        "r":  3.9
+    },
+    {
+        "a":  "B0604269988",
+        "t":  "Grill Cover Waterproof 8",
+        "s":  "grill-cover-waterproof-734",
+        "c":  "grills",
+        "r":  3.9
+    },
+    {
+        "a":  "B0275809978",
+        "t":  "Immersion Blender 800W 8",
+        "s":  "immersion-blender-800w-735",
+        "c":  "kitchen",
+        "r":  4
+    },
+    {
+        "a":  "B0907312443",
+        "t":  "Bluetooth 5.0 Adapter 8",
+        "s":  "bluetooth-50-adapter-736",
+        "c":  "electronics",
+        "r":  4
+    },
+    {
+        "a":  "B0038003848",
+        "t":  "Waterproof Speaker IPX7 8",
+        "s":  "waterproof-speaker-ipx7-737",
+        "c":  "audio",
+        "r":  4.1
+    },
+    {
+        "a":  "B0758952183",
+        "t":  "Diver Watch Smart 8",
+        "s":  "diver-watch-smart-738",
+        "c":  "smartwatches",
+        "r":  4.1
+    },
+    {
+        "a":  "B0851803969",
+        "t":  "Gaming Router WiFi 6E 8",
+        "s":  "gaming-router-wifi-6e-739",
+        "c":  "gaming",
+        "r":  4.2
+    },
+    {
+        "a":  "B0014962446",
+        "t":  "Robot Mop Automatic 8",
+        "s":  "robot-mop-automatic-740",
+        "c":  "home",
+        "r":  3.8
+    },
+    {
+        "a":  "B0397259903",
+        "t":  "Kettlebell Set 5-25lbs 8",
+        "s":  "kettlebell-set-5-25lbs-741",
+        "c":  "fitness",
+        "r":  3.8
+    },
+    {
+        "a":  "B0261536415",
+        "t":  "Nvidia Shield Pro 8",
+        "s":  "nvidia-shield-pro-742",
+        "c":  "streaming",
+        "r":  3.9
+    },
+    {
+        "a":  "B0796087555",
+        "t":  "Video Doorbell Pro 8",
+        "s":  "video-doorbell-pro-743",
+        "c":  "smart-home",
+        "r":  3.9
+    },
+    {
+        "a":  "B0915117219",
+        "t":  "Leather Cover Premium 8",
+        "s":  "leather-cover-premium-744",
+        "c":  "kindle",
+        "r":  4
+    },
+    {
+        "a":  "B0175861012",
+        "t":  "Pellet Grill Smoker 8",
+        "s":  "pellet-grill-smoker-745",
+        "c":  "grills",
+        "r":  4
+    },
+    {
+        "a":  "B0231512731",
+        "t":  "Electric Kettle 1.7L 8",
+        "s":  "electric-kettle-17l-746",
+        "c":  "kitchen",
+        "r":  4.1
+    },
+    {
+        "a":  "B0853600187",
+        "t":  "Power Bank 30000mAh 8",
+        "s":  "power-bank-30000mah-747",
+        "c":  "electronics",
+        "r":  4.1
+    },
+    {
+        "a":  "B0211954175",
+        "t":  "Over-Ear Headphones Premium 8",
+        "s":  "over-ear-headphones-premium-748",
+        "c":  "audio",
+        "r":  4.2
+    },
+    {
+        "a":  "B0027353946",
+        "t":  "Classic Analog Smart Hybrid 8",
+        "s":  "classic-analog-smart-hybrid-749",
+        "c":  "smartwatches",
+        "r":  4.2
+    },
+    {
+        "a":  "B0221637638",
+        "t":  "Gaming Keyboard Mechanical 8",
+        "s":  "gaming-keyboard-mechanical-750",
+        "c":  "gaming",
+        "r":  3.8
+    },
+    {
+        "a":  "B0683551411",
+        "t":  "Dehumidifier Electric 8",
+        "s":  "dehumidifier-electric-751",
+        "c":  "home",
+        "r":  3.9
+    },
+    {
+        "a":  "B0476213684",
+        "t":  "Rowing Machine Water 8",
+        "s":  "rowing-machine-water-752",
+        "c":  "fitness",
+        "r":  3.9
+    },
+    {
+        "a":  "B0998311784",
+        "t":  "Amazon Fire TV Cube 8",
+        "s":  "amazon-fire-tv-cube-753",
+        "c":  "streaming",
+        "r":  4
+    },
+    {
+        "a":  "B0716360996",
+        "t":  "Garage Door Opener Smart 8",
+        "s":  "garage-door-opener-smart-754",
+        "c":  "smart-home",
+        "r":  4
+    },
+    {
+        "a":  "B0439336412",
+        "t":  "Tablet Stand Adjustable 8",
+        "s":  "tablet-stand-adjustable-755",
+        "c":  "kindle",
+        "r":  4.1
+    },
+    {
+        "a":  "B0176069344",
+        "t":  "Propane Tank 20lb 8",
+        "s":  "propane-tank-20lb-756",
+        "c":  "grills",
+        "r":  4.1
+    },
+    {
+        "a":  "B0679467593",
+        "t":  "Sous Vide Precision 8",
+        "s":  "sous-vide-precision-757",
+        "c":  "kitchen",
+        "r":  4.2
+    },
+    {
+        "a":  "B0369318751",
+        "t":  "Smart Plug WiFi 4-pack 8",
+        "s":  "smart-plug-wifi-4-pack-758",
+        "c":  "electronics",
+        "r":  4.2
+    },
+    {
+        "a":  "B0557608192",
+        "t":  "In-Ear Monitors HIFI 8",
+        "s":  "in-ear-monitors-hifi-759",
+        "c":  "audio",
+        "r":  4.3
+    },
+    {
+        "a":  "B0458042040",
+        "t":  "GPS Running Watch 8",
+        "s":  "gps-running-watch-760",
+        "c":  "smartwatches",
+        "r":  3.9
+    },
+    {
+        "a":  "B0574338193",
+        "t":  "Racing Wheel Simulator 8",
+        "s":  "racing-wheel-simulator-761",
+        "c":  "gaming",
+        "r":  3.9
+    },
+    {
+        "a":  "B0879034304",
+        "t":  "Humidifier Ultrasonic 8",
+        "s":  "humidifier-ultrasonic-762",
+        "c":  "home",
+        "r":  4
+    },
+    {
+        "a":  "B0509848445",
+        "t":  "Elliptical Trainer 8",
+        "s":  "elliptical-trainer-763",
+        "c":  "fitness",
+        "r":  4
+    },
+    {
+        "a":  "B0851502277",
+        "t":  "TiVo Stream 4K 8",
+        "s":  "tivo-stream-4k-764",
+        "c":  "streaming",
+        "r":  4.1
+    },
+    {
+        "a":  "B0194053616",
+        "t":  "Smart Switch WiFi 8",
+        "s":  "smart-switch-wifi-765",
+        "c":  "smart-home",
+        "r":  4.1
+    },
+    {
+        "a":  "B0219197124",
+        "t":  "Stylus Pen Tablet 8",
+        "s":  "stylus-pen-tablet-766",
+        "c":  "kindle",
+        "r":  4.2
+    },
+    {
+        "a":  "B0014954314",
+        "t":  "Charcoal chimney Starter 8",
+        "s":  "charcoal-chimney-starter-767",
+        "c":  "grills",
+        "r":  4.2
+    },
+    {
+        "a":  "B0364102961",
+        "t":  "Ice Cream Maker 8",
+        "s":  "ice-cream-maker-768",
+        "c":  "kitchen",
+        "r":  4.3
+    },
+    {
+        "a":  "B0291507961",
+        "t":  "LED Desk Lamp Eye Care 8",
+        "s":  "led-desk-lamp-eye-care-769",
+        "c":  "electronics",
+        "r":  4.3
+    },
+    {
+        "a":  "B0692302813",
+        "t":  "Party Speaker LED Lights 8",
+        "s":  "party-speaker-led-lights-770",
+        "c":  "audio",
+        "r":  3.9
+    },
+    {
+        "a":  "B0858713277",
+        "t":  "Triathlon Smart Watch 8",
+        "s":  "triathlon-smart-watch-771",
+        "c":  "smartwatches",
+        "r":  4
+    },
+    {
+        "a":  "B0867917399",
+        "t":  "Gaming Desk LED 8",
+        "s":  "gaming-desk-led-772",
+        "c":  "gaming",
+        "r":  4
+    },
+    {
+        "a":  "B0680376339",
+        "t":  "Vacuum Cleaner Bagless 8",
+        "s":  "vacuum-cleaner-bagless-773",
+        "c":  "home",
+        "r":  4.1
+    },
+    {
+        "a":  "B0061405894",
+        "t":  "Weight Bench Adjustable 8",
+        "s":  "weight-bench-adjustable-774",
+        "c":  "fitness",
+        "r":  4.1
+    },
+    {
+        "a":  "B0570645376",
+        "t":  "AT\u0026T TV Stream 8",
+        "s":  "att-tv-stream-775",
+        "c":  "streaming",
+        "r":  4.2
+    },
+    {
+        "a":  "B0036514907",
+        "t":  "Smart Thermostat Learning 8",
+        "s":  "smart-thermostat-learning-776",
+        "c":  "smart-home",
+        "r":  4.2
+    },
+    {
+        "a":  "B0415994844",
+        "t":  "Screen Protector Pack 8",
+        "s":  "screen-protector-pack-777",
+        "c":  "kindle",
+        "r":  4.3
+    },
+    {
+        "a":  "B0405349112",
+        "t":  "Meat Thermometer Digital 8",
+        "s":  "meat-thermometer-digital-778",
+        "c":  "grills",
+        "r":  4.3
+    },
+    {
+        "a":  "B0513951417",
+        "t":  "Bread Maker Automatic 8",
+        "s":  "bread-maker-automatic-779",
+        "c":  "kitchen",
+        "r":  4.4
+    },
+    {
+        "a":  "B0035292522",
+        "t":  "USB Microphone Podcast 8",
+        "s":  "usb-microphone-podcast-780",
+        "c":  "electronics",
+        "r":  4
+    },
+    {
+        "a":  "B0991863463",
+        "t":  "Car Audio System 8",
+        "s":  "car-audio-system-781",
+        "c":  "audio",
+        "r":  4
+    },
+    {
+        "a":  "B0551947152",
+        "t":  "Business Smart Watch 8",
+        "s":  "business-smart-watch-782",
+        "c":  "smartwatches",
+        "r":  4.1
+    },
+    {
+        "a":  "B0942163850",
+        "t":  "Capture Card 4K 8",
+        "s":  "capture-card-4k-783",
+        "c":  "gaming",
+        "r":  4.1
+    },
+    {
+        "a":  "B0981500959",
+        "t":  "Window Cleaner Robot 8",
+        "s":  "window-cleaner-robot-784",
+        "c":  "home",
+        "r":  4.2
+    },
+    {
+        "a":  "B0541726562",
+        "t":  "Jump Rope Speed 8",
+        "s":  "jump-rope-speed-785",
+        "c":  "fitness",
+        "r":  4.2
+    },
+    {
+        "a":  "B0560950066",
+        "t":  "YouTube TV Box 8",
+        "s":  "youtube-tv-box-786",
+        "c":  "streaming",
+        "r":  4.3
+    },
+    {
+        "a":  "B0222490122",
+        "t":  "Window Sensor Alarm 8",
+        "s":  "window-sensor-alarm-787",
+        "c":  "smart-home",
+        "r":  4.3
+    },
+    {
+        "a":  "B0208783141",
+        "t":  "Case with Stand 8",
+        "s":  "case-with-stand-788",
+        "c":  "kindle",
+        "r":  4.4
+    },
+    {
+        "a":  "B0965558156",
+        "t":  "Grill Basket Veggies 8",
+        "s":  "grill-basket-veggies-789",
+        "c":  "grills",
+        "r":  4.4
+    },
+    {
+        "a":  "B0840031351",
+        "t":  "Pizza Oven Countertop 8",
+        "s":  "pizza-oven-countertop-790",
+        "c":  "kitchen",
+        "r":  4
+    },
+    {
+        "a":  "B0078178477",
+        "t":  "Ring Light 12\" 8",
+        "s":  "ring-light-12-791",
+        "c":  "electronics",
+        "r":  4.1
+    },
+    {
+        "a":  "B0420541994",
+        "t":  "Home Theater System 8",
+        "s":  "home-theater-system-792",
+        "c":  "audio",
+        "r":  4.1
+    },
+    {
+        "a":  "B0543685202",
+        "t":  "Kids GPS Watch Phone 8",
+        "s":  "kids-gps-watch-phone-793",
+        "c":  "smartwatches",
+        "r":  4.2
+    },
+    {
+        "a":  "B0285855116",
+        "t":  "Streaming Microphone USB 8",
+        "s":  "streaming-microphone-usb-794",
+        "c":  "gaming",
+        "r":  4.2
+    },
+    {
+        "a":  "B0402352193",
+        "t":  "Pet Hair Remover 8",
+        "s":  "pet-hair-remover-795",
+        "c":  "home",
+        "r":  4.3
+    },
+    {
+        "a":  "B0290006814",
+        "t":  "Ab Roller Wheel 8",
+        "s":  "ab-roller-wheel-796",
+        "c":  "fitness",
+        "r":  4.3
+    },
+    {
+        "a":  "B0624789493",
+        "t":  "IPTV Box Premium 8",
+        "s":  "iptv-box-premium-797",
+        "c":  "streaming",
+        "r":  4.4
+    },
+    {
+        "a":  "B0590930185",
+        "t":  "Water Leak Detector 8",
+        "s":  "water-leak-detector-798",
+        "c":  "smart-home",
+        "r":  4.4
+    },
+    {
+        "a":  "B0982981897",
+        "t":  "Power Bank for E-Reader 8",
+        "s":  "power-bank-for-e-reader-799",
+        "c":  "kindle",
+        "r":  4.5
+    },
+    {
+        "a":  "B0182932183",
+        "t":  "Spatchcock Chicken Rack 9",
+        "s":  "spatchcock-chicken-rack-800",
+        "c":  "grills",
+        "r":  3.6
+    },
+    {
+        "a":  "B0428271167",
+        "t":  "Waffle Maker Belgian 9",
+        "s":  "waffle-maker-belgian-801",
+        "c":  "kitchen",
+        "r":  3.7
+    },
+    {
+        "a":  "B0132024943",
+        "t":  "Laptop Stand Aluminum 9",
+        "s":  "laptop-stand-aluminum-802",
+        "c":  "electronics",
+        "r":  3.7
+    },
+    {
+        "a":  "B0989913710",
+        "t":  "DAB Radio Digital 9",
+        "s":  "dab-radio-digital-803",
+        "c":  "audio",
+        "r":  3.8
+    },
+    {
+        "a":  "B0385085559",
+        "t":  "Senior Watch with SOS 9",
+        "s":  "senior-watch-with-sos-804",
+        "c":  "smartwatches",
+        "r":  3.8
+    },
+    {
+        "a":  "B0599776328",
+        "t":  "Gaming Laptop Stand 9",
+        "s":  "gaming-laptop-stand-805",
+        "c":  "gaming",
+        "r":  3.9
+    },
+    {
+        "a":  "B0009237097",
+        "t":  "Steam Cleaner Multi-Surface 9",
+        "s":  "steam-cleaner-multi-surface-806",
+        "c":  "home",
+        "r":  3.9
+    },
+    {
+        "a":  "B0376751859",
+        "t":  "Battle Ropes 50ft 9",
+        "s":  "battle-ropes-50ft-807",
+        "c":  "fitness",
+        "r":  4
+    },
+    {
+        "a":  "B0584621330",
+        "t":  "Media Player NAS 9",
+        "s":  "media-player-nas-808",
+        "c":  "streaming",
+        "r":  4
+    },
+    {
+        "a":  "B0195712580",
+        "t":  "Smart Bulb E27 9",
+        "s":  "smart-bulb-e27-809",
+        "c":  "smart-home",
+        "r":  4.1
+    },
+    {
+        "a":  "B0984811345",
+        "t":  "Audiobook Subscription 9",
+        "s":  "audiobook-subscription-810",
+        "c":  "kindle",
+        "r":  3.7
+    },
+    {
+        "a":  "B0623983496",
+        "t":  "Rib Rack Vertical 9",
+        "s":  "rib-rack-vertical-811",
+        "c":  "grills",
+        "r":  3.7
+    },
+    {
+        "a":  "B0189321057",
+        "t":  "Slow Cooker 6Qt 9",
+        "s":  "slow-cooker-6qt-812",
+        "c":  "kitchen",
+        "r":  3.8
+    },
+    {
+        "a":  "B0309885960",
+        "t":  "Cable Management Kit 9",
+        "s":  "cable-management-kit-813",
+        "c":  "electronics",
+        "r":  3.8
+    },
+    {
+        "a":  "B0587377248",
+        "t":  "Record Player Vinyl 9",
+        "s":  "record-player-vinyl-814",
+        "c":  "audio",
+        "r":  3.9
+    },
+    {
+        "a":  "B0274370441",
+        "t":  "Fashion Ladies Smartwatch 9",
+        "s":  "fashion-ladies-smartwatch-815",
+        "c":  "smartwatches",
+        "r":  3.9
+    },
+    {
+        "a":  "B0167110447",
+        "t":  "Gaming Power Supply 850W 9",
+        "s":  "gaming-power-supply-850w-816",
+        "c":  "gaming",
+        "r":  4
+    },
+    {
+        "a":  "B0600357862",
+        "t":  "Dishwasher Portable 9",
+        "s":  "dishwasher-portable-817",
+        "c":  "home",
+        "r":  4
+    },
+    {
+        "a":  "B0314720652",
+        "t":  "Olympic Barbell Set 9",
+        "s":  "olympic-barbell-set-818",
+        "c":  "fitness",
+        "r":  4.1
+    },
+    {
+        "a":  "B0921987060",
+        "t":  "Portable Monitor 15.6\" 9",
+        "s":  "portable-monitor-156-819",
+        "c":  "streaming",
+        "r":  4.1
+    },
+    {
+        "a":  "B0455976636",
+        "t":  "Curtain Motor Smart 9",
+        "s":  "curtain-motor-smart-820",
+        "c":  "smart-home",
+        "r":  3.7
+    },
+    {
+        "a":  "B0079789329",
+        "t":  "E-Book Bundle Popular 9",
+        "s":  "e-book-bundle-popular-821",
+        "c":  "kindle",
+        "r":  3.8
+    },
+    {
+        "a":  "B0390330514",
+        "t":  "Wireless Grill Thermometer 9",
+        "s":  "wireless-grill-thermometer-822",
+        "c":  "grills",
+        "r":  3.8
+    },
+    {
+        "a":  "B0527169506",
+        "t":  "Pressure Cooker 6Qt 9",
+        "s":  "pressure-cooker-6qt-823",
+        "c":  "kitchen",
+        "r":  3.9
+    },
+    {
+        "a":  "B0484872371",
+        "t":  "Screen Cleaner Kit 9",
+        "s":  "screen-cleaner-kit-824",
+        "c":  "electronics",
+        "r":  3.9
+    },
+    {
+        "a":  "B0553402208",
+        "t":  "Wireless Noise Cancelling Headphones 9",
+        "s":  "wireless-noise-cancelling-headphone-825",
+        "c":  "audio",
+        "r":  4
+    },
+    {
+        "a":  "B0956905715",
+        "t":  "Smartwatch Fitness Tracker 9",
+        "s":  "smartwatch-fitness-tracker-826",
+        "c":  "smartwatches",
+        "r":  4
+    },
+    {
+        "a":  "B0990269480",
+        "t":  "Gaming Controller Wireless 9",
+        "s":  "gaming-controller-wireless-827",
+        "c":  "gaming",
+        "r":  4.1
+    },
+    {
+        "a":  "B0872474272",
+        "t":  "Robot Vacuum Cleaner LiDAR 9",
+        "s":  "robot-vacuum-cleaner-lidar-828",
+        "c":  "home",
+        "r":  4.1
+    },
+    {
+        "a":  "B0878944111",
+        "t":  "Exercise Bike Indoor 9",
+        "s":  "exercise-bike-indoor-829",
+        "c":  "fitness",
+        "r":  4.2
+    },
+    {
+        "a":  "B0570860406",
+        "t":  "Fire TV Stick 4K Max 9",
+        "s":  "fire-tv-stick-4k-max-830",
+        "c":  "streaming",
+        "r":  3.8
+    },
+    {
+        "a":  "B0717913591",
+        "t":  "Smart Doorbell Camera 9",
+        "s":  "smart-doorbell-camera-831",
+        "c":  "smart-home",
+        "r":  3.8
+    },
+    {
+        "a":  "B0234245797",
+        "t":  "E-Reader 6\" Touchscreen 9",
+        "s":  "e-reader-6-touchscreen-832",
+        "c":  "kindle",
+        "r":  3.9
+    },
+    {
+        "a":  "B0182286000",
+        "t":  "Gas Grill 3 Burner Pro 9",
+        "s":  "gas-grill-3-burner-pro-833",
+        "c":  "grills",
+        "r":  3.9
+    },
+    {
+        "a":  "B0609027118",
+        "t":  "Coffee Machine Espresso 9",
+        "s":  "coffee-machine-espresso-834",
+        "c":  "kitchen",
+        "r":  4
+    },
+    {
+        "a":  "B0009690014",
+        "t":  "4K Monitor 27\" IPS 9",
+        "s":  "4k-monitor-27-ips-835",
+        "c":  "electronics",
+        "r":  4
+    },
+    {
+        "a":  "B0063654638",
+        "t":  "True Wireless Earbuds Pro 9",
+        "s":  "true-wireless-earbuds-pro-836",
+        "c":  "audio",
+        "r":  4.1
+    },
+    {
+        "a":  "B0559214748",
+        "t":  "Smart Watch GPS 5ATM 9",
+        "s":  "smart-watch-gps-5atm-837",
+        "c":  "smartwatches",
+        "r":  4.1
+    },
+    {
+        "a":  "B0573990687",
+        "t":  "Gaming Mouse RGB 16000DPI 9",
+        "s":  "gaming-mouse-rgb-16000dpi-838",
+        "c":  "gaming",
+        "r":  4.2
+    },
+    {
+        "a":  "B0730183118",
+        "t":  "Air Purifier HEPA 13 9",
+        "s":  "air-purifier-hepa-13-839",
+        "c":  "home",
+        "r":  4.2
+    },
+    {
+        "a":  "B0990833372",
+        "t":  "Treadmill Foldable 2.5HP 9",
+        "s":  "treadmill-foldable-25hp-840",
+        "c":  "fitness",
+        "r":  3.8
+    },
+    {
+        "a":  "B0336157010",
+        "t":  "Streaming Device Pro 9",
+        "s":  "streaming-device-pro-841",
+        "c":  "streaming",
+        "r":  3.9
+    },
+    {
+        "a":  "B0621822228",
+        "t":  "Security Camera Indoor 2K 9",
+        "s":  "security-camera-indoor-2k-842",
+        "c":  "smart-home",
+        "r":  3.9
+    },
+    {
+        "a":  "B0575472462",
+        "t":  "E-Reader Paperwhite 11th Gen 9",
+        "s":  "e-reader-paperwhite-11th-gen-843",
+        "c":  "kindle",
+        "r":  4
+    },
+    {
+        "a":  "B0422578956",
+        "t":  "Charcoal Grill Kettle 22\" 9",
+        "s":  "charcoal-grill-kettle-22-844",
+        "c":  "grills",
+        "r":  4
+    },
+    {
+        "a":  "B0224453222",
+        "t":  "Air Fryer XL 5.8Qt 9",
+        "s":  "air-fryer-xl-58qt-845",
+        "c":  "kitchen",
+        "r":  4.1
+    },
+    {
+        "a":  "B0052835961",
+        "t":  "Mechanical Keyboard RGB 9",
+        "s":  "mechanical-keyboard-rgb-846",
+        "c":  "electronics",
+        "r":  4.1
+    },
+    {
+        "a":  "B0220850085",
+        "t":  "Portable Bluetooth Speaker 20W 9",
+        "s":  "portable-bluetooth-speaker-20w-847",
+        "c":  "audio",
+        "r":  4.2
+    },
+    {
+        "a":  "B0036455770",
+        "t":  "Blood Oxygen Monitor Watch 9",
+        "s":  "blood-oxygen-monitor-watch-848",
+        "c":  "smartwatches",
+        "r":  4.2
+    },
+    {
+        "a":  "B0070100756",
+        "t":  "Gaming Headset 7.1 Surround 9",
+        "s":  "gaming-headset-71-surround-849",
+        "c":  "gaming",
+        "r":  4.3
+    },
+    {
+        "a":  "B0117792903",
+        "t":  "Smart Thermostat WiFi 9",
+        "s":  "smart-thermostat-wifi-850",
+        "c":  "home",
+        "r":  3.9
+    },
+    {
+        "a":  "B0684226788",
+        "t":  "Resistance Bands Set 5 9",
+        "s":  "resistance-bands-set-5-851",
+        "c":  "fitness",
+        "r":  3.9
+    },
+    {
+        "a":  "B0828193745",
+        "t":  "Smart TV Box 4K Android 9",
+        "s":  "smart-tv-box-4k-android-852",
+        "c":  "streaming",
+        "r":  4
+    },
+    {
+        "a":  "B0431524741",
+        "t":  "Smart Lock Fingerprint 9",
+        "s":  "smart-lock-fingerprint-853",
+        "c":  "smart-home",
+        "r":  4
+    },
+    {
+        "a":  "B0332354424",
+        "t":  "E-Reader with Warm Light 9",
+        "s":  "e-reader-with-warm-light-854",
+        "c":  "kindle",
+        "r":  4.1
+    },
+    {
+        "a":  "B0085410593",
+        "t":  "Electric Grill Indoor 9",
+        "s":  "electric-grill-indoor-855",
+        "c":  "grills",
+        "r":  4.1
+    },
+    {
+        "a":  "B0437621300",
+        "t":  "Food Processor 12-Cup 9",
+        "s":  "food-processor-12-cup-856",
+        "c":  "kitchen",
+        "r":  4.2
+    },
+    {
+        "a":  "B0919920925",
+        "t":  "Ergonomic Mouse Vertical 9",
+        "s":  "ergonomic-mouse-vertical-857",
+        "c":  "electronics",
+        "r":  4.2
+    },
+    {
+        "a":  "B0223901286",
+        "t":  "Soundbar 2.1 Channel 9",
+        "s":  "soundbar-21-channel-858",
+        "c":  "audio",
+        "r":  4.3
+    },
+    {
+        "a":  "B0744383225",
+        "t":  "Kids Smart Watch GPS 9",
+        "s":  "kids-smart-watch-gps-859",
+        "c":  "smartwatches",
+        "r":  4.3
+    },
+    {
+        "a":  "B0776152760",
+        "t":  "Gaming Chair Ergonomic Pro 9",
+        "s":  "gaming-chair-ergonomic-pro-860",
+        "c":  "gaming",
+        "r":  3.9
+    },
+    {
+        "a":  "B0464497680",
+        "t":  "Coffee Maker Programmable 9",
+        "s":  "coffee-maker-programmable-861",
+        "c":  "home",
+        "r":  4
+    },
+    {
+        "a":  "B0589266748",
+        "t":  "Adjustable Dumbbells 52.5lbs 9",
+        "s":  "adjustable-dumbbells-525lbs-862",
+        "c":  "fitness",
+        "r":  4
+    },
+    {
+        "a":  "B0749066137",
+        "t":  "Roku Streaming Stick 4K 9",
+        "s":  "roku-streaming-stick-4k-863",
+        "c":  "streaming",
+        "r":  4.1
+    },
+    {
+        "a":  "B0588912329",
+        "t":  "Echo Dot 5th Gen 9",
+        "s":  "echo-dot-5th-gen-864",
+        "c":  "smart-home",
+        "r":  4.1
+    },
+    {
+        "a":  "B0310954781",
+        "t":  "Tablet Fire HD 10 9",
+        "s":  "tablet-fire-hd-10-865",
+        "c":  "kindle",
+        "r":  4.2
+    },
+    {
+        "a":  "B0241801575",
+        "t":  "Smoker Box Pro Offset 9",
+        "s":  "smoker-box-pro-offset-866",
+        "c":  "grills",
+        "r":  4.2
+    },
+    {
+        "a":  "B0667092807",
+        "t":  "Rice Cooker Multi-Cook 9",
+        "s":  "rice-cooker-multi-cook-867",
+        "c":  "kitchen",
+        "r":  4.3
+    },
+    {
+        "a":  "B0780977343",
+        "t":  "USB-C Hub 7-in-1 9",
+        "s":  "usb-c-hub-7-in-1-868",
+        "c":  "electronics",
+        "r":  4.3
+    },
+    {
+        "a":  "B0145904689",
+        "t":  "Gaming Headset 7.1 Surround 9",
+        "s":  "gaming-headset-71-surround-869",
+        "c":  "audio",
+        "r":  4.4
+    },
+    {
+        "a":  "B0518312487",
+        "t":  "Hybrid Smart Watch Classic 9",
+        "s":  "hybrid-smart-watch-classic-870",
+        "c":  "smartwatches",
+        "r":  4
+    },
+    {
+        "a":  "B0527305444",
+        "t":  "4K Gaming Monitor 144Hz 9",
+        "s":  "4k-gaming-monitor-144hz-871",
+        "c":  "gaming",
+        "r":  4
+    },
+    {
+        "a":  "B0654943955",
+        "t":  "Instant Pot 7-in-1 9",
+        "s":  "instant-pot-7-in-1-872",
+        "c":  "home",
+        "r":  4.1
+    },
+    {
+        "a":  "B0965322909",
+        "t":  "Yoga Mat Premium 6mm 9",
+        "s":  "yoga-mat-premium-6mm-873",
+        "c":  "fitness",
+        "r":  4.1
+    },
+    {
+        "a":  "B0932572089",
+        "t":  "Chromecast with Google TV 9",
+        "s":  "chromecast-with-google-tv-874",
+        "c":  "streaming",
+        "r":  4.2
+    },
+    {
+        "a":  "B0067645381",
+        "t":  "Smart Light Bulbs RGB 9",
+        "s":  "smart-light-bulbs-rgb-875",
+        "c":  "smart-home",
+        "r":  4.2
+    },
+    {
+        "a":  "B0310025971",
+        "t":  "E-Reader Kids Edition 9",
+        "s":  "e-reader-kids-edition-876",
+        "c":  "kindle",
+        "r":  4.3
+    },
+    {
+        "a":  "B0017361539",
+        "t":  "Grill Accessories 20pc 9",
+        "s":  "grill-accessories-20pc-877",
+        "c":  "grills",
+        "r":  4.3
+    },
+    {
+        "a":  "B0160097346",
+        "t":  "Toaster Oven Digital 9",
+        "s":  "toaster-oven-digital-878",
+        "c":  "kitchen",
+        "r":  4.4
+    },
+    {
+        "a":  "B0621925593",
+        "t":  "Webcam 4K Pro 9",
+        "s":  "webcam-4k-pro-879",
+        "c":  "electronics",
+        "r":  4.4
+    },
+    {
+        "a":  "B0223272653",
+        "t":  "Studio Monitor Speakers 9",
+        "s":  "studio-monitor-speakers-880",
+        "c":  "audio",
+        "r":  4
+    },
+    {
+        "a":  "B0673063432",
+        "t":  "Sports Watch Pro AMOLED 9",
+        "s":  "sports-watch-pro-amoled-881",
+        "c":  "smartwatches",
+        "r":  4.1
+    },
+    {
+        "a":  "B0071528240",
+        "t":  "Console Controller Pro 9",
+        "s":  "console-controller-pro-882",
+        "c":  "gaming",
+        "r":  4.1
+    },
+    {
+        "a":  "B0615338941",
+        "t":  "Blender Professional 1200W 9",
+        "s":  "blender-professional-1200w-883",
+        "c":  "home",
+        "r":  4.2
+    },
+    {
+        "a":  "B0134156014",
+        "t":  "Foam Roller Recovery 9",
+        "s":  "foam-roller-recovery-884",
+        "c":  "fitness",
+        "r":  4.2
+    },
+    {
+        "a":  "B0825931264",
+        "t":  "Android TV Box 8K 9",
+        "s":  "android-tv-box-8k-885",
+        "c":  "streaming",
+        "r":  4.3
+    },
+    {
+        "a":  "B0778919037",
+        "t":  "Motion Sensor Kit 9",
+        "s":  "motion-sensor-kit-886",
+        "c":  "smart-home",
+        "r":  4.3
+    },
+    {
+        "a":  "B0376094033",
+        "t":  "Tablet 8\" HD Kids 9",
+        "s":  "tablet-8-hd-kids-887",
+        "c":  "kindle",
+        "r":  4.4
+    },
+    {
+        "a":  "B0832087550",
+        "t":  "BBQ Tool Set Deluxe 9",
+        "s":  "bbq-tool-set-deluxe-888",
+        "c":  "grills",
+        "r":  4.4
+    },
+    {
+        "a":  "B0092116616",
+        "t":  "Hand Mixer Stand Mix 9",
+        "s":  "hand-mixer-stand-mix-889",
+        "c":  "kitchen",
+        "r":  4.5
+    },
+    {
+        "a":  "B0601085756",
+        "t":  "External SSD 2TB 9",
+        "s":  "external-ssd-2tb-890",
+        "c":  "electronics",
+        "r":  4.1
+    },
+    {
+        "a":  "B0027018682",
+        "t":  "Neckband Wireless Earbuds 9",
+        "s":  "neckband-wireless-earbuds-891",
+        "c":  "audio",
+        "r":  4.1
+    },
+    {
+        "a":  "B0634520364",
+        "t":  "Fashion Smart Watch 9",
+        "s":  "fashion-smart-watch-892",
+        "c":  "smartwatches",
+        "r":  4.2
+    },
+    {
+        "a":  "B0474396365",
+        "t":  "VR Headset System 9",
+        "s":  "vr-headset-system-893",
+        "c":  "gaming",
+        "r":  4.2
+    },
+    {
+        "a":  "B0389230467",
+        "t":  "Air Fryer XXL Digital 9",
+        "s":  "air-fryer-xxl-digital-894",
+        "c":  "home",
+        "r":  4.3
+    },
+    {
+        "a":  "B0079934900",
+        "t":  "Pull Up Bar Doorway 9",
+        "s":  "pull-up-bar-doorway-895",
+        "c":  "fitness",
+        "r":  4.3
+    },
+    {
+        "a":  "B0705207980",
+        "t":  "Apple TV 4K 9",
+        "s":  "apple-tv-4k-896",
+        "c":  "streaming",
+        "r":  4.4
+    },
+    {
+        "a":  "B0193336612",
+        "t":  "Smart Plug Mini 9",
+        "s":  "smart-plug-mini-897",
+        "c":  "smart-home",
+        "r":  4.4
+    },
+    {
+        "a":  "B0309172623",
+        "t":  "Reading Light Clip On 9",
+        "s":  "reading-light-clip-on-898",
+        "c":  "kindle",
+        "r":  4.5
+    },
+    {
+        "a":  "B0528684841",
+        "t":  "Grill Cover Waterproof 9",
+        "s":  "grill-cover-waterproof-899",
+        "c":  "grills",
+        "r":  4.5
+    },
+    {
+        "a":  "B0379146245",
+        "t":  "Immersion Blender 800W 10",
+        "s":  "immersion-blender-800w-900",
+        "c":  "kitchen",
+        "r":  3.7
+    },
+    {
+        "a":  "B0783507968",
+        "t":  "Bluetooth 5.0 Adapter 10",
+        "s":  "bluetooth-50-adapter-901",
+        "c":  "electronics",
+        "r":  3.7
+    },
+    {
+        "a":  "B0222592140",
+        "t":  "Waterproof Speaker IPX7 10",
+        "s":  "waterproof-speaker-ipx7-902",
+        "c":  "audio",
+        "r":  3.8
+    },
+    {
+        "a":  "B0939020690",
+        "t":  "Diver Watch Smart 10",
+        "s":  "diver-watch-smart-903",
+        "c":  "smartwatches",
+        "r":  3.8
+    },
+    {
+        "a":  "B0363837681",
+        "t":  "Gaming Router WiFi 6E 10",
+        "s":  "gaming-router-wifi-6e-904",
+        "c":  "gaming",
+        "r":  3.9
+    },
+    {
+        "a":  "B0639647216",
+        "t":  "Robot Mop Automatic 10",
+        "s":  "robot-mop-automatic-905",
+        "c":  "home",
+        "r":  3.9
+    },
+    {
+        "a":  "B0602258895",
+        "t":  "Kettlebell Set 5-25lbs 10",
+        "s":  "kettlebell-set-5-25lbs-906",
+        "c":  "fitness",
+        "r":  4
+    },
+    {
+        "a":  "B0870020877",
+        "t":  "Nvidia Shield Pro 10",
+        "s":  "nvidia-shield-pro-907",
+        "c":  "streaming",
+        "r":  4
+    },
+    {
+        "a":  "B0014097109",
+        "t":  "Video Doorbell Pro 10",
+        "s":  "video-doorbell-pro-908",
+        "c":  "smart-home",
+        "r":  4.1
+    },
+    {
+        "a":  "B0207426005",
+        "t":  "Leather Cover Premium 10",
+        "s":  "leather-cover-premium-909",
+        "c":  "kindle",
+        "r":  4.1
+    },
+    {
+        "a":  "B0830240268",
+        "t":  "Pellet Grill Smoker 10",
+        "s":  "pellet-grill-smoker-910",
+        "c":  "grills",
+        "r":  3.7
+    },
+    {
+        "a":  "B0847862913",
+        "t":  "Electric Kettle 1.7L 10",
+        "s":  "electric-kettle-17l-911",
+        "c":  "kitchen",
+        "r":  3.8
+    },
+    {
+        "a":  "B0693623103",
+        "t":  "Power Bank 30000mAh 10",
+        "s":  "power-bank-30000mah-912",
+        "c":  "electronics",
+        "r":  3.8
+    },
+    {
+        "a":  "B0064563494",
+        "t":  "Over-Ear Headphones Premium 10",
+        "s":  "over-ear-headphones-premium-913",
+        "c":  "audio",
+        "r":  3.9
+    },
+    {
+        "a":  "B0433346491",
+        "t":  "Classic Analog Smart Hybrid 10",
+        "s":  "classic-analog-smart-hybrid-914",
+        "c":  "smartwatches",
+        "r":  3.9
+    },
+    {
+        "a":  "B0209795069",
+        "t":  "Gaming Keyboard Mechanical 10",
+        "s":  "gaming-keyboard-mechanical-915",
+        "c":  "gaming",
+        "r":  4
+    },
+    {
+        "a":  "B0302101928",
+        "t":  "Dehumidifier Electric 10",
+        "s":  "dehumidifier-electric-916",
+        "c":  "home",
+        "r":  4
+    },
+    {
+        "a":  "B0172933564",
+        "t":  "Rowing Machine Water 10",
+        "s":  "rowing-machine-water-917",
+        "c":  "fitness",
+        "r":  4.1
+    },
+    {
+        "a":  "B0699638876",
+        "t":  "Amazon Fire TV Cube 10",
+        "s":  "amazon-fire-tv-cube-918",
+        "c":  "streaming",
+        "r":  4.1
+    },
+    {
+        "a":  "B0488894020",
+        "t":  "Garage Door Opener Smart 10",
+        "s":  "garage-door-opener-smart-919",
+        "c":  "smart-home",
+        "r":  4.2
+    },
+    {
+        "a":  "B0031876967",
+        "t":  "Tablet Stand Adjustable 10",
+        "s":  "tablet-stand-adjustable-920",
+        "c":  "kindle",
+        "r":  3.8
+    },
+    {
+        "a":  "B0368048018",
+        "t":  "Propane Tank 20lb 10",
+        "s":  "propane-tank-20lb-921",
+        "c":  "grills",
+        "r":  3.8
+    },
+    {
+        "a":  "B0874585032",
+        "t":  "Sous Vide Precision 10",
+        "s":  "sous-vide-precision-922",
+        "c":  "kitchen",
+        "r":  3.9
+    },
+    {
+        "a":  "B0009322002",
+        "t":  "Smart Plug WiFi 4-pack 10",
+        "s":  "smart-plug-wifi-4-pack-923",
+        "c":  "electronics",
+        "r":  3.9
+    },
+    {
+        "a":  "B0838796105",
+        "t":  "In-Ear Monitors HIFI 10",
+        "s":  "in-ear-monitors-hifi-924",
+        "c":  "audio",
+        "r":  4
+    },
+    {
+        "a":  "B0968986833",
+        "t":  "GPS Running Watch 10",
+        "s":  "gps-running-watch-925",
+        "c":  "smartwatches",
+        "r":  4
+    },
+    {
+        "a":  "B0586700519",
+        "t":  "Racing Wheel Simulator 10",
+        "s":  "racing-wheel-simulator-926",
+        "c":  "gaming",
+        "r":  4.1
+    },
+    {
+        "a":  "B0259509038",
+        "t":  "Humidifier Ultrasonic 10",
+        "s":  "humidifier-ultrasonic-927",
+        "c":  "home",
+        "r":  4.1
+    },
+    {
+        "a":  "B0441167965",
+        "t":  "Elliptical Trainer 10",
+        "s":  "elliptical-trainer-928",
+        "c":  "fitness",
+        "r":  4.2
+    },
+    {
+        "a":  "B0135080724",
+        "t":  "TiVo Stream 4K 10",
+        "s":  "tivo-stream-4k-929",
+        "c":  "streaming",
+        "r":  4.2
+    },
+    {
+        "a":  "B0097874366",
+        "t":  "Smart Switch WiFi 10",
+        "s":  "smart-switch-wifi-930",
+        "c":  "smart-home",
+        "r":  3.8
+    },
+    {
+        "a":  "B0693959768",
+        "t":  "Stylus Pen Tablet 10",
+        "s":  "stylus-pen-tablet-931",
+        "c":  "kindle",
+        "r":  3.9
+    },
+    {
+        "a":  "B0809000815",
+        "t":  "Charcoal chimney Starter 10",
+        "s":  "charcoal-chimney-starter-932",
+        "c":  "grills",
+        "r":  3.9
+    },
+    {
+        "a":  "B0034694106",
+        "t":  "Ice Cream Maker 10",
+        "s":  "ice-cream-maker-933",
+        "c":  "kitchen",
+        "r":  4
+    },
+    {
+        "a":  "B0800749346",
+        "t":  "LED Desk Lamp Eye Care 10",
+        "s":  "led-desk-lamp-eye-care-934",
+        "c":  "electronics",
+        "r":  4
+    },
+    {
+        "a":  "B0593986373",
+        "t":  "Party Speaker LED Lights 10",
+        "s":  "party-speaker-led-lights-935",
+        "c":  "audio",
+        "r":  4.1
+    },
+    {
+        "a":  "B0033652321",
+        "t":  "Triathlon Smart Watch 10",
+        "s":  "triathlon-smart-watch-936",
+        "c":  "smartwatches",
+        "r":  4.1
+    },
+    {
+        "a":  "B0433680324",
+        "t":  "Gaming Desk LED 10",
+        "s":  "gaming-desk-led-937",
+        "c":  "gaming",
+        "r":  4.2
+    },
+    {
+        "a":  "B0478021401",
+        "t":  "Vacuum Cleaner Bagless 10",
+        "s":  "vacuum-cleaner-bagless-938",
+        "c":  "home",
+        "r":  4.2
+    },
+    {
+        "a":  "B0470179751",
+        "t":  "Weight Bench Adjustable 10",
+        "s":  "weight-bench-adjustable-939",
+        "c":  "fitness",
+        "r":  4.3
+    },
+    {
+        "a":  "B0259827541",
+        "t":  "AT\u0026T TV Stream 10",
+        "s":  "att-tv-stream-940",
+        "c":  "streaming",
+        "r":  3.9
+    },
+    {
+        "a":  "B0066109758",
+        "t":  "Smart Thermostat Learning 10",
+        "s":  "smart-thermostat-learning-941",
+        "c":  "smart-home",
+        "r":  3.9
+    },
+    {
+        "a":  "B0533298852",
+        "t":  "Screen Protector Pack 10",
+        "s":  "screen-protector-pack-942",
+        "c":  "kindle",
+        "r":  4
+    },
+    {
+        "a":  "B0472558907",
+        "t":  "Meat Thermometer Digital 10",
+        "s":  "meat-thermometer-digital-943",
+        "c":  "grills",
+        "r":  4
+    },
+    {
+        "a":  "B0803876116",
+        "t":  "Bread Maker Automatic 10",
+        "s":  "bread-maker-automatic-944",
+        "c":  "kitchen",
+        "r":  4.1
+    },
+    {
+        "a":  "B0892152102",
+        "t":  "USB Microphone Podcast 10",
+        "s":  "usb-microphone-podcast-945",
+        "c":  "electronics",
+        "r":  4.1
+    },
+    {
+        "a":  "B0075396122",
+        "t":  "Car Audio System 10",
+        "s":  "car-audio-system-946",
+        "c":  "audio",
+        "r":  4.2
+    },
+    {
+        "a":  "B0543096929",
+        "t":  "Business Smart Watch 10",
+        "s":  "business-smart-watch-947",
+        "c":  "smartwatches",
+        "r":  4.2
+    },
+    {
+        "a":  "B0702774693",
+        "t":  "Capture Card 4K 10",
+        "s":  "capture-card-4k-948",
+        "c":  "gaming",
+        "r":  4.3
+    },
+    {
+        "a":  "B0709806343",
+        "t":  "Window Cleaner Robot 10",
+        "s":  "window-cleaner-robot-949",
+        "c":  "home",
+        "r":  4.3
+    },
+    {
+        "a":  "B0651782815",
+        "t":  "Jump Rope Speed 10",
+        "s":  "jump-rope-speed-950",
+        "c":  "fitness",
+        "r":  3.9
+    },
+    {
+        "a":  "B0501472542",
+        "t":  "YouTube TV Box 10",
+        "s":  "youtube-tv-box-951",
+        "c":  "streaming",
+        "r":  4
+    },
+    {
+        "a":  "B0677505923",
+        "t":  "Window Sensor Alarm 10",
+        "s":  "window-sensor-alarm-952",
+        "c":  "smart-home",
+        "r":  4
+    },
+    {
+        "a":  "B0397214209",
+        "t":  "Case with Stand 10",
+        "s":  "case-with-stand-953",
+        "c":  "kindle",
+        "r":  4.1
+    },
+    {
+        "a":  "B0057484618",
+        "t":  "Grill Basket Veggies 10",
+        "s":  "grill-basket-veggies-954",
+        "c":  "grills",
+        "r":  4.1
+    },
+    {
+        "a":  "B0529993178",
+        "t":  "Pizza Oven Countertop 10",
+        "s":  "pizza-oven-countertop-955",
+        "c":  "kitchen",
+        "r":  4.2
+    },
+    {
+        "a":  "B0027575668",
+        "t":  "Ring Light 12\" 10",
+        "s":  "ring-light-12-956",
+        "c":  "electronics",
+        "r":  4.2
+    },
+    {
+        "a":  "B0785058125",
+        "t":  "Home Theater System 10",
+        "s":  "home-theater-system-957",
+        "c":  "audio",
+        "r":  4.3
+    },
+    {
+        "a":  "B0542794425",
+        "t":  "Kids GPS Watch Phone 10",
+        "s":  "kids-gps-watch-phone-958",
+        "c":  "smartwatches",
+        "r":  4.3
+    },
+    {
+        "a":  "B0530376921",
+        "t":  "Streaming Microphone USB 10",
+        "s":  "streaming-microphone-usb-959",
+        "c":  "gaming",
+        "r":  4.4
+    },
+    {
+        "a":  "B0451461304",
+        "t":  "Pet Hair Remover 10",
+        "s":  "pet-hair-remover-960",
+        "c":  "home",
+        "r":  4
+    },
+    {
+        "a":  "B0192141907",
+        "t":  "Ab Roller Wheel 10",
+        "s":  "ab-roller-wheel-961",
+        "c":  "fitness",
+        "r":  4
+    },
+    {
+        "a":  "B0025344998",
+        "t":  "IPTV Box Premium 10",
+        "s":  "iptv-box-premium-962",
+        "c":  "streaming",
+        "r":  4.1
+    },
+    {
+        "a":  "B0585941586",
+        "t":  "Water Leak Detector 10",
+        "s":  "water-leak-detector-963",
+        "c":  "smart-home",
+        "r":  4.1
+    },
+    {
+        "a":  "B0714648655",
+        "t":  "Power Bank for E-Reader 10",
+        "s":  "power-bank-for-e-reader-964",
+        "c":  "kindle",
+        "r":  4.2
+    },
+    {
+        "a":  "B0741415049",
+        "t":  "Spatchcock Chicken Rack 10",
+        "s":  "spatchcock-chicken-rack-965",
+        "c":  "grills",
+        "r":  4.2
+    },
+    {
+        "a":  "B0822510669",
+        "t":  "Waffle Maker Belgian 10",
+        "s":  "waffle-maker-belgian-966",
+        "c":  "kitchen",
+        "r":  4.3
+    },
+    {
+        "a":  "B0657812193",
+        "t":  "Laptop Stand Aluminum 10",
+        "s":  "laptop-stand-aluminum-967",
+        "c":  "electronics",
+        "r":  4.3
+    },
+    {
+        "a":  "B0775770749",
+        "t":  "DAB Radio Digital 10",
+        "s":  "dab-radio-digital-968",
+        "c":  "audio",
+        "r":  4.4
+    },
+    {
+        "a":  "B0524590004",
+        "t":  "Senior Watch with SOS 10",
+        "s":  "senior-watch-with-sos-969",
+        "c":  "smartwatches",
+        "r":  4.4
+    },
+    {
+        "a":  "B0150732152",
+        "t":  "Gaming Laptop Stand 10",
+        "s":  "gaming-laptop-stand-970",
+        "c":  "gaming",
+        "r":  4
+    },
+    {
+        "a":  "B0566965707",
+        "t":  "Steam Cleaner Multi-Surface 10",
+        "s":  "steam-cleaner-multi-surface-971",
+        "c":  "home",
+        "r":  4.1
+    },
+    {
+        "a":  "B0317083675",
+        "t":  "Battle Ropes 50ft 10",
+        "s":  "battle-ropes-50ft-972",
+        "c":  "fitness",
+        "r":  4.1
+    },
+    {
+        "a":  "B0791988914",
+        "t":  "Media Player NAS 10",
+        "s":  "media-player-nas-973",
+        "c":  "streaming",
+        "r":  4.2
+    },
+    {
+        "a":  "B0750205572",
+        "t":  "Smart Bulb E27 10",
+        "s":  "smart-bulb-e27-974",
+        "c":  "smart-home",
+        "r":  4.2
+    },
+    {
+        "a":  "B0494407445",
+        "t":  "Audiobook Subscription 10",
+        "s":  "audiobook-subscription-975",
+        "c":  "kindle",
+        "r":  4.3
+    },
+    {
+        "a":  "B0047302988",
+        "t":  "Rib Rack Vertical 10",
+        "s":  "rib-rack-vertical-976",
+        "c":  "grills",
+        "r":  4.3
+    },
+    {
+        "a":  "B0704519755",
+        "t":  "Slow Cooker 6Qt 10",
+        "s":  "slow-cooker-6qt-977",
+        "c":  "kitchen",
+        "r":  4.4
+    },
+    {
+        "a":  "B0126427445",
+        "t":  "Cable Management Kit 10",
+        "s":  "cable-management-kit-978",
+        "c":  "electronics",
+        "r":  4.4
+    },
+    {
+        "a":  "B0703704560",
+        "t":  "Record Player Vinyl 10",
+        "s":  "record-player-vinyl-979",
+        "c":  "audio",
+        "r":  4.5
+    },
+    {
+        "a":  "B0003189014",
+        "t":  "Fashion Ladies Smartwatch 10",
+        "s":  "fashion-ladies-smartwatch-980",
+        "c":  "smartwatches",
+        "r":  4.1
+    },
+    {
+        "a":  "B0739887119",
+        "t":  "Gaming Power Supply 850W 10",
+        "s":  "gaming-power-supply-850w-981",
+        "c":  "gaming",
+        "r":  4.1
+    },
+    {
+        "a":  "B0426494622",
+        "t":  "Dishwasher Portable 10",
+        "s":  "dishwasher-portable-982",
+        "c":  "home",
+        "r":  4.2
+    },
+    {
+        "a":  "B0884411673",
+        "t":  "Olympic Barbell Set 10",
+        "s":  "olympic-barbell-set-983",
+        "c":  "fitness",
+        "r":  4.2
+    },
+    {
+        "a":  "B0751661693",
+        "t":  "Portable Monitor 15.6\" 10",
+        "s":  "portable-monitor-156-984",
+        "c":  "streaming",
+        "r":  4.3
+    },
+    {
+        "a":  "B0340846863",
+        "t":  "Curtain Motor Smart 10",
+        "s":  "curtain-motor-smart-985",
+        "c":  "smart-home",
+        "r":  4.3
+    },
+    {
+        "a":  "B0204608590",
+        "t":  "E-Book Bundle Popular 10",
+        "s":  "e-book-bundle-popular-986",
+        "c":  "kindle",
+        "r":  4.4
+    },
+    {
+        "a":  "B0231214286",
+        "t":  "Wireless Grill Thermometer 10",
+        "s":  "wireless-grill-thermometer-987",
+        "c":  "grills",
+        "r":  4.4
+    },
+    {
+        "a":  "B0989204673",
+        "t":  "Pressure Cooker 6Qt 10",
+        "s":  "pressure-cooker-6qt-988",
+        "c":  "kitchen",
+        "r":  4.5
+    },
+    {
+        "a":  "B0112662468",
+        "t":  "Screen Cleaner Kit 10",
+        "s":  "screen-cleaner-kit-989",
+        "c":  "electronics",
+        "r":  4.5
+    },
+    {
+        "a":  "B0602786012",
+        "t":  "Wireless Noise Cancelling Headphones 10",
+        "s":  "wireless-noise-cancelling-headphone-990",
+        "c":  "audio",
+        "r":  4.1
+    },
+    {
+        "a":  "B0854014355",
+        "t":  "Smartwatch Fitness Tracker 10",
+        "s":  "smartwatch-fitness-tracker-991",
+        "c":  "smartwatches",
+        "r":  4.2
+    },
+    {
+        "a":  "B0990107635",
+        "t":  "Gaming Controller Wireless 10",
+        "s":  "gaming-controller-wireless-992",
+        "c":  "gaming",
+        "r":  4.2
+    },
+    {
+        "a":  "B0144913335",
+        "t":  "Robot Vacuum Cleaner LiDAR 10",
+        "s":  "robot-vacuum-cleaner-lidar-993",
+        "c":  "home",
+        "r":  4.3
+    },
+    {
+        "a":  "B0162511360",
+        "t":  "Exercise Bike Indoor 10",
+        "s":  "exercise-bike-indoor-994",
+        "c":  "fitness",
+        "r":  4.3
+    },
+    {
+        "a":  "B0264396211",
+        "t":  "Fire TV Stick 4K Max 10",
+        "s":  "fire-tv-stick-4k-max-995",
+        "c":  "streaming",
+        "r":  4.4
+    },
+    {
+        "a":  "B0855518029",
+        "t":  "Smart Doorbell Camera 10",
+        "s":  "smart-doorbell-camera-996",
+        "c":  "smart-home",
+        "r":  4.4
+    },
+    {
+        "a":  "B0878914087",
+        "t":  "E-Reader 6\" Touchscreen 10",
+        "s":  "e-reader-6-touchscreen-997",
+        "c":  "kindle",
+        "r":  4.5
+    },
+    {
+        "a":  "B0865930786",
+        "t":  "Gas Grill 3 Burner Pro 10",
+        "s":  "gas-grill-3-burner-pro-998",
+        "c":  "grills",
+        "r":  4.5
+    },
+    {
+        "a":  "B0177724810",
+        "t":  "Coffee Machine Espresso 10",
+        "s":  "coffee-machine-espresso-999",
+        "c":  "kitchen",
+        "r":  4.6
+    },
+    {
+        "a":  "B08JHCVHTY",
+        "t":  "Blink Plus Plan with Monthly Auto-Renewal",
+        "s":  "blink-plus-plan-with-monthly-auto-renewal-1001",
+        "c":  "electronics",
+        "r":  4.4
+    },
+    {
+        "a":  "B0DCH8VDXF",
+        "t":  "Apple EarPods Headphones with USB-C Plug",
+        "s":  "apple-earpods-headphones-with-usb-c-plug-1003",
+        "c":  "electronics",
+        "r":  4.6
+    },
+    {
+        "a":  "B0DGHMNQ5Z",
+        "t":  "Apple AirPods 4 Wireless Earbuds",
+        "s":  "apple-airpods-4-wireless-earbuds-1005",
+        "c":  "electronics",
+        "r":  4.5
+    },
+    {
+        "a":  "B0GJTFXNRX",
+        "t":  "Apple AirTag (2nd Generation)",
+        "s":  "apple-airtag-2nd-generation--1007",
+        "c":  "electronics",
+        "r":  4.6
+    },
+    {
+        "a":  "B0DZ75TN5F",
+        "t":  "Apple iPad 11-inch with A16 Chip",
+        "s":  "apple-ipad-11-inch-with-a16-chip-1009",
+        "c":  "electronics",
+        "r":  4.7
+    },
+    {
+        "a":  "B09PDLBFKY",
+        "t":  "Surge Protector Power Strip 6ft with USB",
+        "s":  "surge-protector-power-strip-6ft-with-usb-1011",
+        "c":  "electronics",
+        "r":  4.6
+    },
+    {
+        "a":  "B0DXXYS4BJ",
+        "t":  "Roku Streaming Stick HD 2025",
+        "s":  "roku-streaming-stick-hd-2025-1013",
+        "c":  "electronics",
+        "r":  4.7
+    },
+    {
+        "a":  "B0FQFB8FMG",
+        "t":  "Apple AirPods Pro 3 Wireless Earbuds",
+        "s":  "apple-airpods-pro-3-wireless-earbuds-1015",
+        "c":  "electronics",
+        "r":  4.4
+    },
+    {
+        "a":  "B0D54JZTHY",
+        "t":  "Apple AirTag (1st Generation) 4 Pack",
+        "s":  "apple-airtag-1st-generation-4-pack-1017",
+        "c":  "electronics",
+        "r":  4.8
+    },
+    {
+        "a":  "B08R6S1M1K",
+        "t":  "Wall Charger Surge Protector QINLIANF",
+        "s":  "wall-charger-surge-protector-qinlianf-1019",
+        "c":  "electronics",
+        "r":  4.7
+    },
+    {
+        "a":  "B0CQMRKRV5",
+        "t":  "Amazon Fire TV Stick HD",
+        "s":  "amazon-fire-tv-stick-hd-1021",
+        "c":  "electronics",
+        "r":  4.7
+    },
+    {
+        "a":  "B09Z6Q2MLC",
+        "t":  "Roku TV Replacement Remote Control (2 Pack)",
+        "s":  "roku-tv-replacement-remote-control-2-pack--1023",
+        "c":  "electronics",
+        "r":  4.5
+    },
+    {
+        "a":  "B0CFPJYX7P",
+        "t":  "Amazon Kindle Paperwhite 16GB",
+        "s":  "amazon-kindle-paperwhite-16gb-1025",
+        "c":  "electronics",
+        "r":  4.6
+    },
+    {
+        "a":  "B0DZ254SSR",
+        "t":  "10Ft Extension Cord Surge Protector",
+        "s":  "10ft-extension-cord-surge-protector-1027",
+        "c":  "electronics",
+        "r":  4.8
+    },
+    {
+        "a":  "B0FQF9ZX7P",
+        "t":  "Apple Watch Series 11 GPS 42mm",
+        "s":  "apple-watch-series-11-gps-42mm-1029",
+        "c":  "electronics",
+        "r":  4.8
+    },
+    {
+        "a":  "B0F7Z4QZTT",
+        "t":  "Amazon Fire TV Stick 4K Plus",
+        "s":  "amazon-fire-tv-stick-4k-plus-1031",
+        "c":  "electronics",
+        "r":  4.7
+    },
+    {
+        "a":  "B00EB4ADQW",
+        "t":  "FujifILM Instax Mini Instant Film Twin Pack",
+        "s":  "fujifilm-instax-mini-instant-film-twin-pack-1033",
+        "c":  "electronics",
+        "r":  4.8
+    },
+    {
+        "a":  "B092J8LPWR",
+        "t":  "Surge Protector Power Strip HANYCONY",
+        "s":  "surge-protector-power-strip-hanycony-1035",
+        "c":  "electronics",
+        "r":  4.8
+    },
+    {
+        "a":  "B0D7FVQ1ZB",
+        "t":  "Apple EarPods with Lightning Connector",
+        "s":  "apple-earpods-with-lightning-connector-1019",
+        "c":  "headphones",
+        "r":  4.6
+    },
+    {
+        "a":  "B09DT48V16",
+        "t":  "TAGRY Bluetooth Headphones True Wireless",
+        "s":  "tagry-bluetooth-headphones-true-wireless-1020",
+        "c":  "headphones",
+        "r":  4.4
+    },
+    {
+        "a":  "B0CXGXT6W8",
+        "t":  "JLab Go Air Pop+ True Wireless Earbuds",
+        "s":  "jlab-go-air-pop-true-wireless-earbuds-1021",
+        "c":  "headphones",
+        "r":  4.4
+    },
+    {
+        "a":  "B0C3HCD34R",
+        "t":  "Soundcore Q20i Hybrid ANC Headphones",
+        "s":  "soundcore-q20i-hybrid-anc-headphones-1022",
+        "c":  "headphones",
+        "r":  4.6
+    },
+    {
+        "a":  "B0BTYCRJSS",
+        "t":  "Soundcore P20i True Wireless Earbuds",
+        "s":  "soundcore-p20i-true-wireless-earbuds-1023",
+        "c":  "headphones",
+        "r":  4.4
+    },
+    {
+        "a":  "B0CZPLV566",
+        "t":  "Beats Solo 4 Wireless On-Ear Headphones",
+        "s":  "beats-solo-4-wireless-on-ear-headphones-1024",
+        "c":  "headphones",
+        "r":  4.6
+    },
+    {
+        "a":  "B09FT58QQP",
+        "t":  "TOZO A1 Wireless Earbuds Bluetooth 5.3",
+        "s":  "tozo-a1-wireless-earbuds-bluetooth-5-3-1025",
+        "c":  "headphones",
+        "r":  4.3
+    },
+    {
+        "a":  "B0FHWKYT89",
+        "t":  "Wireless Earbuds Bluetooth 5.4 Noise Cancelling",
+        "s":  "wireless-earbuds-bluetooth-5-4-noise-cancelling-1026",
+        "c":  "headphones",
+        "r":  4.5
+    },
+    {
+        "a":  "B0D635YLCT",
+        "t":  "kurdene Wireless Earbuds Bluetooth 5.3",
+        "s":  "kurdene-wireless-earbuds-bluetooth-5-3-1027",
+        "c":  "headphones",
+        "r":  4.3
+    },
+    {
+        "a":  "B0C8PR4W22",
+        "t":  "Beats Studio Pro Premium Wireless Over-Ear",
+        "s":  "beats-studio-pro-premium-wireless-over-ear-1028",
+        "c":  "headphones",
+        "r":  4.5
+    },
+    {
+        "a":  "B07RZ74VLR",
+        "t":  "Roblox Digital Gift Card 1000 Robux",
+        "s":  "roblox-digital-gift-card-1000-robux-1029",
+        "c":  "videogames",
+        "r":  4.5
+    },
+    {
+        "a":  "B085TRCCT6",
+        "t":  "Luna Premium Subscription",
+        "s":  "luna-premium-subscription-1030",
+        "c":  "videogames",
+        "r":  4.5
+    },
+    {
+        "a":  "B00GAC1D2G",
+        "t":  "PlayStation Store Gift Card 10",
+        "s":  "playstation-store-gift-card-10-1031",
+        "c":  "videogames",
+        "r":  4.6
+    },
+    {
+        "a":  "B00F4CEHNK",
+        "t":  "Xbox Gift Card 10",
+        "s":  "xbox-gift-card-10-1032",
+        "c":  "videogames",
+        "r":  4.6
+    },
+    {
+        "a":  "B0F1HX3WXX",
+        "t":  "Xbox Wireless Gaming Controller 2025",
+        "s":  "xbox-wireless-gaming-controller-2025-1033",
+        "c":  "videogames",
+        "r":  4.6
+    },
+    {
+        "a":  "B0FY6Y9WZT",
+        "t":  "PlayStation DualSense Wireless Controller",
+        "s":  "playstation-dualsense-wireless-controller-1034",
+        "c":  "videogames",
+        "r":  4.7
+    },
+    {
+        "a":  "B0BJPXXM7D",
+        "t":  "Ailun Screen Protector for iPad 11th/10th Gen",
+        "s":  "ailun-screen-protector-for-ipad-11th-10th-gen-1035",
+        "c":  "computers",
+        "r":  4.6
+    },
+    {
+        "a":  "B09MQWWP87",
+        "t":  "Taygeer Travel Backpack Women USB Charging Port",
+        "s":  "taygeer-travel-backpack-women-usb-charging-po-1036",
+        "c":  "computers",
+        "r":  4.7
+    },
+    {
+        "a":  "B0B8STRJYJ",
+        "t":  "MoKo iPad Case 11th Generation Stand",
+        "s":  "moko-ipad-case-11th-generation-stand-1037",
+        "c":  "computers",
+        "r":  4.6
+    },
+    {
+        "a":  "B09ZTXVNVD",
+        "t":  "Metapen A8 iPad Pencil Magnetic Attachment",
+        "s":  "metapen-a8-ipad-pencil-magnetic-attachment-1038",
+        "c":  "computers",
+        "r":  4.5
+    },
+    {
+        "a":  "B0D3J71RM7",
+        "t":  "Apple Pencil Pro Latest Model",
+        "s":  "apple-pencil-pro-latest-model-1039",
+        "c":  "computers",
+        "r":  4.6
+    },
+    {
+        "a":  "B0BDKJFRX4",
+        "t":  "ProCase Screen Protector iPad 11th/10th",
+        "s":  "procase-screen-protector-ipad-11th-10th-1040",
+        "c":  "computers",
+        "r":  4.6
+    },
+    {
+        "a":  "B0CL7J12YK",
+        "t":  "Apple Pencil USB-C",
+        "s":  "apple-pencil-usb-c-1041",
+        "c":  "computers",
+        "r":  4.6
+    },
+    {
+        "a":  "B0BKL7KD6Y",
+        "t":  "SPARIN Screen Protector iPad 11th/10th",
+        "s":  "sparin-screen-protector-ipad-11th-10th-1042",
+        "c":  "computers",
+        "r":  4.6
+    },
+    {
+        "a":  "B09C5RG6KV",
+        "t":  "Anker 65W 3-Port Fast Charger MacBook",
+        "s":  "anker-65w-3-port-fast-charger-macbook-1043",
+        "c":  "computers",
+        "r":  4.7
+    },
+    {
+        "a":  "B0G1MRLXMV",
+        "t":  "Anker Nano 45W USB C Wall Charger",
+        "s":  "anker-nano-45w-usb-c-wall-charger-1044",
+        "c":  "computers",
+        "r":  4.7
+    },
+    {
+        "a":  "B0C8ZKV5R9",
+        "t":  "Philips 24 inch Frameless Full HD Monitor",
+        "s":  "philips-24-inch-frameless-full-hd-monitor-1045",
+        "c":  "computers",
+        "r":  4.6
+    },
+    {
+        "a":  "B0CT2R7199",
+        "t":  "HP DeskJet 2855e Wireless All-in-One Printer",
+        "s":  "hp-deskjet-2855e-wireless-all-in-one-printer-1046",
+        "c":  "computers",
+        "r":  3.8
+    },
+    {
+        "a":  "B01N6M1Y9N",
+        "t":  "MOSISO Laptop Case 13.3 inch Sleeve",
+        "s":  "mosiso-laptop-case-13-3-inch-sleeve-1047",
+        "c":  "computers",
+        "r":  4.7
+    },
+    {
+        "a":  "B0DZD91W4F",
+        "t":  "Apple 2025 MacBook Air 13-inch M4 Chip",
+        "s":  "apple-2025-macbook-air-13-inch-m4-chip-1048",
+        "c":  "computers",
+        "r":  4.8
+    },
+    {
+        "a":  "B0BD9P8CFG",
+        "t":  "MOBDIK Paperfeel Screen Protector iPad",
+        "s":  "mobdik-paperfeel-screen-protector-ipad-1049",
+        "c":  "computers",
+        "r":  4.5
+    },
+    {
+        "a":  "B0FDQK69GQ",
+        "t":  "Ailun Screen Protector iPhone 17 Pro Max 3 Pack",
+        "s":  "ailun-screen-protector-iphone-17-pro-max-3-pa-1050",
+        "c":  "cellphones",
+        "r":  4.6
+    },
+    {
+        "a":  "B0FDQH511S",
+        "t":  "Ailun Screen Protector iPhone 17 Pro Max Privacy",
+        "s":  "ailun-screen-protector-iphone-17-pro-max-priv-1051",
+        "c":  "cellphones",
+        "r":  4.5
+    },
+    {
+        "a":  "B0F8VZ7QVX",
+        "t":  "NEW C Screen Protector iPhone 17 Pro",
+        "s":  "new-c-screen-protector-iphone-17-pro-1052",
+        "c":  "cellphones",
+        "r":  4.6
+    },
+    {
+        "a":  "B0FDQH15KW",
+        "t":  "Ailun Privacy Screen Protector iPhone 17 Pro Max",
+        "s":  "ailun-privacy-screen-protector-iphone-17-pro--1053",
+        "c":  "cellphones",
+        "r":  4.4
+    },
+    {
+        "a":  "B08TJRVWV1",
+        "t":  "Amazon Basics Micro SDXC 128GB Memory Card",
+        "s":  "amazon-basics-micro-sdxc-128gb-memory-card-1054",
+        "c":  "cellphones",
+        "r":  4.7
+    },
+    {
+        "a":  "B09KR8P3L5",
+        "t":  "iPhone Fast Charger 20W USB C Wall Charger",
+        "s":  "iphone-fast-charger-20w-usb-c-wall-charger-1055",
+        "c":  "cellphones",
+        "r":  4.5
+    },
+    {
+        "a":  "B088NRLMPV",
+        "t":  "Anker USB C to USB C Cable 60W 2Pack",
+        "s":  "anker-usb-c-to-usb-c-cable-60w-2pack-1056",
+        "c":  "cellphones",
+        "r":  4.7
+    },
+    {
+        "a":  "B0FH4ZWQ6X",
+        "t":  "PEHAEL Privacy Screen Protector iPhone 17 Pro Max",
+        "s":  "pehael-privacy-screen-protector-iphone-17-pro-1057",
+        "c":  "cellphones",
+        "r":  4.4
+    },
+    {
+        "a":  "B0DFVB13XF",
+        "t":  "Misxi Case Apple Watch Series 11 46mm",
+        "s":  "misxi-case-apple-watch-series-11-46mm-1058",
+        "c":  "cellphones",
+        "r":  4.4
+    },
+    {
+        "a":  "B0B283QP2N",
+        "t":  "iPhone Fast Charger 2 Pack with Lightning Cable",
+        "s":  "iphone-fast-charger-2-pack-with-lightning-cab-1059",
+        "c":  "cellphones",
+        "r":  4.4
+    },
+    {
+        "a":  "B0BDF8CVBN",
+        "t":  "MCGOR 10inch Under Cabinet Lighting 2 Pack",
+        "s":  "mcgor-10inch-under-cabinet-lighting-2-pack-1060",
+        "c":  "homeimprovement",
+        "r":  4.5
+    },
+    {
+        "a":  "B00CJZ8LAK",
+        "t":  "FilterBuy 20x20x1 Air Filter MERV 8 4-Pack",
+        "s":  "filterbuy-20x20x1-air-filter-merv-8-4-pack-1061",
+        "c":  "homeimprovement",
+        "r":  4.7
+    },
+    {
+        "a":  "B0882ZJ48W",
+        "t":  "GE XWFE Refrigerator Water Filter",
+        "s":  "ge-xwfe-refrigerator-water-filter-1062",
+        "c":  "homeimprovement",
+        "r":  4.5
+    },
+    {
+        "a":  "B0D18VS397",
+        "t":  "Inspire Black Nitrile Disposable Gloves 4.5mil",
+        "s":  "inspire-black-nitrile-disposable-gloves-4-5mi-1063",
+        "c":  "homeimprovement",
+        "r":  4.6
+    },
+    {
+        "a":  "B00UXG4WR8",
+        "t":  "everydrop Refrigerator Water Filter 1",
+        "s":  "everydrop-refrigerator-water-filter-1-1064",
+        "c":  "homeimprovement",
+        "r":  4.7
+    },
+    {
+        "a":  "B0BZWRSRWV",
+        "t":  "Ring Battery Doorbell Newest Model",
+        "s":  "ring-battery-doorbell-newest-model-1065",
+        "c":  "homeimprovement",
+        "r":  4.6
+    }
+]

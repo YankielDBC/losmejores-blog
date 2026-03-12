@@ -1,0 +1,548 @@
+﻿[
+    {
+        "s":  "robot-vacuum-cleaner-lidar-3",
+        "t":  "Robot Vacuum Cleaner LiDAR 1",
+        "a":  "B0091100795",
+        "r":  4.6
+    },
+    {
+        "s":  "air-purifier-hepa-13-14",
+        "t":  "Air Purifier HEPA 13 1",
+        "a":  "B0906432750",
+        "r":  4.1
+    },
+    {
+        "s":  "smart-thermostat-wifi-25",
+        "t":  "Smart Thermostat WiFi 1",
+        "a":  "B0009741184",
+        "r":  4.2
+    },
+    {
+        "s":  "coffee-maker-programmable-36",
+        "t":  "Coffee Maker Programmable 1",
+        "a":  "B0289869625",
+        "r":  4.3
+    },
+    {
+        "s":  "instant-pot-7-in-1-47",
+        "t":  "Instant Pot 7-in-1 1",
+        "a":  "B0061767562",
+        "r":  4.4
+    },
+    {
+        "s":  "blender-professional-1200w-58",
+        "t":  "Blender Professional 1200W 1",
+        "a":  "B0428637765",
+        "r":  4.5
+    },
+    {
+        "s":  "air-fryer-xxl-digital-69",
+        "t":  "Air Fryer XXL Digital 1",
+        "a":  "B0651860564",
+        "r":  4.6
+    },
+    {
+        "s":  "robot-mop-automatic-80",
+        "t":  "Robot Mop Automatic 1",
+        "a":  "B0128988229",
+        "r":  4.2
+    },
+    {
+        "s":  "dehumidifier-electric-91",
+        "t":  "Dehumidifier Electric 1",
+        "a":  "B0367013044",
+        "r":  4.3
+    },
+    {
+        "s":  "humidifier-ultrasonic-102",
+        "t":  "Humidifier Ultrasonic 2",
+        "a":  "B0683012925",
+        "r":  4.9
+    },
+    {
+        "s":  "vacuum-cleaner-bagless-113",
+        "t":  "Vacuum Cleaner Bagless 2",
+        "a":  "B0895628004",
+        "r":  5
+    },
+    {
+        "s":  "window-cleaner-robot-124",
+        "t":  "Window Cleaner Robot 2",
+        "a":  "B0358599631",
+        "r":  3.6
+    },
+    {
+        "s":  "pet-hair-remover-135",
+        "t":  "Pet Hair Remover 2",
+        "a":  "B0813687408",
+        "r":  3.7
+    },
+    {
+        "s":  "steam-cleaner-multi-surface-146",
+        "t":  "Steam Cleaner Multi-Surface 2",
+        "a":  "B0450990645",
+        "r":  3.8
+    },
+    {
+        "s":  "dishwasher-portable-157",
+        "t":  "Dishwasher Portable 2",
+        "a":  "B0619797334",
+        "r":  3.9
+    },
+    {
+        "s":  "robot-vacuum-cleaner-lidar-168",
+        "t":  "Robot Vacuum Cleaner LiDAR 2",
+        "a":  "B0142374194",
+        "r":  4
+    },
+    {
+        "s":  "air-purifier-hepa-13-179",
+        "t":  "Air Purifier HEPA 13 2",
+        "a":  "B0767000785",
+        "r":  4.1
+    },
+    {
+        "s":  "smart-thermostat-wifi-190",
+        "t":  "Smart Thermostat WiFi 2",
+        "a":  "B0444097545",
+        "r":  3.7
+    },
+    {
+        "s":  "coffee-maker-programmable-201",
+        "t":  "Coffee Maker Programmable 3",
+        "a":  "B0334578080",
+        "r":  4.9
+    },
+    {
+        "s":  "instant-pot-7-in-1-212",
+        "t":  "Instant Pot 7-in-1 3",
+        "a":  "B0282457555",
+        "r":  5
+    },
+    {
+        "s":  "blender-professional-1200w-223",
+        "t":  "Blender Professional 1200W 3",
+        "a":  "B0877357781",
+        "r":  3.6
+    },
+    {
+        "s":  "air-fryer-xxl-digital-234",
+        "t":  "Air Fryer XXL Digital 3",
+        "a":  "B0349920096",
+        "r":  3.7
+    },
+    {
+        "s":  "robot-mop-automatic-245",
+        "t":  "Robot Mop Automatic 3",
+        "a":  "B0967070466",
+        "r":  3.8
+    },
+    {
+        "s":  "dehumidifier-electric-256",
+        "t":  "Dehumidifier Electric 3",
+        "a":  "B0494896485",
+        "r":  3.9
+    },
+    {
+        "s":  "humidifier-ultrasonic-267",
+        "t":  "Humidifier Ultrasonic 3",
+        "a":  "B0619388231",
+        "r":  4
+    },
+    {
+        "s":  "vacuum-cleaner-bagless-278",
+        "t":  "Vacuum Cleaner Bagless 3",
+        "a":  "B0142718857",
+        "r":  4.1
+    },
+    {
+        "s":  "window-cleaner-robot-289",
+        "t":  "Window Cleaner Robot 3",
+        "a":  "B0199827952",
+        "r":  4.2
+    },
+    {
+        "s":  "pet-hair-remover-300",
+        "t":  "Pet Hair Remover 4",
+        "a":  "B0222473996",
+        "r":  4.9
+    },
+    {
+        "s":  "steam-cleaner-multi-surface-311",
+        "t":  "Steam Cleaner Multi-Surface 4",
+        "a":  "B0193843363",
+        "r":  5
+    },
+    {
+        "s":  "dishwasher-portable-322",
+        "t":  "Dishwasher Portable 4",
+        "a":  "B0545845398",
+        "r":  3.6
+    },
+    {
+        "s":  "robot-vacuum-cleaner-lidar-333",
+        "t":  "Robot Vacuum Cleaner LiDAR 4",
+        "a":  "B0312971417",
+        "r":  3.7
+    },
+    {
+        "s":  "air-purifier-hepa-13-344",
+        "t":  "Air Purifier HEPA 13 4",
+        "a":  "B0942500939",
+        "r":  3.8
+    },
+    {
+        "s":  "smart-thermostat-wifi-355",
+        "t":  "Smart Thermostat WiFi 4",
+        "a":  "B0802938285",
+        "r":  3.9
+    },
+    {
+        "s":  "coffee-maker-programmable-366",
+        "t":  "Coffee Maker Programmable 4",
+        "a":  "B0515212555",
+        "r":  4
+    },
+    {
+        "s":  "instant-pot-7-in-1-377",
+        "t":  "Instant Pot 7-in-1 4",
+        "a":  "B0577648714",
+        "r":  4.1
+    },
+    {
+        "s":  "blender-professional-1200w-388",
+        "t":  "Blender Professional 1200W 4",
+        "a":  "B0510955640",
+        "r":  4.2
+    },
+    {
+        "s":  "air-fryer-xxl-digital-399",
+        "t":  "Air Fryer XXL Digital 4",
+        "a":  "B0982307520",
+        "r":  4.3
+    },
+    {
+        "s":  "robot-mop-automatic-410",
+        "t":  "Robot Mop Automatic 5",
+        "a":  "B0148678445",
+        "r":  5
+    },
+    {
+        "s":  "dehumidifier-electric-421",
+        "t":  "Dehumidifier Electric 5",
+        "a":  "B0927893539",
+        "r":  3.6
+    },
+    {
+        "s":  "humidifier-ultrasonic-432",
+        "t":  "Humidifier Ultrasonic 5",
+        "a":  "B0001847475",
+        "r":  3.7
+    },
+    {
+        "s":  "vacuum-cleaner-bagless-443",
+        "t":  "Vacuum Cleaner Bagless 5",
+        "a":  "B0654677066",
+        "r":  3.8
+    },
+    {
+        "s":  "window-cleaner-robot-454",
+        "t":  "Window Cleaner Robot 5",
+        "a":  "B0419219423",
+        "r":  3.9
+    },
+    {
+        "s":  "pet-hair-remover-465",
+        "t":  "Pet Hair Remover 5",
+        "a":  "B0030664809",
+        "r":  4
+    },
+    {
+        "s":  "steam-cleaner-multi-surface-476",
+        "t":  "Steam Cleaner Multi-Surface 5",
+        "a":  "B0092040948",
+        "r":  4.1
+    },
+    {
+        "s":  "dishwasher-portable-487",
+        "t":  "Dishwasher Portable 5",
+        "a":  "B0492359189",
+        "r":  4.2
+    },
+    {
+        "s":  "robot-vacuum-cleaner-lidar-498",
+        "t":  "Robot Vacuum Cleaner LiDAR 5",
+        "a":  "B0376938111",
+        "r":  4.3
+    },
+    {
+        "s":  "air-purifier-hepa-13-509",
+        "t":  "Air Purifier HEPA 13 6",
+        "a":  "B0556998177",
+        "r":  3.9
+    },
+    {
+        "s":  "smart-thermostat-wifi-520",
+        "t":  "Smart Thermostat WiFi 6",
+        "a":  "B0302458467",
+        "r":  3.6
+    },
+    {
+        "s":  "coffee-maker-programmable-531",
+        "t":  "Coffee Maker Programmable 6",
+        "a":  "B0064598548",
+        "r":  3.7
+    },
+    {
+        "s":  "instant-pot-7-in-1-542",
+        "t":  "Instant Pot 7-in-1 6",
+        "a":  "B0805911058",
+        "r":  3.8
+    },
+    {
+        "s":  "blender-professional-1200w-553",
+        "t":  "Blender Professional 1200W 6",
+        "a":  "B0777128684",
+        "r":  3.9
+    },
+    {
+        "s":  "air-fryer-xxl-digital-564",
+        "t":  "Air Fryer XXL Digital 6",
+        "a":  "B0805455960",
+        "r":  4
+    },
+    {
+        "s":  "robot-mop-automatic-575",
+        "t":  "Robot Mop Automatic 6",
+        "a":  "B0489211903",
+        "r":  4.1
+    },
+    {
+        "s":  "dehumidifier-electric-586",
+        "t":  "Dehumidifier Electric 6",
+        "a":  "B0830234203",
+        "r":  4.2
+    },
+    {
+        "s":  "humidifier-ultrasonic-597",
+        "t":  "Humidifier Ultrasonic 6",
+        "a":  "B0969426352",
+        "r":  4.3
+    },
+    {
+        "s":  "vacuum-cleaner-bagless-608",
+        "t":  "Vacuum Cleaner Bagless 7",
+        "a":  "B0317822969",
+        "r":  3.9
+    },
+    {
+        "s":  "window-cleaner-robot-619",
+        "t":  "Window Cleaner Robot 7",
+        "a":  "B0158605720",
+        "r":  4
+    },
+    {
+        "s":  "pet-hair-remover-630",
+        "t":  "Pet Hair Remover 7",
+        "a":  "B0109296014",
+        "r":  3.7
+    },
+    {
+        "s":  "steam-cleaner-multi-surface-641",
+        "t":  "Steam Cleaner Multi-Surface 7",
+        "a":  "B0062243524",
+        "r":  3.8
+    },
+    {
+        "s":  "dishwasher-portable-652",
+        "t":  "Dishwasher Portable 7",
+        "a":  "B0389781274",
+        "r":  3.9
+    },
+    {
+        "s":  "robot-vacuum-cleaner-lidar-663",
+        "t":  "Robot Vacuum Cleaner LiDAR 7",
+        "a":  "B0756490702",
+        "r":  4
+    },
+    {
+        "s":  "air-purifier-hepa-13-674",
+        "t":  "Air Purifier HEPA 13 7",
+        "a":  "B0471944317",
+        "r":  4.1
+    },
+    {
+        "s":  "smart-thermostat-wifi-685",
+        "t":  "Smart Thermostat WiFi 7",
+        "a":  "B0076270149",
+        "r":  4.2
+    },
+    {
+        "s":  "coffee-maker-programmable-696",
+        "t":  "Coffee Maker Programmable 7",
+        "a":  "B0951061678",
+        "r":  4.3
+    },
+    {
+        "s":  "instant-pot-7-in-1-707",
+        "t":  "Instant Pot 7-in-1 8",
+        "a":  "B0516552951",
+        "r":  3.9
+    },
+    {
+        "s":  "blender-professional-1200w-718",
+        "t":  "Blender Professional 1200W 8",
+        "a":  "B0596305774",
+        "r":  4
+    },
+    {
+        "s":  "air-fryer-xxl-digital-729",
+        "t":  "Air Fryer XXL Digital 8",
+        "a":  "B0927974170",
+        "r":  4.1
+    },
+    {
+        "s":  "robot-mop-automatic-740",
+        "t":  "Robot Mop Automatic 8",
+        "a":  "B0014962446",
+        "r":  3.8
+    },
+    {
+        "s":  "dehumidifier-electric-751",
+        "t":  "Dehumidifier Electric 8",
+        "a":  "B0683551411",
+        "r":  3.9
+    },
+    {
+        "s":  "humidifier-ultrasonic-762",
+        "t":  "Humidifier Ultrasonic 8",
+        "a":  "B0879034304",
+        "r":  4
+    },
+    {
+        "s":  "vacuum-cleaner-bagless-773",
+        "t":  "Vacuum Cleaner Bagless 8",
+        "a":  "B0680376339",
+        "r":  4.1
+    },
+    {
+        "s":  "window-cleaner-robot-784",
+        "t":  "Window Cleaner Robot 8",
+        "a":  "B0981500959",
+        "r":  4.2
+    },
+    {
+        "s":  "pet-hair-remover-795",
+        "t":  "Pet Hair Remover 8",
+        "a":  "B0402352193",
+        "r":  4.3
+    },
+    {
+        "s":  "steam-cleaner-multi-surface-806",
+        "t":  "Steam Cleaner Multi-Surface 9",
+        "a":  "B0009237097",
+        "r":  3.9
+    },
+    {
+        "s":  "dishwasher-portable-817",
+        "t":  "Dishwasher Portable 9",
+        "a":  "B0600357862",
+        "r":  4
+    },
+    {
+        "s":  "robot-vacuum-cleaner-lidar-828",
+        "t":  "Robot Vacuum Cleaner LiDAR 9",
+        "a":  "B0872474272",
+        "r":  4.1
+    },
+    {
+        "s":  "air-purifier-hepa-13-839",
+        "t":  "Air Purifier HEPA 13 9",
+        "a":  "B0730183118",
+        "r":  4.2
+    },
+    {
+        "s":  "smart-thermostat-wifi-850",
+        "t":  "Smart Thermostat WiFi 9",
+        "a":  "B0117792903",
+        "r":  3.9
+    },
+    {
+        "s":  "coffee-maker-programmable-861",
+        "t":  "Coffee Maker Programmable 9",
+        "a":  "B0464497680",
+        "r":  4
+    },
+    {
+        "s":  "instant-pot-7-in-1-872",
+        "t":  "Instant Pot 7-in-1 9",
+        "a":  "B0654943955",
+        "r":  4.1
+    },
+    {
+        "s":  "blender-professional-1200w-883",
+        "t":  "Blender Professional 1200W 9",
+        "a":  "B0615338941",
+        "r":  4.2
+    },
+    {
+        "s":  "air-fryer-xxl-digital-894",
+        "t":  "Air Fryer XXL Digital 9",
+        "a":  "B0389230467",
+        "r":  4.3
+    },
+    {
+        "s":  "robot-mop-automatic-905",
+        "t":  "Robot Mop Automatic 10",
+        "a":  "B0639647216",
+        "r":  3.9
+    },
+    {
+        "s":  "dehumidifier-electric-916",
+        "t":  "Dehumidifier Electric 10",
+        "a":  "B0302101928",
+        "r":  4
+    },
+    {
+        "s":  "humidifier-ultrasonic-927",
+        "t":  "Humidifier Ultrasonic 10",
+        "a":  "B0259509038",
+        "r":  4.1
+    },
+    {
+        "s":  "vacuum-cleaner-bagless-938",
+        "t":  "Vacuum Cleaner Bagless 10",
+        "a":  "B0478021401",
+        "r":  4.2
+    },
+    {
+        "s":  "window-cleaner-robot-949",
+        "t":  "Window Cleaner Robot 10",
+        "a":  "B0709806343",
+        "r":  4.3
+    },
+    {
+        "s":  "pet-hair-remover-960",
+        "t":  "Pet Hair Remover 10",
+        "a":  "B0451461304",
+        "r":  4
+    },
+    {
+        "s":  "steam-cleaner-multi-surface-971",
+        "t":  "Steam Cleaner Multi-Surface 10",
+        "a":  "B0566965707",
+        "r":  4.1
+    },
+    {
+        "s":  "dishwasher-portable-982",
+        "t":  "Dishwasher Portable 10",
+        "a":  "B0426494622",
+        "r":  4.2
+    },
+    {
+        "s":  "robot-vacuum-cleaner-lidar-993",
+        "t":  "Robot Vacuum Cleaner LiDAR 10",
+        "a":  "B0144913335",
+        "r":  4.3
+    }
+]

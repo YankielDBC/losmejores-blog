@@ -1,0 +1,548 @@
+﻿[
+    {
+        "s":  "smart-doorbell-camera-6",
+        "t":  "Smart Doorbell Camera 1",
+        "a":  "B0360422357",
+        "r":  4.7
+    },
+    {
+        "s":  "security-camera-indoor-2k-17",
+        "t":  "Security Camera Indoor 2K 1",
+        "a":  "B0955459436",
+        "r":  4.2
+    },
+    {
+        "s":  "smart-lock-fingerprint-28",
+        "t":  "Smart Lock Fingerprint 1",
+        "a":  "B0419237441",
+        "r":  4.3
+    },
+    {
+        "s":  "echo-dot-5th-gen-39",
+        "t":  "Echo Dot 5th Gen 1",
+        "a":  "B0616811313",
+        "r":  4.4
+    },
+    {
+        "s":  "smart-light-bulbs-rgb-50",
+        "t":  "Smart Light Bulbs RGB 1",
+        "a":  "B0932694264",
+        "r":  4.1
+    },
+    {
+        "s":  "motion-sensor-kit-61",
+        "t":  "Motion Sensor Kit 1",
+        "a":  "B0415023255",
+        "r":  4.2
+    },
+    {
+        "s":  "smart-plug-mini-72",
+        "t":  "Smart Plug Mini 1",
+        "a":  "B0719004364",
+        "r":  4.3
+    },
+    {
+        "s":  "video-doorbell-pro-83",
+        "t":  "Video Doorbell Pro 1",
+        "a":  "B0579623945",
+        "r":  4.4
+    },
+    {
+        "s":  "garage-door-opener-smart-94",
+        "t":  "Garage Door Opener Smart 1",
+        "a":  "B0083168650",
+        "r":  4.5
+    },
+    {
+        "s":  "smart-switch-wifi-105",
+        "t":  "Smart Switch WiFi 2",
+        "a":  "B0552767369",
+        "r":  3.5
+    },
+    {
+        "s":  "smart-thermostat-learning-116",
+        "t":  "Smart Thermostat Learning 2",
+        "a":  "B0014262889",
+        "r":  3.6
+    },
+    {
+        "s":  "window-sensor-alarm-127",
+        "t":  "Window Sensor Alarm 2",
+        "a":  "B0537965379",
+        "r":  3.7
+    },
+    {
+        "s":  "water-leak-detector-138",
+        "t":  "Water Leak Detector 2",
+        "a":  "B0276571414",
+        "r":  3.8
+    },
+    {
+        "s":  "smart-bulb-e27-149",
+        "t":  "Smart Bulb E27 2",
+        "a":  "B0390082009",
+        "r":  3.9
+    },
+    {
+        "s":  "curtain-motor-smart-160",
+        "t":  "Curtain Motor Smart 2",
+        "a":  "B0075895036",
+        "r":  3.6
+    },
+    {
+        "s":  "smart-doorbell-camera-171",
+        "t":  "Smart Doorbell Camera 2",
+        "a":  "B0688746565",
+        "r":  3.7
+    },
+    {
+        "s":  "security-camera-indoor-2k-182",
+        "t":  "Security Camera Indoor 2K 2",
+        "a":  "B0077786572",
+        "r":  3.8
+    },
+    {
+        "s":  "smart-lock-fingerprint-193",
+        "t":  "Smart Lock Fingerprint 2",
+        "a":  "B0639365785",
+        "r":  3.9
+    },
+    {
+        "s":  "echo-dot-5th-gen-204",
+        "t":  "Echo Dot 5th Gen 3",
+        "a":  "B0221385401",
+        "r":  3.5
+    },
+    {
+        "s":  "smart-light-bulbs-rgb-215",
+        "t":  "Smart Light Bulbs RGB 3",
+        "a":  "B0194869566",
+        "r":  3.6
+    },
+    {
+        "s":  "motion-sensor-kit-226",
+        "t":  "Motion Sensor Kit 3",
+        "a":  "B0454283728",
+        "r":  3.7
+    },
+    {
+        "s":  "smart-plug-mini-237",
+        "t":  "Smart Plug Mini 3",
+        "a":  "B0206924917",
+        "r":  3.8
+    },
+    {
+        "s":  "video-doorbell-pro-248",
+        "t":  "Video Doorbell Pro 3",
+        "a":  "B0433247871",
+        "r":  3.9
+    },
+    {
+        "s":  "garage-door-opener-smart-259",
+        "t":  "Garage Door Opener Smart 3",
+        "a":  "B0054542954",
+        "r":  4
+    },
+    {
+        "s":  "smart-switch-wifi-270",
+        "t":  "Smart Switch WiFi 3",
+        "a":  "B0460400536",
+        "r":  3.7
+    },
+    {
+        "s":  "smart-thermostat-learning-281",
+        "t":  "Smart Thermostat Learning 3",
+        "a":  "B0022688472",
+        "r":  3.8
+    },
+    {
+        "s":  "window-sensor-alarm-292",
+        "t":  "Window Sensor Alarm 3",
+        "a":  "B0009146989",
+        "r":  3.9
+    },
+    {
+        "s":  "water-leak-detector-303",
+        "t":  "Water Leak Detector 4",
+        "a":  "B0503992208",
+        "r":  3.5
+    },
+    {
+        "s":  "smart-bulb-e27-314",
+        "t":  "Smart Bulb E27 4",
+        "a":  "B0616193267",
+        "r":  3.6
+    },
+    {
+        "s":  "curtain-motor-smart-325",
+        "t":  "Curtain Motor Smart 4",
+        "a":  "B0468853346",
+        "r":  3.7
+    },
+    {
+        "s":  "smart-doorbell-camera-336",
+        "t":  "Smart Doorbell Camera 4",
+        "a":  "B0350544140",
+        "r":  3.8
+    },
+    {
+        "s":  "security-camera-indoor-2k-347",
+        "t":  "Security Camera Indoor 2K 4",
+        "a":  "B0173463416",
+        "r":  3.9
+    },
+    {
+        "s":  "smart-lock-fingerprint-358",
+        "t":  "Smart Lock Fingerprint 4",
+        "a":  "B0388545182",
+        "r":  4
+    },
+    {
+        "s":  "echo-dot-5th-gen-369",
+        "t":  "Echo Dot 5th Gen 4",
+        "a":  "B0064595746",
+        "r":  4.1
+    },
+    {
+        "s":  "smart-light-bulbs-rgb-380",
+        "t":  "Smart Light Bulbs RGB 4",
+        "a":  "B0874983040",
+        "r":  3.8
+    },
+    {
+        "s":  "motion-sensor-kit-391",
+        "t":  "Motion Sensor Kit 4",
+        "a":  "B0137531917",
+        "r":  3.9
+    },
+    {
+        "s":  "smart-plug-mini-402",
+        "t":  "Smart Plug Mini 5",
+        "a":  "B0165367035",
+        "r":  3.5
+    },
+    {
+        "s":  "video-doorbell-pro-413",
+        "t":  "Video Doorbell Pro 5",
+        "a":  "B0839377621",
+        "r":  3.6
+    },
+    {
+        "s":  "garage-door-opener-smart-424",
+        "t":  "Garage Door Opener Smart 5",
+        "a":  "B0308102724",
+        "r":  3.7
+    },
+    {
+        "s":  "smart-switch-wifi-435",
+        "t":  "Smart Switch WiFi 5",
+        "a":  "B0834505071",
+        "r":  3.8
+    },
+    {
+        "s":  "smart-thermostat-learning-446",
+        "t":  "Smart Thermostat Learning 5",
+        "a":  "B0447179024",
+        "r":  3.9
+    },
+    {
+        "s":  "window-sensor-alarm-457",
+        "t":  "Window Sensor Alarm 5",
+        "a":  "B0910578590",
+        "r":  4
+    },
+    {
+        "s":  "water-leak-detector-468",
+        "t":  "Water Leak Detector 5",
+        "a":  "B0122917204",
+        "r":  4.1
+    },
+    {
+        "s":  "smart-bulb-e27-479",
+        "t":  "Smart Bulb E27 5",
+        "a":  "B0857017843",
+        "r":  4.2
+    },
+    {
+        "s":  "curtain-motor-smart-490",
+        "t":  "Curtain Motor Smart 5",
+        "a":  "B0844922305",
+        "r":  3.9
+    },
+    {
+        "s":  "smart-doorbell-camera-501",
+        "t":  "Smart Doorbell Camera 6",
+        "a":  "B0202219915",
+        "r":  3.5
+    },
+    {
+        "s":  "security-camera-indoor-2k-512",
+        "t":  "Security Camera Indoor 2K 6",
+        "a":  "B0942506779",
+        "r":  3.6
+    },
+    {
+        "s":  "smart-lock-fingerprint-523",
+        "t":  "Smart Lock Fingerprint 6",
+        "a":  "B0034028484",
+        "r":  3.7
+    },
+    {
+        "s":  "echo-dot-5th-gen-534",
+        "t":  "Echo Dot 5th Gen 6",
+        "a":  "B0420886607",
+        "r":  3.8
+    },
+    {
+        "s":  "smart-light-bulbs-rgb-545",
+        "t":  "Smart Light Bulbs RGB 6",
+        "a":  "B0188602613",
+        "r":  3.9
+    },
+    {
+        "s":  "motion-sensor-kit-556",
+        "t":  "Motion Sensor Kit 6",
+        "a":  "B0048870631",
+        "r":  4
+    },
+    {
+        "s":  "smart-plug-mini-567",
+        "t":  "Smart Plug Mini 6",
+        "a":  "B0738164897",
+        "r":  4.1
+    },
+    {
+        "s":  "video-doorbell-pro-578",
+        "t":  "Video Doorbell Pro 6",
+        "a":  "B0572309412",
+        "r":  4.2
+    },
+    {
+        "s":  "garage-door-opener-smart-589",
+        "t":  "Garage Door Opener Smart 6",
+        "a":  "B0770555756",
+        "r":  4.3
+    },
+    {
+        "s":  "smart-switch-wifi-600",
+        "t":  "Smart Switch WiFi 7",
+        "a":  "B0010824134",
+        "r":  3.5
+    },
+    {
+        "s":  "smart-thermostat-learning-611",
+        "t":  "Smart Thermostat Learning 7",
+        "a":  "B0218767143",
+        "r":  3.6
+    },
+    {
+        "s":  "window-sensor-alarm-622",
+        "t":  "Window Sensor Alarm 7",
+        "a":  "B0467194516",
+        "r":  3.7
+    },
+    {
+        "s":  "water-leak-detector-633",
+        "t":  "Water Leak Detector 7",
+        "a":  "B0408252047",
+        "r":  3.8
+    },
+    {
+        "s":  "smart-bulb-e27-644",
+        "t":  "Smart Bulb E27 7",
+        "a":  "B0343200559",
+        "r":  3.9
+    },
+    {
+        "s":  "curtain-motor-smart-655",
+        "t":  "Curtain Motor Smart 7",
+        "a":  "B0186540423",
+        "r":  4
+    },
+    {
+        "s":  "smart-doorbell-camera-666",
+        "t":  "Smart Doorbell Camera 7",
+        "a":  "B0301354652",
+        "r":  4.1
+    },
+    {
+        "s":  "security-camera-indoor-2k-677",
+        "t":  "Security Camera Indoor 2K 7",
+        "a":  "B0953611609",
+        "r":  4.2
+    },
+    {
+        "s":  "smart-lock-fingerprint-688",
+        "t":  "Smart Lock Fingerprint 7",
+        "a":  "B0403845873",
+        "r":  4.3
+    },
+    {
+        "s":  "echo-dot-5th-gen-699",
+        "t":  "Echo Dot 5th Gen 7",
+        "a":  "B0440682356",
+        "r":  4.4
+    },
+    {
+        "s":  "smart-light-bulbs-rgb-710",
+        "t":  "Smart Light Bulbs RGB 8",
+        "a":  "B0104895457",
+        "r":  3.6
+    },
+    {
+        "s":  "motion-sensor-kit-721",
+        "t":  "Motion Sensor Kit 8",
+        "a":  "B0552297960",
+        "r":  3.7
+    },
+    {
+        "s":  "smart-plug-mini-732",
+        "t":  "Smart Plug Mini 8",
+        "a":  "B0995268512",
+        "r":  3.8
+    },
+    {
+        "s":  "video-doorbell-pro-743",
+        "t":  "Video Doorbell Pro 8",
+        "a":  "B0796087555",
+        "r":  3.9
+    },
+    {
+        "s":  "garage-door-opener-smart-754",
+        "t":  "Garage Door Opener Smart 8",
+        "a":  "B0716360996",
+        "r":  4
+    },
+    {
+        "s":  "smart-switch-wifi-765",
+        "t":  "Smart Switch WiFi 8",
+        "a":  "B0194053616",
+        "r":  4.1
+    },
+    {
+        "s":  "smart-thermostat-learning-776",
+        "t":  "Smart Thermostat Learning 8",
+        "a":  "B0036514907",
+        "r":  4.2
+    },
+    {
+        "s":  "window-sensor-alarm-787",
+        "t":  "Window Sensor Alarm 8",
+        "a":  "B0222490122",
+        "r":  4.3
+    },
+    {
+        "s":  "water-leak-detector-798",
+        "t":  "Water Leak Detector 8",
+        "a":  "B0590930185",
+        "r":  4.4
+    },
+    {
+        "s":  "smart-bulb-e27-809",
+        "t":  "Smart Bulb E27 9",
+        "a":  "B0195712580",
+        "r":  4.1
+    },
+    {
+        "s":  "curtain-motor-smart-820",
+        "t":  "Curtain Motor Smart 9",
+        "a":  "B0455976636",
+        "r":  3.7
+    },
+    {
+        "s":  "smart-doorbell-camera-831",
+        "t":  "Smart Doorbell Camera 9",
+        "a":  "B0717913591",
+        "r":  3.8
+    },
+    {
+        "s":  "security-camera-indoor-2k-842",
+        "t":  "Security Camera Indoor 2K 9",
+        "a":  "B0621822228",
+        "r":  3.9
+    },
+    {
+        "s":  "smart-lock-fingerprint-853",
+        "t":  "Smart Lock Fingerprint 9",
+        "a":  "B0431524741",
+        "r":  4
+    },
+    {
+        "s":  "echo-dot-5th-gen-864",
+        "t":  "Echo Dot 5th Gen 9",
+        "a":  "B0588912329",
+        "r":  4.1
+    },
+    {
+        "s":  "smart-light-bulbs-rgb-875",
+        "t":  "Smart Light Bulbs RGB 9",
+        "a":  "B0067645381",
+        "r":  4.2
+    },
+    {
+        "s":  "motion-sensor-kit-886",
+        "t":  "Motion Sensor Kit 9",
+        "a":  "B0778919037",
+        "r":  4.3
+    },
+    {
+        "s":  "smart-plug-mini-897",
+        "t":  "Smart Plug Mini 9",
+        "a":  "B0193336612",
+        "r":  4.4
+    },
+    {
+        "s":  "video-doorbell-pro-908",
+        "t":  "Video Doorbell Pro 10",
+        "a":  "B0014097109",
+        "r":  4.1
+    },
+    {
+        "s":  "garage-door-opener-smart-919",
+        "t":  "Garage Door Opener Smart 10",
+        "a":  "B0488894020",
+        "r":  4.2
+    },
+    {
+        "s":  "smart-switch-wifi-930",
+        "t":  "Smart Switch WiFi 10",
+        "a":  "B0097874366",
+        "r":  3.8
+    },
+    {
+        "s":  "smart-thermostat-learning-941",
+        "t":  "Smart Thermostat Learning 10",
+        "a":  "B0066109758",
+        "r":  3.9
+    },
+    {
+        "s":  "window-sensor-alarm-952",
+        "t":  "Window Sensor Alarm 10",
+        "a":  "B0677505923",
+        "r":  4
+    },
+    {
+        "s":  "water-leak-detector-963",
+        "t":  "Water Leak Detector 10",
+        "a":  "B0585941586",
+        "r":  4.1
+    },
+    {
+        "s":  "smart-bulb-e27-974",
+        "t":  "Smart Bulb E27 10",
+        "a":  "B0750205572",
+        "r":  4.2
+    },
+    {
+        "s":  "curtain-motor-smart-985",
+        "t":  "Curtain Motor Smart 10",
+        "a":  "B0340846863",
+        "r":  4.3
+    },
+    {
+        "s":  "smart-doorbell-camera-996",
+        "t":  "Smart Doorbell Camera 10",
+        "a":  "B0855518029",
+        "r":  4.4
+    }
+]
